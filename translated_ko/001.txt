@@ -1,0 +1,146 @@
+
+;;【001_01プロローグ.txt】
+
+@fade type=in t=2000 wt=0
+@wait t=1000
+
+@huki b=8 wt=1
+@dir dir=up
+
+@huki b=7 wt=1
+@move_f f=サクラ@哀しみ op2=汗 in=r t=300
+[사쿠라/skr0001]「…………돈이 없어」
+
+쾌적하고 아늑하던 혼자만의 생활에, 갑자기 어두운 그림자가 드리웠다.
+
+@huki b=6
+@bs f=サクラ@悔しい
+[사쿠라/skr0007]（둘 다 금방 돌아올 줄 알았는데……）
+
+닷새 뒤에 내야 하는 전기세는 그야말로 사람 잡을 노릇이다.
+
+아무리 아껴도 매달 생활비로 7～8만 엔은 나간다. 이 절체절명의 시기에……
+
+@huki b=6
+@bs f=サクラ@悔しい
+[사쿠라/skr0002]「어쩌지…… 이제 3,000엔밖에 안 남았는데……」
+
+@move_f f=サクラ@悔しい out=r t=300
+
+@mes_win back=1 pos=1
+사쿠라는 손에 든 통장을 멍하니 바라보았다. 잔액은 꿈쩍도 하지 않는다――
+@mes_win back=0 pos=2
+
+@huki b=8
+@wait t=1200
+
+@huki b=7
+@move_f f=サクラ@悔しい in=r t=300
+[사쿠라/skr0003]「하아……」
+@move_f f=サクラ@悔しい out=r t=300
+
+;; SAKURA gives a slight sigh.
+
+@huki b=7 wt=1
+
+@route route=up repeat=1 wt=0
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[사쿠라/skr0004]（종군 기자인 아빠가 자주 다치는 건 알고 있었지만……）
+
+@huki b=7
+@bs f=サクラ@考え中
+[사쿠라/skr0005]（설마 이번엔 그쪽에서 장기 입원까지 하게 될 줄이야……）
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라/skr0006]（엄마는 편지에 생활비 송금이 한동안 끊길지도 모른다고 적어 놨고……）
+
+하지만 『한동안』이란, 대체 얼마나 되는 걸까.
+
+내가 아는 부모님이라면, 반년이든 일 년이든 얼마든지 가능하다.
+
+@dir dir=up
+
+@huki b=7
+@bs f=サクラ@哀しみ op2=困惑
+[사쿠라/skr0008]「하아아아」
+
+@huki b=8
+@bs f=サクラ@悔しい op2=汗
+[사쿠라/skr0009]（이럴 줄 알았으면 진작부터 아껴 쓸걸……）
+
+;;@huki b=7
+@bs f=サクラ@哀しみ op2=困惑
+;;[SAKURA/skr0010]「Only 3,000 yen……」
+
+;;@huki b=8
+;;@bs f=サクラ@考え中 op2=困惑
+;;[SAKURA/skr0011] (According to my estimate, my dad and mom could not return within a short time……If I don’t do something now……」
+
+방심했다. 두 사람이 그쪽에 눌러앉을 줄은 생각도 못 했으니까.
+
+물론 가끔은 이렇게, 예상을 뛰어넘는 일이 터지기도 하지만……
+
+@huki b=7
+@bs f=サクラ@悔しい
+[사쿠라/skr0012]「하아아」
+
+@route route=up repeat=1 wt=0
+
+@huki b=6
+@bs f=サクラ@考え中
+[사쿠라/skr0013]（내 잘못도 있긴 하지만…… 이 무계획적인 태도는 분명 아빠한테 물려받은 거겠지）
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라/skr0014]（어쨌든 오늘부터는 허리띠 졸라매고 살아야 해……）
+
+@huki b=8
+@bs f=サクラ@悔しい
+[사쿠라/skr0015]（아빠 엄마가 돌아올 때쯤엔, 나 굶어 죽어 있는 거 아니야……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8
+@wait t=1200
+
+@huki b=1
+@wait t=1200
+;; When thinking about this, SAKURA quakes with fear.
+
+우선 해결해야 할 것은, 닷새 뒤에 내야 하는 전기세 15,000엔.
+
+그다음엔 집세가 기다리고 있다.
+
+@huki b=7
+@wait t=1200
+
+@huki b=6
+@move_f f=サクラ@哀しみ in=r t=300
+[사쿠라/skr0016]「알바를 구해야겠네……」
+
+@huki b=8
+@bs f=サクラ@考え中
+@wait t=1200
+
+@huki b=8
+@bs f=サクラ@悔しい
+[사쿠라/skr0017]（뭔가 손쉽게 돈 벌 수 있는 일 없을까……）
+
+@huki b=7
+@bs f=サクラ@考え中
+[사쿠라/skr0018]「으으으. 하지만 지금은 일단 학교부터 가야지……」
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라/skr0019]「알바 일은 방과 후에 생각하자…… 이러다간 지각하겠어」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@move_speed spd=4
+
+@fade type=out t=1000 wt=0
+@route route=up:6
+
+@bs
+

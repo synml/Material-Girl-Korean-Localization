@@ -1,0 +1,98 @@
+;;▼Tool room: When going to the tool room of the gymnasium, a sexual harassment will be triggered by relevant clothes and weeks. 
+;;　　　　　A sexual intercourse will be triggered if the carnality is high. 
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]「어라, 누구 있어?」
+
+[남자]「여긴 뭐 하러 왔어?　설마 하늘의 축복도 못 받은 이 몸한테 사랑을 전해주러 온 건가?」
+
+@bs f=サクラ@哀しみ op2=汗
+
+[사쿠라]「무슨 헛소리야…….　그럴 생각 없거든……」
+
+[남자]「저기, 기분 좋은 거 할래?　여기까지 온 걸 보면 너도 하는 거 좋아한다는 거잖아?」
+
+@bs f=サクラ@怒り op2=拒否
+
+[사쿠라]「헛소리 그만해!　난 갈 거야……」
+
+[남자]「그러지 말고, 같이 즐기자고. 내가 제대로 “대접”해줄 테니까」
+
+@bs f=サクラ@怒り_頬
+
+[사쿠라]「싫어, 만지지 마, 바보야!　대접은 무슨……!」
+
+@if eval=v(32)>=25 ok=jump:*yev02 bad=jump:*yev01
+
+*yev01
+
+;;Branch: No sexual intercourse
+
+[남자]「뭐야……너도 날 무시하는 거냐……쳇……」
+
+@dir dir=down
+@bs f=サクラ@怒り
+
+[사쿠라]「짜증 나……여기 오는 게 아니었어…」
+
+@move_f f=サクラ@ out=r t=300
+
+@end
+
+;;Branch: an sexual intercourse occurs
+*yev02
+
+@bgm_save
+@bgm f=bgm14
+
+@move_f f=black face=0 in=c t=150
+
+[남자]「좋아지고 싶으면 솔직하게 말하면 되잖아. 봐, 땀까지 흘리면서」
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-3 face=0 in=c t=150 h=1
+
+[사쿠라]「잠깐……이런 데서 하기 싫어!」
+
+[남자]「그럼 다른 데서 하면 되는 거야?」
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-4 face=0 in=c t=150
+
+[사쿠라]「그런 뜻이 아니잖아……앗, 바보, 앗, 벗겨졌어……앗, 꺄앗……들어와버렸어……」
+
+[남자]「여기서 하니까 더 좋은 거야, 내가 증명해주지!」
+
+@se f=挿入音
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+
+[사쿠라]「아아아앙!　안, 안 돼 이러지 마……아하아아앙, 하아아앙!」
+
+@se f=ピストン_高速
+
+[남자]「거봐, 입으로는 싫다면서 속은 이렇게 조여오잖아!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[사쿠라]「꺄앗, 아니야……그건……앗, 하아아앙……아앙……아아아아앙!」
+
+@move_f f=A-cut_saimin8 face=0 in=c t=150 h=1
+
+[사쿠라]（아아앙……정액이……하아 하아……하아앙……나, 더럽혀졌어……）
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+
+@bgm
+@bgm_replay
+

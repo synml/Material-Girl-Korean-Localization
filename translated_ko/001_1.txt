@@ -1,0 +1,14 @@
+
+;;【001_01プロローグ.txt】
+
+@huki b=8 wt=1
+
+@huki b=7
+@move_f f=サクラ@考え中 in=r
+[사쿠라]「서둘러 학교 가야겠다…… 이러다간 지각이야」
+@move_f f=サクラ@考え中 out=r
+
+@move_speed spd=3
+@route route=up
+@move_speed spd=4
+

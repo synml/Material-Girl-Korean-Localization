@@ -1,0 +1,42 @@
+
+;;【021_01売春①.txt】
+
+;; If the lascivious degree is above 40, the plot will appear in the morning of next day.
+
+@move_f f=サクラ@哀しみ body=パジャマ in=r t=100
+@fade type=in t=1000 wt=1
+
+@huki b=8 wt=1
+[SAKURA] ( ah～ ah, is there any method to make easy money) 
+
+@bs f=サクラ@考え中
+[SAKURA] (What is the method easier than work……) 
+
+@huki b=8 wt=1
+@huki b=9 wt=1
+
+@bs f=サクラ@驚き op2=電球
+[SAKURA]「ah! 　um……indeed, there is the method to obtain money directly」
+
+@bs f=サクラ@考え中
+[SAKURA] (As long as I invite actively, I am sure to lure some men……) 
+
+@huki b=8 wt=1
+[SAKURA] (I have the right to control my own body.) 
+
+@bs f=サクラ@微笑
+@huki b=8 wt=1
+[SAKURA] (I challenge myself slightly……) 
+
+@bs f=サクラ@考え中
+[SAKURA] (um……anyhow, I don’t know the result of active invitation……if I put on the popular \C[2] uniform \C[0], I have a try……) 
+
+　SAKURA thought about how to do today.
+
+@fade type=out t=1000 wt=1
+@move_f f=サクラ@考え中 out=r t=1
+@bs
+
+
+;;※Free action.
+

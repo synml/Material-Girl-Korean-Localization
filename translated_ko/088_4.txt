@@ -1,0 +1,5 @@
+
+@dot_move id=3 x=2 y=5 dir=right
+@change f=おっぱいパブオーナー num=0 id=3
+
+

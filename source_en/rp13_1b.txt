@@ -1,0 +1,38 @@
+
+;;【018_08おっぱいパブ段階Ｈ（汎用）.txt】
+
+;;Phase I
+
+@bgm f=bgm04
+
+;;ＣＧ■CG13
+@bgf bg=ev13 t=1000
+
+[Guest] 「Show me your bubbies, OK? 」
+
+[SAKURA/skr1411] 「OK, fine」
+
+@se f=衣擦れの音1
+;;ＣＧ■CG13a
+@bgf bg=ev13a t=500
+
+[Guest] 「Aha, your breasts looks so great」
+
+[SAKURA/skr1412] 「It`s too shameful......but I have to bear it for money...... 」
+
+[SAKURA/skr1413] 「It`s ok if you wanna touch my breasts」
+
+;;ＣＧ■CG13b
+@bgf bg=ev13b t=500
+@bgs f=aegi_skr1
+
+[SAKURA/skr1414] 「Hum......ah,ah,ah......」
+
+[Guest] 「Your breasts are so soft,so comfortable.」
+
+SAKURA tried her best to not make any reactions and accepted his grabbing when she noticed the feeling from guest`s finger.
+
+@bgs
+@rps
+
+

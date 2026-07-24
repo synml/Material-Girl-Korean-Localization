@@ -1,0 +1,32 @@
+
+;;【021_05売春①フェラ汎用.txt】
+
+;; Common for white collars
+
+@bgm f=bgm05
+
+;;ＣＧ■CG17c
+@bgf bg=ev17c t=1000
+@bgs f=fera_skr4
+
+[SAKURA/skr1888]「Just let me swallow your sperms! I want that! Whish! Tut!」
+
+[White collar]「Whirr! I’m almost getting there!」
+
+@bgs
+;;ＣＧ■CG17d
+@fin bg=ev17d se=射精音
+
+[SAKURA/skr1889]「Look at me♪ Here! I’m going to swallow your sperms♪ Codoon! Codoon! Codoon!」
+
+;;ＣＧ■CG17e
+@bgf bg=ev17e t=500
+@bgs f=fera_skr1
+
+[White collar]「Ahh, ahh, ahh......SAEKO......Please forgive me......」
+
+[SAKURA/skr1890]「Codoon, bah......Don’t tell your wife about it♪」
+
+@bgs
+@rps
+

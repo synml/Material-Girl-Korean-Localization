@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL Everyone can use the park's public toilet conveniently\nBut if you do not pay attention ...
+@mes_win
+

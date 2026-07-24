@@ -1,0 +1,22 @@
+
+;; Move to the front of mansion. Restore free action
+
+
+;;【024_06ゴージャスな服を着ていない.txt】
+
+@huki id=6 b=8 wt=1
+[사장님]「대단히 죄송합니다만…… 저희 가게는 VIP 고객님만 입장하실 수 있습니다……」
+
+[사장님]「손님의 복장이……」
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（더 좋은 옷을 사야 해……）
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+[사쿠라]「알겠어요. 그럼 가볼게요……」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;; Free action
+

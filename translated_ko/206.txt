@@ -1,0 +1,12 @@
+
+;;【021_01売春①.txt】
+
+@fade type=out t=1000 wt=1
+@invisible type=off
+@bs
+@wait t=1200
+
+[미용사]「대단히 감사합니다!」
+
+@wait t=600
+

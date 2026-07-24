@@ -1,0 +1,38 @@
+
+;;【021_04サラリーマンフェラ.txt】
+;; SAKURA dialogued with the staff in front of company.
+
+@move_f f=サクラ@微笑 in=r t=300
+[사쿠라/skr1818]（저 사람한테 말을 걸어볼까）
+
+@huki b=8
+@bs f=サクラ@笑み
+[사쿠라/skr1819]「잠깐 실례해도 될까요?」
+
+@huki id=47 b=2
+[직원]「무슨 일이시죠?」
+
+@bs f=サクラ@微笑
+[사쿠라/skr1820]「실은요……」
+@move_f f=サクラ@微笑 out=r t=300 wt=1
+
+@huki b=8 wt=1
+
+;; With coquettish smile, SAKURA spoke to his ear.
+
+@huki id=47 b=1
+[직원]「아, 아뇨, 저는……저는 됐습니다. 저한텐 아내가 있어서요」
+
+@huki b=7
+@move_f f=サクラ@悔しい op2=困惑 in=r t=300 wt=1
+[사쿠라/skr1821]（거절당하다니, 좀 분한걸）
+
+@huki b=8
+@bs f=サクラ@微笑
+[사쿠라/skr1822]「부인만 모르면 되는 거잖아요. 자, 이쪽으로 오세요」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@se f=Move
+@fadeout
+

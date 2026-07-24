@@ -1,0 +1,33 @@
+
+;;【024_09好感度達成.txt】
+
+@change f=黒田 id=6 num=0
+@dir dir=down id=6
+
+@move_speed spd=9 id=6
+@route route=down id=6
+@move_speed spd=3 id=6
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[구로다]「사쿠라 님…… 대단히 감사합니다」
+
+　다른 호스트들은 기진맥진한 구로다를 놀란 눈으로 바라보았다.
+
+@bs f=サクラ@笑み op2=音符
+
+[사쿠라/skr2294]「또 놀러 올게♪」
+
+@bs f=サクラ@微笑
+
+[사쿠라/skr2295]（후후후, 다음엔 누구랑 섹스할까……）
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=1000 wt=1
+　다음에 놀 상대를 머릿속에 그리며, 사쿠라는 집으로 발걸음을 옮겼다.
+
+;; A few days later, free action
+

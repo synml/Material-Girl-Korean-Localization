@@ -1,0 +1,35 @@
+
+;;【020_02試遊しない.txt】
+
+@bgm f=Dungeon5
+@move_f f=サクラ@哀しみ in=r t=300
+
+[사쿠라]（게임에 흥미는 있지만……이 사람, 어딘가 수상해 보여……）
+
+@bs f=サクラ@無表情
+
+[사쿠라]（역시 관두자）
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[사쿠라]「죄송해요. 오늘은 시간이 없어서……」
+
+[연구원]「그런가요……체험해 볼 마음이 생기면 다시 말씀해 주세요」
+
+[연구원]「꼭 와주세요. 당신 같은 젊은 여성의 피드백을 정말 듣고 싶거든요」
+
+@bs f=サクラ@無表情
+
+[사쿠라]「생각해 볼게요」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;; SAKURA greets that man, and leaves directly.
+
+;;@wait t=1000
+;;@dir dir=down
+
+;; As long as SAKURA dialogues with this man, the above options will appear.
+

@@ -1,0 +1,24 @@
+
+;;Stage Ⅱ
+
+@bgm f=bgm15
+
+;;ＣＧ■CG15c
+@bgf bg=ev15c t=1000
+@bgs f=aegi_skr2
+@se f=ピストン l=1
+
+[연구원]「저한테 범해진 줄도 모르다니…… 헤헤헤!」
+
+[사쿠라/skr1693]「응! 응…… 꺄, 엇! 앗!」
+
+@se
+@bgs
+@rps
+
+@se f=Move
+@fadeout
+
+　남자에게 범해진 것을 전혀 알아채지 못한 사쿠라는, 게임이 끝난 뒤 아르바이트비를 받아 들었다.
+
+;; Free time out of the building.

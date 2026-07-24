@@ -1,0 +1,60 @@
+;;▼Peeping event (sexual intercourse inside a classroom)
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]「이 교실은 아무도 안 쓰고 있겠지?」
+
+@bgm_save
+@bgm f=bgm15
+
+@move_f f=black face=0 in=c t=150
+@se f=ピストン_高速
+@move_f f=A-cut_sev01-1 face=0 in=c t=150
+
+[여자]「아아앙!　너무 좋아!　저기, 더, 더 해줘!」
+
+;;@bs f=サクラ@驚き_頬 op2=ビックリ
+
+[사쿠라]「앗!　어째서!?」
+
+[남자]「목소리 낮춰, 다른 사람 몰려온다고」
+
+[여자]「하지만……!　너무 자극적이라……아아아아앙!」
+
+;;@bs f=サクラ@悔しい_頬 op2=汗
+
+[사쿠라]「어디서 본 애들 같은데……나랑 비슷한 또래일 텐데, 저렇게 격렬하게 하다니……」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev01-2 face=0
+
+[여자]「이, 이제 안 돼!　가버려……아아아아아아아앙!!」
+
+@move_f f=A-cut_sev01-1 face=0 out=c t=150
+;;@bs f=サクラ@羞恥_頬 op2=赤面
+
+;;[SAKURA]「Ah ah……his sperm……that girl is shaking……it seems that she feels so comfortable……」
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+@fadein t=1000 wt=1
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中_頬 op2=汗 in=r t=300
+
+[사쿠라]「……엄청난 걸 봐버렸어」
+
+@move_f f=サクラ@考え中_頬  out=r t=300
+
+@bgm
+@bgm_replay
+

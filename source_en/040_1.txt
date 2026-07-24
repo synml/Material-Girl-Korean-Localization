@@ -1,0 +1,50 @@
+
+@se f=Open1
+@wait t=500
+
+@fade type=in t=1000 wt=1
+
+@huki id=101 b=1 wt=1
+
+[Female Teacher]「Teacher SUDOU!」
+
+@huki id=3 b=1 wt=1
+
+[SUDOU]「woo!?」
+
+[Female Teacher]「I am responsible for girl students’ physical examination. Please teacher SUDOU measures the boy students.」
+
+@huki id=3 b=8 wt=1
+
+[SUDOU]「……I, I know.」
+
+　SUDOU walks towards the male physical examination room unwillingly.
+
+@move_speed spd=3
+@route id=102 route=r,d:2 wt=1
+
+@route id=3 route=d,l wt=0
+@route id=103 route=l,d wt=0
+@route route=u wt=1
+@wait t=2000
+@move_speed spd=4
+
+[Girl Student]「I am sure that SAKURA called the female teacher over. [TSUKASA]「Thanks. I give it to you」
+
+@huki b=2 wt=1
+
+[SAKURA] (Mobile phone chain……? 　I should thank for her gift.) 
+
+@bs f=サクラ@無表情 op2=赤面
+
+[SAKURA]「……I only have done what I can do well.」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+　The girl students surround SAKURA to say thanks to her. Although she feels shy somewhat, SAKURA continues to participate in the physical examination.
+
+;; Got『invisible mobile phone chain』.
+
+;; Free action
+
+

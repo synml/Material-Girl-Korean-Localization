@@ -1,0 +1,6 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;【024_01ホストクラブ.txt】
+
+

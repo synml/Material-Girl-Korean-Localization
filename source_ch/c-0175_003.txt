@@ -1,0 +1,7 @@
+
+@mes_win back=1 pos=1
+
+\CL今天的營業到此結束了。
+\CL營業時間　7點 ～ 20點
+
+@mes_win

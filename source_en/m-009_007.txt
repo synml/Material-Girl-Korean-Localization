@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL The supernatural research department seems to be doing something in the classroom on the third floor
+@mes_win
+

@@ -1,0 +1,19 @@
+
+@huki b=1 id=6
+[須東]「小櫻！？　你這身衣服是怎么回事……！」
+
+@huki b=8 id=6
+[須東]「……………」
+
+@huki b=7 id=6
+[須東]「…………………切」
+
+@huki b=8 id=6
+[須東]「……穿成這樣我可不會讓你進學校的」
+
+[須東]「把制服給我換回來再來學校」
+
+@move_speed spd=3
+@route route=down
+@move_speed spd=4
+

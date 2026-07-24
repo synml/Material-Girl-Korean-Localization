@@ -1,0 +1,11 @@
+
+;;【020_05ステージクリア.txt】
+
+;;@bgm f=bgm03
+
+　After that when SAKURA wanted to have a look into the building, she couldn’t find that man――
+
+　The room is empty.
+
+;; Later, she couldn’t enter the building.
+

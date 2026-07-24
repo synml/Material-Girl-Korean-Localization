@@ -1,0 +1,87 @@
+
+;;※Change scene with lights out
+;;Ding deng deng deng
+
+@bgm f=bgm21
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+@waHead of Supernature Research Departmentit t=1000
+@bs f=サクラ@哀しみ op2=困惑
+
+[SAKURA]「………………？　Er？　It has been so late now……」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「You wake up…」
+
+@bs f=サクラ@無表情 op2=ハテナ
+
+[SAKURA]「……? Your face is flushing, are you all right?」
+
+@bs f=サクラ@無表情
+@huki id=6 b=6
+
+[Head of Supernature Research Department]「Er!? Well……I am too hot…Haha……」
+
+@huki id=6 b=7
+
+[Head of Supernature Research Department]（Dear me, so bad……Has she found something? What have I done…）
+
+@bs f=サクラ@哀しみ op=ハテナ
+
+[SAKURA]「Really……that's too strange?」
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「What's wrong?!」
+
+@bs f=サクラ@悔しい op=困惑
+
+[SAKURA]「……I always feel exhausted……」
+
+@huki id=6 b=6
+@wait t=1000
+@huki id=6 b=9
+
+[Head of Supernature Research Department]「Well……that's correct！　The experiement we made today will make you feel exhuasted. It must be the reason, I guess!」
+
+@bs f=サクラ@驚き
+
+[SAKURA]「……Really?」
+
+@huki id=6 b=6
+
+[Head of Supernature Research Department]（I must fool her now…！）
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Okay, the experiment is over today. You can go home now since you are so exhausted!」
+
+@bs f=サクラ@怒り
+
+[SAKURA]「…………always feel so suspicious」
+
+@huki id=6 b=6
+
+[Head of Supernature Research Department]「That's not true! I heard a lot of things today...from Yida Naotora」
+
+@bs f=サクラ@微笑
+
+[SAKURA]「Er？　……That's great」
+
+@huki id=6 b=7
+
+[Head of Supernature Research Department]（Bad!? Although the topic is turned aside, she is so interested…！）
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「But I have been asked to keep the conversations confidential! So see you tomorrow！」
+
+@bs f=サクラ@驚き
+@move_f f=サクラ@驚き out=r t=300
+
+
+;;Change scene with lights out
+

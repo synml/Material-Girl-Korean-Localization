@@ -1,0 +1,20 @@
+
+;;【005_01イジメられる司.txt】
+;;【005_03敗北.txt】
+
+@move_f f=サクラ@悔しい in=l t=300
+@huki b=7 wt=1
+
+@bs f=サクラ@怒り
+@change num=0
+
+[SAKURA]「……it is not still over!」
+
+@move_f f=サクラ@怒り out=l t=300
+
+@huki b=6 id=11
+[HOOLIGAN２]「She, she wanna to continue!」
+
+;; ※Refight
+@bgm f=bgm14 pitch=130
+

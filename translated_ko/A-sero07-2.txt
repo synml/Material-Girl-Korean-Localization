@@ -1,0 +1,8 @@
+;;▼Undressing: You can get money and talk to him if you undress in front of him. 
+;;　　　　Undressing ways and place can be determined through options, which will determine the amount of money and response. 
+
+[남자]「미안, 오늘은 이미 만족해서……」
+
+[남자]「용돈이 더 필요하면 내일 다시 와」
+
+

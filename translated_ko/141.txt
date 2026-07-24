@@ -1,0 +1,57 @@
+
+;;【023_01高額エロバイト.txt】
+
+;; ○Options: Reject / Receive
+;;【023_02止めておく.txt】
+
+@bgm f=Dungeon5
+@move_f f=サクラ@考え中 in=r t=300
+
+@huki b=8 wt=1
+
+[사쿠라]（50만 엔이 아깝긴 하지만…… 이 애, 분명 오냐오냐 자라서 제멋대로일 거야……）
+
+@bs f=サクラ@哀しみ op2=汗
+
+[사쿠라]（무슨 명령을 내릴지 모르는데…… 역시 받아들이지 않는 게 좋겠어……）
+
+@huki b=8 wt=1
+
+[사쿠라]「미안. 그건 못 하겠어……」
+
+@dir id=15 dir=r wt=1
+@wait t=500
+
+[소년]「칫!」
+
+　소년은 혀를 차면서도 얼굴에는 아쉬움이 가득한 기색이었다.
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[사쿠라]「그럼 갈게」
+
+@dir id=15 dir=d wt=1
+@wait t=500
+
+[소년]「됐어. 마음 바뀌면 언제든 나를 찾아와. 좀 더 기다려 줄 수도 있으니까」
+
+@bs f=サクラ@哀しみ
+
+[사쿠라]「……생각해 볼게」
+
+@huki b=8 wt=1
+
+[사쿠라]（나를 꽤 마음에 들어 하는 것 같은데…… 대체 나한테 뭘 시키려는 걸까?）
+
+@fadeout
+
+　소년의 집착이 의아했지만, 사쿠라는 그곳을 떠났다.
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+
+;; As long as SAKURA dialogues with that boy, the above options will appear. ○Options: do the part-time job /don’t do the part-time job
+
+

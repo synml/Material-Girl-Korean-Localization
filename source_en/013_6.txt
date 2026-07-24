@@ -1,0 +1,105 @@
+
+;;【002_05次の日.txt】
+
+;; Effect ■ time change
+@bs
+@move_f f=サクラ@考え中 body=パジャマ in=r t=100
+@fade type=in t=1000 wt=1
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(109)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;-------------------------------------
+;;　乱数１
+*branchA001
+
+[SAKURA]「hoo ah ah ah. Morning?……how should I live through today……」
+
+@jump target=*end
+;;-------------------------------------
+*branchB001
+@if eval=v(109)==1 ok=jump:*branchA002 bad=jump:*branchB002
+;;-------------------------------------
+;;　乱数２
+*branchA002
+
+[SAKURA]「um……I want to sleep a little longer……however, I have to go to school and work……」
+
+@jump target=*end
+;;-------------------------------------
+*branchB002
+@if eval=v(109)==2 ok=jump:*branchA003 bad=jump:*branchB003
+;;-------------------------------------
+;;　乱数３
+*branchA003
+
+[SAKURA]「woo woo……morning?……I really want to lie in the whole day」
+
+@jump target=*end
+;;-------------------------------------
+*branchB003
+@if eval=v(109)==2 ok=jump:*branchA004 bad=jump:*branchB004
+;;-------------------------------------
+;;　乱数４
+*branchA004
+
+[SAKURA]「hoo ah ah ah ah……morning?……regardless of going to school or working in the bakery, I have to put on my clothes firstly……」
+
+@jump target=*end
+;;-------------------------------------
+*branchB004
+@if eval=v(109)==2 ok=jump:*branchA005 bad=jump:*branchB005
+;;-------------------------------------
+;;　乱数５
+*branchA005
+
+[SAKURA]「……woo, morning?……what shall I do today……anyway, I have to get up firstly」
+
+@jump target=*end
+;;-------------------------------------
+
+
+
+;;-------------------------------------
+;;　乱数６
+*branchB005
+
+[SAKURA]「um um……woo ah ah ah, morning?……how should I live through today……」
+
+@jump target=*end
+;;-------------------------------------
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*end
+
+@fade type=out t=1000 wt=1
+@bs
+
+@se f=衣擦れの音1
+@mes_win back=1 pos=1
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(36)<5 ok=jump:*branchA002 bad=jump:*branchB002
+;;-------------------------------------
+;;　乱数１
+*branchA002
+
+\CL put on that uniform! 
+
+@jump target=*end001
+;;-------------------------------------
+*branchB002
+
+\CL put on casual clothes! 
+
+@jump target=*end001
+;;-------------------------------------
+*end001
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@mes_win back=0 pos=2
+
+;; Prologue ends
+

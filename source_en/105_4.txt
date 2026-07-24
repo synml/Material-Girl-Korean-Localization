@@ -1,0 +1,16 @@
+
+
+@huki id=29 b=8
+[Researcher]「Excuse me. I am a developer of VR game, and am researching into the student users」
+
+[Researcher]「I hope that the girl in \C[2] uniform \C[0] experiences it.」
+
+@huki id=8
+[SAKURA]「ah, is that so?」
+
+@huki id=29 b=8
+[Researcher] (In fact, it is merely my personal interest.) 
+
+[Researcher]「Such is the case. After you put on \C[2] uniform \C[0], you come over to find me」
+
+

@@ -1,0 +1,17 @@
+
+;;【011_02着ていない.txt】
+
+@bgm f=bgm01
+
+[SUDOU]「Next class is PE class. You must put on the gym suit and then return!」
+
+[SUDOU]「Without a gym suit, you are not allowed to have PE class!」
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「…… I got it」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+　Without a gym suit, you are not allowed to have PE class. SUDOU’s expression discloses such information.
+

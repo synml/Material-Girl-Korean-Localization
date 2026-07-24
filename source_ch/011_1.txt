@@ -1,0 +1,190 @@
+
+;;【002_04司の家のピンポンを鳴らす.txt】
+
+;;　小櫻來到了司家門前，按響了門鈴。
+
+@c_jump id=101 y=24 x=12
+@dir dir=down id=101
+@change f=司 id=101
+
+@c_jump id=102 y=17 x=12
+@c_jump id=103 y=3 x=18
+@dir dir=down id=102
+@dir dir=up id=103
+@change f=司_母 id=102
+@invisible type=on
+
+@fade type=in t=1000 wt=1
+
+@se f=Move1
+@invisible type=off
+
+@wait t=100
+@move_speed spd=3
+@route route=up:2
+@dir dir=up id=101
+
+@move_speed spd=4
+
+@huki b=8
+@map_scroll dir=up dis=3 spd=4
+
+;;--------------------------------------------
+
+@huki b=8 id=102
+[司的母親]「你來啦、小櫻」
+
+@huki b=8
+@move_f f=サクラ@哀しみ in=r t=300
+[小櫻]「阿姨、最近一直來您這吃飯、給您添麻煩了……」
+
+@huki b=3 id=102
+[司的母親]「鄰里之間就別那么客氣啦。我可是一直把小櫻、當成女兒一樣看待呢」
+
+@huki b=8
+@bs f=サクラ@無表情
+[小櫻]（阿姨她、還是一如既往的溫柔呢。每次和阿姨聊天、心里都暖暖的）
+
+@huki b=8 wt=1
+
+;;@move_f f=司 in=l t=300 wt=0
+@bs f=サクラ@微笑
+[小櫻]（司溫柔的性格、也是從阿姨那里繼承來的吧）
+
+@huki b=8 id=102
+[司的母親]「再過一會兒、晚飯就做好了。稍等一下哦」
+
+@huki b=8
+@bs f=サクラ@笑み
+[小櫻]「好的」
+@move_f f=サクラ笑み out=r t=300
+
+@map_scroll dir=down dis=3 spd=4
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@huki b=1
+@bs f=サクラ@驚き op2=ビックリ
+[小櫻]（啊、我還是去幫幫阿姨吧）
+@move_f f=サクラ@驚き out=r t=300
+
+@map_scroll dir=up dis=3 spd=4
+
+@huki b=2
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+[小櫻]「阿姨、有什么需要我幫忙的嗎？」
+
+@huki b=3 id=102
+[司的母親]「不用不用。在阿姨家、小櫻只要放開了玩就可以啦」
+
+@huki b=8
+@bs f=サクラ@微笑
+[小櫻]「我知道了。有什么需要幫忙的話盡管叫我」
+
+@huki b=3 id=102
+[司的母親]「謝謝你～」
+
+@move_f f=サクラ@微笑 out=r t=300
+@route route=up:11,right:7,up:2 id=102 wt=0
+@map_scroll dir=down dis=3 spd=4
+
+@fade type=out t=1000 wt=0
+
+@huki b=8
+@route route=up id=101 wt=1
+@bgm_save
+@bgm
+
+@wait t=1200
+
+@invisible id=102 type=on
+@change f=司_母 id=103
+
+@c_jump x=-2 y=-15 id=101 wt=0
+@c_jump x=-3 y=-19
+
+@dir dir=down wt=0
+@dir dir=up id=101
+
+@bgm_replay
+@huki b=8
+@huki b=8 id=101
+@fade type=in t=1000 wt=1
+
+;;@move_f f=司 in=l t=300
+@huki b=2 id=101
+[司]「小櫻、之前你說要找工作、找到了嗎？」
+
+@move_f f=サクラ@無表情 in=r t=300
+[小櫻]「嗯。姑且找到了一個。在面包店的工作」
+
+@huki b=8 id=101
+[司]「誒、這樣啊。那以后、你就要去哪里打工了嗎？」
+
+@bs f=サクラ@考え中
+[小櫻]「還沒定下來……我還想再去找一找」
+
+@huki b=8 id=101
+[司]「哦哦。那、那個、小櫻。要是有什么困難的話要和我說哦」
+
+@huki b=11 id=101
+[司]「為了小櫻、我什么都會去做的！」
+
+;;　司羞紅了臉、向小櫻表白著他愿為小櫻付出一切的真心。
+
+@bs f=サクラ@微笑 in=r t=300
+[小櫻]「謝謝你。不過、我沒問題的」
+
+@huki b=8 id=101
+[司]「啊、嗯……這樣啊……」
+
+@bs f=サクラ@哀しみ
+[小櫻]（雖然司一直都很關心我、但我不想給他添太多麻煩……）
+
+@bs f=サクラ@考え中
+[小櫻]（不過他的心意我領了）
+
+@bs f=サクラ@考え中
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[小櫻]（啊嘞？　司、好像有些失落？　他怎么了？）
+;;@move_f f=司 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8 id=103
+@dir dir=down id=103
+
+@dir dir=right
+@map_scroll dir=right dis=6 spd=6
+
+[司的母親]「司～、小櫻、下來吃飯吧～」
+
+@move_f f=サクラ@笑み in=r t=300
+[小櫻]（好香啊。今天的配菜會是什么呢～）
+@move_f f=サクラ@笑み out=r t=300
+
+@map_scroll dir=left dis=6 spd=6
+@dir dir=down
+
+;;@move_f f=司 in=l t=300 wt=0
+@move_f f=サクラ@微笑 in=r t=300
+[小櫻]「走吧、司」
+@move_f f=サクラ@微笑 out=r t=300
+
+@huki b=7 id=101
+[司]（哈啊啊……小櫻她、對我一點感覺都沒有啊……）
+;;@move_f f=司 out=l t=300 wt=0
+
+;;　在內心默默悲嘆著的司、無精打采的走向了廚房。
+
+@fade type=out t=1000
+@invisible id=102 type=off
+@invisible id=103 type=on
+@change f=void id=103
+@bgm_save
+@bgm
+
+

@@ -1,0 +1,13 @@
+
+;;【017_02着替え終了後.txt】
+;; Mini-game: Place commodities
+
+;; Mini-game ends
+
+[편의점 점장]「사쿠라, 오늘 수고했네. 정말 큰 도움이 됐어」
+
+[편의점 점장]「앞으로도 잘 부탁하네」
+
+;; Free action
+
+

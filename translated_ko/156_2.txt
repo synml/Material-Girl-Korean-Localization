@@ -1,0 +1,22 @@
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[시라사와]「어서 오십시오」
+
+[구로다]「손님께서 즐거운 시간을 보내실 수 있도록, 성심성의껏 모시겠습니다」
+
+[아오키]「잘 부탁드립니다」
+
+[사장님]「마음껏 즐기다 가십시오」
+
+@move_f f=サクラ@驚き out=r t=300
+
+;; ○Mini-game: Advanced Host Club
+;;○Branch: Within the limit time, no host reaches favorability of MAX →024_08 好感度未達成
+;;○Branch: Favorability is MAX→024_09好感度達成
+
+@fade type=out t=1000 wt=1
+@invisible type=on id=7
+@dot_move x=4 y=4 dir=down
+
+

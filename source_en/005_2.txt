@@ -1,0 +1,25 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+;;----------------------------------------------------------------------------------
+
+@huki id=9 b=2
+[Boy Student１]「Do you know the disc which has been distributed a few days ago \C[2]『That is an anti-rape event on transfer students.』\C[0] Have you bought it?」
+
+@huki id=8 b=8
+[Boy Student２]「Not yet」
+
+@huki id=9 b=1
+@c_jump id=9 wt=1
+[Boy Student１]「hum～! 　You are out～」
+
+@c_jump id=9
+@huki b=6 id=8 wt=1
+
+@huki b=1 id=9
+[Boy Student１]「If I have time after school, I am gonna buy it!」
+
+@huki b=1 id=8
+[Boy Student２]「oh! 　Really!? It's deal!」
+
+;;----------------------------------------------------------------------------------

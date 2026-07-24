@@ -1,0 +1,17 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;flagON, buy deluxe dress. 
+
+;;【024_07ゴージャスな服を着ている.txt】
+
+[Boss]「 I see……you only need to register here.」
+
+@huki id=6 b=8 wt=1
+[Boss]「Please enjoy yourself」
+
+@se f=Move
+@fadeout
+
+　After the boss bowed to her, SAKURA moved into the store.
+

@@ -1,0 +1,6 @@
+
+@move_f f-サクラ@ out=r t=1000 wt=1
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+

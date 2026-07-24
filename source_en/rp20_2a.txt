@@ -1,0 +1,307 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;;【024_11ナンバー２Ｈ.txt】
+
+@bgm f=bgm05
+
+;;ＣＧ■CG20
+@bgf bg=ev20 t=1000
+
+[SAKURA/skr2248]「I’m your girl tonight, KURODA.」
+
+[KURODA]「Believe, I will give you a perfect night.」
+
+[SAKURA/skr2249]「Hoho, you are so self-confident.」
+
+[KURODA]「Because none of my girls is unsatisfied with me.」
+
+[SAKURA/skr2250]「Really? Hohoho, I’m interested in it!」
+
+[KURODA](After all, she is a rich girl. I can defeat SHIRASAWA......if I can make her spend some money.)
+
+[KURODA](I want to defeat SHIRASAWA one day. After all, everyone one wants to be the starring.)
+
+[KURODA](Even only for this purpose, I have to make SAKURA lost in my skills tonight!)
+
+[KURODA]「I’ll give you a perfect night, SAKURA!」
+
+[SAKURA/skr2251]「Well, what will happen tonight? What do you want to do to me, KURODA?」
+
+[KURODA]「I will do everything SAKURA wants me to do!」
+
+[KURODA]「What do you want me to do, SAKURA?」
+
+[SAKURA/skr2252]「Well......I want to have a perfect night with KURODA......」
+
+　SAKURA got excited, and stared at KURODA with eagerness.
+
+[KURODA]「Huhhh, it’s almost the time. Do you like to be embraced by me?」
+
+[SAKURA/skr2253]「Humm, I want to be embraced......by KURODA. So, I come here to have a private night with KURODA.」
+
+[KURODA]「Then, let’s do it. SAKURA, unfold your legs.」
+
+[SAKURA/skr2254]「You make me so shy......」
+
+[KURODA]「Just listen to me now that you like me. You like me, don’t you?」
+
+[SAKURA/skr2255]「Yes, I do......Hum, huh, ah, whir......I see......I’m unfolding my legs......」
+
+　SAKURA got more excited due to the following of the command of KURODA, and she slowly unfolded her crossed legs.
+
+;;ＣＧ■CG20a
+@bgf bg=ev20a t=500
+
+[SAKURA/skr2256]「Ahh......Humm......Whir......It’s so shy......to be stared by KURODA at that......」
+
+　KURODA stared at the lower body of SAKURA exposed after the unfolding of the legs, with humiliation.
+
+[KURODA]「You want to be embraced by me, don’t you?」
+
+[SAKURA/skr2257]「Humm, yes......I only want to make love with KURODA.」
+
+[KURODA]「You small hussy!」
+
+[SAKURA/skr2258]「Why do you say that to me......Please, don’t.」
+
+[KURODA]「But, you like that, don’t you, small hussy?」
+
+[SAKURA/skr2259]「Ahh, KURODA......」
+
+[KURODA]「I’m coming. I’m embracing you fiercely as what you expect!」
+
+　By saying so, KURODA showed his erected penis to SAKURA.
+
+[SAKURA/skr2260]「So gret......Humm, ahhh, whir......So big......」
+
+[KURODA]「My penis erects as long as I am alone with SAKURA!」
+
+[KURODA]「I want to embrace you so much, so much......I cannot help doing it.」
+
+[SAKURA/skr2261]「Come on......KURODA」
+
+[KURODA]「Ahh, SAKURA, I’m going to make you satisfied!」
+
+[SAKURA/skr2262]「Hoho, I can hear my heartbeat!」
+
+[KURODA]「Come on!」
+
+@se f=挿入音
+;;ＣＧ■CG20b
+@bgf bg=ev20b t=500 v=1
+@bgs f=aegi_skr2
+
+;; Following is the retrospect if SAKURA is considered as a virgin.
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following is the text if SAKURA is considered as a virgin.
+
+[KURODA]「Coo!? Hey, SAKURA......You......」
+
+[SAKURA/skr2263]「Huh, ahhh, ahh, huh, whir......Yes, KURODA......It is my first time......」
+
+[KURODA]「Huh, Really? You are so happy to make love with a great man like me for your first time!」
+
+[KURODA]「Well, than I’m going to be gentle with you today.」
+
+[SAKURA/skr2264]「Ahh, ahhh, never mind......I’m eager to see your skills in making love......Do not care about that.」
+
+[KURODA]「Really? I see. Than just enjoy it!」
+
+;; Above is the text if SAKURA is considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;; Following is the text if SAKURA is considered as an experienced girl.
+
+[SAKURA/skr2265]「Humm! Humm! Ah! Ahh! Huh, whir!」
+
+[KURODA]「It’s wet inside. Have you done it by yourself?」
+
+[KURODA]「I’m going to make you crazy with my excellent skills!」
+
+[SAKURA/skr2266]「Huh, ah, ahh, I’m so happy......Hum......Humm, please let me have a try......of your excellent skills!」
+
+[KURODA]「Sure. I will make you happy for a whole night!」
+
+[SAKURA/skr2267]「KURODA......Ahh, ahh! Hum! Ahhhh, hum!」
+
+[KURODA]「Oh! Oh! It’s only a start!」
+
+;; Above is the text if SAKURA is considered as an experienced girl.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+
+;; Following is the text for common.
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+[SAKURA/skr2268]「Ahh! Hum, whir! Humm! Humm! Huh, whir!」
+
+　KURODA swang his waist flexibly, rudely and violently, and inserted and rubbed his penis in the pussy of SAKURA.
+
+[KURODA](No way! She has not been satisfied yet! Most women have orgasms at this moment!)
+
+[KURODA](She deserves to be called as a girl among male prostitutes!)
+
+[KURODA](But, I still have master strokes. SAKURA!)
+
+　Poop! Poop!
+
+[SAKURA/skr2269]「Whir, hum! Huh, ah, ahhh! KURODA......Whir, whir, is this the real thing?」
+
+[KURODA]「SAKURA......! What are you doing? Are you serious!?」
+
+[SAKURA/skr2270]「Not yet......Hum......Humm, hum, whir, just show me your excellent skills, KURODA......I can take more.」
+
+[KURODA]「I play big! Then, how to stop?」
+
+　KURODA moved more fiercely as if there was a hidden pressure on his back.
+
+[SAKURA/skr2271]「Whir, hum! Whir, ahh! Ahhh! So, so great......You are so good!」
+
+[KURODA]「SAKURA, just show me your skills! Are you going to make me ejaculate, aren’t you?」
+
+[SAKURA/skr2272]「Humm! Whir, ah, en! Well......Then I’ll......also show my skills, KURODA♪」
+
+@se
+;;ＣＧ■CG20c
+@bgf bg=ev20c t=500 v=1
+@bgs f=aegi_skr1
+
+[KURODA]「Coo!? Oh!? Oh, ahh!」
+
+[KURODA](My penis is twisted by her pussy......So tight! As if it is gripping my penis......!)
+
+[KURODA](This, this is......the true skill of SAKURA!? No way! I’m going to be defeated!)
+
+[SAKURA/skr2273]「Hum hum, ah, hum......KURODA? What’s the matter? Don’t stop! 」
+
+[KURODA]「Oh, I see. Come on!
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+　Puff! Poop!
+
+　Although KURODA tried his best to swing his waist so as to thrust in the narrow vagina, he moved much more slowly than ever before.
+
+[SAKURA/skr2274]「Humm! Ahhh! Huh, whir! Co, hum! Ahh! Ah, whir, hum!」
+
+[KURODA](It’s too narrow in your pussy......I cannot move any more......It is the first time for me to make love in such a tight pussy......」
+
+[SAKURA/skr2275]「My pussy twisted your penis, KURODA」
+
+[KURODA]「Wait! Wait a moment, SAKURA!」
+
+[SAKURA/skr2276]「No♪ Huh, huh, whir, I do not want to wait♪ Because you are showing your true skills......Ah♪」
+
+[SAKURA/skr2277]「♪Humm♪ Humm♪ Humm♪ Hum, whir! Hum, ah! Coo......Ahhhhh♪」
+
+[KURODA]「Coo!? Ah! Um, ahhh!」
+
+[KURODA](It’s not good......I’m going to have an orgasm first!)
+
+[KURODA](Hey......She is a rich girl......I cannot be defeated!)
+
+[KURODA]「Whir! Whir! Hum! Hum, ummm!」
+
+[SAKURA/skr2278]「Ahh! The big penis......is inserting into my body again! What an excellent skill......」
+
+[SAKURA/skr2279]「I cannot be defeated......I’m make KURODA ejaculate with my true skills......Um♪」
+
+[KURODA]「Wait, wait......Please wait......SAKURA......Please do not grasp so tightly......」
+
+[SAKURA/skr2280]「Hoho♪ Why? KURODA, are you going to ejaculating?」
+
+[KURODA]「Um......No......Not yet......Ahhh!?」
+
+[SAKURA/skr2281]「Your penis is trembling in my pussy♪ Do you want to ejaculate? Can you take it more?」
+
+[KURODA](No way......I cannot believe it......I ejaculate!)
+
+[SAKURA/skr2282]「Huh, ah! Eh! Umm! Never mind, just ejaculate, KURODA♪」
+
+[SAKURA/skr2283]「There is so much time before the sunrise♪ Huh, ah, you can ejaculate as many times as you like!」
+
+　KURODA cannot help trembling when seeing the greedy smile on the face of SAKURA.
+
+[KURODA]「Ahh! Ahh! Wait......Let me have a rest......Ah!」
+
+[SAKURA/skr2284]「My pussy......is thirty for your sperms......Ah, um, I cannot stop♪」
+
+[KURODA]「Um, ah! Ahhhhhh!」
+
+[SAKURA/skr2285]「Just ejaculate, KURODA! Yes♪ Yes♪ So great♪」
+
+[KURODA]「No, I cannot take it more......How can it be......Ahhh! I’m ejaculating in the pussy before a girl......Ah! Ahh, I cannot take it more......」
+
+[SAKURA/skr2286]「Hum, hoho! Ah! Eh! Just ejaculate! Just ejaculate♪」
+
+@se
+@bgs
+;;ＣＧ■CG20d
+@fin bg=ev20d se=射精音 v=1
+
+　Chirps! Wheezing!
+
+[SAKURA/skr2287]「Ah, whir! Humm! Ahh, huh, ah, ahhhh♪ I’m ejaculating♪」
+
+[KURODA]「Coo......Umm......I’m ejaculating in the tight pussy......Hum」
+
+@bgs f=aegi_skr1
+
+[SAKURA/skr2288]「Huh, ah, hum......KURODA is having an orgasm first♪ I defeat you today♪」
+
+[KURODA]「Ummm!? Coo, ahhhh!」
+
+　KURODA shouted as long as his penis was held by the inner wall of the pussy, with trembling penis.
+
+[SAKURA/skr2289]「Whir, ah, hum, ah, whir, one more orgasm?」
+
+[KURODA](I cannot defeat her......I......I cannot defeat that girl......)
+
+　KURODA was lost in sense of failure because he had an orgasm first than a girl.
+
+[SAKURA/skr2290]「KURODA? Whir, ahh, huh, whir, what’s the matter?」
+
+[KURODA]「SAKURA......No......Master SAKURA......I cannot defeat you, Master SAKURA......」
+
+[SAKURA/skr2291]「Hoho, you call me Master SAKURA, it’s so weird!」
+
+[SAKURA/skr2292]「But, it’s only the start of the night♪ Umm, ahh, I’ll make you happy for a whole night♪」
+
+[KURODA]「How......」
+
+@bgs
+
+[SAKURA/skr2293]「I’ll take all your sperms from your penis, until I’m satisfied♪ Hoho, come on, KURODA♪」
+
+[KURODA]( Ahhh......Does she want to take away all my sperms......My sperms......will be totally taken away by this girl......)
+
+　With certain fears, KURODA also expected to accept the happiness given by SAKURA.
+
+　Wish complicated emotion, KURODA stared at SAKURA full of expectation.
+
+
+@rps
+

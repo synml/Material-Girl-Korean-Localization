@@ -1,0 +1,20 @@
+
+;;○戦闘開始前（レベル10）
+
+@bgm f=bgm01
+
+@route route=right:2 id=18
+@dir dir=down id=18
+
+@huki b=1 id=18
+@huki b=8
+
+;;@move_f f=須藤 face=0 in=l t=300 wt=0
+@move_f f=サクラ@怒り in=r t=300
+
+[스도]「흥흥흥……20%, 너 정도는 20%의 실력으로 상대해주마. 애초에 여자를 상대로 전력을 낼 필요도 없지」
+
+;;@move_f f=須藤 face=0 out=l t=300 wt=0
+@move_f f=サクラ@怒り out=r t=300
+
+

@@ -1,0 +1,13 @@
+
+;;【007_01イジメられる司３.txt】
+;;【007_03敗北.txt】
+
+@c_jump id=12 x=2
+
+@dir dir=left id=12 wt=0
+@dir dir=right
+
+@change num=0
+
+@fade type=in t=1000 wt=1
+

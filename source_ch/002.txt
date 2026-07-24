@@ -1,0 +1,310 @@
+
+;;【001_01プロローグ.txt】
+
+@bgm
+
+@change f=女子学生01 id=36 num=0
+@dir dir=left id=36
+
+@huki b=1 wt=1
+@map_scroll dir=up dis=4 spd=6 wt=1
+
+@bgm f=bgm01
+
+@huki b=4 id=18
+@huki b=7 id=36
+[須東]「好，你可以走了！」
+
+@huki b=7 id=36
+@huki b=8 id=18
+
+@change f=女子学生01 id=101 num=2
+@move_speed spd=4 id=101
+@route id=36 route=up:14 wt=0
+@route id=101 route=right:11,up:4 wt=1
+
+@huki b=8 id=101
+@dir dir=left id=101
+
+@huki b=7 id=18
+[須東]「……啊啊、你不用查了。趕緊走開」
+
+@move_speed spd=3 id=101
+@huki b=5 id=101
+@route id=101 route=up:16 wt=0
+
+@map_scroll dir=down dis=4 spd=7 wt=1
+
+@move_speed id=102 spd=2
+@change f=男子学生01 id=102 num=3
+@route id=102 route=left:12,up:16 wt=0
+
+@huki b=7
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+[小櫻/skr0020]（呃！？　須東老師……！？）
+
+@huki b=8
+@bs f=サクラ@悔しい op2=困惑
+[小櫻/skr0021]（被他逮到的話、肯定會被他各種刁難的……）
+
+@change f=女子学生01 id=103 num=0
+@move_speed id=103 spd=5
+@move_f f=サクラ@驚き out=r t=300 wt=0
+@map_scroll dir=up dis=2 spd=5 wt=0
+@route id=103 route=left:11,up:3 wt=1
+
+@huki b=1 id=18
+@huki b=1 id=103
+@c_jump id=103
+
+[須東]「喂！　現在在例行檢查服裝、給我過來！」
+
+@move_speed spd=3 id=103
+
+@huki b=7 id=103
+@huki b=4 id=18
+[女子學生]「誒～……」
+@route route=left:2 id=103
+
+@huki b=4 id=18
+[須東]「……你裙子是不是有些短啊」
+
+@huki b=7 id=103
+[女子學生]「那、那個，老師……別摸我的屁股……」
+
+@huki b=8 id=18 wt=1
+@huki b=4 id=18
+[須東]「咯咯咯……別動、我這是在給你量裙子的長短」
+
+@huki b=7 id=103
+[女子學生]「嗚嗚……」
+
+@huki b=7 id=103
+@huki b=4 id=18 wt=1
+
+@huki b=5 id=103
+@route route=up:16 id=103 wt=0
+@map_scroll dir=down dis=2 spd=5 wt=1
+
+;;　身為體育老師兼生活指導教師的須東、正在檢查我們的儀表。
+
+@huki b=7
+@move_f f=サクラ@哀しみ op2=困惑 in=r t=300
+[小櫻/skr0022]（就算是作為生活指導教師、須東做得也太過分了……）
+@move_f f=サクラ@哀しみ out=r t=300
+
+@map_scroll dir=up dis=2 spd=5 wt=0
+
+@change f=女子学生01 id=104 num=3
+@move_speed spd=6 id=104
+@route id=104 route=right:11,up:3 wt=1
+
+@huki b=4 id=18
+@huki b=1 id=104
+@c_jump id=104
+
+[須東]「嗯嗯～、你裙子是不是有點短啊～？」
+
+@huki b=7 id=104
+@wait t=1200
+
+@move_speed spd=2 id=104
+@dir dir=left id=104
+
+@huki b=7
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻/skr0023]（啊～啊、那個女生、被逮到了啊……看來她很對須東的胃口……）
+
+@huki b=7 id=104
+@huki b=4 id=18
+
+@huki b=6
+@bs f=サクラ@哀しみ op2=困惑
+[小櫻/skr0024]（不過、他那種行為……絕對是性騷擾……）
+
+;;　拿檢查儀表為借口、須東將女生裙子內的美景一覽無遺。
+
+@huki b=7 id=104
+@huki b=4 id=18
+
+@huki b=7
+@bs f=サクラ@悔しい
+[小櫻/skr0025]（真可憐……那孩子都快哭出來了……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@change f=男子学生01 id=105 num=2
+@route id=105 route=right:13,up:17 wt=0
+
+;;@huki b=7 id=104
+;;@huki b=4 id=18
+;;　在這種明目張膽的性騷擾下、被須東抓住的少女羞紅了臉，緊緊的抱著手中的書包。
+
+@huki b=7 id=104
+@huki b=8 id=18 wt=1
+
+@huki b=7 id=104
+@huki b=4 id=18
+[須東]「好。裙子長短沒問題。你可以走了」
+
+@move_speed spd=2 id=104
+
+@huki b=7
+
+@huki b=7 id=104
+@route id=104 route=up:16 wt=0
+
+@change f=男子学生01 id=107 num=0
+@change f=女子学生01 id=108 num=1
+@dir id=107 dir=right
+@dir id=108 dir=left
+
+@map_scroll dir=down dis=2 spd=5 wt=1
+
+@huki b=7
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻/skr0026]（被須東發現的話就糟了……要想辦法……讓他看不到我……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@dir dir=down
+@huki b=8
+@wait t=600
+
+@huki b=2 id=107
+@huki b=7 id=108
+@wait t=600
+
+@huki b=9
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻/skr0027]（躲到那群男生當中就不會被發現了吧……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki b=8
+@huki b=1 id=108
+@huki b=8 id=107
+@c_jump id=108
+@wait t=500
+@mpve_speed spd=4
+
+@dir dir=down id=107
+@route id=108 route=down
+@invisible id=108 type=on
+
+@wait t=500
+@huki b=6 id=107
+@wait t=1200
+
+@huki b=8 id=107
+@dir dir=up id=107
+
+@huki b=1
+@move_f f=サクラ@無表情 in=r t=300
+[小櫻/skr0028]（好、走吧）
+@move_f f=サクラ@無表情 out=r t=300
+
+@route_point x=20 y=32 dir=d wt=0
+
+@change f=男子学生01 id=106 num=3
+@route id=106 route=left:11,up:16 wt=0
+
+@move_speed spd=4 id=107
+
+@route id=107 route=up:6
+
+@route id=107 route=up:16 wt=0
+@huki b=8 id=18
+@route route=up:5
+
+@huki b=1 id=18
+@huki b=1
+@c_jump
+
+;;　為了不被須東發現、小櫻躲到了一幫陌生男生當中，喝著他們的步調一起走。
+
+[須東]「等等」
+
+@move_f f=サクラ@驚き_z op2=ビックリ_z body_op=z in=c t=300
+[小櫻/skr0029]「呃呃呃！」
+
+@huki b=7
+@bs f=サクラ@怒り_z body_op=z op2=困惑_z
+[小櫻/skr0030]（明明就差一點點了……！）
+@move_f f=サクラ@@怒り_z out=c t=300
+
+@huki b=7
+@wait t=1200
+
+@move_speed spd=3
+@route route=left
+
+@huki b=8
+@move_f f=サクラ@哀しみ in=r t=300
+[小櫻/skr0031]「……早上好。須東老師」
+@move_f f=サクラ@哀しみ out=r t=300
+
+;;戰斗開始　進入選項
+
+@huki b=4 id=18
+[須東]「嘿嘿、來、讓我查查你的儀表」
+
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻/skr0032]「……我穿得很中規中矩啊」
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=4
+
+@flash t=300 wt=0
+@qk
+
+@huki b=4 id=18
+
+;;@move_f f=須東 in=l t=300 wt=0
+@move_f f=サクラ@悔しい in=r t=300
+
+[須東]「還敢頂嘴。難不成你藏著什么嗎？」
+
+@se f=衣擦れの音1
+@huki b=4 id=18
+@huki b=1
+
+@bs f=サクラ@驚き_頬 op2=ビックリ t=300
+[小櫻/skr0036]「啊……」
+;;@move_f f=須東 out=l t=300 wt=0
+@move_f f=サクラ@驚き_頬 out=r t=300
+
+@bgm f=bgm11
+
+;;ＣＧ■CG01
+@se f=衣擦れの音1
+@ev f=ev01 opacity=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=0 t=1 wt=1
+
+@flash t=500 wt=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250
+@qk
+
+[小櫻/skr0037]「你、你要做什么！？」
+
+　他從身后抓住了我的胸部、我被這一舉動嚇了一跳。
+
+[須東]「嗯嗯？　剛才、你顫了一下是吧？　這里難道藏著什么嗎？」
+
+@se f=衣擦れの音1
+@move f=ev01 x=-170 y=115 w=200 h=200 opa=255 t=250
+
+[小櫻/skr0038]「請你住手」
+
+[小櫻/skr0039]（他在……摸我的胸部……好惡心……！）
+
+[小櫻/skr0040]（在學校大門做這種事情……他到底在想什么！？）
+
+[小櫻/skr0041]（我不能興師動眾……不要慌……冷靜一點……）
+
+@rps
+
+;;由決斗結果產生分線
+
+;;勝利　→001_02勝利へ
+
+;;敗北　→001_03敗北へ
+
+

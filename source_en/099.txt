@@ -1,0 +1,34 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04c汎用選択肢勝負しない.txt】
+
+@bgm f=Dungeon5
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA] (Forget it today……) 
+
+@wait t=1000
+
+@bs f=サクラ@哀しみ op2=拒否
+
+[SAKURA]「Let us compete next time」
+
+[Frivolous Man１]「Next, we must compete!」
+
+[Frivolous Man２]「We will wait for you!」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「I'm gonna go now」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout
+
+　SAKURA left here quickly.
+
+;; Restore free action
+

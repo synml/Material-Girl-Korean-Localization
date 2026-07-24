@@ -1,0 +1,65 @@
+
+;;【020_05ステージクリア.txt】
+
+;; Second pass
+
+;;@bgm f=Dungeon5
+
+[Researcher]「How do you feel about the second pass?」
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr1489]「woo～～um」
+
+@huki id=3 b=2 wt=1
+
+[Researcher]「Is there any problem?」
+
+@huki b=8 wt=1
+@dir dir=r wt=1
+
+[SAKURA/skr1490]「Zombies have the same appearances……but with different intensities.」
+
+@bs f=サクラ@哀しみ op2=困惑
+
+[SAKURA/skr1491]「The second pass is a little harder than the first pass……but is not interesting.」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1492]「Although the world and game atmosphere are very real……」
+
+@huki id=3 b=8 wt=1
+
+[Researcher]「woo um……Zombies are under development」
+
+[Researcher]「For this point, the game will be perfected at its selling stage.」
+
+@dir id=3 dir=r wt=1
+@huki id=3 b=8 wt=1
+
+[Researcher]「……in fact, it has other purpose……」
+
+@bs f=サクラ@驚き op2=ハテナ
+
+@huki b=2 wt=1
+
+[SAKURA/skr1493]「ay? 　Other purpose……?」
+
+@huki id=3 b=1 wt=1
+@dir id=3 dir=l wt=1
+
+[Researcher]「ah, no, that’s nothing. Third pass. If you can have a try, it's a big help」
+
+@bs f=サクラ@無表情
+
+[SAKURA/skr1494]「OK. I got it. So, I have to go today」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@se f=Move
+@fadeout
+
+　With the feeling of indigestion, SAKURA obtained the salary, and then left the building.
+

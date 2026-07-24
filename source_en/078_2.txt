@@ -1,0 +1,19 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+
+;; Accost Convenience Store's Manager.
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA]「Hello.」
+
+[Convenience Store's Manager]「SAKURA. Have you booked today? 　Do you want to work here?」
+
+;;@move_f f=コンビニ店長 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+;; ○Options: Don’t work / Work
+;;○Don’t work →017_04バイトしない
+;;○Work →017_05バイトする
+
+

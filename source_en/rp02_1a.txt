@@ -1,0 +1,362 @@
+
+@bgm f=bgm12
+
+;;ＣＧ■CG02
+@ev f=ev02 opacity=0
+@move f=ev02 x=256 y=192 w=150 h=150 opa=0 t=1
+
+@flash t=500 wt=0
+@move f=ev02 x=256 y=192 w=150 h=150 opa=255 t=250
+
+@wait t=1000
+
+@move f=ev02 x=-256 y=-192 w=150 h=150 opa=255 t=1000 wt=1
+@wait t=1000
+
+@flash t=500 wt=0
+@move f=ev02 x=0 y=0 w=100 h=100 opa=255 t=250 wt=1
+
+[SAKURA/skr0271] 「How about this one?」
+
+[ASAHIKO] 「Oh, how perfect it is. I'm standing in front of the most perfect beauty in this century.」
+
+@move f=ev02 x=-76 y=-30 w=115 h=115 opa=255 t=500
+
+ASAHIKO was staring intently at SAKURA's feet in stockings with his eyes full of shining brilliant light.
+
+[SAKURA/skr0272] (That's disgusting......)
+
+[ASAHIKO] 「Ahhaha, haha, haha, haha」
+
+@move f=ev02 x=-128 y=-72 w=125 h=125 opa=255 t=1000 wt=1
+
+[SAKURA/skr0273] 「Hey, hey, what are you doing?......」
+
+[SAKURA/skr0274] (You look disgusting when breath heavily......Don't lean your face against me......)
+
+@move f=ev02 x=256 y=192 w=150 h=150 opa=255 t=100 wt=1
+
+[ASAHIKO] 「I can't stand it. Let me have a taste. SAKURA, please!」
+
+[SAKURA/skr0275] 「Taste, taste what!?」
+
+@move f=ev02 x=-128 y=-72 w=125 h=125 opa=255 t=500 wt=1
+[ASAHIKO] 「Yep. Let me lick and taste it. Please let me have a taste of it......The flavor of your feet and stockings」
+
+[SAKURA/skr0276] (Er!? Enough, enough, too sick, I can't stand it, no way!)
+
+SAKURA  felt the bursts of aversion with heavy breath from ASAHIKO.
+
+@move f=ev02 x=256 y=192 w=150 h=150 opa=255 t=100 wt=1
+
+[ASAHIKO] 「SAKURA, ok?」
+
+[SAKURA/skr0277] 「How could that be!」
+
+@se f=Blow4
+@move f=ev02 x=0 y=0 w=100 h=100 opa=255 t=100 wt=0
+@flash wt=0
+@qk
+Bam!
+
+[ASAHIKO] 「Er Ahhh!?」
+
+@move f=ev02 x=256 y=192 w=150 h=150 opa=255 t=100 wt=1
+[SAKURA/skr0278] (Ah!? Was it too much to kick him off?...... But...... It's disgusting, i can't stand it)
+
+@move f=ev02 x=-128 y=-72 w=125 h=125 opa=255 t=500 wt=1
+
+[ASAHIKO] 「Haha, haha, hahaha!」
+
+[SAKURA/skr0279] (This guy was completely unaffected when had been kicked......His attachment to the stockings is completely selfless real.)
+
+[SAKURA/skr0280] 「Hey, ASAHIKO......I told you not to come」
+
+[SAKURA/skr0281] (I'll kick you when you get closer! ASAHIKO, stay away from me!)
+
+[SAKURA/skr0282] (So disgusting......! No...... That's it.)
+
+@se f=衣擦れの音1
+@move f=ev02 x=0 y=0 w=100 h=100 opa=255 t=100
+
+[ASAHIKO] 「SAKURA? What......What are you doing!?」
+
+[SAKURA/skr0283] 「It's disgusting, I want to take it off」
+
+[ASAHIKO] 「You're doing stupid things! Wait, wait! Wait a minute!」
+
+@se f=衣擦れの音1
+@flash wt=0
+@move f=ev02 x=-76 y=-30 w=115 h=115 opa=255 t=100
+
+ASAHIKO made a moan just like the end of the world was coming when looking at SAKURA taking off her stockings.
+
+[ASAHIKO] 「Don't! Please don't take it off, SAKURA!」
+
+[SAKURA/skr0284] (Don't try to use your face to rub me! I won't give you a chance!)
+
+@move f=ev02 x=256 y=192 w=150 h=150 opa=255 t=100 wt=1
+
+[SAKURA/skr0285] 「So disgusting......! You're disgusting. Get away from me!」
+
+@se f=Blow4
+@move f=ev02 x=0 y=0 w=100 h=100 opa=255 t=100 wt=0
+@flash wt=0
+@qk
+Bam!
+
+[ASAHIKO] 「Oh Ah!? Oh, oh, yeah, I can be kicked by little feet in silk stockings...... What a happy man I am!」
+
+[SAKURA/skr0286] (He is still happy......To be kicked......)
+
+SAKURA was surprised when looking down at a trance smile in ASAHIKO's face.
+
+[ASAHIKO] 「SAKURA! Please! Please, don't take off your stockings. And......」
+
+[ASAHIKO] 「Let me, let me taste your lovely feet!」
+
+@move f=ev02 x=256 y=192 w=150 h=150 opa=255 t=100 wt=1
+
+[SAKURA/skr0287] (You kneel down to me......Don't you have any dignity? But, a nuisance is a nuisance.)
+
+[SAKURA/skr0288] 「Absolutely not!」
+
+[SAKURA/skr0289] (My feet have been licked......I get goose bumps just think about it.)
+
+@move f=ev02 x=0 y=0 w=100 h=100 opa=255 t=100
+
+[SAKURA/skr0290] 「I, I gotta go」
+
+[SAKURA/skr0291] (Why did I talk to ASAHIKO wearing stockings......)
+
+[SAKURA/skr0292] (Ah. It's a real waste of time......)
+
+@move f=ev02 x=256 y=192 w=150 h=150 opa=255 t=100 wt=1
+
+[ASAHIKO] 「It's not free! I'll pay for it!」
+
+ASAHIKO shouted desperately to keep SAKURA when looking at her about to leave for regretting talking with him.
+
+[SAKURA/skr0293] 「......」
+
+[SAKURA/skr0294] (Just now...... You said you would pay for it? You said you would pay, didn't you?)
+
+[ASAHIKO] 「How could it be free to lick such perfect feet after putting on a stocking.」
+
+[SAKURA/skr0295] (Anyway, let me just ask how much I'm prepared to pay......)
+
+[SAKURA/skr0296] (If you say 100 yen, I'll kick you!)
+
+@move f=ev02 x=0 y=0 w=100 h=100 opa=255 t=100
+
+[ASAHIKO] 「5000 yen! How about 5000 yen? Your feet are worth the price, SAKURA」
+
+[SAKURA/skr0297] 「5000 yen......」
+
+SAKURA swallowed a little spit when hearing this price.
+
+[SAKURA/skr0298] (I will get 5000 yen just let him lick my feet......But, it's ASAHIKO......)
+
+[SAKURA/skr0299] (I might be able to put up with it if he gives me 5000 yen......But, but......It's licking feet......)
+
+[ASAHIKO] 「What do you think? I think it's good ......」
+
+[SAKURA/skr0300] (What shall I do......?)
+
+;;====================================
+;;○Option：OK/OK/NO
+;;====================================
+@select s1=OK/*root_1 s2=Definitely　No!/*root_2
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;;====================================
+;;○Option：NO
+;;====================================
+*root_2
+
+[SAKURA/skr0307] (5000 yen...... 5000 yen...... 5000 yen...... 5000 yen......)
+
+@move f=ev02 x=-76 y=-30 w=115 h=115 opa=255 t=500
+
+[ASAHIKO] 「Haha, haha, haha, haha」
+
+ASAHIKO stuck out  his tongue like a dog, stared at SAKURA with his eyes shining.
+
+@move f=ev02 x=0 y=0 w=100 h=100 opa=255 t=100
+
+[SAKURA/skr0308] (No......No way...... ASAHIKO was too disgusting just now.)
+
+;;====================================
+
+@if eval=v(103)<2 ok=jump:*branchA001 bad=jump:*branchB001
+;;-------------------------------------
+;;　No stockings
+*branchA001
+
+@variables id=103 val=1 type=0 calc=0
+
+@jump target=*end_branch001
+;;-------------------------------------
+;;　Get stockings
+*branchB001
+
+@variables id=103 val=3 type=0 calc=0
+
+@jump target=*end_branch001
+;;-------------------------------------
+*end_branch001
+
+;;====================================
+
+@jump target=*end
+;;※Back to free action.
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;====================================
+;;○Option: Select OK
+;;※Selecting any OK will go to this scenario
+;;====================================
+*root_1
+
+[SAKURA/skr0301] 「......OK.」
+
+[SAKURA/skr0302] (If you can give me 5000 yen, I'll let you lick my feet)
+
+[ASAHIKO] 「Oh Oh Oh Oh! Thanks a lot, SAKURA!」
+
+[SAKURA/skr0303] 「But you have to give money first」
+
+[ASAHIKO] 「Ok. Here, it's 5000 yen. Please」
+
+[SAKURA/skr0304] 「......」
+
+SAKURA took 5000 yen from ASAHIKO.
+
+[SAKURA/skr0305] 「Well......Then......」
+
+[SAKURA/skr0306]  (Now, am I going to be licked......I must endure. I've got the money already.)
+
+;;Phase I
+
+;;ＣＧ■CG02
+@move f=ev02 x=256 y=192 w=150 h=150 opa=255 t=500 wt=1
+
+[SAKURA/skr0351] (For 5000 yen...... For 5000 yen......)
+
+[SAKURA/skr0352] (I've got money......It's disgusting, but have to put up with it......)
+
+[SAKURA/skr0353] (Oh, yeah, but........ It's disgusting to think of being licked......)
+
+@move f=ev02 x=0 y=0 w=100 h=100 opa=255 t=500 wt=1
+[ASAHIKO] 「First, smell the scent......」
+
+;;ＣＧ■CG02a
+@se f=衣擦れの音1
+@bgf bg=ev02a
+
+[ASAHIKO] 「Sniff...... Sniff! Sniff!」
+
+ASAHIKO put his nose near the soles of her feet and started to sniff it. 
+
+[SAKURA/skr0354] 「Hmm......Huh......」
+
+[SAKURA/skr0355] (The smell of the soles......I have never let any person to smell so far......)
+
+[SAKURA/skr0356] (Oh, I feel so sorry now......)
+
+[SAKURA/skr0357] (No stink, huh? I've washed it well. It should not smell bad......It should be fine)
+
+[ASAHIKO] 「Ahhh, so perfect. This smell...... is so cool」
+
+[SAKURA/skr0358] (He takes a deep breath as he sniffs the soles of my feet)
+
+[SAKURA/skr0359] 「Hmm......Er......Hoo......Hooo」
+
+SAKURA gradually remembered the feeling of this itch when her soles of the feet were caressed by the breath of ASAHIKO.
+
+[SAKURA/skr0360] (Why can he show so happy expression?......)
+
+[SAKURA/skr0361] (Yeah, but I've put up with it now, it's too wasteful to stop halfway......)
+
+[SAKURA/skr0362] 「Please......Hurry up......I want it over soon.」
+
+[ASAHIKO] 「What are you saying, SAKURA. I haven't started licking yet」
+
+[SAKURA/skr0363] 「Yeah, yeah...... Come on, lick......」
+
+[ASAHIKO] 「This is a kind of thing which needs to be enjoy in a careful process」
+
+[SAKURA/skr0364] (Er! But I want it to be over early......)
+
+[SAKURA/skr0365] (I was attracted by 5000 yen...... What a failure......)
+
+[ASAHIKO] 「Oh....! Hmmm」
+
+ASAHIKO wanted to inhale the smell of the feet, so he take a deep breath again.
+
+[SAKURA/skr0366] (Ahh......The smell of the soles of the feet suddenly was sucked ...)
+
+[ASAHIKO] 「Ha Ahhhhh. How perfect! Taste the smell like this, bathed in such a flavor」
+
+[ASAHIKO] 「After doing this, when I start licking, I can appreciate the flavor more fully」
+
+[SAKURA/skr0367] (You pervert......! Who, who wants to hear your explanation?...... Hurry up and finish!)
+
+SAKURA grinned and stared at ASAHIKO who explained just like an expert. 
+
+[ASAHIKO] 「Next, I am going to start confirming the smell.」
+
+[SAKURA/skr0368] (Hmm......Ahh, I'am gonna to be licked......)
+
+[SAKURA/skr0369] 「Ha, ha......Hmm......Hoo, hooo......Hmmmm!」
+
+[SAKURA/skr0370] (No problem......It's okay to be licked......)
+
+[ASAHIKO] 「What exactly does SAKURA's feet taste like?」
+
+With the anticipation panting becoming more and more rough, ASAHIKO slowly stretched out his tongue and approached the feet.
+
+;;ＣＧ■CG02b
+@bgf bg=ev02b
+
+[SAKURA/skr0371] 「Er......Hmm......Hoo, hmm......Hmmmm!」
+
+[ASAHIKO] 「Whish......Whish......Whish......Whish」
+
+[SAKURA/skr0372] 「Ah!? Hmm......Itchy, itchy......」
+
+[ASAHIKO] 「Give me a little more patience. Between toes and toes...... Here's the best」
+
+[SAKURA/skr0373] (Ahh, how, how could he lick that position?......)
+
+Although it's across the socks, the sense of particles on the tongue was clearly conveyed.
+
+[SAKURA/skr0374] (Wow!? Ahh......Hoo, He is licking vigorously......So disgusting......Hoo)
+
+[ASAHIKO] 「Look, it is between the toes and the socks......Whish! Whish! Whish!」
+
+[SAKURA/skr0375] (No, don't give me a look......Let's finish it......)
+
+[SAKURA/skr0376] 「Umm......Hmm......Hoo......Hooo......Hooo......Whish!」
+
+[SAKURA/skr0377] (I am totally incapable of thinking......can't think of anything.......)
+
+[ASAHIKO] 「How nice......Exactly like what I expected......SAKURA, you are still the most suitable person to wear silk stockings」
+
+[SAKURA/skr0378] 「Thank you......Enough already?」
+
+SAKURA's feet were wet after licked by ASAHIKO again and again.
+
+@variables id=103 val=4 type=0 calc=0
+
+@jump target=*end
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@bgm
+*end
+@bgm
+@rps
+
+
+

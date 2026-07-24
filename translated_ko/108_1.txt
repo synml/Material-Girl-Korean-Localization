@@ -1,0 +1,9 @@
+
+;;【020_05ステージクリア.txt】
+
+;; First pass 
+
+@dot_move id=3 x=4 y=8 dir=left
+@change f=VR男 id=3
+
+

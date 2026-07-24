@@ -1,0 +1,37 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+;;【017_06各段階毎のバイト終了.txt】
+
+;; Second stage
+@fade type=in t=1000 wt=1
+
+@huki b=8 id=6
+;;@move_f f=コンビニ店長 face=0 in=l t=300
+[편의점 점장]「사쿠라, 수고했네. 이제 퇴근해도 좋아」
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]「수고하셨습니다」
+
+;;@move_f f=コンビニ店長 face=0 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=4 id=6 wt=1
+
+;;@move_f f=コンビニ店長 face=0 in=l t=300 wt=0
+@move_f f=サクラ@哀しみ in=r t=300
+@wait t=300
+
+@bs f=サクラ@悔しい op2=困惑
+@huki b=7
+[사쿠라]（으으으……아랫도리를 계속 쳐다보고 있어……징그러워……）
+
+;; Wearing the underpants prepared by the store manager, stared at by the store manager, SAKURA feels shameful to the greatest extent.
+
+@huki b=6
+@bs f=サクラ@無表情 op2=汗
+[사쿠라]「저, 저기, 볼일 없으시면 저는 이만 가볼게요」
+@move_f f=サクラ@無表情 out=r t=300
+
+@fade type=out t=1000 wt=1
+

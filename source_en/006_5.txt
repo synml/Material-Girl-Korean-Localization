@@ -1,0 +1,27 @@
+
+;;【002_02教室に入る.txt】
+
+@move_speed spd=3
+@fade type=in t=1000 wt=0
+
+@route route=down:2
+@move_speed spd=4
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA] (……business street, although I have come here) 
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[SAKURA] (Could I on earth find a good job?……) 
+
+@huki b=8
+@bs f=サクラ@考え中
+[SAKURA]「……Anyway, I have to try」
+@move_f f=サクラ@考え中 out=r t=300
+
+@fade type=out t=1000
+@wait t=1200
+@fade type=in t=1000
+

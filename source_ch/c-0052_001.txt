@@ -1,0 +1,7 @@
+@mes_win back=1 pos=1
+
+\CL今天逃課了……
+
+@mes_win
+
+

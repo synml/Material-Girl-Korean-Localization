@@ -1,0 +1,48 @@
+
+
+;;▼Videos will be broadcast if the TV set is turned on in TSUKASA's room (or other person's home), which results in the increase of carnality. 
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]「오늘 날씨가 좀 걱정되네……남의 집 TV를 맘대로 켜는 건 좀 그렇지만, 그래도 일기예보나 볼까. 리모컨이 어디……」
+
+@bs f=サクラ@哀しみ op2=ハテナ
+
+[사쿠라]「어라, 왜 화면이 안 나오지?　이 버튼인가?　아니면 이건가……아, 나왔다」
+
+@bgm_save
+
+@move_f f=A-cut_sev04-1 face=0 in=l t=150
+@bs f=サクラ@驚き_頬 op2=ビックリ
+@bgm f=bgm15
+
+[사쿠라]「……우와, 뭐야 이거!?　에로 비디오!?　왜 이런 영상이……」
+
+@bs f=サクラ@哀しみ_頬 op2=困惑
+
+[사쿠라]「아, 리모컨은 이거였구나……DVD 레코더랑 같이 쓰는 리모컨이네. 기계 안에 디스크도 그대로 들어 있고」
+
+@bs f=サクラ@考え中_頬 op2=汗
+
+[사쿠라]「중간부터 재생됐다는 건……그러니까, 여기까지 보다가 그……그런 거겠지」
+
+@move_f f=A-cut_sev04-2 face=0 in=l t=150
+@move_f f=A-cut_sev04-1 face=0 out=l t=150
+
+@bs f=サクラ@哀しみ_頬 op2=赤面
+
+[사쿠라]「남자애들은 이런 영상을 좋아하는구나……」
+
+@bs f=サクラ@驚き_頬 op2=拒否
+@move_f f=A-cut_sev04-2 face=0 out=l t=150
+
+[사쿠라]「……아니, 내가 왜 이렇게 진지하게 보고 있는 거야!　정지!　정지!」
+
+@bs f=サクラ@哀しみ_頬 op2=困惑
+
+@bgm
+[사쿠라]「정말이지…….　근데, 아까 그 영상 속 여배우……왠지 나랑 좀 닮은 것 같았는데」
+
+@move_f f=サクラ@哀しみ_頬 out=r t=300
+@bgm_replay

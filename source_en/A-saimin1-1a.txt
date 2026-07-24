@@ -1,0 +1,15 @@
+
+;;○ not help
+
+@move_f f=サクラ@考え中 op2=困惑 in=r t=300
+
+[SAKURA]「Oh～En………………Although I need money……I will not accept the offer」
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki id=6 b=6
+
+[Head of Supernature Research Department]「Why do I feel that you care more about money than experiments……　　　Ok, you can come to me if you change your mind」
+
+;;Change scene with lights out
+

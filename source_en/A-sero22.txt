@@ -1,0 +1,86 @@
+
+;;▼Roof: The heroine will have sex with a passerby if the carnality is high
+
+;;Conditional branch
+@if eval=v(32)>=25 ok=jump:*oev02 bad=jump:*oev01
+
+;; Low carnality
+
+*oev01
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA]「The wind is so heavy. But it's quite comfortable……」
+
+[Man]「Heyhey, maybe you can do something comfortable with me if you don't mind?」
+
+@bs f=サクラ@怒り op2=拒否
+
+[SAKURA]「Hey, what!?  Don't be close to me!」
+
+[Man]「Shit, stop being pure and simple!」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「I am scared to death……I'd better not stay here for a long time」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@end
+
+;;High carnality
+*oev02
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「The wind is so heavy. But it's comfortable……」
+
+@move_f f=black face=0 in=c t=150
+
+[Man]「Heyhey, maybe you can do something comfortable with me if you don't mind?」
+
+[SAKURA]「Er, what do you mean by comfortable……no,  don't go away……」
+
+@bgm_save
+@bgm f=bgm14
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-3 face=0 in=c t=150 h=1
+
+[Man]「It will be intense and the experience will be great if we have sex here」
+
+@se f=挿入音
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+
+[SAKURA]「Ah, my clothes are removed……I don't wanna have sex in open air……ah ah ah ah ah!」
+
+@se f=ピストン_高速
+
+[Man]「Heyhey, you said so, but you really like it, am I right? Your pussy has been completely wet!」
+
+[SAKURA]「No. No……not wet at all……ah ah ha ah ah…here……」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[SAKURA]「No, I will be so strange……by doing so……ah ah……ah ah ah ah ah ah ah!!」
+
+@fadeout t=1000 wt=1
+@bs
+
+[Man]「Hehe, you can come here if you want to have sex next time」
+
+[SAKURA]「No……I……don't wanna that……」
+
+@wait t=1000
+@fadein t=1000 wt=1
+
+@bgm
+@bgm_replay
+

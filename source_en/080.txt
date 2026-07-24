@@ -1,0 +1,20 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+;;【017_05バイトする.txt】
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA]「Yeah. Please take more care.」
+
+[Convenience Store's Manager]「um. A big help Please put on that uniform at once.」
+
+[SAKURA]「I know.」
+
+@fade type=out t=1000 wt=1
+
+　SAKURA nodded her head, and then took that uniform to walk towards the dressing room.
+
+;;@move_f f=パン屋 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+;;017_07覗き段階Hへ。

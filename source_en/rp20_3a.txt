@@ -1,0 +1,325 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;;【024_12ナンバー３Ｈ.txt】
+
+@bgm f=bgm05
+
+;;ＣＧ■CG20
+@bgf bg=ev20 t=1000
+
+[AOKI]「SAKURA, let’s have a perfect time!」
+
+　AOKI, the third starring, kneeled in front of SAKURA with crossed feet.
+
+[SAKURA/skr2296](The teenager is so cute, different from other male prostitutes.)
+
+[SAKURA/skr2297](It is said that he is very popular in those mature ladies......Now I understand.)
+
+[AOKI]「Well......SAKURA......? Are you dissatisfied with me?」
+
+[SAKURA/skr2298](Hoho, he is scared♪ I want to play with him more as long as I see his expression.)
+
+[AOKI]「SAKURA......?」
+
+[SAKURA/skr2299]「Hey, AOKI. Did you stay with other women in this room?」
+
+[AOKI]「Yes, I did......」
+
+[SAKURA/skr2300]「When?」
+
+[AOKI]「Eh!? Well......actually, many times, so......」
+
+[SAKURA/skr2301](His face gets red......He is really shy......That is the reason for popularity.)
+
+[SAKURA/skr2302](If he pretends to do so......it is not interest......)
+
+[SAKURA/skr2303]「Many times? Then tell me what did you do with other women here!」
+
+[AOKI]「Well......Chatting......well......drinking and eating......or playing games......」
+
+[AOKI]「That’s it!」
+
+[SAKURA/skr2304]「Only these?」
+
+[AOKI]「......」
+
+[SAKURA/skr2305]「You did something else, didn’t you?」
+
+[AOKI]「Eh, I also......made love here......」
+
+　AOKI said in low voice, lowering his head for shyness.
+
+[SAKURA/skr2306]「Raise your head, AOKI!」
+
+[AOKI]「Yes, SAKURA......」
+
+;;ＣＧ■CG20a
+@bgf bg=ev20a t=500
+
+[AOKI]「Ah!?」
+
+　SAKURA suddenly unfolded her legs as if to show for AOKI on purpose.
+
+[SAKURA/skr2307]「Hoho, you made love with other women.」
+
+[AOKI]「Sorry.」
+
+[SAKURA/skr2308]「No, do not say sorry. It is for work, isn’t it? Or you made love with them because you wanted to?」
+
+[AOKI]「Well......I, I......I have to work hard......So......」
+
+[SAKURA/skr2309]「Well, you will work hard today, won’t you?」
+
+[AOKI]「Yes, sure, SAKURA.」
+
+[SAKURA/skr2310]「AOKI, show me your penis.」
+
+[AOKI]「Ahhh!」
+
+[SAKURA/skr2311]「Show me right now.」
+
+[AOKI]「I, I see......」
+
+@se f=チャックを下ろす音
+
+　AOKI cannot refuse the command, and took out his penis from his trousers.
+
+[SAKURA/skr2312]「So good......your penis!」
+
+[SAKURA/skr2313](You are so cute......with such a giant penis......How giant it is......)
+
+[SAKURA/skr2314](Others get excited due to the contrast, too, absolutely!)
+
+[AOKI]「Well......SAKURA......」
+
+[SAKURA/skr2315]「Let’s make love, AOKI. I cannot take it more after seeing your penis!」
+
+[SAKURA/skr2316]「Your penis is erected so big. AOKI, you want to make love with me, don’t you?」
+
+[AOKI]「Yes......I want to make love with SAKURA......I want to......」
+
+　AOKI nodded immediately, with trembling erected penis.
+
+[SAKURA/skr2317]「Come on.」
+
+[AOKI]「Yes.」
+
+　AOKI walked to SAKURA with his erected penis as if he was attracted by her hands.
+
+@se f=挿入音
+;;ＣＧ■CG20b
+@bgf bg=ev20b t=500 v=1
+@bgs f=aegi_skr2
+
+;; Recall of SAKURA as a virgin
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following is the text if SAKURA is considered as a virgin.
+
+[AOKI]「Ah!? SAKURA......Ah......I, I do not know......Sorry!」
+
+　Seeing the symbol for purity bleeding from arms of SAKURA, AOKI apologized to her in sobs.
+
+[SAKURA/skr2318]「Hoho, hum, ah, eh, I’m happy now to make love with you for my first time.」
+
+[AOKI]「Ahh......SAKURA......Hum! SAKURA, ahhh!」
+
+[SAKURA/skr2319](S o cute......I want to tease him more because of his reaction.)
+
+;; Above is the text if SAKURA is considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;; Following is the text if SAKURA is considered as an experienced girl.
+
+[SAKURA/skr2320]「Ah, whir, hum, ahhh, huh, ah, huh, ahh......Huh, ah, whir」
+
+[AOKI]「Ahh......You are so good......SAKURA......It is so great in your pussy.」
+
+[SAKURA/skr2321]「Hoho, thank you for your praise. Your penis is also very good......Very good.」
+
+[AOKI]「SAKURA......Hum! SAKURA, ahhh!」
+
+[SAKURA/skr2322]( I want every drop of your sperms today♪ Wait and see!)
+
+;; Above is the text if SAKURA is considered as an experienced girl.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+
+;; Following is the text for common.
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+[SAKURA/skr2323]「Humm! Humm! Coo! Hum, whir! Huh, ahh, ah, eh! Ahhhhh!」
+
+[AOKI]「So, so good......I cannot believe it......It is the first time for me to encounter with this condition.」
+
+[SAKURA/skr2324]「Because......you love my pussy so much.」
+
+[AOKI]「Yes, your pussy is so great......I, I cannot help......」
+
+[SAKURA/skr2325]「Ah, whir, you cannot ejaculate without my permission. Just take it more♪」
+
+[AOKI]「How......」
+
+[SAKURA/skr2326](Although he is older than me......Hoho, he follows all my instructions.)
+
+[SAKURA/skr2327](Looking at his expression of endurance......I get so excited!)
+
+[AOKI]「SAKURA......Hum! SAKURA, ahh!」
+
+[SAKURA/skr2328]「Humm!? Whir, hum, no......You are not allowed to ejaculate now.」
+
+[AOKI]「Coo......Umm......Ummm」
+
+[SAKURA/skr2329]「Enjoy my pussy more......Huh, ah, hey, continue!」
+
+[AOKI]「But......As long as I move......I’m going to ejaculate......Ah」
+
+[SAKURA/skr2330]「I’ll not make love with you in the future......if you ejaculate without my permission.」
+
+[AOKI]「Why......Please do not......Please make love with me more in the future.」
+
+[SAKURA/skr2331]「Well, take it more!」
+
+[AOKI]「Coo......Umm......Ummmm」
+
+　AOKI nodded with his teeth gritted while inserting into the pussy of SAKURA.
+
+[SAKURA/skr2332](He tries his best to take it because he does not want to be abandoned......This expression, ahh, I cannot take it more.)
+
+[SAKURA/skr2333](Give you deeper impression♪ It is the most excellent part!)
+
+;;ＣＧ■CG20c
+@bgf bg=ev20c t=500 v=1
+
+[SAKURA/skr2334]「Humm♪ Humm♪ Ah, hum, eh♪ Ahh♪ Ah, whir♪ Ah, whir!」
+
+[AOKI]「Coo!? Her pussy is twisting me again......Um」
+
+[SAKURA/skr2335]「Are you going to ejaculate? Are you going to ejaculate into my pussy?」
+
+[AOKI]「Yes, I am......Hum, for a long time......I want it so much......I cannot take it more......」
+
+[SAKURA/skr2336]「Hoho♪ But, No♪」
+
+[AOKI]「Why......Ah......」
+
+[SAKURA/skr2337]「Hey! Do it more fiercely! Give me an orgasm!」
+
+[AOKI]「Yes, SAKURA......Ah......」
+
+@se f=ピストン_高速 l=1
+
+　AOKI tried his best to hold back the impulsion of ejaculation while kept trying to swing his waist so as to make SAKURA comfortable.
+
+[SAKURA/skr2338](He makes great efforts......He really does......for not being abandoned♪)
+
+[SAKURA/skr2339](I’m also......having an orgasm......when seeing his great efforts ♪)
+
+[SAKURA/skr2340](It’s almost the time ......Humm, whir, ah, ok, I’ll allow you to ejaculate♪)
+
+　SAKURA smiled to AOKI with happiness, because she mastered all the dominant rights.
+
+[SAKURA/skr2341]「Come on, AOKI♪ I’m having an orgasm♪」
+
+[AOKI]「SAKURA!」
+
+[SAKURA/skr2342]「Just ejaculate♪ Ejaculate from your hard penis♪」
+
+[SAKURA/skr2343]「You can ejaculate as long as I have an orgasm!」
+
+[AOKI]「Yes! I! I will try my best! Humm! Humm! Humm!」
+
+[SAKURA/skr2344](Whir, ah! He puts up a desperate fight in order to ejaculate! So fierce......I can hear the sound of the inserting penis!)
+
+[AOKI]「SAKURA! Are you having an orgasm!? Just do it! Have an orgasm, please!」
+
+[SAKURA/skr2345]「I’m almost there......Harder! Once more......Insert into the deep of my pussy!」
+
+[AOKI]「Yes!」
+
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+　Poop! Poop!
+
+[SAKURA/skr2346]「Coo, whir!? Ahhh, well......! Good! I’m getting there!」
+
+[SAKURA/skr2347]「Ejaculate! AOKI! You can ejaculate! Come on!」
+
+[AOKI]「Then I ejaculate! I’m ejaculating, SAKURA, ahhhhh!」
+
+[SAKURA/skr2348](His penis seems to jump out! Whir! Eh! My uterus seems to be ejaculated thoroughly......Wow!)
+
+[SAKURA/skr2349]「Ejaculate! I’m......getting there! Ahhhhh!」
+
+@se
+;;ＣＧ■CG20d
+@fin bg=ev20d se=射精音 v=1
+@bgs f=aegi_skr3
+
+　Poop! Poopppppp!
+
+　The sperms were ejaculated as insurgent waves from the enduring penis.
+
+[SAKURA/skr2350](So good! He ejaculates so fiercely because he has endured for so long!)
+
+[SAKURA/skr2351](He is ejaculating......to the deep of my pussy......Whir! Ahhh! Humm! Ahhhhh!)
+
+[AOKI]「SAKURA! SAKURA!」
+
+[SAKURA/skr2352](Is he happy to ejaculate into my pussy? He is so cute......so cute......Ahh, I want to tease him more.)
+
+[AOKI]「Hum, whir!? Eh!! Your pussy is!!!」
+
+[SAKURA/skr2353]「Can you......ejaculate more? Just ejaculate all!」
+
+[AOKI]「Yes......Just as what you expect......I, I will ejaculate all.」
+
+[SAKURA/skr2354]「Ah, hoho♪ Good boy......Humm! Humm! Work harder!」
+
+[AOKI]「Yes......」
+
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+　Having no idea about resisting the instructions of SAKURA, AOKI swang his waist conformably.
+
+[AOKI]「SAKURA......Ah......SAKURA......」
+
+[SAKURA/skr2355]「Hum, ahh, whir♪ Eh♪ Ejaculate after my command in the next time! Understand?」
+
+[AOKI]「Yes, I will obey all the commands of SAKURA......So, please......Please do not abandon me!」
+
+[SAKURA/skr2356]「I won’t as long as you obey my commands!」
+
+[AOKI]「Ahh......SAKURA......I, I’m so happy......」
+
+　AOKI, who had so much experience with adult women, was totally conquered by SAKURA.
+
+　The hard penis thrust in the pussy fiercely as long as SAKURA licked AOKI.
+
+@se
+@bgs
+@rps
+

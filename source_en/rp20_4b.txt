@@ -1,0 +1,31 @@
+
+;;【024_15ホストＨ(汎用).txt】
+
+;; Common for boss H
+
+@bgm f=bgm05
+
+;;ＣＧ■CG20c
+@bgf bg=ev20c t=1000
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+[SAKURA/skr2412]「Ah! Ahhh! So exciting! Humm! I’m going to have an orgasm! I’m getting there, ahhhh!」
+
+[Boss]「Um! SAKURA!」
+
+@bgs
+@se
+;;ＣＧ■CG20d
+@fin bg=ev20d se=射精音
+
+[SAKURA/skr2413]「Ah, whir♪ You are ejaculating into my pussy, boss♪」
+
+[Boss]]「Huh, ahh, only you can make me so crazy!」
+
+[SAKURA/skr2414]「Well, ejaculate again♪ Humm, just ejaculate♪」
+
+[Boss]]「Ahh…… I’m addicted to you, SAKURA!」
+
+@rps
+

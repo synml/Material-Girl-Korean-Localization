@@ -1,0 +1,7 @@
+
+@mes_win back=1 pos=1
+
+\CL 오늘 영업 종료.
+\CL 영업시간　7시 ～ 20시
+
+@mes_win

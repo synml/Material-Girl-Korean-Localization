@@ -1,0 +1,42 @@
+
+;;【017_02着替え終了後.txt】
+
+@dot_move x=5 y=10 dir=up
+@dot_move id=101 x=3 y=8 dir=right
+@change f=コンビニ店長 id=101
+
+@fade type=in t=1000 wt=1
+
+@route route=up:2,left
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA]「Store manager, I have put on that uniform.」
+
+[Convenience Store's Manager]「um. I fit you well, SAKURA.」
+
+@bs f=サクラ@哀しみ
+[SAKURA]「Thanks for your praise……」
+
+@bs f=サクラ@悔しい op2=困惑
+[SAKURA] (Store manager……why is he smiling……) 
+
+@bs f=サクラ@哀しみ op2=困惑
+[SAKURA] (His smile is so disgusting……) 
+
+　Store manager’s smiling expression makes SAKURA feel disgusted.
+
+@bs f=サクラ@考え中
+[SAKURA] (hoo, I should not be laughed at because of this……let it be) 
+
+@bs f=サクラ@無表情
+[SAKURA] (He should not have any improper thought to me.) 
+;;@move_f f=コンビニ店長 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　After talking to herself, SAKURA throws herself into work.
+
+;; Mini-game: Place commodities
+

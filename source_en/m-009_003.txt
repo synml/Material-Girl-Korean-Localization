@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL Got gym suit!
+
+@mes_win
+

@@ -1,0 +1,84 @@
+
+;;【006_01イジメられる司２.txt】
+;;【006_03敗北.txt】
+
+@bgm f=bgm04
+
+@huki b=1
+@anime num=302 wt=0
+@wait t=500
+
+@se f=Blow6
+@change num=1
+@dir dir=down
+
+@huki b=7
+@move_f サクラ@悔しい op2=困惑 in=l t=300
+
+[小櫻/skr0465]「咕……嗚嗚嗚……」
+
+@huki b=7 id=12
+[佐竹]「哈啊、哈啊、哈、真是的、還勞煩我動手。」
+
+;;　不良頭頭喘著粗氣，低頭看著昏倒在地上的小櫻。
+
+@huki b=8 id=12 wt=1
+@huki b=3 id=12
+[佐竹]「誒……仔細看看這小妮子長得還挺漂亮啊。」
+
+
+[佐竹]「喂！　把這家伙給我帶走。」
+
+@change num=0 id=10
+@dir dir=right id=10
+@c_jump id=10
+
+[不良１]「明、明白！」
+
+@change num=0 id=11
+@huki b=4 id=11
+[不良２]「嘿嘿嘿，這下有樂子了。」
+
+@c_jump id=9 wt=0
+@huki b=1 wt=1 id=9
+
+@huki b=1 id=9
+[司]「給，給我住手！」
+
+@move_speed spd=6 id=9
+@route route=down,left:31 id=9
+
+@anime id=9 num=302 wt=0
+@dir dir=right id=12
+@wait t=400
+@dir_fix id=9 type=on
+@walk_anime id=9 type=off
+
+@move_speed spd=7 id=9
+@route route=right:5 id=9
+
+@huki b=7 id=9 wt=1
+
+@huki b=8 id=12
+[佐竹]「少啰嗦！」
+
+;;　砰！
+
+@huki b=7 id=9
+[司]「咕啊！？」
+
+;;　想要救小櫻的司被狠狠的踢開、當場昏了過去。
+
+@dir dir=left id=12
+@huki b=8 wt=1 id=12
+
+@huki b=3 id=12
+[佐竹]「我們走！」
+
+@fade type=out t=1000 wt=1
+@bgm
+
+@mes_win back=1 pos=1
+　被架著的小櫻、就這樣被他們帶走了。
+@mes_win back=0 pos=2
+

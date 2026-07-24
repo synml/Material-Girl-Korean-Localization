@@ -1,0 +1,16 @@
+
+;;【009_02全ての素材を渡す.txt】
+;; ※After that, each time when SAKURA talks with MAKIOKA, such options related to assistance in experiment appear.
+
+;; At the lower side, it is the dialogue triggered by talks with MAKIOKA. 
+
+@bgm f=bgm02
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[마키오카]「사쿠라 양, 마음이 바뀌어서 실험에 협력해 줄 생각이 든 건가요?」
+
+[사쿠라]「그게……」
+
+@move_f f=サクラ@無表情 out=r t=300
+

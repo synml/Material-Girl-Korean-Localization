@@ -1,0 +1,52 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*branchA001 bad=jump:*branchB001
+;;-------------------------------------
+;;　選擇右側時
+*branchA001
+
+@route route=right
+
+@jump target=*branchEND001
+;;-------------------------------------
+*branchB001
+@if eval=v(101)==2 ok=jump:*branchA002 bad=jump:*branchEND001
+;;-------------------------------------
+;;　選擇右側時
+*branchA002
+
+@route route=down,right:2
+
+
+@jump target=*branchEND001
+;;-------------------------------------
+*branchEND001
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@dir dir=up
+
+@huki b=8
+@map_scroll dir=up dis=2 spd=2
+
+@move_f f=サクラ@無表情 in=r t=300
+[小櫻]「找到了。在這里」
+@move_f f=サクラ@無表情 out=r t=300
+
+@map_scroll dir=down dis=2 spd=5
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻]（很可愛的一家店嘛。總之、先進去吧）
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=2
+@fade type=out t=1000 wt=0
+@@route route=up wt=1
+@se f=Move1
+@move_speed spd=4
+

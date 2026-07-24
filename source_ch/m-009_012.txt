@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL傍晚在司的家里一起吃飯的話好感度會上升
+
+@mes_win
+

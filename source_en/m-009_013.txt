@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL There are students in the school who are willing to pay money for sex\n\I[320]\I[322]
+
+@mes_win
+

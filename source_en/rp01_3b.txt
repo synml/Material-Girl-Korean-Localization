@@ -1,0 +1,25 @@
+
+;;【003_03服装チェック段階Ｈ（汎用）.txt】
+
+;;Phase Ⅲ
+
+@bgm f=bgm04
+
+;;ＣＧ■CG01b
+@bgf bg=ev01b t=1000
+@bgs f=aegi_skr1
+
+[SUDOU] 「What is this hard thing?」
+
+[SAKURA/skr0257] 「Ah!? Huh! No, don't touch it......」
+
+[SUDOU] 「It's already hardened. Ummm? Why could this happen?」
+
+[SAKURA/skr0258] 「Huh, huh, ummm......Ummm, ah......I, I don't know......」
+
+[SAKURA/skr0259] (This is not what I can control.......It's the body......Ah, hurry up.....Make it over......)
+
+@bgs
+
+@rps
+

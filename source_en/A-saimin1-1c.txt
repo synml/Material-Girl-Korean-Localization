@@ -1,0 +1,59 @@
+
+;;○ help
+;;Get 1,500 yen
+
+@huki id=6 b=3
+
+[Head of Supernature Research Department]「Ok, then……you can stand there」
+
+@bgm
+@route route=down wt=1
+@dir dir=up wt=1
+
+;;Hypnosis effect
+;;Hypnosis close-up
+
+@move_f f=A-cut_saimin1 face=0 in=c t=150 h=1
+@wait t=500
+@se f=催眠行使
+@move_f f=A-cut_saimin2 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin1 face=0 out=c t=150
+@wait t=1000
+@move_f f=A-cut_saimin2 face=0 out=c t=150
+@wait t=150
+
+@mes_win back=1 pos=1
+
+\CL SAKURA is hypnotized……
+
+@mes_win
+
+@bgm f=bgm12
+
+@huki id=6 b=4
+
+[Head of Supernature Research Department]「……Now try the chest of 92cm」
+
+@route id=6 route=down wt=1
+
+;;SAKURA's close-up
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune face=0 in=c t=150 h=1 cos=1
+@huki id=6 b=4
+
+[SAKURA]「Er…Ah……」
+
+@mes_win back=1 pos=1
+
+\CL forcefully massages SAKURA's chest……
+
+@fadeout t=1000 wt=1
+
+@mes_win
+
+@fadeout t=1000 wt=1
+@move_f f=A-cut_saimin8 face=0 out=l t=150
+@bs

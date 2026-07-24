@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL 빵집 일에 실패하면 점장에게 성희롱을 당한다
+
+@mes_win
+

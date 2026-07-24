@@ -1,0 +1,32 @@
+
+;;【003_03服装チェック段階Ｈ（汎用）.txt】
+
+;;Phase Ⅱ
+
+;;ＣＧ■CG01a
+
+@ev f=ev01 opacity=0
+@flash t=500 wt=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250 wt=1
+
+[SUDOU] 「There's nothing hidden in the skirt, is it?」
+
+@se f=衣擦れの音1
+@bgf bg=ev01a
+@move f=ev01a x=0 y=0 w=100 h=100 opa=255 t=250 wt=1
+@qk
+
+[SAKURA/skr0254] 「Please, please don't do this! Ummm ! ? Ahhh, ummmm!」
+
+[SUDOU] 「Keep your hands clear, or it will last for longer」
+
+[SAKURA/skr0255] 「Ummm! Umm......Ummmm......There's nothing in the skirt......」
+
+@move f=ev01a x=0 y=0 w=100 h=100 opa=255 t=250 wt=1
+
+[SUDOU] 「Don't move around until I check out.」
+
+[SAKURA/skr0256] 「Hooah......Ahummm......Ummm......Cooumm」
+
+@rps
+

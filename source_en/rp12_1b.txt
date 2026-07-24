@@ -1,0 +1,20 @@
+
+;;【017_08覗き段階Ｈ（汎用）.txt】
+@bgm f=bgm13
+
+;;Phase I
+
+;;ＣＧ■CG12
+
+@se f=衣擦れの音1
+@bgf bg=ev12
+
+[SAKURA/skr1248]「Hardworking today.」
+
+[Shopkeeper](I wonder if I have the chance to see the naked SAKURA or not.)
+
+[Shopkeeper](Think out a good idea)
+
+@bgm
+@rps
+

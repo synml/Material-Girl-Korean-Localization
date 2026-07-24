@@ -1,0 +1,149 @@
+;;▼Undressing: You can get money and talk to him if you undress in front of him. 
+;;　　　　Undressing ways and place can be determined through options, which will determine the amount of money and response. 
+
+@bgm_save
+@bgm f=bgm15
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[Man]「Sister, I will give your pocket money if you let me see your underwear. How about that?」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「……Can I get money?」
+
+[Man]「Yes. What do you think of it?」
+
+@bs f=サクラ@考え中
+
+@select s1=Take　off　the　coat/*st01 s2=Take　off　the　skirt/*st02 s3=Take　off　the　bra/*st03 s4=Take　off　the　pants/*st04
+;;------------------------------------------------------------------------------------
+
+;;Branch: take off jacket
+*st01
+
+@bs f=サクラ@無表情_頬
+
+[SAKURA]「Now I will take off my jacket……」
+
+[Man]「Take notice of her sight when she is undressing her jacket to make her anxious.」
+
+@move_f f=サクラ@無表情_頬 out=r t=300
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-1 face=0 in=c t=150
+
+[SAKURA]「……Is it okay……?」
+
+[Man]「O……It has been good although it is far from what I want」
+
+@move_f f=A-cut_sev06-1 face=0 out=c t=150
+
+@fadeout t=1000 wt=1
+@bs
+@se f=Coin
+;;Money increases
+@gold val=1000
+@mes_win back=1 pos=1
+
+\CL gets 1,000 yen……
+@mes_win
+
+@end
+
+;;------------------------------------------------------------------------------------
+;;Branch: take off skirt
+*st02
+
+@bs f=サクラ@無表情_頬
+
+[SAKURA]「Now I take off my skirt.」
+
+[Man]「Don't be so fast. Take your time, take it off slowly. 」
+
+@move_f f=サクラ@無表情_頬 out=r t=300
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-2 face=0 in=c t=150
+
+[SAKURA]「Like……this?」
+
+[Man]「You must see the man who looks at you and "exchange ideas" with him with your eyes when you are undressing. 」
+
+[SAKURA]「So demanding……」
+
+@fadeout t=1000 wt=1
+@bs
+@se f=Coin
+;; Money increases
+@gold val=1000
+@mes_win back=1 pos=1
+\CL gets 1,000 yen……
+
+@mes_win
+@end
+
+;;------------------------------------------------------------------------------------
+;;Conditions of high carnality
+;;@select s1=ブラ脱ぐ/*st03 s2=パンツ脱ぐ/*st04
+;;------------------------------------------------------------------------------------
+;;Branch: take off bra
+*st03
+
+@bs f=サクラ@羞恥
+
+[SAKURA]「Now I take off my bra.」
+
+@move_f f=サクラ@羞恥 out=r t=300
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-3 face=0 in=c t=150 h=1
+
+[Man]「Don't let others see your nipples easily. Take the other's sight into consideration and do not let your "nipples" come out」
+
+[SAKURA]「That's so demanding……」
+
+@fadeout t=1000 wt=1
+@bs
+@se f=Coin
+;;Money increases
+@gold val=2000
+@mes_win back=1 pos=1
+\CL gets 2,000 yen……
+@mes_win
+
+@end
+;;------------------------------------------------------------------------------------
+;;Branch: take off underwear
+*st04
+
+@bs f=サクラ@羞恥
+
+[SAKURA]「Now I take off my underwear……」
+
+[Man]「You can stop after removing any part. Then you can shake your body shyly……」
+
+@move_f f=サクラ@羞恥 out=r t=300
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-4 face=0 in=c t=150
+
+[SAKURA]「Like……this?」
+
+[Man]「Great, you are a talent. 」
+
+[SAKURA]「That won't make me happy. 」
+
+@fadeout t=1000 wt=1
+@bs
+
+@se f=Coin
+;;Money increases
+
+@bgm
+
+@gold val=2000
+@mes_win back=1 pos=1
+\CL gets 2,000 yen……
+
+@bgm_replay

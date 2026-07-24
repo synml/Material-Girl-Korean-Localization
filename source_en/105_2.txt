@@ -1,0 +1,9 @@
+
+;;【020_03試遊する.txt】
+
+@huki id=29 b=8
+[Researcher]「You gave a big help today.」
+
+@huki id=29 b=8
+[Researcher]「Please advise next time」
+

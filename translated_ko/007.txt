@@ -1,0 +1,42 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+
+;;SAKURA rushes towards the business street after school, with many job leaflets in her hands.
+
+@mes_win back=1 pos=1
+\CL 『아르바이트 모집! 시급 1,000엔!』
+
+\CL 『근무 시간 자유!』
+@mes_win back=0 pos=2
+
+@huki b=8 wt=1
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]「빵집이라……」
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라]（다른 가게들에 비해, 이 빵집만 유독 시급이 세네……）
+
+@huki b=2
+@bs f=サクラ@考え中 op2=ハテナ
+[사쿠라]（왜지?）
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=r t=300
+
+@bs f=サクラ@無表情
+[사쿠라]「일단 가서 물어나 보자」
+@move_f f=サクラ@無表情 out=r t=300
+
+@dir dir=left
+@map_scroll dir=left dis=29 spd=6 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（그러니까…… 이 길을 따라 조금만 가면 나온다고 했지……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@map_scroll dir=right dis=30 spd=7 wt=1
+
+

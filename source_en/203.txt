@@ -1,0 +1,25 @@
+
+;;【021_01売春①.txt】
+
+;; When the lascivious degree is above 40, the plot will be triggered in the morning of next day.
+
+@bs f=サクラ@無表情
+[SAKURA]「um, now that I have come here, I should dye my hair.」
+@move_f f=サクラ@無表情 out=r t=300
+
+@through type=on
+
+@se f=Open1
+@dir dir=left id=59
+@dir dir=right id=59
+@dir dir=up id=59
+
+@move_speed spd=2
+@fade type=out t=1000 wt=0
+@route route=up wt=1
+@se f=Move1
+
+@wait t=500
+@move_speed spd=4
+
+

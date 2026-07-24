@@ -1,0 +1,16 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@huki b=6
+@move_f f=サクラ@哀しみ op2=汗 in=l t=300
+[小櫻]（……穿成這樣叫人怎么走在路上啊）
+
+@huki b=8
+@bs f=サクラ@考え中
+[小櫻]「找個更衣室把校服換回來吧」
+@move_f f=サクラ@考え中 out=l t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+

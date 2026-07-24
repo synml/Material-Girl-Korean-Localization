@@ -1,0 +1,16 @@
+
+@invisible type=on id=28
+@invisible type=on id=29
+@invisible type=on id=30
+@invisible type=on id=31
+
+@fade type=in t=1000 wt=i
+@map_scroll dir=down dis=2 spd=4 wt=1
+@map_scroll dir=left dis=8 spd=6 wt=1
+@map_scroll dir=left dis=1 spd=4 wt=0
+
+@move_f f=サクラ@考え中 in=l t=300
+[SAKURA]「――And then you can see our classroom.」
+
+@fade type=out t=1000 wt=1
+@bs

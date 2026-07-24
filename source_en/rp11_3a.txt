@@ -1,0 +1,166 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;;Phase III
+
+@bgm f=bgm05
+
+;;ＣＧ■CG11b
+@bgf bg=ev11b t=1000
+
+[Shopkeeper] 「Recently, many mistakes, SAKURA」
+
+[SAKURA/skr1117] (Because the manager......has been doing strange things......ah!)
+
+Regardless of the presence of the guests, the manager began to touch her ass.
+
+[SAKURA/skr1118] 「Umm ......huh ......um......um um um ......」
+
+[SAKURA/skr1119] (Ah ah, once the manger touched ......I became upset......)
+
+[SAKURA/skr1120] (I, my body......also become weird......」
+
+[Guest 3] 「Floating girl, you are not accustomed this」
+
+[Shopkeeper] 「Ha ha ha ha, but you look she is so lovely ,just forget this」
+
+[Guest 3] 「really, very cute ah」
+
+[SAKURA/skr1121] 「umm ......huh, well ... thanks, appreciated ......」
+
+[Shopkeeper] 「Thanks to her after she came to work in here, The guests grew more slowly.」
+
+[Shopkeeper] 「If follow up like this, it will not give any trouble to the guests ,the problem will be solved」
+
+[Guest 3] 「Ha ha ha ha, you and  she,feel like the  beast and the beauty」
+
+[SAKURA/skr1122] 「Huh ...Well...um, uh, huh, huh ...」
+
+[Guest 3]「Would you seperate this bread with that one in different bags.」
+
+[Guest 3] 「I make a favor for my colleague. 」
+
+[SAKURA/skr1123] 「Got it......Oh!?ah,ah!」
+
+[Guest 3] 「Um? how are you?」
+
+[SAKURA/skr1124] 「No, nothing ......it's nothing happened......」
+
+
+[SAKURA/skr1125] (Manager...become bold ......if this, so intense rubbing her ass ......)
+
+  At the beginning of just gently touch the buttocks, and now it becomes suddenly rubbing the ravaged twisted ass.
+
+[SAKURA/skr1126] (after the strong touch ......the body gradually become hot up......huh, ah, ah ah ah!）
+
+[Shopkeeper] 「Maybe SAKURA is going to be the next step」
+
+[SAKURA/skr1127] 「Ha, ah ah, uh ... manager......」
+
+[Shopkeeper] 「hey hey hey,  you shoud think over why  you didn't get used to it」
+
+[SAKURA/skr1128] (Hey !? Oops! What, what......manager......what are you going to do!)
+
+The Shopkeeper caught the SAKURA's panty regardless of embarrassed of SAKURA.
+
+@se f=挿入音
+;;ＣＧ■CG11c
+@bgf bg=ev11c t=500 v=1
+
+;; For retrospect if virgin
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;;Following is the text if SAKURA is considered as a virgin.
+
+[SAKURA/skr1129] 「Well!? Ah! Ah! U... ah!」
+
+[SAKURA/skr1130] (Ouch, so ouch ah!? what,what !? oh !? NO! Fuck my little pussy!?)
+
+[SAKURA/skr1131] (That, that ......penis? Pennis  will get into the......ah !?)
+
+SAKURA felt painful all over the body and almost called out.
+
+;;Above is the text if SAKURA is considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;;Following is the text if SAKURA SAKURA is not considered as a virgin.
+
+[SAKURA/skr1132] (Wait, just for a second ... why, why do you want to fuck !? oh ,oh No...... ah ah ah!)
+
+[SAKURA/skr1133] 「Ha, ha ah...Well, whining ......」
+
+[SAKURA/skr1134] (inserted into the......pennis got into the ah ah!)
+
+;;Above is the text if SAKURA is not considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+;;Following is the text for common.
+
+SAKURA/skr1135] (No, no...sound, if the call out of the sound that will be aware of the guests ......)
+
+Although the sudden insertion of pennis, just control the sexlove sound whispering.
+
+[Shopkeeper] 「Huh! Um! huh!」
+
+[Guest 3] 「Haha, manager, what happened?」
+
+[Shopkeeper] 「You need more excerise, if you're strong enough, you can make better bread」
+
+[Guest 3] 「Manager really strong. isn't it? SAKURA」
+
+[SAKURA/skr1136] 「Yes, yes...well...so strong......ah ah......huh! Well ah ah!」
+
+[SAKURA/skr1137] (ah! Ah!  inside, inside......cock becomes bigger......ah!)
+
+[Shopkeeper] 「Huh! huh huh! I am coming, SAKURA」
+
+[SAKURA/skr1138] (Coming, coming...come on, where......hey!? Ha! Ah ah! Ah ah ah!)
+
+[SAKURA/skr1139] 「Ah, u......hum......your consumption......is......970 yen ......」
+
+[Guest 3] 「Good. give you a thousand yen」
+
+[SAKURA/skr1140] 「Thank you, thank you......exchange you......30 yen ......」
+
+[Shopkeeper] 「Ah! Coming!」
+
+;;ＣＧ■CG11d
+@fin bg=ev11d se=射精音 v=1
+
+Beating! Beating! Puff puff!
+
+[SAKURA/skr1141] 「Ah! Well! Well ... well ah ah ah!」
+
+[SAKURA/skr1142] (fart,ass......on the ass......Well」
+
+[Guest 3] 「what happened?」
+
+[SAKURA/skr1143] 「Haha, ha, uh ...What, what......ha, no,nothing......」
+
+[SAKURA/skr1144] (Fucked......in front of guests......ah)
+
+[Shopkeeper] 「Looking forward for next time.」
+
+[SAKURA/skr1145] 「Ha ah, ha ah, whirring, Well...thanks, thank you......ah」
+
+With warm and humorous voice watched guests leaving, SAKURA looked back to the direction of the manager.
+
+@rps

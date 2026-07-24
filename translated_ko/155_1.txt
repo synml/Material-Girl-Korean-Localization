@@ -1,0 +1,17 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;flagON, buy deluxe dress. 
+
+;;【024_07ゴージャスな服を着ている.txt】
+
+[사장님]「알겠습니다…… 이곳에 등록만 해주시면 됩니다」
+
+@huki id=6 b=8 wt=1
+[사장님]「마음껏 즐겨 주십시오」
+
+@se f=Move
+@fadeout
+
+　사장님이 공손하게 인사를 하자, 사쿠라는 가게 안으로 걸음을 옮겼다.
+

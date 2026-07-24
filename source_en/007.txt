@@ -1,0 +1,42 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+
+;;SAKURA rushes towards the business street after school, with many job leaflets in her hands.
+
+@mes_win back=1 pos=1
+\CL 『Staff Wanted!　1000 yen per hour! 』
+
+\CL 『Working time is at your option! 』
+@mes_win back=0 pos=2
+
+@huki b=8 wt=1
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA]「Bakery……」
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[SAKURA] (Compared with other store, only this bakery has the higher wage……) 
+
+@huki b=2
+@bs f=サクラ@考え中 op2=ハテナ
+[SAKURA] (Why?) 
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=r t=300
+
+@bs f=サクラ@無表情
+[SAKURA]「Anyway, I firstly go to ask.」
+@move_f f=サクラ@無表情 out=r t=300
+
+@dir dir=left
+@map_scroll dir=left dis=29 spd=6 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA] (That……walk along this road for a while to get there……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+@map_scroll dir=right dis=30 spd=7 wt=1
+
+

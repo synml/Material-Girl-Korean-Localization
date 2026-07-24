@@ -1,0 +1,52 @@
+
+;;【020_05ステージクリア.txt】
+
+;; Free action outside the building.
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@驚き in=r t=300
+[SAKURA]「ah ah ah ah ah! 　ha ah, ha ah, ha ah!」
+
+;; Unconscious SAKURA screamed and then got up.
+
+
+@bs f=サクラ@哀しみ
+[SAKURA] ( I………once again……) 
+
+[Researcher]「It is OK now. Game is over.」
+
+@bs f=サクラ@驚き_z body_op=z
+[SAKURA/skr1555]「ah!?」
+
+[Researcher]「Could I listen to your feeling?」
+
+@huki b=8
+@bs f=サクラ@羞恥_z body_op=z
+[SAKURA/skr1559]「Touched feeling……and…… other things are too realistic……very terrible」
+
+[Researcher]「Seemingly, you fit the VR world well. Be sure to experience the game again」
+
+[Researcher]「This is today’s salary」
+
+@bs f=サクラ@悔しい
+[SAKURA]「So much……thank you very much」
+
+[Researcher]「Because you have met many horrible things today」
+
+@huki b=8
+@bs f=サクラ@無表情
+[SAKURA/skr1564]「I'm gonna go now」
+
+[Researcher]「um. I will wait for you. Be sure to come again.」
+
+@bs f=サクラ@哀しみ
+[SAKURA/skr1565]「……Surely, I will come again if I am interested in it.」
+
+
+@move_f f=サクラ@哀しみ out=r t=300
+;; After that, SAKURA left the room.
+
+@se f=Move
+@fadeout
+

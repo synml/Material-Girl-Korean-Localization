@@ -1,0 +1,42 @@
+
+;;【022_03クラスメート本番.txt】
+
+;; SAKURA dialogues with the schoolmate in the classroom.
+
+;;@bgm f=bgm02
+
+[마에다]「저, 저기. 지금 시간 있어?」
+
+@huki b=2 wt=1
+@move_f f=サクラ@驚き in=r t=300
+[사쿠라]「마에다 군?　무슨 일이야?」
+
+;; Although MAEDA is her schoolmate, so far MAEDA never has greeted her.
+
+@huki id=15 b=8 wt=1
+[마에다]「그게……사쿠라, 그러니까……한 번 더 부탁하고 싶어서……」
+
+@bs f=サクラ@微笑
+[사쿠라]（후후, 또……나랑 하고 싶은 거구나）
+
+@bs f=サクラ@無表情_z body_op=z
+[사쿠라]「지금, 돈은 있고?」
+
+[마에다]「으, 응」
+
+@huki b=4
+@bs f=サクラ@微笑_z body_op=z
+[사쿠라]「그럼 호텔 가자」
+
+[마에다]「으, 응」
+
+@bs f=サクラ@無表情_z op2=赤面 body_op=z
+[사쿠라/skr1980]（쟤 자지, 벌써 커져 있잖아. 남자애란 건, 참 밝힌다니까）
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@se f=Move
+@fadeout
+
+　기대감에 그만 텐트를 치고 만 마에다를 보며 사쿠라는 어깨를 으쓱하고는, 학교를 나서 호텔로 향했다.
+

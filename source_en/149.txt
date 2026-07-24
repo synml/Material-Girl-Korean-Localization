@@ -1,0 +1,30 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;【024_03発生条件達成.txt】
+
+@bgm f=Dungeon3
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA] (earn 1,500,000 yen……I can not help but admire my ability to earn money) 
+
+@bs f=サクラ@哀しみ
+
+[SAKURA] (If I continue to ear money like this pace, I don’t worry about the college tuition……) 
+
+@huki b=8 wt=1
+
+[SAKURA] (As a reward, I should take out a little money to enjoy without any punishment.) 
+
+@bs f=サクラ@微笑
+
+[SAKURA] (Have a look at Host Club……) 
+
+@move_f f=サクラ@微笑 out=r t=300
+
+;; ○Options: Don't enter / Enter
+
+;;○Don't enter →024_04中に入らない
+
+;;○Enter →024_05中に入る
+

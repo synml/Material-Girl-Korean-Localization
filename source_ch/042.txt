@@ -1,0 +1,76 @@
+
+;;【009_02全ての素材を渡す.txt】
+
+@bgm f=Dungeon3
+@move_f f=サクラ@微笑 in=r t=300
+
+[小櫻]「牧岡。」
+
+[牧岡]「嗯？　小櫻同學。難不成你把素材全集齊了嗎？」
+
+@bs f=サクラ@笑み
+
+[小櫻]「嗯。麝香的提取物、肉豆蔻的粉末、還有苦艾對吧？」
+
+　小櫻把集齊的藥物交到了牧岡手上。
+
+@huki id=19 b=1 wt=1
+
+[牧岡]「哦哦！　全部找到了啊！　謝謝！　非常感謝！」
+
+@bs f=サクラ@笑み op2=音符
+
+@huki b=8 wt=1
+
+[小櫻]（既能拿到錢又能讓牧岡高興。不錯不錯。）
+
+@bs f=サクラ@微笑
+
+[牧岡]「這樣就可以做實驗了！」
+
+@route id=19 route=r wt=1
+@dir id=19 dir=u wt=1
+@wait t=500
+@se f=Open1
+
+@dir id=8 dir=l wt=1
+@wait t=50
+@dir id=8 dir=r wt=1
+@wait t=50
+@dir id=8 dir=u wt=1
+@wait t=1000
+
+@invisible id=19 type=on
+@wait t=1000
+@huki b=1 wt=1
+
+　得到素材的牧岡一頭扎進了理科實驗室。
+
+@bs f=サクラ@驚き_z body_op=z op2=ビックリ
+
+[小櫻]「啊！　牧岡！」
+
+@bs f=サクラ@哀しみ_z body_op=z op2=困惑
+
+@huki b=8 wt=1
+
+[小櫻]（他還、沒給我報酬來著……）
+
+　忘我進行實驗的牧岡、忘記了抽取社團費的一部分給小櫻作報酬的這件事。
+
+@bs f=サクラ@考え中
+@huki b=8 wt=1
+
+[小櫻]（時間還早……稍微等一下吧。）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+　一邊想著、小櫻一邊在外面等著他做完實驗。
+
+@through id=19 type=on
+@route route=r,u wt=1
+
+;;背景■暗転
+;;効果■時間経過
+@fade type=out t=2000 wt=1
+@wait t=1200

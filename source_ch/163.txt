@@ -1,0 +1,32 @@
+
+;;【024_14オーナーＨ後.txt】
+
+@change f=オーナー id=6 num=0
+@dir dir=down id=6
+
+@move_speed spd=9 id=6
+@route route=down id=6
+@move_speed spd=3 id=6
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[老板]「期待您的再次光臨」
+
+[小櫻/skr2401]「呵呵，老板，下回也要一起盡興哦?」
+
+@bs f=サクラ@笑み op2=音符
+
+[小櫻/skr2402]（和老板做愛，真舒服啊。快要終身難忘了?）
+
+[老板]「好的」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　沐浴在老板熱切得讓人迷失的視線里，小櫻攔下一輛出租車回家了
+
+;;過了幾天后，自由行動
+

@@ -1,0 +1,13 @@
+
+;;【009_02全ての素材を渡す.txt】
+
+@bgm f=Dungeon5
+
+　Second day――
+
+　SAKURA found MAKIOKA to ask him for the thing of yesterday…….
+
+　But MAKIOKA has sealed the drug, and said nothing……
+
+;; One day later, free action
+

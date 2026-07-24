@@ -1,0 +1,56 @@
+
+;;○勝利（レベル40）
+
+@flash t=500 wt=0
+@qk
+
+@huki b=7 wt=1 id=18
+
+;;@move_f f=須藤 face=0 in=l t=300 wt=0
+@move_f f=サクラ@考え中 in=r t=300
+
+[스도]「끄아아아아!?　마, 말도 안 돼……강력 프로틴까지 마셨는데 이기지 못하다니!?」
+
+@huki b=7 id=18
+[스도]「크으으……나의, 완패다……내가 졌다」
+
+@bs f=サクラ@無表情
+
+;; SUDOU knelt on the ground mopishly.
+;; ○Condition of event occurrence: Defeat LV.40 SUDOU
+
+@huki b=8 id=18
+[스도]「아무래도, 나는 생활지도 교사 자리에서 물러날 때가 온 모양이군……」
+
+@huki b=1 id=18 wt=1
+
+@bs f=サクラ@驚き op2=ビックリ
+;; SUDOU said and handed over the bamboo knife in his hands to SAKURA.
+
+@huki b=8 id=18 wt=1
+[스도]「이건, 역대 생활지도 교사들이 대대로 물려온 죽도다. 나를 쓰러뜨린 네가 다음 계승자다」
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]「……」
+
+@bs f=サクラ@無表情
+[사쿠라]（생활지도의 상징인 죽도……일단 받아두자）
+
+;;@move_f f=須藤 face=0 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@fade type=out t=1000 wt=0
+
+@move_speed spd=3
+@route route=left:2 id=18 wt=0
+@route route=up:4 wt=1
+@dir dir=right id=18
+
+@move_speed spd=4
+@bgm
+@bs
+
+　그날 이후, 생활지도 교사가 학생의 복장을 검사하는 교칙은 폐지되었다.
+
+;; ※After that, SUDOU-related plot will not be seen.

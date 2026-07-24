@@ -1,0 +1,22 @@
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SHIRASAWA]「Welcome」
+
+[KURODA]「To make you happy here, I will serve you sincerely」
+
+[AOKI]「Please advise」
+
+[Boss] Please enjoy yourself」
+
+@move_f f=サクラ@驚き out=r t=300
+
+;; ○Mini-game: Advanced Host Club
+;;○Branch: Within the limit time, no host reaches favorability of MAX →024_08 好感度未達成
+;;○Branch: Favorability is MAX→024_09好感度達成
+
+@fade type=out t=1000 wt=1
+@invisible type=on id=7
+@dot_move x=4 y=4 dir=down
+
+

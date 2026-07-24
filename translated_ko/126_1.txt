@@ -1,0 +1,6 @@
+
+;;【021_04サラリーマンフェラ.txt】
+
+;; SAKURA dialogued with the staff in front of company.
+@invisible type=on id=101
+

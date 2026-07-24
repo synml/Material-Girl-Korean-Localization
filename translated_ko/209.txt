@@ -1,0 +1,15 @@
+
+;;【021_01売春①.txt】
+
+;; When the lascivious degree is above 40, the plot will be triggered in the morning of next day.
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]「미용실이라——……」
+
+@bs f=サクラ@哀しみ
+[사쿠라]（……아쉽지만, 지금은 함부로 쓸 여윳돈이 없단 말이지）
+
+@bs f=サクラ@考え中
+[사쿠라]（좀 더 기다렸다가, 주머니 사정이 넉넉해지면 다시 오자）
+@move_f f=サクラ@考え中 out=r t=300
+

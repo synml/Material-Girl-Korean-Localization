@@ -1,0 +1,20 @@
+
+;;【022_04新婚サラリーマン本番.txt】
+
+;; SAKURA dialogues with the newly-married staff.
+
+;;@bgm f=bgm02
+
+　SAKURA dragged that man’s wrist to move towards the hotel.
+
+@move_f f=サクラ@笑み in=r t=300
+
+[SAKURA/skr2055]「ho ho, you also want to make love with me ♪」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@dot_move x=1 y=4 dir=up id=3
+@change f=サラリーマン num=0 id=3
+@fade type=in t=1000 wt=1
+
+

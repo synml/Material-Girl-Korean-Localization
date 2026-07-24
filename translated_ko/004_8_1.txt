@@ -1,0 +1,5 @@
+
+
+@map_scroll dir=up dis=3 spd=5
+@map_scroll dir=right dis=15 spd=6
+

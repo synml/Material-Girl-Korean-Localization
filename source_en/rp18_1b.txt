@@ -1,0 +1,44 @@
+
+;; Common for mature uncle
+
+;; Reading the image in advance
+@fadeout
+@pl f=S_ev18b
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm06
+
+;;ＣＧ■CG18b
+;;@bgf bg=ev18b t=1000
+
+@flash t=500
+@ev_anime f=S_ev18b sx=8 sy=2 fps=3
+
+@bgs f=aegi_skr4
+@se f=ピストン_激しい l=1
+
+[SAKURA/skr2127]「Uncle! Uncle! I’m having an orgasm! Ahhh!」
+
+[Man]「Whirr.......!」
+
+@se
+@bgs
+;;ＣＧ■CG18c
+@fin bg=ev18c se=射精音
+
+[SAKURA/skr2128]「Hum! Ahhhh! I cannot help having an orgasm.......Eh! Eh! Ahhhhh! Eh! Eh! Ahhhhh!」
+
+[Man]「Ahh, ahh, you are so perfect today, SAKURA!」
+
+@bgs f=aegi_skr1
+
+[SAKURA/skr2129]「So do you.......Ahh.......Uh-huh, so great.......Ah!」
+
+　SAKURA had an orgasm with whole body sweat in the joy of being full of sperms.
+
+@bgs
+@rps
+

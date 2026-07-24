@@ -1,0 +1,10 @@
+
+
+@move_f f=サクラ@考え中in=r t=300
+[小櫻]（我去三樓也沒什么要緊事、趕快去教室吧……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+

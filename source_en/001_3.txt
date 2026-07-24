@@ -1,0 +1,10 @@
+
+;;【001_01プロローグ.txt】
+
+@huki id=30 b=8
+[Boy Student]「The appearance is also an important thing.」
+
+@huki id=30 b=6
+[Boy Student]「Even so, \C[2] I have thought that \C[0] SUDOU teacher has some ulterior motives……」
+
+

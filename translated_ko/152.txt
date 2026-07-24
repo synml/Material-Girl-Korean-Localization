@@ -1,0 +1,35 @@
+
+;; Move to the front of mansion. Restore free action
+
+
+;;【024_06aゴージャスな服購入.txt】
+
+;; When the flag for purchasing the deluxe dress is ON, SAKURA enters the clothes store.
+
+@fade type=in t=1000 wt=1
+
+@huki b=2 id=4
+[가게 주인]「손님, 어떤 옷을 찾으시나요?」
+
+@huki b=8
+@move_f f=サクラ@微笑 in=r t=300
+[사쿠라]「화려한 옷을 사고 싶어요. 고급 호스트클럽에 들어갈 수 있을 만한 걸로……」
+
+@huki b=2 id=4
+[가게 주인]「알겠습니다. 예산은 어느 정도이신가요……?」
+
+@bs f=サクラ@笑み
+[사쿠라]「대략 100만 엔 정도요」
+
+@bs f=サクラ@微笑
+[사쿠라]（그 가게에 들어가려면 최소한 이 정도는 필요하겠지）
+
+@huki b=1 id=4
+[가게 주인]「100만 엔이요!?　알겠습니다. 잠시만 기다려 주십시오……」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=1000 wt=1
+@se f=Move1
+@wait t=1800
+

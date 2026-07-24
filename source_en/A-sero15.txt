@@ -1,0 +1,107 @@
+;;▼ Izakaya: A sexual harrasment will occur by talking to any drunken man.
+;;　　　　　An oral sex or sexual intercourse will occur if the carnality is high.
+
+@huki b=2
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA]（I wanna go to a toilet……but I don't know where it is）
+
+@bs f=サクラ@無表情
+
+[SAKURA]「Excuse me, could you tell me where is a toilet?」
+
+[Man]「Toilet? Why going to a toilet, drink with me! Come this way.」
+
+@bs f=サクラ@驚き_z body_op=z
+
+[SAKURA]「Hey, don't drag me! I want to go to a toilet……」
+
+[Man]「Heyhe, your figure is so attractive♪　It must be wonderful to hug you」
+
+@fb dir=back
+@move_f f=サクラ@驚き out=r t=100
+
+@wait t=300
+
+@dir dir=down
+@move_f f=サクラ@怒り in=r t=300
+
+[SAKURA]「It must be wonderful to hug me? Are you kidding! What the hell is the drunken man doing……」
+
+@move_f f=サクラ@怒り out=r t=300
+
+
+;;Conditional branch
+@if eval=v(32)>=50 ok=jump:*tev02 bad=jump:*tev01
+
+;;Branch: no erotic event
+*tev01
+@end
+
+;;Branch: an erotic event is triggered
+*tev02
+;;Moves to the part behind a toilet
+
+@bgm_save
+@bgm f=bgm14
+
+@fadeout t=1000 wt=1
+@bs
+@move_f f=black face=0 in=c t=150
+@wait t=1000
+@se f=ドアを閉める音
+@fadein t=1000 wt=1
+
+[SAKURA]「It seems to be a common toilet for both men and women. I must lock the door……」
+
+@se f=ドアの開く音2
+
+[Man]「Hey, you are the sister I saw just now? You have been here waiting for me already.」
+
+@se f=衣擦れの音4
+
+[SAKURA]「Wait……why are you here!?」
+
+@se f=チャックを下ろす音２
+
+[Man]「Sorry for keeping you waiting, I will give you what you want right now……」
+
+[SAKURA]「No! I don't want your anything……do not insert it!」
+
+[Man]「Look, it has been so hard. You can suck it with your cute mouth now」
+
+@move_f f=A-cut_sev07-1 face=0 in=c t=150
+
+[SAKURA「No…no……o, ooo, ooooo……！！」
+
+[Man]「Oh oh oh……！　Your tongue has come here, it looks like you enjoy it very much」
+
+[SAKURA]「Of course not……I……o, chuchu o, gu chuchu, chuchu pu, chuchu」
+
+[SAKURA]（Ah ah……I am reluctant ……but……it is so rigid……）
+
+[Man]「Ok, I eject it and you must swallow all of it!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev07-2 face=0
+
+
+[SAKURA]「O, hu o……o o o o !!　O……hu o…chuchuchuchu…」
+
+[SAKURA]「Chuchu……pu ah！　Ha ah……ha ah ah ah……ha ah……」
+
+@fadeout t=1000 wt=1
+@bs
+
+[Man]「So comfortable. I will help you if you need to have sex next time」
+
+@bgm
+@bgm_replay
+
+@wait t=2000

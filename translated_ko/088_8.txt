@@ -1,0 +1,30 @@
+
+@fade type=in t=1000 wt=1
+
+@huki id=3 b=3 wt=q
+
+[사장님]「어머, 또 와줬구나」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+@dir dir=l wt=1
+
+[사쿠라]「오늘도 잘 부탁드려요」
+
+@huki id=3 b=3 wt=q
+[사장님]「자, 얼른 가서 돈 벌어 오렴♪」
+
+[사장님]「그런 가슴을 가졌으면, 어떤 손님이든 식은 죽 먹기란다♪」
+
+@bs f=サクラ@無表情
+
+@huki b=3 wt=1
+
+[사쿠라]「다, 다녀오겠습니다」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout
+
+;; Under the boss’s encouragement, SAKURA entered the store via Waiting Room.
+

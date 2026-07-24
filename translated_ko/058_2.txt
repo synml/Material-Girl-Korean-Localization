@@ -1,0 +1,53 @@
+
+@dot_move id=101 x=9 y=10 dir=down
+@dot_move id=102 x=9 y=12 dir=up
+@dot_move id=103 x=12 y=9 dir=left
+@dot_move id=104 x=10 y=14 dir=up
+
+@change id=101 f=須東
+@change id=102 f=司_体操服
+@change id=103 f=男子学生01_体操服
+@change id=104 f=女子学生01_体操服
+
+@invisible id=5 type=on
+
+@fade type=in t=1000 wt=1
+
+@huki b=2 id=101
+[스도]「너희들, 뜀틀은 제대로 다 뛰었겠지?」
+
+@huki b=6 id=103
+[남학생1]「네……스도 선생님」
+
+@huki b=7
+@move_f f=サクラ@哀しみ_頬 in=r t=300
+[사쿠라/skr0804]（다들, 시선이……）
+
+　두 사람 사이에 무슨 일이 있었는지 알기라도 하는 듯, 반 아이들 모두의 시선이 사쿠라에게 쏠렸다.
+
+@huki b=8 id=101
+[스도]「좋아. 오늘 수업은 여기까지. 해산」
+
+@route route=right:15,down:100 id=101 wt=0
+@wait t=500
+
+@move_speed spd=5 id=102
+
+@route route=up:2 id=102
+@huki b=8 wt=1 id=102
+
+@huki b=2 id=102
+[츠카사]「사쿠라, 괜찮아?」
+
+　 츠카사가 걱정스러운 얼굴로 사쿠라의 안부를 물었다――
+
+@huki b=7
+@bs f=サクラ@悔しい_頬
+[사쿠라/skr0805]「괜찮아……아무 일도 없었어」
+
+@fade type=out t=1000 wt=1
+　사쿠라는 힘없이 미소 지으며 츠카사의 물음에 답하고는, 무거운 발걸음으로 체육관을 떠났다.
+
+@move_f f=サクラ@悔しい_頬 out=r t=300
+@bs
+

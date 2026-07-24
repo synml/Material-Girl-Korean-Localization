@@ -1,0 +1,64 @@
+;;▼Happy Street_Lane: If I walk by showing my back to a suspicious man, he will make a sneak attack from the back to rape me. 
+@huki b=2
+@move_f f=サクラ@哀しみ in=r t=300
+
+[사쿠라]「여긴 좀 위험한 느낌이야. 조심해야겠어……」
+
+@se f=壁当たり
+@move_f f=black face=0 in=c t=150
+
+[사쿠라]「앗, 꺄앗!?」
+
+@bgm_save
+@bgm f=bgm14
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune face=0 in=c t=150 h=1
+
+[남자]「안녕, 아가씨. 몸매가 아주 끝내주는걸.　성욕을 풀 데가 없어 보이는데 말이야」
+
+[사쿠라]「꺄앗, 그만하세요!　놓으라고요!　꺄앗, 주무르면 안 돼……앗, 꺄앗, 주물럭거리지 마……」
+
+[남자]「후후……입으로는 싫다면서, 몸은 아주 솔직하잖아!」
+
+@se f=服を脱ぐ音3
+
+[사쿠라]「꺄앗……싫어…옷 벗기지 마!……아앙!」
+
+@se f=挿入音
+@move_f f=A-cut_sev05-1 face=0 in=c t=150
+
+[사쿠라]「……아아아앗!　……싫어……갑자기 넣어버리다니……」
+
+@se f=ピストン_高速
+
+[남자]「네 거긴 전희도 필요 없을 만큼 흠뻑 젖었잖아!　자, 자, 자!」
+
+[사쿠라]「아아앙!!　그렇게 굵은 걸로…!」
+
+[남자]「큭!　이렇게 조여오다니……이제 싼다!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev05-2 face=0
+
+[사쿠라]「싫어!　아아아아아아앙!!」
+
+[사쿠라]「최악이야……안이 가득 찰 만큼……싸버려서, 흘러넘치고 있어……아아아……」
+
+@fadeout t=1000 wt=1
+
+@bgm
+@bgm_replay
+
+@bs
+
+
+

@@ -1,0 +1,13 @@
+
+;;【016_05バイトする.txt】
+
+@huki b=1 id=3
+[Store Manager] 「oh oh! 　Do you want to work here! 　Too great!　A big help You are responsible for reception desk.」
+
+@huki b=3 id=3
+[Store Manager] 「\C[2] although we don’t be too anxious \C[0], however\C[2] we can’t let guests wait too long \C[0]. However, this is a hard thing. Take it easy.」
+
+@move_f f=サクラ@無表情 out=l t=300
+;; ○Mini-game: Cashier desk reception
+
+@fade type=out t=1000 wt=1

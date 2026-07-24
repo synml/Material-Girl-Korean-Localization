@@ -1,0 +1,40 @@
+[SUDOU]「Come in.」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr0812]「……I am sorry to interrupt you.」
+
+[SUDOU]「Firstly, change this suit.」
+
+@route route=u:4 wt=0
+@route id=3 route=r,u:2 wt=1
+@dir dir=r wt=0
+@dir id=3 dir=l wt=1
+@wait t=1000
+
+@bs f=サクラ@驚き_z body_op=z op2=ビックリ
+
+[SAKURA/skr0813] (gym suit……!?) 
+
+@bs f=サクラ@驚き
+
+[SAKURA/skr0814]「Why, why shall I put on the gym suit?……」
+
+[SUDOU]「You in the gym suit are the most beautiful. Put on the gym suit」
+
+@bs f=サクラ@哀しみ
+@huki b=8 wt=1
+
+[SAKURA/skr0815]「…… I……know……」
+
+[SUDOU]「coo coo, looking at the student’s changing clothes is also the teacher’s privilege.」
+
+@bs f=サクラ@羞恥
+
+[SAKURA/skr0816] (All is seen……be sure to change clothes quickly……) 
+
+@move_f f=サクラ@羞恥 out=r t=300
+
+@fadeout
+
+　Enduring the insult that her underwear is seen, SAKURA changed that gym suit.

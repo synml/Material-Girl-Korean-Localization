@@ -1,0 +1,5 @@
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA]「…… I remember that seemingly we have to put on the gym suit……I shall wear a gym suit now.」
+@move_f f=サクラ@考え中 out=r t=300
+

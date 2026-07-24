@@ -1,0 +1,12 @@
+
+;;【016_01パン屋.txt】
+
+;; Dialogue with the store manager
+
+@huki b=8
+@move_f f=サクラ@無表情 in=l t=300
+[SAKURA]「Hello!」
+
+;; Without a work uniform→016_02バイト服を着ていない
+;; With a work uniform→016_03バイト服を着ている
+

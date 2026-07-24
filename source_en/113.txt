@@ -1,0 +1,98 @@
+
+;;【020_05ステージクリア.txt】
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@驚き in=r t=300
+
+[SAKURA/skr1621]「woo……woo woo woo……ah ah!?」
+
+@bs f=サクラ@哀しみ
+
+@huki b=1 wt=1
+
+[SAKURA/skr1622]「I, I……」
+
+@wait t=1000
+
+[Researcher]「You have not waken up. I worry about you so much.」
+
+@dir dir=d wt=1
+@huki b=8 wt=1
+
+@bs f=サクラ@哀しみ op2=汗
+
+[SAKURA/skr1623] (After I……was rapped by Zombie……was I out of consciousness……?) 
+
+@huki id=3 b=2 wt=1
+
+[Researcher]「How do you feel this game? 　 I want to listen to your opinions on this game.」
+
+@huki b=1 wt=1
+@dir dir=r wt=1
+
+@bs f=サクラ@羞恥
+
+[SAKURA/skr1624]「that, that……if this game is marketed……such thing raped by Zombie……」
+
+@bs f=サクラ@羞恥 op2=赤面
+
+[SAKURA/skr1625]「I, I don’t think it is necessary……」
+
+@bs f=サクラ@羞恥 op2=困惑
+
+@wait t=1000
+
+[SAKURA/skr1626] (Raped……climax……too shameful……) 
+
+[Researcher]「The degree of virtualization into reality is a link that this experiment needs to determine. 」
+
+[Researcher]「Of course, the function of rape will be deleted at the time of marketing.」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1627]「I see……」
+
+[Researcher]「 This function only exists in current version. I hope that you can continue to play next time.」
+
+@huki b=8 wt=1
+
+[SAKURA/skr1628]「……I have been hurt……I can’t guarantee I can continue.」
+
+[Researcher]「well……next time, I pay you more salary」
+
+[Researcher]「If you are interested in it, you may find me at any time.」
+
+@huki b=8 wt=1
+@dir dir=d wt=1
+
+@bs f=サクラ@考え中
+
+[SAKURA/skr1629] (If you are able to pay more salary……maybe I can come here again……) 
+
+[SAKURA/skr1630] (Anyway, I have not really been raped……) 
+
+[SAKURA/skr1631] (Moreover……the experience in this game……) 
+
+@bs f=サクラ@羞恥
+
+@huki b=8 wt=1
+
+[SAKURA/skr1632] ( I……felt excited somewhat……) 
+
+@dir dir=r wt=1
+@wait t=500
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1633]「……I’m gonna……go now.」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@se f=Move
+@fadeout
+
+　SAKURA greeted that man, and then left the room.
+
+;; Free action outside the building.
+

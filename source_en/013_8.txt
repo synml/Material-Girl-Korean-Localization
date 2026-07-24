@@ -1,0 +1,36 @@
+
+;;【002_05次の日.txt】
+
+;; Effect ■ time change
+@bs
+@move_f f=サクラ@考え中 body=パジャマ in=r t=100
+@fade type=in t=1000 wt=1
+
+[SAKURA]「……I have to pay electric charge today」
+
+@bgm_save
+@bgm
+
+@fade type=out t=1000 wt=1
+@bs
+
+@se f=Coin
+@mes_win back=1 pos=1
+\CL paid 15,000 yen……
+@mes_win back=0 pos=2
+
+@dot_move x=19 y=4
+@bgm_playe
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA]「Thanks to my job, I finally earned electric charge」
+
+@bs f=サクラ@哀しみ
+[SAKURA]「However, I have to earn house rent……」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@fade type=out t=1000 wt=1
+;; Prologue ends
+

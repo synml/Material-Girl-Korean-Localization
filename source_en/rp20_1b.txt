@@ -1,0 +1,27 @@
+
+;;【024_15ホストＨ(汎用).txt】
+
+;; Common for starring
+
+@bgm f=bgm05
+
+;;ＣＧ■CG20c
+@bgf bg=ev20c t=1000
+@bgs f=aegi_skr4
+@se f=ピストン_激しい l=1
+
+[SHIRASAWA]「I’m getting there! Ahh! I’m ejaculating, Master SAKURA!」
+
+[SAKURA/skr2403]「Hum Hum♪ Hum, whir♪」
+
+@se
+;;ＣＧ■CG20d
+@fin bg=ev20d se=射精音
+@bgs f=aegi_skr1
+
+[SAKURA/skr2404]「Ah, whir♪ I’m getting there♪ Giant penis, ah, hum, is ejaculating♪」
+
+[SAKURA/skr2405]「You ejaculate so much sperms today♪」
+
+@bgs
+@rps

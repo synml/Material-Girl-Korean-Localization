@@ -1,0 +1,10 @@
+
+
+@move_f f=サクラ@考え中in=r t=300
+[SAKURA] (It’s nothing important in the third floor. I shall go to classroom in a hurry……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+

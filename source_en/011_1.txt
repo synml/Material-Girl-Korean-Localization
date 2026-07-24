@@ -1,0 +1,190 @@
+
+;;【002_04司の家のピンポンを鳴らす.txt】
+
+;; SAKURA comes to TSUKASA’s home and rings the doorbell.
+
+@c_jump id=101 y=24 x=12
+@dir dir=down id=101
+@change f=司 id=101
+
+@c_jump id=102 y=17 x=12
+@c_jump id=103 y=3 x=18
+@dir dir=down id=102
+@dir dir=up id=103
+@change f=司_母 id=102
+@invisible type=on
+
+@fade type=in t=1000 wt=1
+
+@se f=Move1
+@invisible type=off
+
+@wait t=100
+@move_speed spd=3
+@route route=up:2
+@dir dir=up id=101
+
+@move_speed spd=4
+
+@huki b=8
+@map_scroll dir=up dis=3 spd=4
+
+;;--------------------------------------------
+
+@huki b=8 id=102
+[TSUKASA's Mother]「You're back, AKURA」
+
+@huki b=8
+@move_f f=サクラ@哀しみ in=r t=300
+[SAKURA]「Aunt, I have been eating in your home recently. I'm sorry to trouble you……」
+
+@huki b=3 id=102
+[TSUKASA's Mother]「We are neighbors. Don't be too polite. I have been viewing SAKURA as my daughter.」
+
+@huki b=8
+@bs f=サクラ@無表情
+[SAKURA] (My aunt is gentle as always. Each time when I chat with my aunt, I feel warm in my heart.) 
+
+@huki b=8 wt=1
+
+;;@move_f f=司 in=l t=300 wt=0
+@bs f=サクラ@微笑
+[SAKURA] (TSUKASA’s gentle character must be inherited from my aunt.) 
+
+@huki b=8 id=102
+[TSUKASA's Mother]「After a while, dinner will be ready. Wait a moment」
+
+@huki b=8
+@bs f=サクラ@笑み
+[SAKURA]「OK」
+@move_f f=サクラ笑み out=r t=300
+
+@map_scroll dir=down dis=3 spd=4
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@huki b=1
+@bs f=サクラ@驚き op2=ビックリ
+[SAKURA] ( ah, I should help my aunt now) 
+@move_f f=サクラ@驚き out=r t=300
+
+@map_scroll dir=up dis=3 spd=4
+
+@huki b=2
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+[SAKURA]「Aunt, do you need my help?」
+
+@huki b=3 id=102
+[TSUKASA's Mother]「No, thanks. In aunt’s home, SAKURA should play freely.」
+
+@huki b=8
+@bs f=サクラ@微笑
+[SAKURA]「I got it. If you need my help, just call me」
+
+@huki b=3 id=102
+[TSUKASA's Mother]「Thanks～」
+
+@move_f f=サクラ@微笑 out=r t=300
+@route route=up:11,right:7,up:2 id=102 wt=0
+@map_scroll dir=down dis=3 spd=4
+
+@fade type=out t=1000 wt=0
+
+@huki b=8
+@route route=up id=101 wt=1
+@bgm_save
+@bgm
+
+@wait t=1200
+
+@invisible id=102 type=on
+@change f=司_母 id=103
+
+@c_jump x=-2 y=-15 id=101 wt=0
+@c_jump x=-3 y=-19
+
+@dir dir=down wt=0
+@dir dir=up id=101
+
+@bgm_replay
+@huki b=8
+@huki b=8 id=101
+@fade type=in t=1000 wt=1
+
+;;@move_f f=司 in=l t=300
+@huki b=2 id=101
+[TSUKASA]「SAKURA, previously you have told us that you are looking for a job, do you find a job?」
+
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA]「um. I have found a job. Work in a bakery」
+
+@huki b=8 id=101
+[TSUKASA]「ay, well. You will work there in the future, won’t you?」
+
+@bs f=サクラ@考え中
+[SAKURA]「Undetermined……I will continue to find a new job」
+
+@huki b=8 id=101
+[TSUKASA]「oh oh. SAKURA. If you meet any difficulties, you must tell me.」
+
+@huki b=11 id=101
+[TSUKASA]「For SAKURA, I am willing to do everything!」
+
+;; TSUKASA shyly turned red when TSUKASA professed his true feelings to SAKURA.
+
+@bs f=サクラ@微笑 in=r t=300
+[SAKURA]「Thanks. However, I have no difficulties.」
+
+@huki b=8 id=101
+[TSUKASA]「ah, um……well……」
+
+@bs f=サクラ@哀しみ
+[SAKURA] (Although TSUKASA has been taking good care of me, I don’t want to cause him too much trouble……) 
+
+@bs f=サクラ@考え中
+[SAKURA] ( However, I appreciate her kindness.) 
+
+@bs f=サクラ@考え中
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[SAKURA] (ah?　TSUKASA looks disappointed somewhat.　What's the matter with him?) 
+;;@move_f f=司 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8 id=103
+@dir dir=down id=103
+
+@dir dir=right
+@map_scroll dir=right dis=6 spd=6
+
+[TSUKASA's Mother]「TSUKASA～, SAKURA, let's have a meal～」
+
+@move_f f=サクラ@笑み in=r t=300
+[SAKURA] (So delicious what are today’s jardinieres～) 
+@move_f f=サクラ@笑み out=r t=300
+
+@map_scroll dir=left dis=6 spd=6
+@dir dir=down
+
+;;@move_f f=司 in=l t=300 wt=0
+@move_f f=サクラ@微笑 in=r t=300
+[SAKURA]「Let’s go, TSUKASA」
+@move_f f=サクラ@微笑 out=r t=300
+
+@huki b=7 id=101
+[TSUKASA] (ha ah ah……SAKURA has no feeling for me……) 
+;;@move_f f=司 out=l t=300 wt=0
+
+;; Disappointed TSUKASA moves towards the kitchen listlessly.
+
+@fade type=out t=1000
+@invisible id=102 type=off
+@invisible id=103 type=on
+@change f=void id=103
+@bgm_save
+@bgm
+
+

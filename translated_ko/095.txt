@@ -1,0 +1,44 @@
+
+;;【019_02止めておく.txt】
+
+@bgm f=Dungeon5
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[사쿠라]（역시 관두자）
+
+;;@dir dir=l wt=1
+;;@wait t=1000
+
+@bs f=サクラ@哀しみ
+
+[사쿠라]「미안해요. 오늘은 시간이 없어서」
+
+@huki id=25 b=7 wt=1
+[양아치남1]「에～～, 아쉽네」
+
+[양아치남2]「우린 보통 이 근처를 어슬렁거리고 있으니까. 붙어보고 싶어지면 언제든 찾아와」
+
+[양아치남1]「기다리고 있을게～」
+
+;;@move_speed spd=3
+;;@route route=up wt=1
+;;@move_speed spd=4
+
+@huki b=8
+;;@bs f=サクラ@無表情
+;; [SAKURA] (Go……) 
+@move_f f=サクラ@哀しみ out=r t=300
+
+@se f=Move
+@fadeout
+@dot_move id=25 x=6 y=6 dir=down
+@dir dir=up id=35
+
+;; SAKURA left here quickly.
+
+;; As long as SAKURA dialogues with men, the above options will appear.
+;; Free action
+

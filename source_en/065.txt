@@ -1,0 +1,90 @@
+
+;;【014_01告白・司.txt】
+;;【014_03断る.txt】
+
+@bgm f=Dungeon5
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA] (To be TSUKASA’s girlfriend?……) 
+
+@bs f=サクラ@哀しみ op2=困惑
+
+[SAKURA] (I never have thought about such thing, and also can’t image the subsequent result……) 
+
+@huki b=8 wt=1
+
+[SAKURA] (TSUKASA is my most important childhood sweetheart. Although I have been cared by him……) 
+
+@bs f=サクラ@考え中
+
+[SAKURA] (I never have viewed him……as my boyfriend……at most, as a younger brother……) 
+
+@bs f=サクラ@哀しみ op2=拒否
+
+@huki b=8 wt=1
+
+[SAKURA]「TSUKASA……sorry.」
+
+@huki id=4 b=1 wt=1
+
+[TSUKASA]「woo woo woo!」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA]「 I have been viewed TSUKASA as an opposite sex……we should remain childhood sweetheart relationship.」
+
+[TSUKASA]「Does SAKURA have……boyfriend……?」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「No. I have no boyfriend.」
+
+[TSUKASA]「That is to say, I still have a chance!?」
+
+[TSUKASA]「I will try to be SAKURA’s favorite boy student!」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA]「That……」
+
+[TSUKASA]「Be sure to wait for me, SAKURA. I am sure to grow into SAKURA’s favorite boy student!」
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA]「…… ah, um.」
+
+@bs f=サクラ@哀しみ op2=汗
+
+[SAKURA] (I am afraid that……I can’t view TSUKASA as a boyfriend……) 
+
+@bs f=サクラ@哀しみ
+
+[SAKURA] (However, I’d better not say that now……) 
+
+@huki id=4 b=1 wt=1
+
+[TSUKASA]「Okay! 　I must cheer myself up!」
+
+　In view of TSUKASA’s rising mood, SAKURA decides to hide truth.
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@wait t=1200
+@se f=Saint7
+
+　Hence, SAKURA and TSUKASA become forever childhood sweetheart! 　(interpretation: forever friend relationship ♪) 
+
+;;背景■暗転
+@rps
+
+;;Free action (after that, only through reading the file to re-select the ending can TSUKASA’s ending be seen.)
+
+;;【015_01エンド・司.txt】
+

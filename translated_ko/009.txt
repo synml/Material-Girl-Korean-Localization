@@ -1,0 +1,103 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+
+@bgm
+@huki b=1 id=3 wt=1
+
+@bgm f=bgm05
+
+;; Put out the bakery uniform’s picture
+
+@huki b=4 id=3
+@huki b=8 wt=1
+
+@ev f=サクラ@パン屋制服_全体 opacity=0 dec=1
+@move f=サクラ@パン屋制服_全体 opa=0 x=0 y=500 h=60 w=60 t=100 wt=1
+@wait t=100
+@move f=サクラ@パン屋制服_全体 opa=255 x=0 y=400 h=60 w=60 t=400 wt=1
+@wait t=500
+
+@move f=サクラ@パン屋制服_全体 opa=255 x=0 y=-1000 h=100 w=100 t=1000 wt=1
+@wait t=400
+@move f=サクラ@パン屋制服_全体 opa=255 x=0 y=1000 h=100 w=100 t=2000 wt=1
+@wait t=1000
+
+@move f=サクラ@パン屋制服_全体 opa=0 x=0 y=1000 h=100 w=100 t=300 wt=1
+@ev
+
+@huki b=1 id=3
+@huki b=8
+@c_jump id=3
+
+;;@move_f f=パン屋 in=r t=300 wt=0
+@move_f f=サクラ@考え中 in=l t=300
+[점장]「오오오오!　끝내주는구먼!　이 유니폼, 아가씨한테 딱 맞춰 지은 것 같소!」
+
+@huki b=6
+@bs f=サクラ@哀しみ op2=汗
+[사쿠라]「가, 감사합니다……」
+
+@bs f=サクラ@微笑_頬 op2=困惑
+[사쿠라]（좀 부끄럽긴 한데…… 그래도 칭찬받아서 나쁠 건 없지）
+
+@huki b=1 id=3
+[점장]「좋아!　채용이오!　부디 우리 가게에서 일해 주시오!」
+
+;; The store manager seemingly fears that SAKURA in the uniform will be robbed, he made a decision to hire SAKURA right away.
+
+@bs f=サクラ@驚き op2=ビックリ
+@huki b=1 wt=1
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[사쿠라]「저기…… 여기서 일할지는, 아직 결정 안 했는데요……」
+@move_f f=パン屋 out t=r t=300 wt=0
+@move_f f=サクラ@悔しい out=l t=300
+
+@huki b=8 id=3
+@huki b=6 wt=1
+
+@huki b=9 id=3
+@huki b=2 wt=1
+
+;;p@move_f f=パン屋 in=r t=300 wt=0
+@move_f f=サクラ@悔しい op2=汗 in=l t=300
+[점장]「오고 싶을 때 아무 때나 오면 되오. 그럼 문제없지 않겠소?」
+
+[점장]「방과 후에 한두 시간만 해도 좋소. ……어떻소?」
+
+@bs f=サクラ@悔しい
+[사쿠라]（이보다 나은 일자리를 찾을 수 있을지 어떨지도 모르겠고……）
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라]（어차피 점장님도 아무 때나 와도 된다고 했으니까……）
+
+@bs f=サクラ@考え中
+[사쿠라]（안 되면 다른 일을 찾아보면 되고…… 여기 시급도 높고……）
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]「그럼 앞으로, 잘 부탁드립니다」
+
+@c_jump id=3 wt=0
+@huki b=1 id=3 wt=1
+
+@huki b=3 id=3
+[점장]「그럼 결정이오!　이 유니폼은 가져가시오」
+
+@huki b=8 id=3
+[점장]「알바하러 오고 싶을 땐, 그 옷을 입고 오면 되오」
+
+@huki b=3 id=3
+[점장]「나야 뭐, 아가씨가 매일같이 와 줬으면 좋겠소만」
+
+;;@move_f f=パン屋 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+
+@fade type=out t=1000
+@move_speed spd=4
+@bg
+
+

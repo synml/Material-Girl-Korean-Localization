@@ -1,0 +1,103 @@
+
+;;【019_01飲み勝負.txt】
+
+;; SAKURA was accosted when she passed by beverage store. 
+
+@dir_fix id=25 type=off
+@dir_fix id=35 type=off
+
+@dir dir=right id=25
+@dir dir=right id=35
+
+@fade type=in t=1000 wt=1
+
+@move_speed spd=2
+@route route=up
+@move_speed spd=4
+
+@huki id=25 b=3 wt=1
+[양아치남1]「어이어이, 거기 귀여운 아가씨」
+
+@dir dir=left
+
+@huki id=35 b=3 wt=1
+[양아치남2]「우리랑 같이 놀러 안 갈래?」
+
+@huki b=7
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]（하아아……헌팅이야……?）
+
+;; Looking at these frivolous men, SAKURA gave a long sigh helplessly.
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라]「미안해요. 지금 알바 가는 길이라……」
+
+@dir dir=up
+
+@bs f=サクラ@悔しい
+[사쿠라]（헌팅남이랑 같이 갈 생각은 없거든）
+
+@move_speed spd=2
+@move_speed spd=6 id=25
+@route route=right:3,up:3,right,down id=25 wt=0
+@route route=up wt=1
+@move_speed spd=4
+
+@huki b=3 id=25
+@c_jump id=25
+@bs f=サクラ@悔しい op2=汗
+@huki b=6
+
+[양아치남1]「잠깐 잠깐～. 돈이 궁했던 거야?　힘들게 알바 뛰는 것보다 훨씬 편하게 버는 방법이 있다구」
+
+[양아치남2]「이 가게에서 말이야, 우리랑 술 마시기 시합 한판 어때?」
+
+[양아치남1]「네가 이기면 상금을 받을 수 있다구?」
+
+@bs f=サクラ@驚き_z body_op=z
+@huki b=2
+
+[사쿠라]「상금……?」
+
+@huki id=35 b=1
+[양아치남2]「아하!　관심 생겼지?　봐봐, 이 가게에 붙은 안내문」
+
+@bs f=サクラ@無表情_z body_op=z
+
+[사쿠라]（술 마시기 시합……?　시합에서 이기면 가게에서 상금을 준다……）
+
+[사쿠라]（그리고 진 쪽은, 시합에서 마신 술값을 부담해야 한다……）
+
+@bs f=サクラ@考え中
+
+@huki b=7 wt=1
+
+[사쿠라]（이기기만 하면 되지만……지면 술값을 물어야 하잖아……）
+
+@huki id=25 b=8 wt=1
+
+[양아치남1]「우리는 이기든 지든 돈은 낼 거니까」
+
+[양아치남2]「맞아 맞아. 네가 이기면 가게 상금까지 챙길 수 있으니, 괜찮은 장사지?」
+
+@bs f=サクラ@無表情
+
+@huki b=7 wt=1
+
+[사쿠라]（그런 거라면 확실히 조건은 나쁘지 않은데……）
+
+@bs f=サクラ@考え中
+
+@huki b=7 wt=1
+
+[사쿠라]（하지만, 술 마시기 시합 같은 건 한 번도 해본 적 없는데……어떡하지……）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: Don’t compete / Compete
+
+;;○Don’t compete →019_02止めておく
+
+;;○Compete →019_03勝負する
+

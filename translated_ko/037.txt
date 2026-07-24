@@ -1,0 +1,351 @@
+
+;;【007_01イジメられる司３.txt】
+;;【007_02勝利.txt】
+
+@dir dir=down
+
+@huki b=1 id=11
+@anime id=11 num=302 wt=0
+@wait t=500
+@change num=1 id=11
+@dir dir=down id=11
+
+@dir dir=up
+
+@huki b=1 id=10
+@anime id=10 num=303 wt=0
+@wait t=500
+@change num=1 id=10
+@dir dir=down id=10
+
+@move_speed spd=6
+
+@huki b=1 id=12
+@route route=right:2
+
+@anime id=12 num=304 wt=0
+@wait t=250
+@move_speed spd=6 id=12
+@change num=1 id=12
+@dir dir=down id=12
+
+@dir_fix id=12 type=on
+@dir dir=right id=9
+@route route=right:4 id=12
+@huki b=7 wt=1 id=12
+
+@dir dir=left id=9
+@dir_fix id=12 type=off
+
+@huki b=7 wt=1 id=10
+[불량배1]「으으……」
+
+@huki b=7 id=11
+[불량배2]「어, 엄청 세……」
+
+@dir dir=right id=9
+@huki b=7 id=12 wt=1
+
+@huki b=5 id=12 wt=1
+@dir dir=left id=12
+@change num=0 id=12
+
+@huki b=1 id=12
+[사타케]「제기랄, 아아아아!」
+
+;; Many of hooligans have been knocked down, and SATAKE has been beaten by SAKURA’s fists that he almost couldn’t stand.
+
+@huki b=7 id=12
+[사타케]「내, 내가 질 리가 없잖아……!」
+
+
+@dir dir=right id=10
+@dir dir=right id=11
+
+@change id=10 num=0
+@change id=11 num=0
+
+@move_f f=サクラ@無表情 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@考え中
+[사쿠라]（지금 저 녀석의 의식을 지탱하는 건 분노뿐이야……）
+
+@bs f=サクラ@無表情
+[사쿠라]（하지만 그걸로는 날 이길 수 없어. 네가 분노할수록, 나는 더 침착해지니까）
+@move_f f=サクラ@無表情 out=l t=300 wt=1
+
+
+@se f=Sword5 pitch=130
+@c_jump id=12 wt=0
+@huki b=1 id=9
+@huki b=1 wt=1 id=12
+
+@move_speed spd=6 id=12
+
+[사타케]「오오오오오오!」
+
+;; By right if his physical advantage, SATAKE rushes towards SAKURA.
+
+@dir dir=left id=9
+
+@huki b=1
+@move_f f=サクラ@無表情 in=l t=300
+[사쿠라]「흥……!」
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]（이렇게 단순한 움직임, 하나도 무섭지 않아!）
+
+@huki b=1
+@bs f=サクラ@怒り
+[사쿠라]「하아아아!」
+@move_f f=サクラ@怒り out=l t=300
+
+@route route=left:4 id=12
+
+@bgm
+
+@move_speed spd=5 id=12
+@flash t=500 wt=0
+@anime id=12 num=305 wt=0
+@qk
+@wait t=300
+
+@dir_fix id=12 type=on
+@walk_anime id=12 type=off
+
+@c_jump id=12 x=3 wt=1
+@dir dir=right id=9 wt=0
+
+@se f=Blow4
+@dir_fix id=12 type=off
+@walk_anime id=12 type=on
+
+@change num=1 id=12
+@dir dir=down id=12
+
+@qk t=500 wt=1
+
+@move_speed spd=3 id=10
+@move_speed spd=3 id=11
+
+@huki b=6 id=9
+@huki b=6 id=10
+@huki b=6 id=11
+
+@fb dir=back id=10 wt=0
+@fb dir=back id=11
+
+;; SAKURA avoids the knife, and then beats SATAKE on his chest.
+
+@huki b=7 id=12
+[사타케]「커헉!?　으으으으」
+
+@move_speed spd=3
+@route route=right:3
+@dir dir=down id=9
+
+@move_f f=サクラ@考え中 in=c t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[사쿠라]「다시는 츠카사를 건드리지 않겠다고 맹세해!」
+
+@bgm f=bgm04
+
+@huki b=8 id=12
+[사타케]「흥, 누가 그딴 맹세를……」
+
+@bs f=サクラ@考え中_z body_op=z
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中_z out=c t=300
+
+
+@anime id=12 num=306 wt=0
+@wait t=500
+@huki b=7 wt=1 id=12
+
+@huki b=6 id=10
+@huki b=6 id=11
+
+@huki b=6 id=9
+@huki b=7 id=12
+
+@fb dir=back id=10 wt=0
+@fb dir=back id=11
+;; peng! 　pa! 
+
+[사타케]「끄익!?　끄아악!?」
+
+@move_f f=サクラ@怒り_z body_op=z in=c t=300
+[사쿠라]（오늘 누가 더 강한지, 뼛속까지 새겨주겠어!）
+@move_f f=サクラ@怒り_z out=c t=300
+
+;; peng! 　tong! 　pa! 
+@anime id=12 num=306 wt=0
+@wait t=500
+
+@huki b=6 id=10
+@huki b=6 id=11
+
+@huki b=7 id=12
+@fb dir=back id=10 wt=0
+@fb dir=back id=11
+
+@huki b=1
+@move_f f=サクラ@怒り_z body_op=z in=c t=300
+[사쿠라]（다시는 츠카사를 건드리지 않겠다고 말할 때까지……절대 멈추지 않을 거야……!）
+@move_f f=サクラ@怒り_z out=c t=300
+
+;;　ドゴッ！　ボコッ！　バコッ！
+@anime id=12 num=306 wt=0
+@wait t=500
+
+@huki b=6 id=10
+@huki b=6 id=11
+
+@huki b=7 id=12
+@fb dir=back id=10 wt=0
+@fb dir=back id=11
+
+@huki b=1 wt=1 id=12
+
+[사타케]「히익!　아, 알았어……다, 다시는, 다시는 안 건드릴게!　제발 용서해 줘!」
+
+;; Knowing his complete defeat, SATAKE implores SAKURA.
+
+@move_f f=サクラ@考え中 in=c t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@怒り_z body_op=z
+[사쿠라]「……다음에, 또 한 번만 더 그랬다간……」
+@move_f f=サクラ@怒り out=c t=300
+
+@huki b=7 wt=1 id=12
+
+@dir_fix id=12 type=off
+@walk_anime id=12 type=on
+
+@change num=0 id=12
+@c_jump id=12
+@huki b=1 id=12 wt=1
+[사타케]「아, 알겠다고!　으아아아아아!」
+
+@move_speed spd=5 id=10
+@move_speed spd=5 id=11
+@move_speed spd=5 id=12
+
+@bgm
+@fade type=out t=1000 wt=0
+@route route=left,up:8 id=10 wt=0
+@route route=left,up:10 id=11 wt=0
+@route route=right:3 id=12
+@se f=Move1
+@invisible id=12 type=on
+@wait t=1200
+@invisible id=10 type=on
+@invisible id=11 type=on
+@c_jump x=-3 y=-1
+@c_jump x=-7 id=12
+@c_jump x=-5 id=9
+@change f=!Flame num=6 id=12
+@dir dir=up id=12
+@step_anime id=12 type=on
+@dir dir=left
+@dir dir=right id=9
+@invisible id=12 type=off
+@fade type=in t=1000 wt=1
+
+@bgm f=bgm03
+
+;; SATAKE and hooligans escape with their wounded bodies.
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[사쿠라]「이제, 무서워할 필요 없어」
+
+@huki b=6 id=9
+[츠카사]「고마워, 사쿠라. 그치만……」
+
+@bs f=サクラ@考え中 op2=ハテナ
+[사쿠라]「왜?」
+
+@bs f=サクラ@驚き
+
+@huki b=6 id=9
+[츠카사]「아까 같은 사쿠라는, 조금 무서웠어……」
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[사쿠라]（내가 좀 심했나?）
+
+;; Hooligans’ angriness makes then SAKURA ruthless.
+
+@huki b=8
+@bs f=サクラ@哀しみ op2=汗
+[사쿠라]（나중에, 좀 반성해야겠어……）
+@move_f f=サクラ@哀しみ out=r t=300
+
+@dir dir=down
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中 op2=ハテナ in=r t=300
+@huki b=2 wt=1
+
+@bs f=サクラ@無表情
+[사쿠라]（……어라?　이건……）
+@move_f f=サクラ@無表情 out=r t=300
+
+@se f=Coin
+@invisible id=12 type=on
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]（그 녀석이 쓰던 칼이잖아）
+
+@bs f=サクラ@考え中
+[사쿠라]（이런 위험한 물건, 그 녀석들 손에 두면 안 되지……기회니까 내가 챙겨두자）
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki b=8
+@huki b=6 id=9
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL 나이프 『광기의 칼날』을 손에 넣었다!
+@mes_win back=0 pos=2
+
+@huki b=8 wt=1
+
+;; After SAKURA puts knife as a trophy into her bag――
+@through type=on
+@dir dir=left
+@move_f f=サクラ@微笑 in=r t=300
+[사쿠라]「그럼 또 봐, 츠카사」
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=2000 wt=0
+@bgm
+@move_speed spd=3
+@route route=down,left:5
+
+@mes_win back=1 pos=1
+\CL 츠카사와 작별한 뒤 이곳을 떠났다.
+@mes_win back=0 pos=2
+
+;;※불량배의 나이프 『광기의 칼날』을 손에 넣었다.
+
+;; ※ TSUKASA  favorability ＋30
+
+@se f=Move1
+
+@wait t=1200
+@through type=off
+@move_speed spd=4
+;;※Free action.
+

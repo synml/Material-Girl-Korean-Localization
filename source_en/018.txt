@@ -1,0 +1,19 @@
+
+;;○戦闘開始前（レベル40）
+
+@bgm f=bgm01
+
+@route route=right:2 id=18
+@dir dir=down id=18
+
+@huki b=1 id=18
+@huki b=1
+
+;;@move_f f=須藤 face=0 in=l t=300 wt=0
+@move_f f=サクラ@驚き in=r t=300
+
+[SUDOU]「coo ha ha ha ha!! If I drink down this bottle of super protein, I am matchless!!! oh oh oh oh oh oh oh!」
+
+;;@move_f f=須藤 face=0 out=l t=300 wt=0
+@move_f f=サクラ@驚き out=r t=300
+

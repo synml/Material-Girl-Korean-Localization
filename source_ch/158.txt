@@ -1,0 +1,36 @@
+
+;;【024_09好感度達成.txt】
+
+@dir dir=down id=6
+@dir dir=down id=5
+@dir dir=down id=4
+
+@dot_move id=7 x=6 y=8 dir=up
+@invisible id=7 type=off
+@fade type=in t=1000 wt=1
+
+@huki b=2 id=7
+[老板]「小櫻小姐，需要我為您準備一間房間度過今晚嗎？」
+
+@huki b=8
+@move_f f=サクラ@微笑 in=r t=300
+[小櫻]（這是……）
+
+@huki b=2 id=7
+[老板]「您意下如何？　請告訴我您最喜歡哪一位」
+
+@huki b=8
+@bs f=サクラ@考え中
+[小櫻]（最喜歡的嗎……）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+;;○選項：NO１/NO２/NO３/老板
+
+;;所有的牛郎好感度達到MAX＋SEX次數超過100的時候，才能選擇老板。
+;;NO１　→024_10ナンバー１Ｈ
+;;NO２　→024_11ナンバー２Ｈ
+;;NO３　→024_12ナンバー３Ｈ
+;;老板　→024_13オーナーＨ
+
+

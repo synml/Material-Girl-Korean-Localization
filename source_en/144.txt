@@ -1,0 +1,21 @@
+
+;;【023_01高額エロバイト.txt】
+
+;; ○Options: Reject / Receive
+;;【023_05しない.txt】
+
+@bgm f=bgm01
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA]「Sorry」
+
+[Teenager]「hum! 　If you change your mind, you may find me at any time.」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@se f=Move
+@fadeout
+
+　Looking at self-willed teenager, SAKURA smiled wryly, and then left mansion.
+
+

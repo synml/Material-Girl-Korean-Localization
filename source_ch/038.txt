@@ -1,0 +1,41 @@
+
+;;【007_01イジメられる司３.txt】
+;;【007_03敗北.txt】
+
+@huki b=1
+@anime num=302 wt=0
+@wait t=500
+
+@move_f f=サクラ@悔しい in=c t=300
+[小櫻/skr0523]「怎、怎么會……這樣……」
+@move_f f=サクラ@悔しい out=c t=300
+
+@se f=Blow6
+@change num=1
+@dir dir=down
+
+@huki b=8 id=12
+@move_speed spd=3 id=12
+@route route=left:2 id=12
+
+@huki b=2 id=12
+[佐竹]「呼～、喂、小的們！　給我圍上他！」
+
+@c_jump id=10 wt=0
+@c_jump id=11 wt=0
+@huki b=3 id=10
+@huki b=3 id=11 wt=1
+
+　佐竹下令、讓不良小弟們圍上被打倒在地的小櫻。
+
+@huki b=4 id=10
+[不良１]「呀哈！　這一刻已經等很久了！　佐竹！」
+
+@huki b=4 id=11
+[不良２]「嘿嘿嘿嘿、接下來就可以隨便玩弄她了是吧！」
+
+@huki b=7
+@move_f f=サクラ@悔しい in=c t=300
+[小櫻/skr0524]（別過來！　別、別靠近我……啊啊！）
+@move_f f=サクラ@悔しい out=c t=300
+

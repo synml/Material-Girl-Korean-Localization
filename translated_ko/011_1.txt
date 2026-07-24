@@ -1,0 +1,190 @@
+
+;;【002_04司の家のピンポンを鳴らす.txt】
+
+;; SAKURA comes to TSUKASA’s home and rings the doorbell.
+
+@c_jump id=101 y=24 x=12
+@dir dir=down id=101
+@change f=司 id=101
+
+@c_jump id=102 y=17 x=12
+@c_jump id=103 y=3 x=18
+@dir dir=down id=102
+@dir dir=up id=103
+@change f=司_母 id=102
+@invisible type=on
+
+@fade type=in t=1000 wt=1
+
+@se f=Move1
+@invisible type=off
+
+@wait t=100
+@move_speed spd=3
+@route route=up:2
+@dir dir=up id=101
+
+@move_speed spd=4
+
+@huki b=8
+@map_scroll dir=up dis=3 spd=4
+
+;;--------------------------------------------
+
+@huki b=8 id=102
+[츠카사의 엄마]「어서 오렴, 사쿠라」
+
+@huki b=8
+@move_f f=サクラ@哀しみ in=r t=300
+[사쿠라]「아주머니, 요즘 맨날 여기서 밥을 얻어먹고…… 폐를 끼쳐서 죄송해요……」
+
+@huki b=3 id=102
+[츠카사의 엄마]「이웃끼리 그렇게 예의 차릴 것 없단다. 아주머닌 사쿠라를 쭉 딸처럼 생각해왔는걸」
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]（아주머니는 여전히 다정하시네. 아주머니랑 얘기할 때마다 마음이 따뜻해져）
+
+@huki b=8 wt=1
+
+;;@move_f f=司 in=l t=300 wt=0
+@bs f=サクラ@微笑
+[사쿠라]（츠카사의 다정한 성격은 아주머니한테 물려받은 거겠지）
+
+@huki b=8 id=102
+[츠카사의 엄마]「조금만 있으면 저녁 다 된단다. 잠깐만 기다리렴」
+
+@huki b=8
+@bs f=サクラ@笑み
+[사쿠라]「네」
+@move_f f=サクラ笑み out=r t=300
+
+@map_scroll dir=down dis=3 spd=4
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@huki b=1
+@bs f=サクラ@驚き op2=ビックリ
+[사쿠라]（아, 아주머니 일 좀 도와드리러 가볼까）
+@move_f f=サクラ@驚き out=r t=300
+
+@map_scroll dir=up dis=3 spd=4
+
+@huki b=2
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+[사쿠라]「아주머니, 뭐 도와드릴 거 없어요?」
+
+@huki b=3 id=102
+[츠카사의 엄마]「아니야, 괜찮단다. 아주머니 집에서는 사쿠라는 그저 편하게 놀면 되는 거야」
+
+@huki b=8
+@bs f=サクラ@微笑
+[사쿠라]「알겠어요. 도울 일 있으면 언제든 불러주세요」
+
+@huki b=3 id=102
+[츠카사의 엄마]「고맙구나～」
+
+@move_f f=サクラ@微笑 out=r t=300
+@route route=up:11,right:7,up:2 id=102 wt=0
+@map_scroll dir=down dis=3 spd=4
+
+@fade type=out t=1000 wt=0
+
+@huki b=8
+@route route=up id=101 wt=1
+@bgm_save
+@bgm
+
+@wait t=1200
+
+@invisible id=102 type=on
+@change f=司_母 id=103
+
+@c_jump x=-2 y=-15 id=101 wt=0
+@c_jump x=-3 y=-19
+
+@dir dir=down wt=0
+@dir dir=up id=101
+
+@bgm_replay
+@huki b=8
+@huki b=8 id=101
+@fade type=in t=1000 wt=1
+
+;;@move_f f=司 in=l t=300
+@huki b=2 id=101
+[츠카사]「사쿠라, 저번에 일자리 알아본다고 했었잖아. 찾았어?」
+
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]「응. 일단 하나는 찾았어. 빵집 일이야」
+
+@huki b=8 id=101
+[츠카사]「어, 그렇구나. 그럼 앞으로는 거기서 알바하는 거야?」
+
+@bs f=サクラ@考え中
+[사쿠라]「아직 확실히 정한 건 아니야……좀 더 찾아보려고」
+
+@huki b=8 id=101
+[츠카사]「으, 응. 저, 저기, 사쿠라. 뭔가 힘든 일 있으면 꼭 나한테 말해줘」
+
+@huki b=11 id=101
+[츠카사]「사쿠라를 위해서라면, 난 뭐든지 할 테니까!」
+
+;; TSUKASA shyly turned red when TSUKASA professed his true feelings to SAKURA.
+
+@bs f=サクラ@微笑 in=r t=300
+[사쿠라]「고마워. 그치만, 난 괜찮아」
+
+@huki b=8 id=101
+[츠카사]「아, 응……그렇구나……」
+
+@bs f=サクラ@哀しみ
+[사쿠라]（츠카사가 늘 신경 써주는 건 고맙지만, 너무 폐를 끼치고 싶진 않아……）
+
+@bs f=サクラ@考え中
+[사쿠라]（그래도 그 마음만은 고맙게 받을게）
+
+@bs f=サクラ@考え中
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]（어라?　츠카사, 왠지 시무룩해 보이는데?　왜 저러지?）
+;;@move_f f=司 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8 id=103
+@dir dir=down id=103
+
+@dir dir=right
+@map_scroll dir=right dis=6 spd=6
+
+[츠카사의 엄마]「츠카사～, 사쿠라, 내려와서 밥 먹으렴～」
+
+@move_f f=サクラ@笑み in=r t=300
+[사쿠라]（냄새 좋다. 오늘 반찬은 뭘까～）
+@move_f f=サクラ@笑み out=r t=300
+
+@map_scroll dir=left dis=6 spd=6
+@dir dir=down
+
+;;@move_f f=司 in=l t=300 wt=0
+@move_f f=サクラ@微笑 in=r t=300
+[사쿠라]「가자, 츠카사」
+@move_f f=サクラ@微笑 out=r t=300
+
+@huki b=7 id=101
+[츠카사]（하아아……사쿠라는, 나한테 전혀 마음이 없구나……）
+;;@move_f f=司 out=l t=300 wt=0
+
+;; Disappointed TSUKASA moves towards the kitchen listlessly.
+
+@fade type=out t=1000
+@invisible id=102 type=off
+@invisible id=103 type=on
+@change f=void id=103
+@bgm_save
+@bgm
+
+

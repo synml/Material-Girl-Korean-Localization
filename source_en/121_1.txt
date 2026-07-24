@@ -1,0 +1,25 @@
+
+;;【021_03男子生徒フェラ.txt】
+
+;; SAKURA dialogues with the school’s boy student (underclassman).
+
+@move_f f=サクラ@微笑 in=r t=300
+[SAKURA]「Hello」
+
+@huki id=33 b=2 wt=1
+[Boy Student]「Hello, what is the matter?」
+
+@bs f=サクラ@笑み_z body_op=z op2=音符
+
+@huki b=4 wt=1
+[SAKURA]「Could I give you oral sex again?」
+
+@huki id=33 b=1 wt=1
+[Boy Student]「Is this OK!?」
+
+@bs f=サクラ@笑み
+[SAKURA]「ho ho, follow me」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1

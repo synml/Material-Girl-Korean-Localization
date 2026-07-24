@@ -1,0 +1,28 @@
+
+;;【023_01高額エロバイト.txt】
+
+;; ○Options: Reject / Receive
+;;【023_04高額バイトをするしないの選択肢.txt】
+
+@bgm f=bgm01
+@move_f f=サクラ@無表情 in=r t=300
+
+@fadeout
+@dot_move dir=up x=10 y=13
+@dir id=15 dir=d wt=1
+@fadein
+@huki id=15 b=8 wt=1
+
+[SAKURA]「Hello」
+
+[Teenager]「Do you want 500,000 yen now?」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;; Options: do the part-time job / don’t do the part-time job
+
+;; Do the part-time job →023_03お金が欲しい
+
+;; Don’t do the part-time job →023_05しない
+
+

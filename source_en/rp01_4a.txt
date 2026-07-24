@@ -1,0 +1,132 @@
+
+;;Phase Ⅳ
+
+@bgm f=bgm04
+
+;;ＣＧ■CG01a
+@bgf bg=ev01a t=1000
+
+[SUDOU] 「Well, you look great today. 」
+
+@bgs f=aegi_skr1
+
+[SAKURA/skr0130] 「Ahh......Umm......Ummmm......」
+
+[SAKURA/skr0131] (If I am discontented with you......You're going to do something bad...... )
+
+[SAKURA/skr0132] (Come on......it's over......If this kind of thing keeps going on......I......I......)
+
+[SAKURA/skr0133] (Why? Ah, huh......Why, why does my heart beat faster?......)
+
+[SAKURA/skr0134] (I......become weird......)
+
+[SUDOU]  「The length of the skirt is the same as before. You are incorrigible.」
+
+[SAKURA/skr0135] (Ahhh......Skirt......The skirt is going to be turned over again......My underwear is going to be seen by everybody again......)
+
+SAKURA nervously looked at SUDOU's hand reaching out to her hypogastrium.
+
+[SUDOU] 「You haven't changed your skirt all the time, is it for my punishment?」
+
+[SAKURA/skr0136] (No! That's not true! No!)
+
+Even though SAKURA kept denying in mind, but as the skirt gradually being lift up, she was also gradually excited.
+
+@se f=衣擦れの音1
+;;ＣＧ■CG01a
+@bgf bg=ev01a t=500
+@bgs f=aegi_skr2
+
+[SAKURA/skr0137] (Ah......Ahhhh......It has been seen......Everyone is watching......)
+
+[SAKURA/skr0138] (What a shame! Obviously so ashamed......However, the heart is still pounding......)
+
+[SAKURA/skr0139] (So hot......Not just the body......Even face and head are heating up......)
+
+[SAKURA/skr0140] (My body is out of control......Ahha, Ummm, Huh, I can not stop shaking......)
+
+[SUDOU] 「You look extremely great today.」
+
+[SAKURA/skr0141] 「Almost the same......as usual」
+
+[SUDOU] 「Is it a pleasure to be seen by others?」
+
+[SAKURA/skr0142] 「No, it is not! No, it's impossible!」
+
+[SUDOU] 「It's hard to say. Well, let me look into it a little」
+
+[SAKURA/skr0143] 「Oh......?」
+
+[SUDOU] 「If it's a pleasure to be seen by others for you,  I have to be a good guide to you slutty student.」
+
+With a sinister smile, SUDOU goes of the hand on the breasts and then went into action.
+
+[SAKURA/skr0144] (What......What's he going to do......)
+
+While SAKURA felt uneasy about the actions from SUDOU,
+
+she also found a sense of tension and excitement.
+
+;;ＣＧ■CG01b
+@bgf bg=ev01b t=500
+@bgs f=aegi_skr3
+
+[SAKURA/skr0145] 「Ah!? Ah......Coo, Umm......!」
+
+[SAKURA/skr0146] (No, not really......Unexpectedly, he!? Directly touch!)
+
+[SAKURA/skr0147] (I, I must stop him ......That, that's too much......It's beyond the sphere of life's guidance!)
+
+[SAKURA/skr0148]  「Huh, huh, ummm! Please, please stop!」
+
+[SUDOU] 「Checking whether students are sexually promiscuous or not is also a matter of life coaching. Don't move!」
+
+[SAKURA/skr0149] 「I, I have never......Heard, heard of such things!」
+
+[SUDOU] 「Hmm! 　Hmm!」
+
+[SAKURA/skr0150] 「Ah!? Ahhh!」
+
+[SAKURA/skr0151] (Nipples! No, please! Don't pinch nipples!)
+
+[SAKURA/skr0152] (Ah!? Ahh, A feeling of paralysis from the nipples......I, I can't stand firmly)
+
+[SUDOU]  「Isn't it already hardened here? You really are excited, with pleasure, huh?」
+
+[SAKURA/skr0153] 「Umm, umm, umm, no, it's not......」
+
+[SAKURA/skr0154] (The nipples feel tingling sensation......Oh, yes, that's right, they are already hardened. )
+
+[SAKURA/skr0155] (I am obviously shy and unwilling! But, why......My nipples respond!?)
+
+[SAKURA/skr0156] (My body......is out of control......)
+
+[SUDOU] 「Yes, you are a slutty student. Well, I have to ask what have you being doing outside the school」
+
+[SAKURA/skr0157] 「Ahh, ummm......No, no....... Don't scratch...... Oh! Ummm!」
+
+[SAKURA/skr0158] (No, no....... No way...... The body is not working...... It is out of my control)
+
+[SAKURA/skr0159] (Go on like this...... If he goes on like this, I will......)
+
+[SUDOU] 「Haha,  it seems she can't bear any more」
+
+[SAKURA/skr0160] (I, I'm in control of him......SUDOU has known well about my body)
+
+[SUDOU] 「There's no time today, just let you go, but I will ask you for details next time」
+
+SUDOU let go of the fingers on her nipples after whispering in SAKURA's ear.
+
+@bgs
+
+[SAKURA/skr0161] 「Ahha, ahha, ahha, ahhhhhhh「
+
+@se f=学校チャイム
+
+(Class Bell Ringing)
+
+After hearing the bell, SAKURA staggered to the classroom with heavy breathing. 
+
+@rps
+
+

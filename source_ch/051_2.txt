@@ -1,0 +1,37 @@
+@fade type=out t=1000 wt=0
+@move_speed spd=5
+@route route=left:12
+@move_speed spd=4
+@wait t=1200
+
+@dot_move y=15 x=13 wt=1
+@fade type=in t=2000 wt=0
+@route route=up:4
+@huki b=8
+@move_f f=サクラ@悔しい op2=困惑 in=l t=300
+
+[小櫻]（已經、不行了……體力……要透支了……到底要跑多久啊……？）
+
+@move_f f=サクラ@悔しい out=l t=300
+@dir dir=right
+@c_jump id=6 wt=0
+@c_jump wt=0
+@huki b=5 id=6
+@huki b=1
+
+[須東]「喂！！　小櫻！！　少給我偷懶！！」
+
+@huki b=8
+@dir dir=left
+
+;;
+;; 附加劇情
+;;
+;; 選項
+;;=======================
+;;→
+;;偷懶跑
+;;→不跑了『052』
+;;→認真跑  
+;;→  『053』
+;;=======================

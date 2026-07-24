@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL Click the magnifying glass (or press the OK key)\nto zoom in and out to view the vertical drawing
+
+@mes_win
+

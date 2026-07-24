@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL The school's changing room is on the first floor. Change clothes before taking the PE class.
+
+@mes_win
+

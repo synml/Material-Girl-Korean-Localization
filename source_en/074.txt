@@ -1,0 +1,39 @@
+
+;;【016_06パン屋段階Ｈ.txt】
+
+;;@move_f f=パン屋 in=l t=300 wt=0
+@move_f f=サクラ@羞恥_頬 in=r t=300
+@wait t=1200
+
+@dir dir=up
+@dir dir=down id=3
+
+@huki b=5
+@bs f=サクラ@怒り_頬 op2=困惑
+[SAKURA/skr1181]「Store, store manager……!」
+
+[Store Manager] 「ah ha ha ha! 　That is all right. Never mind please.」
+
+[Store Manager] 「It is off work today. Here you are, this is your salary. \C[2] Today, I also give you more salary. \C[0].」
+
+@bs f=サクラ@悔しい_頬 op2=困惑
+[SAKURA/skr1182]「Next……you don’t give me more salary. I will be angry like that!」
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+@route route=up id=3
+
+@se f=Move1
+@invisible type=on id=3
+
+@huki b=7 wt=1
+
+　SAKURA stares at the store manager, and takes away the salary――
+
+@move_f f=サクラ@考え中_頬 op2=困惑 in=r t=300
+[SAKURA/skr1183]「Alas……」
+@move_f f=サクラ@考え中_頬 out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　After giving a heavy sigh, she begins to sort out her messy clothes.
+

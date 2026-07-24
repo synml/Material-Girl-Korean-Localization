@@ -1,0 +1,10 @@
+
+;;【010_01体育.txt】
+;;【010_02着ていない.txt】
+
+@bgm f=bgm01
+
+[SUDOU]「This is a PE class. You must put on the gym suit and then return!」
+
+;; The gym suit only can be bought or obtained after passing special plot.
+

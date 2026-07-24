@@ -1,0 +1,31 @@
+
+;;○勝利（レベル5）
+
+@flash t=500
+@qk
+
+@huki b=7 wt=1 id=18
+
+;;@move_f f=須藤 face=0 in=l t=300 wt=0
+@move_f f=サクラ@考え中 in=r t=300
+
+@huki b=1 id=18
+[스도]「쳇……오늘은 봐주지. 썩 꺼져라!」
+
+
+;;@move_f f=須藤 face=0 out=l t=300 wt=0
+@move_f f=サクラ@考え中 out=r t=300
+
+;; Leaving regretful SUDOU alone, SAKURA walked towards the teaching building.
+
+@fade type=out t=1000 wt=0
+
+@move_speed spd=3
+@route route=left:2 id=18 wt=0
+@route route=up:4 wt=1
+@dir dir=right id=18
+
+@move_speed spd=4
+@bgm
+@bs
+

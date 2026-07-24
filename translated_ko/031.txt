@@ -1,0 +1,181 @@
+
+;;【005_01イジメられる司.txt】
+;;【005_02勝利.txt】
+
+@bgm f=bgm04
+
+@dir_fix type=on id=10
+@dir_fix type=on id=11
+@walk_anime type=off id=10
+@walk_anime type=off id=11
+
+@anime id=10 num=302 wt=0
+@anime id=11 num=302 wt=0
+@wait t=500
+
+@c_jump id=10 x=-1 y=1 wt=0
+@c_jump id=11 x=1
+
+@se f=Blow6
+@change num=1 id=10
+@change num=1 id=11
+@dir_fix type=off id=10
+@dir_fix type=off id=11
+
+@dir dir=down id=10
+@dir dir=down id=11
+@qk
+
+@walk_anime type=on id=10
+@walk_anime type=on id=11
+
+@huki b=7 id=10 wt=1
+@change num=0 id=10
+
+@huki b=1 id=10
+[불량배1]「제, 제기랄……!　계집애 주제에……두고 보자!」
+
+@move_speed spd=7 id=10
+@route route=up,left:8,up:10 id=10
+
+@se f=Move1
+@invisible type=on id=10
+
+@huki b=6 wt=1 id=11
+@change num=0 id=11
+
+@huki b=7 id=11
+[불량배2]「야, 야, 같이 가～」
+
+@move_speed spd=7 id=11
+
+@dir dir=left
+
+@route route=left:12,up:10 id=11
+
+@se f=Move1
+@invisible type=on id=11
+
+@bgm
+@fade type=out t=1000 wt=1
+@move_speed spd=4
+@route route=left
+@dir dir=right
+@wait t=1200
+@fade type=in t=1000 wt=1
+
+;; HOOLIGAN, like rats on the street, escaped towards all directions.
+
+@bgm f=bgm03
+;;@move_f f=司 in=r t=300
+@huki b=8 id=9 wt=1
+[츠카사]「고마워, 사쿠라」
+
+@move_f f=サクラ@微笑 in=l t=300
+@huki b=8
+[사쿠라]「맨날 츠카사네 집에서 밥 얻어먹잖아. 이건 그 보답이야」
+
+@huki b=7 id=9
+[츠카사]「……나도, 나도 강해지고 싶어」
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]「츠카사는 지금 이대로가 좋다고 생각해. 내가 지켜줄게」
+
+;;@move_f f=司 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+
+@huki b=7 id=9 wt=1
+
+@huki b=8 id=9
+;;@move_f f=司 in=r t=300
+[츠카사]「나……나는 계속 보호만 받고 싶지 않아. 나도 사쿠라를 지키고 싶단 말이야!」
+;;@move_f f=司 out=r t=300
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]「응?　뭐라고 했어?」
+
+@move_f f=サクラ@無表情 out=l t=300
+
+@huki b=1 id=9 wt=1
+@huki b=7 id=9 wt=1
+
+@huki b=6 id=9
+;;@move_f f=司 in=r t=300
+[츠카사]「아, 아니. 아무것도 아니야」
+
+;; Blushed TSUKASA shakes his head
+
+@huki b=8
+@move_f f=サクラ@考え中 in=l t=300
+[사쿠라]「츠카사는 싸움이랑은 안 어울리는 타입이잖아. 그러니까 지금 그대로면 돼」
+
+@huki b=6 id=9
+[츠카사]「……아, 응」
+;;@move_f f=司 out=r t=300 wt=0
+@move_f f=サクラ@考え中 out=l t=300
+
+@huki b=8 wt=1 id=9
+@huki b=7 wt=1 id=9
+
+;; Hearing SAKURA’s words, TSUKASA feels sad slightly and nods silently.
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[사쿠라]（츠카사는 똑똑하고 다정하니까……싸움을 못해도 충분히 강한걸）
+
+@huki b=2
+@bs f=サクラ@考え中 op2=ハテナ
+[사쿠라]（그런데, 왜 저렇게 풀이 죽은 거지?）
+@move_f f=サクラ@考え中 out=l t=300
+
+@huki b=8 id=9 wt=1
+@huki b=1 id=9 wt=1
+;;@move_f f=司 in=r t=300
+[츠카사]「아, 사쿠라……네 손목시계……」
+;;@move_f f=司 out=r t=300
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@huki b=7
+@bs f=サクラ@哀しみ op2=困惑 
+[사쿠라]（아까 그 불량배들이랑 싸울 때 망가진 모양이네……）
+
+@huki b=7 id=9
+;;@move_f f=司 in=r t=300
+[츠카사]「미안해. 다 나 때문이야……」
+
+@huki b=8
+@bs f=サクラ@微笑
+[사쿠라]「무슨 소리야. 츠카사 잘못도 아닌데. 신경 쓰지 마」
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]「난 먼저 가볼게. 또 봐, 츠카사」
+
+;;@move_f f=司 out=r t=300 wt=0
+@move_f f=サクラ@考え中 out=l t=300
+
+@move_speed spd=3
+@bgm
+@fade type=out t=1000 wt=0
+@route route=left:4
+@bs
+@bgm
+@move_speed spd=4
+
+@mes_win back=1 pos=1
+　츠카사와 작별한 뒤, 사쿠라는 말없이 자리를 떠났다.
+@mes_win back=0 pos=2
+
+;; ※ TSUKASA ・ favorability ＋30
+
+;;※Free action.
+

@@ -1,0 +1,41 @@
+
+;;【007_01イジメられる司３.txt】
+;;【007_03敗北.txt】
+
+@huki b=1
+@anime num=302 wt=0
+@wait t=500
+
+@move_f f=サクラ@悔しい in=c t=300
+[SAKURA/skr0523]「How, how shoud……this be……」
+@move_f f=サクラ@悔しい out=c t=300
+
+@se f=Blow6
+@change num=1
+@dir dir=down
+
+@huki b=8 id=12
+@move_speed spd=3 id=12
+@route route=left:2 id=12
+
+@huki b=2 id=12
+[SATAKE]「hoo ～, hey, my brothers! 　Surround!」
+
+@c_jump id=10 wt=0
+@c_jump id=11 wt=0
+@huki b=3 id=10
+@huki b=3 id=11 wt=1
+
+　Obeying SATAKE’s order, hooligans surrounded the fallen SAKURA.
+
+@huki b=4 id=10
+[HOOLIGAN１]「aha! 　We have been waiting this moment for a long time! 　SATAKE!」
+
+@huki b=4 id=11
+[HOOLIGAN２]「hey hey hey hey, next, let us make fun of her!」
+
+@huki b=7
+@move_f f=サクラ@悔しい in=c t=300
+[SAKURA/skr0524] (Don't come over! 　don’t close to me……ah ah!) 
+@move_f f=サクラ@悔しい out=c t=300
+

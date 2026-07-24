@@ -1,0 +1,64 @@
+
+;;【010_01体育.txt】
+;;【010_04成功.txt】
+
+
+@fade type=out t=1000 wt=0
+@move_speed spd=5
+@route route=left:12
+@move_speed spd=4
+@wait t=1200
+
+@bgm f=bgm01
+
+@dot_move x=18 y=15 dir=up
+@fade type=in t=1000 wt=1 wt=0
+
+@move_speed spd=4
+@route route=up:3
+
+@move_f f=サクラ@哀しみ in=r t=300
+[사쿠라]「후우, 후우, 후우!」
+
+@huki b=8 id=6
+[스도]「쳇!」
+
+@wait t=1000
+@bs f=サクラ@微笑
+[사쿠라]（내가 열심히 하니까 오히려 못마땅한 눈치네……뭐……이걸로 성희롱은 피할 수 있었고）
+
+　완주를 마친 사쿠라는 안도의 한숨을 내쉬었다.
+
+
+@bs f=サクラ@無表情
+@wait t=1000
+
+@dir dir=left
+@dir dir=left id=6
+
+@huki b=5 id=6
+[스도]「야!　너희들도 다리 좀 놀려라!」
+
+　스도는 달리고 있는 남학생들을 향해 목이 터져라 고함을 질렀다.
+
+@bs f=サクラ@微笑_z body_op=z
+
+@huki b=1
+[사쿠라]「츠카사!　힘내!」
+
+@huki b=7 id=6
+[스도]「쳇!」
+
+@move_f f=サクラ@微笑_z out=r t=300
+
+@fade type=out t=1000 wt=1
+@bgm
+
+@mes_win back=1 pos=1
+츠카사를 응원하는 사쿠라를 보며 스도는 잔뜩 못마땅한 얼굴로 혀를 찼다. 그렇게 체육 수업은 무사히 끝났다.
+@mes_win back=0 pos=2
+
+@se f=学校チャイム
+@wait t=300
+
+

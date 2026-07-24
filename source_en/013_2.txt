@@ -1,0 +1,20 @@
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8
+[SAKURA] (……Now, I estimate that TSUKASA has gone to school) 
+
+@bs f=サクラ@無表情
+[SAKURA] (I also have to go to school……however, I have to earn my living cost……) 
+
+@bs f=サクラ@考え中 op2=ハテナ
+[SAKURA] (What shall I do today……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=3
+@route route=down
+@move_speed spd=4
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

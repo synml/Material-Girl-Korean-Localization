@@ -1,0 +1,23 @@
+;;▼Undressing: You can get money and talk to him if you undress in front of him. 
+;;　　　　Undressing ways and place can be determined through options, which will determine the amount of money and response. 
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[Man]「Sister, I will give your pocket money if you let me see your underwear. How about that?」
+
+@huki b=8
+@bs f=サクラ@考え中
+@wait t=1000
+
+@bs f=サクラ@無表情
+
+[SAKURA]「……Forget it」
+
+[Man]「Really……You can come to me if you change your mind」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]（……Although I want money, I can't accept it at present…）
+
+@move_f f=サクラ@哀しみ out=r t=300
+

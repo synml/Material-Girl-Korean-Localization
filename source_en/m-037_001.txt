@@ -1,0 +1,7 @@
+
+@mes_win back=1 pos=1
+
+\CL Got Bloomers (once worn for masturbation)!
+
+@mes_win
+

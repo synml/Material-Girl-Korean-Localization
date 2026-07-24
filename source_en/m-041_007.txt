@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL Took 1,500 yen.
+
+@mes_win

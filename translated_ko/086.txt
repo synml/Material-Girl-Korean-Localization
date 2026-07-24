@@ -1,0 +1,33 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+
+;; Dialogue with the receptionist in the store
+
+@bgm_save
+@bgm f=bgm05
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8
+[사쿠라]「저기……」
+
+@huki id=5 b=1
+[접수원]「아, 알바하러 온 애구나?　사장님한테 얘기 들었어」
+
+[접수원]「일하러 온 거야?」
+
+@bs f=サクラ@考え中
+
+@huki b=8
+[사쿠라]（어떻게 하지……）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: Don’t work / Work 
+
+;;○Don’t work →018_05働かない
+
+;;○Work →018_06働く
+

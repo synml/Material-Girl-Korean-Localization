@@ -1,0 +1,15 @@
+
+;;【004_01パンスト舐め.txt】
+
+;; SAKURA, in the stockings with garter belt, accosted ASAHIKO.
+
+;; Phase I
+
+[ASAHIKO]「 ah ah, every moment is precious……」
+
+[ASAHIKO]「I am sure to taste this treasure. Of course, a big reward.」
+
+[SAKURA]「……………………」
+
+[SAKURA] (It is so easy to earn money……) 
+

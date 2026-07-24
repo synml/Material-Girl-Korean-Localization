@@ -1,0 +1,172 @@
+
+;;【009_01実験.txt】
+
+;; Dialogue with head of Department of Chemistry
+
+@move_speed spd=3
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch001 bad=jump:*left_branch001
+;;-------------------------------------
+;; When selecting right side
+*right_branch001
+
+@route route=left:2
+
+@jump target=*dir_branch001
+;;-------------------------------------
+;; When selecting left side
+*left_branch001
+
+@route route=right:2
+
+@jump target=*dir_branch001
+;;-------------------------------------
+*dir_branch001
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=1
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch002 bad=jump:*left_branch002
+;;-------------------------------------
+;; When selecting right side
+*right_branch002
+
+@map_scroll dir=left dis=5 spd=5
+@huki b=7 id=20 wt=1
+@map_scroll dir=right dis=5 spd=5
+
+@jump target=*dir_branch002
+;;-------------------------------------
+;; When selecting left side
+*left_branch002
+
+@map_scroll dir=right dis=4 spd=5
+@huki b=7 id=20 wt=1
+@map_scroll dir=left dis=4 spd=5
+
+@jump target=*dir_branch002
+;;-------------------------------------
+*dir_branch002
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=2
+@wait t=300
+
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+[사쿠라]（저 사람은, 화학부 부장 마키오카였던가……무슨 일이지?）
+@move_f f=サクラ@無表情 out=r t=300
+
+@move_speed spd=4
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch003 bad=jump:*left_branch003
+;;-------------------------------------
+;; When selecting right side
+*right_branch003
+
+@route_point x=19 y=10 wt=1 dir=left wt=1
+
+@jump target=*dir_branch003
+;;-------------------------------------
+;; When selecting left side
+*left_branch003
+
+@route_point x=15 y=10 wt=1 dir=right wt=1
+
+@jump target=*dir_branch003
+;;-------------------------------------
+*dir_branch003
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;; Walking in the corridor, SAKURA saw her previous classmate, head of Department of Chemistry.
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]「마키오카, 무슨 일이야?」
+
+@huki id=20 b=1
+@wait t=250
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch004 bad=jump:*left_branch004
+;;-------------------------------------
+;; When selecting right side
+*right_branch004
+
+@dir id=20 dir=right
+
+@jump target=*dir_branch004
+;;-------------------------------------
+;; When selecting left side
+*left_branch004
+
+@dir id=20 dir=left
+
+@jump target=*dir_branch004
+;;-------------------------------------
+*dir_branch004
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[마키오카]「아아, 사쿠라 양. 음. 저기……」
+
+@bs f=サクラ@考え中
+[사쿠라]「???」
+
+@huki id=20 b=8
+[마키오카]「실은 지금 어떤 약품을 만들고 있는데, 재료 하나를 도무지 구할 수가 없어서요」
+
+@bs f=サクラ@無表情
+[사쿠라]「그렇구나……」
+
+@huki b=9 id=20
+[마키오카]「맞다! 사쿠라 양, 실험용 재료 수집을 좀 도와줄 수 있나요?」
+
+@huki b=2
+@bs f=サクラ@考え中 op2=困惑
+[사쿠라]「어?　내가?　음～. 나도 내 일이 있는데……」
+
+@bs f=サクラ@無表情
+[마키오카]「공짜로 부탁하는 건 아니에요. 찾아다 주면 동아리 예산 일부를 보수로 드릴게요」
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]「보수라……」
+
+
+;; Upon hearing the reward, SAKURA’s eyes become bright.
+
+@bs f=サクラ@無表情
+
+@huki id=20 b=8
+[마키오카]「필요한 재료는 사향 추출물, 육두구 가루, 그리고 쓴쑥이에요」
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]「그러니까……사향 추출물, 육두구 가루, 그리고 쓴쑥」
+
+@huki b=8 id=20
+[마키오카]「맞아요. 이 세 가지를 모아다 주면 좋겠어요. 사쿠라 양이 시간 날 때 모아줘도 괜찮아요」
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]「알겠어. 시간 나면 찾아볼게. 금방 다 모을 수 있을지는 모르겠지만……」
+
+@huki id=20 b=3
+[마키오카]「고마워요!　저도 힘닿는 데까지 찾아볼게요」
+
+[사쿠라]「그럼 가볼게. 찾으면 다시 올게」
+
+[마키오카]「네. 잘 부탁해요」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;; Saying good-bey to MAKIOKA, SAKURA continues to walk in the corridor.
+
+;; Free action

@@ -1,0 +1,60 @@
+
+;;【020_04VR世界.txt】
+
+@huki b=1 wt=1
+@c_jump wt=1
+
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+[SAKURA/skr1474]「ay!? wow!? what is this……ay? 　Is that Zombie!?」
+
+@route route=r wt=1
+@wait t=500
+@route route=r wt=1
+@wait t=500
+
+@bs f=サクラ@驚き
+
+[SAKURA/skr1475]「So great……it seems to stand on the ground……even its smell……is too real……」
+
+@huki b=8 wt=1
+
+[SAKURA/skr1476] (It is so real……up-to-date technology is so great……) 
+
+@bs f=サクラ@哀しみ op2=ハテナ
+
+[SAKURA/skr1477]「that……how could I fix it?」
+
+@bs f=サクラ@驚き
+
+[SAKURA/skr1478]「ah!? Is this the description for game……?」
+
+　A 3D window in front of SAKURA displays the content of game.
+
+@bs f=サクラ@驚き_z body_op=z op2=ビックリ
+
+[SAKURA/skr1479] (Let me see……Is this a game to avoid Zombie? 　ay!? If I am captured by Zombie, I will be raped by Zombie……) 
+
+@bs f=サクラ@羞恥_z body_op=z op2=汗
+
+[SAKURA/skr1480] (if I am really raped by Zombie……) 
+
+@bs f=サクラ@悔しい
+
+[SAKURA/skr1481]「hey! 　Why didn’t you tell me such game!」
+
+　Although SAKURA protests the game aloud, the man didn’t answer her.
+
+@bs f=サクラ@哀しみ op2=困惑
+
+[SAKURA/skr1482] (woo woo……if I can’t pass, the game will not be ended. ……as long as I am able to move into a special place, that will be all right.) 
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@mes_win back=1 pos=1
+\CL SAKURA has to continue the game till its end.
+@mes_win back=0 pos=2
+
+;; Mini-game: Zombie (simple motion game) 
+;;Pass→020_05ステージクリア
+;;Fail →020_06VR＋リアル段階Ｈ
+

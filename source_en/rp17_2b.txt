@@ -1,0 +1,28 @@
+
+;;【021_05売春①フェラ汎用.txt】
+
+@bgm f=bgm05
+
+;;ＣＧ■CG17c
+@bgf bg=ev17c t=1000
+@bgs f=fera_skr4
+
+[Male student]「Ahh! Oh!」
+
+[SAKURA/skr1885]「Wheezing! Tut! Wheezing!」
+
+@bgs
+;;ＣＧ■CG17d
+@fin bg=ev17d se=射精音
+
+[SAKURA/skr1886]「Codoon! Hey-hey-hey.......You can keep longer than before ♪ Hoho ♪」
+
+;;ＣＧ■CG17e
+@bgf bg=ev17e t=500
+@bgs f=fera_skr1
+
+[SAKURA/skr1887]「Ahh.......You can enjoy it again by paying me 5 thousand Japanese yen ♪ Come on!」
+
+@bgs
+@rps
+

@@ -1,0 +1,10 @@
+
+;;大樓內
+
+@dot_move id=3 x=3 y=7 dir=down
+@change f=VR男 id=3
+
+@invisible type=on
+@dot_move id=4 x=3 y=8 dir=down
+
+

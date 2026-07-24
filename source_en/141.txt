@@ -1,0 +1,57 @@
+
+;;【023_01高額エロバイト.txt】
+
+;; ○Options: Reject / Receive
+;;【023_02止めておく.txt】
+
+@bgm f=Dungeon5
+@move_f f=サクラ@考え中 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA] (Although I feel regretful, 500,000 yen……this boy is sure to be self-willed……) 
+
+@bs f=サクラ@哀しみ op2=汗
+
+[SAKURA] (Who know what his orders are……I’d better reject……) 
+
+@huki b=8 wt=1
+
+[SAKURA]「Sorry. I can't do that……」
+
+@dir id=15 dir=r wt=1
+@wait t=500
+
+[Teenager]「chee!」
+
+　Although the teenager smacked his lips, he was reluctant to leave.
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA]「I'm gonna go now」
+
+@dir id=15 dir=d wt=1
+@wait t=500
+
+[Teenager]「Forget it. If you change your mind, you may find me at any time. I will wait for you.」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「……Let me think it over.」
+
+@huki b=8 wt=1
+
+[SAKURA] (It seems that he is satisfied with me……However, what on earth does he want me to do?) 
+
+@fadeout
+
+　Although SAKURA felt puzzled about the teenager’s persistence, SAKURA left that place.
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+
+;; As long as SAKURA dialogues with that boy, the above options will appear. ○Options: do the part-time job /don’t do the part-time job
+
+

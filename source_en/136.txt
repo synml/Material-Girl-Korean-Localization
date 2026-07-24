@@ -1,0 +1,34 @@
+
+;;【022_03クラスメート本番.txt】
+
+;; SAKURA dialogues with the schoolmate in the classroom.
+
+@huki id=3 b=8 wt=1
+[MAEDA]「That, that……SAKURA……」
+
+　After putting on his jacket, MAEDA called her without thinking.
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA/skr2047]「um ?」
+
+[MAEDA]「Could I……make love with you next time?」
+
+@huki b=4
+@bs f=サクラ@微笑
+[SAKURA/skr2048]「ho ho ho, as long as you have enough money.」
+
+@huki id=3 b=1
+[MAEDA]「um, um. Of course !」
+
+@bs f=サクラ@笑み
+[SAKURA/skr2049]「See you next time. See you later, MAEDA」
+
+[MAEDA]「See you later……」
+
+@move_f f=サクラ@笑み out=r t=300
+@se f=Move
+@fadeout
+
+　Blushed MAEDA stared at SAKURA. With coquettish smile, SAKURA waved to him, and then turned around to move out of the room.
+

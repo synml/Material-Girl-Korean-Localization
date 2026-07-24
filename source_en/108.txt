@@ -1,0 +1,58 @@
+
+;;【020_05ステージクリア.txt】
+
+;; First pass 
+
+;;@bgm f=bgm01
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr1483]「hoo……」
+
+　After completing the game successively, SAKURA gave a long sigh.
+
+[Researcher]「How do you feel about the game?」
+
+@huki b=8 wt=1
+@dir dir=r wt=1
+
+@bs f=サクラ@微笑
+
+[SAKURA/skr1484]「Although it is especially real and terrible……if I am able to experience the world different from the reality, it will be more interesting.」
+
+@huki id=3 b=8 wt=1
+
+[Researcher]「Really. This game has three passes.」
+
+[Researcher]「Would you like to challenge it next time?」
+
+@huki b=8 wt=1
+@dir dir=d wt=1
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1485] (A terrible game. It is so hard for me to complete this game……) 
+
+@bs f=サクラ@考え中
+
+[SAKURA/skr1486] (However, it is a very nice work……) 
+
+@huki b=8 wt=1
+@dir dir=r rt=1
+
+@bs f=サクラ@微笑
+
+[SAKURA/skr1487]「I know. If I have no other work……」
+
+[Researcher]「um. I will wait for you.」
+
+[SAKURA/skr1488]「I'm gonna go now」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@se f=Move
+@fadeout
+
+　SAKURA obtained the salary, and then left the room.
+

@@ -1,0 +1,89 @@
+
+;;【002_05次の日.txt】
+
+;; Effect ■ time change
+
+@move_speed spd=9
+@se f=衣擦れの音1
+@route route=down
+@move_speed spd=4
+@bs
+@move_f f=サクラ@考え中 in=r body=パジャマ t=100
+@fade type=in t=1000
+
+@huki b=8 wt=1
+[SAKURA]「um um……hoo ah ah ah. Is it already in the morning……」
+
+@bs f=サクラ@悔しい
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@考え中
+[SAKURA] (How shall I live through today……) 
+
+@huki b=8
+@bs f=サクラ@悔しい
+[SAKURA] (I am sure to go to school……however, I have to earn my living cost today……) 
+
+@huki b=2
+@bs f=サクラ@哀しみ
+[SAKURA] (Or I ask for a day off to find more job today) 
+
+@bs f=サクラ@考え中
+[SAKURA] (Currently, I only find a job in the bakery……what shall I do……) 
+
+Firstly, I have to pay the electric charge 15,000 yen within 5 days.
+
+After that, I must pay 50,000 yen house rent within 5 days.
+
+@huki b=7
+@bs f=サクラ@悔しい op2=困惑
+[SAKURA] (ha ah ah……if I have money, I never worry about these things.) 
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[SAKURA]「woo woo woo woo woo woo. No money also can kill me……」
+;;@move_f f=サクラ@哀しみ out=r t=300
+
+;; After feeling the significance of money deeply, SAKURA gives a slight sign.
+
+
+;;@huki b=8 wt=1
+;;@huki b=7 wt=1
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[SAKURA] (Regardless of going to school or finding a new job, I have to get up firstly.) 
+;;@move_f f=サクラ@哀しみ out=r t=300
+
+;;@move_speed spd=3
+;;@route route=down,left:2
+;;@dir dir=down
+
+@bs f=サクラ@考え中
+@wait t=400
+
+@huki b=3
+@bs f=サクラ@微笑
+[SAKURA]「hoo ah ah ah ah. The most comfortable thing is to lie in a whole day.」
+
+@huki b=3
+@bs f=サクラ@考え中
+[SAKURA]「um um!」
+;;@move_f f=サクラ@考え中 out=r t=300
+
+;; After stretching herself, SAKURA gets up.
+
+@move_speed spd=4
+@fade type=out t=1000
+@move_f f=サクラ@考え中 out=r t=1
+@bs
+
+@se f=衣擦れの音1
+@mes_win back=1 pos=1
+\CL put on that uniform! 
+@mes_win back=0 pos=2
+
+
+;; Prologue ends
+

@@ -1,0 +1,30 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;【024_03発生条件達成.txt】
+
+@bgm f=Dungeon3
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]（1,500,000엔을 모았어…… 이렇게 돈을 잘 모으다니, 나 스스로가 다 감탄스러워）
+
+@bs f=サクラ@哀しみ
+
+[사쿠라]（이 기세로 계속 벌면 대학 등록금 걱정은 없겠어……）
+
+@huki b=8 wt=1
+
+[사쿠라]（나한테 주는 상으로 노는 데 조금 쓰는 것 정도는 벌 받을 일도 아니겠지）
+
+@bs f=サクラ@微笑
+
+[사쿠라]（호스트클럽에 한번 가볼까……）
+
+@move_f f=サクラ@微笑 out=r t=300
+
+;; ○Options: Don't enter / Enter
+
+;;○Don't enter →024_04中に入らない
+
+;;○Enter →024_05中に入る
+

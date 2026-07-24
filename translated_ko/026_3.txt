@@ -1,0 +1,14 @@
+
+;;【004_01パンスト舐め.txt】
+
+;; SAKURA, in the stockings with garter belt, accosted ASAHIKO.
+
+;; Phase 
+
+@huki b=4 id=30
+[아사히코]「아아, 사쿠라! 정말 굉장해!　그야말로 완벽해!」
+
+[아사히코]「부디, \C[2]맛보게\C[0] 해줘……」
+
+[아사히코]「부탁이야, 사쿠라!」
+

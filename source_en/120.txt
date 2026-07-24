@@ -1,0 +1,18 @@
+
+;;【021_02会社員オヤジフェラ.txt】
+
+@bgm f=bgm02
+
+@move_f f=サクラ@微笑 in=r t=300
+
+@huki b=3 wt=1
+
+[SAKURA/skr1748]「Uncle, please advise next time ♪」
+
+[Middle-aged Man]「um um, you may find me at any time」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+　After putting 15,000 yen into her money, SAKURA said good-bey to that middle-aged man and left the alley.
+
+

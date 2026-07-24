@@ -1,0 +1,219 @@
+
+;;【002_02教室に入る.txt】
+
+@bgm
+
+@dir_fix type=off id=8
+@dir_fix type=off id=9
+@dir_fix type=off id=5
+
+@through type=on id=8
+@through type=on id=9
+
+@through type=on id=5
+
+@huki b=3 id=8
+@huki b=9 id=9 wt=1
+
+;;@move_speed spd=2
+;;@route route=up wt=1
+;;@dir dir=right
+
+;;@route route=down:6,right:7,down:3 id=9 wt=0
+;;@route route=right,down:6,right:7,down:3 id=8 wt=0
+
+@route id=8 route=left,down wt=0
+@route id=9 route=right,down
+
+@dir id=9 dir=right
+@dir id=8 dir=right
+
+
+@huki b=1 id=5 wt=1
+@route route=down id=5 wt=1
+@dir dir=left id=5
+
+@huki b=8 id=5 wt=1
+
+@move_speed spd=4 id=5
+@route route=left:4,up id=5
+@dir dir=left id=5
+
+@bgm f=bgm03
+
+
+@huki id=5 b=8
+;;@move_f f=司 in=r t=300
+[츠카사]「사쿠라, 지금 괜찮아?」
+
+;;SHI who asked me in the classroom is my childhood sweetheart.
+
+@huki b=8
+@move_f f=サクラ@考え中 in=l t=300
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]「무슨 일이야?　츠카사」
+
+@huki id=5 b=2
+[츠카사]「오늘도, 우리 집에서 저녁 먹고 갈래?」
+
+@bs f=サクラ@微笑
+[사쿠라]「응응. 고마워, 츠카사」
+
+@huki b=8
+@bs f=サクラ@考え中
+@wait t=1200
+
+@bs f=サクラ@哀しみ
+[사쿠라]（츠카사는 늘 이것저것 챙겨 주니까, 좀 미안할 정도야……）
+
+@huki b=8
+@bs f=サクラ@微笑
+[사쿠라]「고마워, 츠카사. 항상 이렇게 신경 써 줘서」
+;;@move_f=司 out=r t=300 wt=0
+@move_f f=サクラ@微笑 out=l t=300
+
+@jump id=5 wt=0
+@huki b=1 id=5 wt=1
+
+@huki b=11 id=5
+;;@move_f=司 in=r t=300
+[츠카사]「엣!? 아, 아니야…… 나, 나야말로, 어릴 땐 항상 사쿠라한테 도움만 받았는걸」
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=l t=300
+
+@bs f=サクラ@無表情
+[사쿠라]（어릴 때라…… 하긴 츠카사는 워낙 착해서, 맨날 괴롭힘당했으니까……）
+
+[츠카사]「내가 괴롭힘당할 때마다 구해 준 건 항상 사쿠라였잖아」
+
+@huki id=5 b=3
+[츠카사]「그래서, 정말 고맙게 생각해. 사쿠라는 어릴 때 진짜 엄청 강했으니까」
+
+@huki b=6
+@bs f=サクラ@考え中 op2=汗
+[사쿠라]「그거야…… 아빠 출장에 따라다니면서, 억지로 주입당한 거라……」
+
+[츠카사]「하하, 전에도 말했었지. 해외에서 무술을 배웠다든가」
+
+@bs f=サクラ@哀しみ op2=困惑
+[사쿠라]「응…… 그것도 아빠가 억지로 시켜서 배운 거지만……」
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]「덕분에, 괴롭히는 애들쯤은 하나도 안 무서웠지」
+
+[츠카사]「사쿠라가 그 애들을 혼내 준 덕분에, 나도 그 뒤로는 괴롭힘당하지 않게 됐고」
+;;@move_f=司 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+
+@huki b=8 id=5
+@huki b=8 wt=1
+
+;;@move_f=司 in=r t=300 wt=0
+@move_f f=サクラ@考え中 in=l t=300
+[사쿠라]「다 옛날얘기야……」
+
+@huki b=8 id=5
+[츠카사]「난 그때부터 쭉……」
+
+;;@move_f=司 out=r t=300 wt=0
+@move_f f=サクラ@考え中 out=l t=300
+
+@huki b=8 id=5 wt=1
+
+@huki b=2
+@huki b=11 id=5 wt=1
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=l t=300
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]「츠카사……?」
+@move_f f=サクラ@無表情 out=l t=300
+
+@c_jump id=5 wt=0
+@huki b=1 id=5 wt=1
+
+@huki b=6 id=5
+;;@move_f=司 in=r t=300
+[츠카사]「앗!? 아무것도 아니야, 아무것도. 진짜 아무 일도 없어. 마, 맞다. 사쿠라…… 저기……」
+
+@huki b=8 id=5 wt=1
+
+@huki b=11 id=5
+[츠카사]「괜찮으면…… 오늘, 같이 집에 갈래?」
+
+;; SHI gets up his courage to invite her.
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=l t=300 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]（츠카사 얼굴이 왜 좀 빨갛지…… 설마 열이라도 나는 건가?）
+
+@huki id=8
+@bs f=サクラ@考え中
+@wait t=1200
+
+@huki id=7
+@bs f=サクラ@悔しい op2=困惑
+[사쿠라]（모처럼 초대해 줬는데…… 오늘은 일자리를 찾으러 가야 하니까……）
+
+　돈 생각을 하니, 기분이 단숨에 바닥까지 가라앉았다.
+
+　닷새 뒤에 내야 하는 15,000엔…… 죽기 살기로라도 마련해야 한다.
+
+@huki id=8
+@bs f=サクラ@哀しみ
+[사쿠라]「미안. 오늘은 일자리를 찾으러 가야 해서 같이 못 가겠어」
+;;@move_f=司 out=r t=300 wt=0
+@move_f f=サクラ@哀しみ out=l t=300
+
+@c_jump id=5 wt=0
+@huki id=5 b=1 wt=1
+
+@huki b=8 wt=1 id=5
+
+@huki b=7 id=5
+;;@move_f=司 in=r t=300
+[츠카사]「그, 그렇구나…… 그, 그럼 다음에 다시 얘기하자……」
+
+@huki b=8 id=5
+@move_speed spd=3 id=5
+@fade type=out t=1000 wt=0
+@route route=down,right:4,up id=5
+@dir dir=right id=5
+@fade type=in t=1000
+
+@huki b=7 id=5
+;; SHI felt depressed and returned to his own seat.
+
+@move_f f=サクラ@考え中 op2=ハテナ in=l t=300
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]（츠카사, 왜 저러지?　갑자기 시무룩해져서는……）
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]（뭐, 됐어. 그것보다 돈 잘 벌리는 일자리나 찾으면 좋겠는데）
+@move_f f=サクラ@考え中 out=l t=300
+
+@fade type=out t=2000 wt=1
+
+@bgm
+
+@mes_win back=1 pos=1
+　나는 곧바로 기분을 다잡고, 방과 후에 일자리를 찾을 궁리에 몰두했다.
+@mes_win back=0 pos=2
+
+@move_speed spd=4
+;; Free action after school
+@bs
+

@@ -1,0 +1,39 @@
+
+;;【021_01売春①.txt】
+
+@dir dir=down id=59
+@dir dir=down
+@invisible type=on
+
+@fade type=in t=1000 wt=1
+
+@se f=Open1
+@dir dir=left id=59
+@dir dir=right id=59
+@dir dir=up id=59
+@invisible type=off
+
+@mpve_speed spd=3
+@route route=down wt=1
+@mpve_speed spd=4
+
+@dir dir=up
+@wait t=250
+
+@dir dir=right id=59
+@dir dir=left id=59
+@dir dir=down id=59
+@se f=Close1
+
+@mpve_speed spd=3
+@route route=down wt=1
+@mpve_speed spd=4
+@through type=off
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA]「hoo……I dye my hair at will……is that all right……?」
+
+@bs f=サクラ@無表情
+[SAKURA]「Forget it. The hair coloring is not restricted in the school. It is no problem.」
+@move_f f=サクラ@無表情 out=r t=300
+

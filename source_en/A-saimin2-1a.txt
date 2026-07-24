@@ -1,0 +1,221 @@
+
+;;○ help
+
+@huki id=6 b=3
+
+[Head of Supernature Research Department]「Great…！　Let's do it now……」
+
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+
+[SAKURA]「……Anyway, the experiment has been done for several times. What did you talk about?」
+
+@huki id=6 b=6
+
+[Head of Supernature Research Department]「Er……！?　This……such as the historical background of the time……something like that…Ah haha」
+
+;;Dubious sight
+@bs f=サクラ@怒り op2=困惑
+
+[SAKURA]「…………It is really a seance experiement?」
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Of course it is?!　Maybe we will know more if we continue the experiment」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「……I will give you 2,500 yen. Will you help me?」
+
+@bs f=サクラ@笑み op2=音符
+
+[SAKURA]「I will…！」
+
+@bs f=サクラ@微笑
+@huki id=6 b=6
+
+[Head of Supernature Research Department]（……Ha. My pocket money is less and less. I can do nothing about it……）
+
+[Head of Supernature Research Department]「Here you are」
+
+;;He gives SAKURA 2,500 yen.
+
+@se f=Coin
+@bs f=サクラ@笑み op2=音符
+
+@mes_win back=1 pos=1
+
+\CL gets 2,500 yen…
+
+@mes_win
+
+@move_f f=サクラ@笑み out=r t=300
+
+;;SAKURA moves
+
+@route route=down wt=1
+@dir dir=up wt=1
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「……Is this place ok?」
+
+@bgm f=bgm12
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「Ok, let's start……嗡芭莎巴拉吼尼亚拉拉依卡咻呀酷！」
+
+;;Hypnosis effect
+;;Hypnosis close-up
+
+@move_f f=A-cut_saimin1 face=0 in=c t=150 h=1
+@wait t=500
+@se f=催眠行使
+@move_f f=A-cut_saimin2 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin1 face=0 out=c t=150
+@bs f=サクラ@無表情_催眠
+@wait t=1000
+@move_f f=A-cut_saimin2 face=0 out=c t=150
+@wait t=150
+
+@mes_win back=1 pos=1
+
+\CL SAKURA is hypnotized……
+
+@mes_win
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「……Ok, let's do the chest today」
+
+@route id=6 route=down wt=1
+
+;;Close-up of the chest
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune2 face=0 in=l t=150 h=1
+
+@huki id=6 b=4
+
+[Head of Supernature Research Department]「Wow…！It's so soft!!　It is so wonderful even you wear your clothes, now the feeling is even…！」
+
+@bs f=サクラ@悔しい_催眠_頬
+
+[SAKURA]「……Er……Ah……」
+
+;;Close-up of the lower part of the body
+@move_f f=A-cut_mune2 face=0 out=l t=150
+@wait t=150
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_kokan face=0 in=l t=150 cos=1
+
+@huki id=6 b=4
+
+[Head of Supernature Research Department]「Oooo……Sorry, I can't help doing it. But is this a pussy……」
+
+;;He inserts his finger
+@se f=指挿入
+@bs f=サクラ@羞恥_催眠_頬
+
+[SAKURA]「……Er…！」
+
+@move_f f=A-cut_kokan face=0 out=l t=150
+@bs f=サクラ@無表情_催眠_頬
+
+@huki id=6 b=4
+
+[Head of Supernature Research Department]「Oh oh oh……！！　Oh my god, the sound is too noisy for being so excited…I must calm down.Laughing and joking」
+
+@bs f=サクラ@無表情_催眠
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Ok！　…Next, maybe you could keep your underwear?」
+
+[SAKURA]「……Okay」
+
+;;The sound of silk falling
+
+@se f=服を脱ぐ音
+@bs f=サクラ@無表情_催眠 body=下着
+
+[Head of Supernature Research Department]「……My god. Your figure is so great. Next……you can be naked」
+
+[SAKURA]「……Okay」
+
+;;The sound of silk falling
+@se f=服を脱ぐ音
+@bs f=サクラ@無表情_催眠 body=裸
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Oh oh oh！！」
+
+@huki id=6 b=4
+
+[Head of Supernature Research Department]「Oh, that's so wonderful……Aha Aha……I can't control myself, I can't control it now!!」
+
+;;The sound of falling down
+@bs
+@se f=床にドサッ
+@move_f f=A-cut_saimin5 face=0 in=c t=150 h=1
+
+[Head of Supernature Research Department]「My penis is on the pussy of a woman……！」
+
+[SAKURA]「……Er……」
+
+[Head of Supernature Research Department]「Aha Aha……It is not enough by rubbing once at all！I must put it inside!」
+
+
+;;Close-up of insertion
+@se f=挿入音
+@flash t=300
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin5 face=0 out=c t=150
+
+[SAKURA]「Er Ah…！！」
+
+[Head of Supernature Research Department]「Ooooo…！　It is so tight…！　So comfortable！！」
+
+;;Take out and insert
+@se f=ピストン
+
+[SAKURA]「Er！　Ah！　……Ha, Er er！」
+
+[Head of Supernature Research Department]「Ah, it is like in a dream to put my penis in the pussy of a woman who is in hypnosis」
+
+;;Take out and insert rapidly
+@se
+@se f=ピストン_激しい
+
+[SAKURA]「Er! Er!」
+
+[Head of Supernature Research Department]「Ah Ah！I can't control it! I will eject it! Eject it!」
+
+[SAKURA]「Ah, Ah, Ah！」
+
+[Head of Supernature Research Department]「I must eject my sperm into her pussy! I must eject the sperm that make her pregnant into her womb!!」
+
+;;Ejaculation
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[SAKURA]「Ah ah ah！！」
+
+[Head of Supernature Research Department]「Ooooo…！　Your pussy is so tight. Good and comfortable…！」
+
+@move_f f=A-cut_saimin8 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin7 face=0 out=c t=150
+
+[SAKURA]「Ah！……Ah ah……Ah ah……I feel hot in my belly……」
+
+@fadeout t=1000 wt=1
+@bs

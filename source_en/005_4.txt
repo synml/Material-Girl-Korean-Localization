@@ -1,0 +1,21 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+@huki id=10 b=2
+[Girl Student]「Have you heard of \C[2]bakery\C[0] on the business street?」
+
+@huki id=7 b=2
+[Boy Student]「\C[2] bakery\C[0]?　ah ah, that female store?」
+
+@huki id=10 b=8
+[Girl Student]「um. All the enterers came out with the scared expression. It was said that its store manager is a member of gangdom.」
+
+@huki id=7 b=6
+[Boy Student]「ha ha ha! 　How could it be so……」
+
+@huki id=10 b=2
+[Girl Student]「Let us look around it at weekend?」
+
+@huki id=7 b=6
+[Boy Student]「…………ay?」
+

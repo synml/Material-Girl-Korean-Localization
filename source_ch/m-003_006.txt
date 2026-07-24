@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL獲得某人落下的胸罩！
+
+@mes_win

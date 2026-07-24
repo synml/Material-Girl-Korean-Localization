@@ -1,0 +1,28 @@
+
+;;【017_01コンビニ.txt】
+
+;; See the convenience store’s “Job Wanted” advertisement, and then accost the store manager.
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+@move_f f=サクラ@哀しみ in=r t=300
+[SAKURA]「That……I come here for work.」
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+[Convenience Store's Manager]「um? 　hoo hoo. Pretty good.」
+
+@bs f=サクラ@無表情 op2=ハテナ
+[SAKURA]「ay? 　What do you mean?」
+
+@bs f=サクラ@無表情
+[Convenience Store's Manager]「Nothing. That's nothing. You don't mind. We will interview you firstly.」
+
+[Convenience Store's Manager]「Could you come over with me?」
+
+[SAKURA]「OK.」
+;;@move_f f=コンビニ店長 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　SAKURA and store manager walk towards the warehouse of convenience store.
+

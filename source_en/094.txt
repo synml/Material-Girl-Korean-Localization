@@ -1,0 +1,103 @@
+
+;;【019_01飲み勝負.txt】
+
+;; SAKURA was accosted when she passed by beverage store. 
+
+@dir_fix id=25 type=off
+@dir_fix id=35 type=off
+
+@dir dir=right id=25
+@dir dir=right id=35
+
+@fade type=in t=1000 wt=1
+
+@move_speed spd=2
+@route route=up
+@move_speed spd=4
+
+@huki id=25 b=3 wt=1
+[Frivolous Man １]「hey hey, so lovely」
+
+@dir dir=left
+
+@huki id=35 b=3 wt=1
+[Frivolous Man ２]「Could we go out and play together?」
+
+@huki b=7
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA] (ha ah ah……accost?……) 
+
+;; Looking at these frivolous men, SAKURA gave a long sigh helplessly.
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[SAKURA]「Sorry. I have to work now……」
+
+@dir dir=up
+
+@bs f=サクラ@悔しい
+[SAKURA] ( I won’t go out with this man.) 
+
+@move_speed spd=2
+@move_speed spd=6 id=25
+@route route=right:3,up:3,right,down id=25 wt=0
+@route route=up wt=1
+@move_speed spd=4
+
+@huki b=3 id=25
+@c_jump id=25
+@bs f=サクラ@悔しい op2=汗
+@huki b=6
+
+[Frivolous Man１]「Wait, wait～. Are you lack of money? 　There is a easier way to earn money」
+
+[Frivolous Man２]「Do we compete in drinking the store?」
+
+[Frivolous Man １]「 If you win, you are able to obtain bonus.」
+
+@bs f=サクラ@驚き_z body_op=z
+@huki b=2
+
+[SAKURA]「Bonus……?」
+
+@huki id=35 b=1
+[Frivolous Man２]「ah ha! 　Are you interested in it? 　Look, the bulletin of this store」
+
+@bs f=サクラ@無表情_z body_op=z
+
+[SAKURA] (Drinking competition……? 　 if you are able to win the drinking competition, the store will provide bonus ……) 
+
+[SAKURA] (The loser in the drinking competition shall bear the money for the wine……) 
+
+@bs f=サクラ@考え中
+
+@huki b=7 wt=1
+
+[SAKURA] (If I win, I am able to win bonus……however, if I lose, I have to pay the money for the wine……) 
+
+@huki id=25 b=8 wt=1
+
+[Frivolous Man １]「Whether you win or lose, we will pay money.」
+
+[Frivolous Man ２]「Yeah. If you win, you are able to obtain the bonus. It is a good deal.」
+
+@bs f=サクラ@無表情
+
+@huki b=7 wt=1
+
+[SAKURA] (If so, it is really a good deal……) 
+
+@bs f=サクラ@考え中
+
+@huki b=7 wt=1
+
+[SAKURA] (however, I haven’t never participated in the drinking competition ……what shall I do……) 
+
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: Don’t compete / Compete
+
+;;○Don’t compete →019_02止めておく
+
+;;○Compete →019_03勝負する
+

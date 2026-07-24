@@ -1,0 +1,25 @@
+
+;;【003_03服装チェック段階Ｈ（汎用）.txt】
+
+;;Phase Ⅴ
+
+@bgm f=bgm04
+
+;;ＣＧ■CG01c
+@bgf bg=ev01c t=1000
+@bgs f=aegi_skr2
+
+[SAKURA/skr0263] 「Umm, umm, umm, ah......Ahhh.」
+
+[SUDOU] 「You are getting hot. Is that what you want?」
+
+[SAKURA/skr0264] (Fingers, Fingers are rubbing there......Ahh!? I, I will call it out......)
+
+[SUDOU] 「Well done, SAKURA. Then I'll give you what you want」
+
+[SAKURA/skr0265] 「Hoo! Ummm, umm, ahhhhh!」
+
+@bgs
+@rps
+
+

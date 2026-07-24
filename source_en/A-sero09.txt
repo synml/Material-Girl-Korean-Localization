@@ -1,0 +1,56 @@
+@move_f f=black face=0 in=c t=150
+
+@bgm_save
+@bgm
+
+[SAKURA]「I go to the toilet……」
+
+@se f=ドアが開閉する音_近い
+
+@bgm f=bgm14
+
+[Pervert]「Ah, I am coming to the room.」
+
+[SAKURA]「What!? Why does a man enter the lady's room!!!」
+
+[Pervert]「It doesn't matter.  Don't be so rigid. My cock has been  "rigid" enough. 」
+
+[SAKURA]「What are you talking about! Get out!」
+
+@se f=挿入音
+@move_f f=A-cut_sev07-3 face=0 in=c t=150
+
+[Pervert]「Eject? Okay, I will eject it as you wish!」
+
+@se f=ピストン_高速
+
+[SAKURA]「What are you talking about …… Ah, no……nuisance……Ah ah ah ah ah!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev07-4 face=0
+
+[SAKURA]「Don't be so deep……Ah ah……Ah ah……Ah ah ah ah ah ah!」
+
+[Pervert]「I will make it full as you wish. 」
+
+[SAKURA]「Why are you doing this……」
+
+@fadeout t=1000 wt=1
+@bs
+@bgm
+@wait t=1000
+@dir dir=down
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@考え中_頬 op2=困惑 in=r t=300
+
+[SAKURA]「O o……The sperm is overflowing, so disgusting……」
+
+@move_f f=サクラ@考え中_頬 out=r t=300
+@bgm_replay

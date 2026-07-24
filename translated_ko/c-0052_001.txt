@@ -1,0 +1,7 @@
+@mes_win back=1 pos=1
+
+\CL 오늘은 수업을 빼먹었다……
+
+@mes_win
+
+

@@ -1,0 +1,64 @@
+
+;;【023_01高額エロバイト.txt】
+
+@bgm f=Dungeon5
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA/skr2205] (Finally……finally……it came to an end……) 
+
+　A humiliated day in the mansion finally came to an end.
+
+@wait t=1000
+@fadein
+
+@huki id=6 b=8 wt=1
+
+[Teenager]「Here you are, your salary.」
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA/skr2206]「……thanks」
+
+@huki id=6 b=4 wt=1
+
+[Teenager]「You are very qualified. Would you like to be a housemaid in the mansion?」
+
+[Teenager]「Dad has his dedicated meat toilet, but I haven’t.」
+
+@huki id=6 b=8 wt=1
+
+[Teenager]「You are certain to be an excellent meat toilet. Will you?」
+
+@bs f=サクラ@悔しい op2=汗
+
+@huki b=8 wt=1
+
+[SAKURA/skr2207] (He said out the meat toilet……the persons in this mansion……what’s the matter with them……) 
+
+@bs f=サクラ@哀しみ op2=拒否
+
+[SAKURA/skr2208] (I should not approach to this place……) 
+
+@bs f=サクラ@哀しみ
+
+@huki b=7 wt=1
+
+[SAKURA/skr2209]「Sorry. I have to go. See you later」
+
+@route route=d:3 wt=1
+@huki id=6 b=1 wt=1
+
+[Teenager]「Wait. When could you come here to be my meat toilet?……」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@route route=d:3,r:6 wt=0
+@fadeout
+
+　Hearing what the teenager said, SAKURA shook his head, and then left the mansion quickly.
+
+@se f=Move
+

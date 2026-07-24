@@ -1,0 +1,351 @@
+
+;;【007_01イジメられる司３.txt】
+;;【007_02勝利.txt】
+
+@dir dir=down
+
+@huki b=1 id=11
+@anime id=11 num=302 wt=0
+@wait t=500
+@change num=1 id=11
+@dir dir=down id=11
+
+@dir dir=up
+
+@huki b=1 id=10
+@anime id=10 num=303 wt=0
+@wait t=500
+@change num=1 id=10
+@dir dir=down id=10
+
+@move_speed spd=6
+
+@huki b=1 id=12
+@route route=right:2
+
+@anime id=12 num=304 wt=0
+@wait t=250
+@move_speed spd=6 id=12
+@change num=1 id=12
+@dir dir=down id=12
+
+@dir_fix id=12 type=on
+@dir dir=right id=9
+@route route=right:4 id=12
+@huki b=7 wt=1 id=12
+
+@dir dir=left id=9
+@dir_fix id=12 type=off
+
+@huki b=7 wt=1 id=10
+[不良１]「嗚嗚……」
+
+@huki b=7 id=11
+[不良２]「好、好強……」
+
+@dir dir=right id=9
+@huki b=7 id=12 wt=1
+
+@huki b=5 id=12 wt=1
+@dir dir=left id=12
+@change num=0 id=12
+
+@huki b=1 id=12
+[佐竹]「可惡啊啊啊啊！」
+
+;;　不光放倒了不良手下，佐竹也吃了小櫻幾拳，連站都站不穩了。
+
+@huki b=7 id=12
+[佐竹]「我、我怎么可能會輸啊……！」
+
+
+@dir dir=right id=10
+@dir dir=right id=11
+
+@change id=10 num=0
+@change id=11 num=0
+
+@move_f f=サクラ@無表情 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@考え中
+[小櫻]（現在只有憤怒的情感在支撐著他的意識了……）
+
+@bs f=サクラ@無表情
+[小櫻]（但僅憑這樣，是贏不了我的。你越憤怒，我就會越沉著。）
+@move_f f=サクラ@無表情 out=l t=300 wt=1
+
+
+@se f=Sword5 pitch=130
+@c_jump id=12 wt=0
+@huki b=1 id=9
+@huki b=1 wt=1 id=12
+
+@move_speed spd=6 id=12
+
+[佐竹]「噢噢噢噢噢噢！」
+
+;;　仗著自己的身體優勢，佐竹揮著刀向小櫻沖了過來。
+
+@dir dir=left id=9
+
+@huki b=1
+@move_f f=サクラ@無表情 in=l t=300
+[小櫻]「哼……！」
+
+@huki b=8
+@bs f=サクラ@考え中
+[小櫻]（這么單純的動作、根本沒什么好怕的！）
+
+@huki b=1
+@bs f=サクラ@怒り
+[小櫻]「哈啊啊啊！」
+@move_f f=サクラ@怒り out=l t=300
+
+@route route=left:4 id=12
+
+@bgm
+
+@move_speed spd=5 id=12
+@flash t=500 wt=0
+@anime id=12 num=305 wt=0
+@qk
+@wait t=300
+
+@dir_fix id=12 type=on
+@walk_anime id=12 type=off
+
+@c_jump id=12 x=3 wt=1
+@dir dir=right id=9 wt=0
+
+@se f=Blow4
+@dir_fix id=12 type=off
+@walk_anime id=12 type=on
+
+@change num=1 id=12
+@dir dir=down id=12
+
+@qk t=500 wt=1
+
+@move_speed spd=3 id=10
+@move_speed spd=3 id=11
+
+@huki b=6 id=9
+@huki b=6 id=10
+@huki b=6 id=11
+
+@fb dir=back id=10 wt=0
+@fb dir=back id=11
+
+;;　躲過刀鋒的小櫻、順勢給了佐竹胸口一掌。
+
+@huki b=7 id=12
+[佐竹]「咕哈！？　嗚嗚嗚嗚」
+
+@move_speed spd=3
+@route route=right:3
+@dir dir=down id=9
+
+@move_f f=サクラ@考え中 in=c t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[小櫻]「給我發誓再也不找司的麻煩！」
+
+@bgm f=bgm04
+
+@huki b=8 id=12
+[佐竹]「哼、誰會發那種誓……」
+
+@bs f=サクラ@考え中_z body_op=z
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中_z out=c t=300
+
+
+@anime id=12 num=306 wt=0
+@wait t=500
+@huki b=7 wt=1 id=12
+
+@huki b=6 id=10
+@huki b=6 id=11
+
+@huki b=6 id=9
+@huki b=7 id=12
+
+@fb dir=back id=10 wt=0
+@fb dir=back id=11
+;;　砰！　啪！
+
+[佐竹]「咕咿！？　嘎啊！？」
+
+@move_f f=サクラ@怒り_z body_op=z in=c t=300
+[小櫻]（今天就讓你徹底知道、誰更強！）
+@move_f f=サクラ@怒り_z out=c t=300
+
+;;　砰！　咚！　啪！
+@anime id=12 num=306 wt=0
+@wait t=500
+
+@huki b=6 id=10
+@huki b=6 id=11
+
+@huki b=7 id=12
+@fb dir=back id=10 wt=0
+@fb dir=back id=11
+
+@huki b=1
+@move_f f=サクラ@怒り_z body_op=z in=c t=300
+[小櫻]（在你不說不再找司麻煩之前……我是絕對不會停的……！）
+@move_f f=サクラ@怒り_z out=c t=300
+
+;;　ドゴッ！　ボコッ！　バコッ！
+@anime id=12 num=306 wt=0
+@wait t=500
+
+@huki b=6 id=10
+@huki b=6 id=11
+
+@huki b=7 id=12
+@fb dir=back id=10 wt=0
+@fb dir=back id=11
+
+@huki b=1 wt=1 id=12
+
+[佐竹]「咿！　我、我知道了……我、再也，再也不找他麻煩了！　拜托你饒了我吧！」
+
+;;　意識到了自己的完敗，佐竹狼狽的哀求著小櫻。
+
+@move_f f=サクラ@考え中 in=c t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@怒り_z body_op=z
+[小櫻]「……下次，如果再犯的話……」
+@move_f f=サクラ@怒り out=c t=300
+
+@huki b=7 wt=1 id=12
+
+@dir_fix id=12 type=off
+@walk_anime id=12 type=on
+
+@change num=0 id=12
+@c_jump id=12
+@huki b=1 id=12 wt=1
+[佐竹]「我、我知道了！　嗚啊啊啊啊啊！」
+
+@move_speed spd=5 id=10
+@move_speed spd=5 id=11
+@move_speed spd=5 id=12
+
+@bgm
+@fade type=out t=1000 wt=0
+@route route=left,up:8 id=10 wt=0
+@route route=left,up:10 id=11 wt=0
+@route route=right:3 id=12
+@se f=Move1
+@invisible id=12 type=on
+@wait t=1200
+@invisible id=10 type=on
+@invisible id=11 type=on
+@c_jump x=-3 y=-1
+@c_jump x=-7 id=12
+@c_jump x=-5 id=9
+@change f=!Flame num=6 id=12
+@dir dir=up id=12
+@step_anime id=12 type=on
+@dir dir=left
+@dir dir=right id=9
+@invisible id=12 type=off
+@fade type=in t=1000 wt=1
+
+@bgm f=bgm03
+
+;;　被嚇破膽的佐竹和不良們，拖著滿身瘡痍的身體落荒而逃。
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[小櫻]「這下，就再也不用怕了。」
+
+@huki b=6 id=9
+[司]「謝謝你、小櫻。但是……」
+
+@bs f=サクラ@考え中 op2=ハテナ
+[小櫻]「怎么了？」
+
+@bs f=サクラ@驚き
+
+@huki b=6 id=9
+[司]「剛才那樣的小櫻，有點可怕……」
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[小櫻]（我是不是有些過分了啊？）
+
+;;　對不良少年們的憤怒，讓當時的小櫻變得冷酷無情。
+
+@huki b=8
+@bs f=サクラ@哀しみ op2=汗
+[小櫻]（待會兒，還是反省一下比較好……）
+@move_f f=サクラ@哀しみ out=r t=300
+
+@dir dir=down
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中 op2=ハテナ in=r t=300
+@huki b=2 wt=1
+
+@bs f=サクラ@無表情
+[小櫻]（……咦？　這個是……）
+@move_f f=サクラ@無表情 out=r t=300
+
+@se f=Coin
+@invisible id=12 type=on
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@無表情 in=r t=300
+[小櫻]（那家伙用的那把刀。）
+
+@bs f=サクラ@考え中
+[小櫻]（還是別讓那幫家伙拿這種危險的東西了……機會難得我就收下吧。）
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki b=8
+@huki b=6 id=9
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL得到刀具『狂刃』！
+@mes_win back=0 pos=2
+
+@huki b=8 wt=1
+
+;;　在把作為勝利品的刀具收到包包里后――
+@through type=on
+@dir dir=left
+@move_f f=サクラ@微笑 in=r t=300
+[小櫻]「那再見咯、司。」
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=2000 wt=0
+@bgm
+@move_speed spd=3
+@route route=down,left:5
+
+@mes_win back=1 pos=1
+\CL和司告別之后離開這里。
+@mes_win back=0 pos=2
+
+;;※得到不良掉落的刀具『狂刃』。
+
+;;※司?好感度＋30
+
+@se f=Move1
+
+@wait t=1200
+@through type=off
+@move_speed spd=4
+;;※自由行動
+

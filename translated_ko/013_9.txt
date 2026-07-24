@@ -1,0 +1,43 @@
+
+;;【002_05次の日.txt】
+
+;; Effect ■ time change
+@bs
+@move_f f=サクラ@考え中 body=パジャマ in=r t=100
+@fade type=in t=1000 wt=1
+
+[사쿠라]「오늘은 집세를 내야 해……」
+
+@bgm_save
+@bgm
+
+@fade type=out t=1000 wt=1
+@bs
+
+@se f=Coin
+@mes_win back=1 pos=1
+\CL 50,000엔을 지불했다……
+@mes_win back=0 pos=2
+
+@dot_move x=19 y=4
+@bgm_playe
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]「알바 덕분에, 어떻게든 이 고비는 넘겼네」
+
+@bs f=サクラ@考え中
+[사쿠라]「어쩔 수 없이 시작한 일이지만, 의외로 알바도 꽤 재밌단 말이지」
+
+@bs f=サクラ@無表情
+[사쿠라]「당분간 크게 돈 나갈 일도 없고, 마음만 먹으면 나도 해낼 수 있잖아?」
+
+@bs f=サクラ@考え中
+[사쿠라]「요즘 사고 싶은 것도 좀 생겼고, 이 페이스대로……계속해볼까?」
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@fade type=out t=1000 wt=1
+;; Prologue ends
+

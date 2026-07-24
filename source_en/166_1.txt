@@ -1,0 +1,44 @@
+
+
+
+[SHIRASAWA]「Miss SAKURA, please advise!」
+
+　Headed by NO1 host SHIRASAWA, other hosts gathered together.
+
+[Boss]「From now on, this store belongs to Miss SAKURA.」
+
+[Boss]「Miss SAKURA can do what you want to do at will.」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA] (ho ho, at will……really excited.) 
+
+@bs f=サクラ@無表情
+
+[SAKURA]「Although I don’t know the extent I can manage this store……」
+
+@bs f=サクラ@微笑
+
+[SAKURA]「I want this store to be number one in Japan……even in the world!」
+
+@bs f=サクラ@笑み op2=音符
+
+[SAKURA]「Would you like to follow me? 　ho ho, of course, I will give high reward to the hard workers. ♪」
+
+[SHIRASAWA]「Miss SAKURA! 　I’d like to follow you.」
+
+[KURODA]「Me too!」
+
+[AOKI]「Me too!」
+
+　All the hosts kneel on the ground to pledge their loyalty to SAKURA.
+
+@bs f=サクラ@笑み
+
+[SAKURA]「ho ho ho ho ho」
+
+[SAKURA] (I feel increasingly excited……from now on, my life will open a new chapter.) 
+
+　Looking at these obedient hosts, SAKURA was filled with excitement.
+
+@move_f f=サクラ@笑み out=r t=300

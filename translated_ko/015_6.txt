@@ -1,0 +1,188 @@
+
+@switches id=100 val=1
+
+@if eval=v(104)==0 ok=jump:*end bad=jump:*hitON001
+*hitON001
+
+@dot_move id=101 x=15 y=6 dir=right
+@dot_move id=102 x=15 y=7 dir=right
+@dot_move id=103 x=15 y=9 dir=right
+@dot_move id=104 x=15 y=10 dir=right
+@dot_move id=105 x=15 y=12 dir=right
+@dot_move id=106 x=15 y=13 dir=right
+@dot_move id=107 x=15 y=15 dir=right
+@dot_move id=108 x=15 y=16 dir=right
+
+@dot_move id=109 x=12 y=6 dir=right
+@dot_move id=110 x=12 y=7 dir=right
+@dot_move id=111 x=12 y=9 dir=right
+@dot_move id=112 x=12 y=10 dir=right
+@dot_move id=113 x=12 y=12 dir=right
+@dot_move id=114 x=12 y=13 dir=right
+@dot_move id=115 x=12 y=15 dir=right
+@dot_move id=116 x=12 y=16 dir=right
+
+@dot_move id=117 x=9 y=6 dir=right
+@dot_move id=118 x=9 y=7 dir=right
+@dot_move id=119 x=9 y=9 dir=right
+@dot_move id=120 x=9 y=10 dir=right
+@dot_move id=121 x=9 y=12 dir=right
+@dot_move id=122 x=9 y=13 dir=right
+@dot_move id=123 x=9 y=15 dir=right
+@dot_move id=124 x=9 y=16 dir=right
+
+@dot_move id=125 x=6 y=9 dir=right
+@dot_move id=126 x=6 y=10 dir=right
+@dot_move id=127 x=6 y=12 dir=right
+@dot_move id=128 x=6 y=13 dir=right
+@dot_move id=129 x=6 y=15 dir=right
+@dot_move id=130 x=6 y=16 dir=right
+
+@change id=101 f=女子学生01 num=0
+@change id=102 f=男子学生01 num=1
+@change id=103 f=女子学生01 num=2
+@change id=104 f=男子学生01 num=3
+@change id=105 f=女子学生01 num=4
+@change id=106 f=男子学生01 num=5
+@change id=107 f=女子学生01 num=6
+@change id=108 f=男子学生01 num=7
+
+@change id=109 f=男子学生01 num=0
+@change id=110 f=女子学生01 num=1
+@change id=111 f=男子学生01 num=2
+@change id=112 f=女子学生01 num=3
+@change id=113 f=男子学生01 num=4
+@change id=114 f=女子学生01 num=5
+@change id=115 f=男子学生01 num=6
+@change id=116 f=女子学生01 num=7
+
+@change id=117 f=女子学生01 num=7
+@change id=118 f=男子学生01 num=6
+@change id=119 f=女子学生01 num=5
+@change id=120 f=男子学生01 num=4
+@change id=121 f=女子学生01 num=3
+@change id=122 f=男子学生01 num=2
+@change id=123 f=女子学生01 num=1
+@change id=124 f=男子学生01 num=0
+
+@change id=125 f=男子学生01 num=5
+@change id=126 f=女子学生01 num=4
+@change id=127 f=男子学生01 num=3
+@change id=128 f=女子学生01 num=2
+@change id=129 f=男子学生01 num=1
+@change id=130 f=女子学生01 num=0
+
+@wait t=3000 wt=1
+
+@fade type=in t=2000 wt=0
+
+@if eval=v(104)>10 ok=jump:*is_hit01 bad=jump:*no_hit01
+;;-------------------------------------
+;;　오늘은 스도의 체육 수업이 있는 날이다.
+*is_hit01
+
+@dot_move x=18 y=16 id=131
+@se f=Move1
+@change f=須東 id=131
+@move_speed spd=4 id=131
+@route route=up:5,left,up id=131 wt=1
+@dir dir=left id=131
+
+@huki b=8 id=131
+[스도]「오늘 오후 수업은 체육이다」
+
+@if eval=s(151)==1 ok=jump:*is_hit03 bad=jump:*no_hit03
+
+*is_hit03
+@huki b=8 id=131
+[스도]「전원, \C[2]체육복\C[0]으로 갈아입고 \C[2]운동장\C[0]에 집합해라」
+@jump target=*event_end
+
+*no_hit03
+@huki b=8 id=131
+[스도]「전원, \C[2]체육복\C[0]으로 갈아입고 \C[2]운동장\C[0]에 집합해라」
+@jump target=*event_end
+;;-------------------------------------
+*no_hit01
+
+@if eval=v(104)>0 ok=jump:*is_hit02 bad=jump:*no_hit02
+;;-------------------------------------
+;; SUDOU performs the physical examination.
+*is_hit02
+
+@dot_move x=18 y=16 id=131
+
+@se f=Move1
+@change f=須東 id=131
+@move_speed spd=4 id=131
+@route route=up:5,left,up id=131 wt=1
+@dir dir=left id=131
+
+@huki b=8 id=131
+[스도]「오늘 오후에는 신체검사를 실시한다. 전원, \C[2]체육복\C[0]으로 갈아입고 \C[2]보건실\C[0]에 집합해라」
+
+@jump target=*event_end
+;;-------------------------------------
+*no_hit02
+
+@jump target=*end
+*event_end
+
+@fade type=out t=1000 wt=1
+@invisible type=on id=131
+
+@wait t=1200
+;;===================
+*end
+;;===================
+
+@invisible id=101 type=on wt=1
+@invisible id=102 type=on wt=1
+@invisible id=103 type=on wt=1
+@invisible id=104 type=on wt=1
+@invisible id=105 type=on wt=1
+@invisible id=106 type=on wt=1
+@invisible id=107 type=on wt=1
+@invisible id=108 type=on wt=1
+@invisible id=109 type=on wt=1
+@invisible id=110 type=on wt=1
+@invisible id=111 type=on wt=1
+@invisible id=112 type=on wt=1
+@invisible id=113 type=on wt=1
+@invisible id=114 type=on wt=1
+@invisible id=115 type=on wt=1
+@invisible id=116 type=on wt=1
+@invisible id=117 type=on wt=1
+@invisible id=118 type=on wt=1
+@invisible id=119 type=on wt=1
+@invisible id=120 type=on wt=1
+@invisible id=121 type=on wt=1
+@invisible id=122 type=on wt=1
+@invisible id=123 type=on wt=1
+@invisible id=124 type=on wt=1
+@invisible id=125 type=on wt=1
+@invisible id=126 type=on wt=1
+@invisible id=127 type=on wt=1
+@invisible id=128 type=on wt=1
+@invisible id=129 type=on wt=1
+@invisible id=130 type=on wt=1
+
+
+@switches id=100 val=0
+
+@through type=off id=130
+@route route=down id=130
+
+@fade type=in t=1000 wt=1
+
+@through type=on
+@speed spd=3
+
+@route route=down
+
+@through type=off
+@speed spd=4
+
+@bgm_replay
+
+

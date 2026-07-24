@@ -1,0 +1,32 @@
+
+;;【024_14オーナーＨ後.txt】
+
+@change f=オーナー id=6 num=0
+@dir dir=down id=6
+
+@move_speed spd=9 id=6
+@route route=down id=6
+@move_speed spd=3 id=6
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[사장님]「다음에 또 찾아주시길 기다리겠습니다」
+
+[사쿠라/skr2401]「후후, 사장님, 다음에도 같이 실컷 즐기자♪」
+
+@bs f=サクラ@笑み op2=音符
+
+[사쿠라/skr2402]（사장님이랑 하는 섹스, 정말 기분 좋단 말이지. 평생 못 잊을 것 같아♪）
+
+[사장님]「알겠습니다」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　넋을 잃을 만큼 뜨거운 사장님의 시선을 받으며, 사쿠라는 택시를 잡아타고 집으로 돌아갔다.
+
+;; A few days later, free action
+

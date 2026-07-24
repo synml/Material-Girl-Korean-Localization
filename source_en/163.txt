@@ -1,0 +1,32 @@
+
+;;【024_14オーナーＨ後.txt】
+
+@change f=オーナー id=6 num=0
+@dir dir=down id=6
+
+@move_speed spd=9 id=6
+@route route=down id=6
+@move_speed spd=3 id=6
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[Boss]「Welcome to come next time」
+
+[SAKURA/skr2401]「ho ho, boss, next time, I will enjoy herself to the full ♪」
+
+@bs f=サクラ@笑み op2=音符
+
+[SAKURA/skr2402] (To making love with boss is so comfortable. Never forget ♪) 
+
+[Boss]「OK」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　SAKURA called a taxi to go home.
+
+;; A few days later, free action
+

@@ -1,0 +1,42 @@
+
+@se f=衣擦れの音1
+@wait t=1000
+
+@fadein
+
+;; Move towards the dressing room, and can’t go out.
+
+;; Put on the Bunny Girl in the dressing room.
+
+@move_f f=サクラ@羞恥_z body_op=z in=r t=300
+
+@huki b=8 wt=1
+
+[사쿠라]（너, 너무 부끄러워……）
+
+　거울에 비친 바니걸 차림의 자신을 보며, 사쿠라는 얼굴이 새빨개졌다.
+
+@dir dir=r wt=1
+@wait t=800
+@dir dir=l wt=1
+@wait t=800
+@dir dir=d wt=1
+@wait t=1000
+@huki b=8 wt=1
+
+@bs f=サクラ@悔しい_z body_op=z
+
+[사쿠라]（하지만, 하기로 결심한 이상 열심히 하는 거야!）
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;;@route route=d,r:3,d wt=0
+@fadeout
+
+;; [SAKURA]「Waiting Room……is over there……」
+
+@se f=Move
+@wait t=2000
+
+
+

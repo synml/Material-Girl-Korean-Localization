@@ -1,0 +1,54 @@
+
+;;【023_01高額エロバイト.txt】
+
+;; ○Options: Reject / Receive
+;;【023_03お金が欲しい.txt】
+
+@bgm f=bgm01
+@move_f f=サクラ@考え中 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA] (Although absolute obedience is very suspicious……however…… I surely want 500,000 yen.) 
+
+@bs f=サクラ@無表情
+
+@wait t=1000
+
+[SAKURA]「……As long as I obey your order, is it OK?」
+
+@wait t=1000
+
+[Teenager]「Yes. Absolute obedience?」
+
+[SAKURA]「…… um」
+
+@huki id=15 b=3 wt=1
+
+[Teenager]「OK! 　Follow me!」
+
+@se f=Move
+@fadeout
+
+　The teenager nodded his head to SAKURA with a smile, and brought her into that huge mansion.
+
+@bs f=サクラ@哀しみ op2=汗
+
+@wait t=1000
+
+[SAKURA] (That's all right……there are no strange orders……) 
+
+@wait t=500
+
+[Teenager]「Come here!」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「OK. I'll be there soon.」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+　SAKURA went after that teenager.
+
+
+

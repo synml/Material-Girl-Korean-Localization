@@ -1,0 +1,94 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@if eval=v(102)<2 ok=jump:*branchA000 bad=jump:*branchB000
+;;-------------------------------------
+*branchA000
+
+@dir dir=left
+
+@jump target=*branchB000
+;;-------------------------------------
+*branchB000
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+@huki b=8
+@mes_win back=1 pos=1
+\CL 『아르바이트 모집! 시급 1,000엔!』
+
+\CL 『근무 시간 자유!』
+@mes_win back=0 pos=2
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*branchA001 bad=jump:*branchB001
+;;-------------------------------------
+;; When selecting right side
+*branchA001
+
+@route route=right
+@dir dir=up
+
+@jump target=*branchEND001
+;;-------------------------------------
+*branchB001
+@if eval=v(101)==2 ok=jump:*branchA002 bad=jump:*branchB002
+;;-------------------------------------
+;; When selecting right side
+*branchA002
+
+@route route=down,right:2
+@dir dir=up
+
+@jump target=*branchEND001
+;;-------------------------------------
+;; When selecting right side
+*branchB002
+
+@dir dir=up
+
+
+@jump target=*branchEND001
+;;-------------------------------------
+*branchEND001
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]「빵집이라……」
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8
+@map_scroll dir=up dis=2 spd=2
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（가게 참 귀엽네）
+@move_f f=サクラ@考え中 out=r t=300
+
+@map_scroll dir=down dis=2 spd=5
+
+@move_speed spd=3
+
+@huki b=8 wt=1
+@move_f f=サクラ@哀しみ in=r t=300
+[사쿠라]（다른 가게들에 비해, 이 빵집만 유독 시급이 세네……）
+
+@huki b=2
+@bs f=サクラ@考え中 op2=ハテナ
+[사쿠라]（왜지?）
+
+@huki b=8 wt=1
+@bs f=サクラ@無表情
+[사쿠라]「일단 가서 물어나 보자」
+@move_f f=サクラ@無表情 out=r t=300
+
+@move_speed spd=2
+@fade type=out t=1000 wt=0
+@@route route=up wt=1
+@se f=Move1
+@move_speed spd=4
+
+

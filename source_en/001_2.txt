@@ -1,0 +1,9 @@
+
+;;【001_01プロローグ.txt】
+
+@huki id=32 b=7
+[Girl Student]「e～!　This is……really \C[2]SUDOU\C[0] awful. Luckily, I was not touched……」
+
+@huki id=31 b=6
+[Boy Student]「hey hey, forgive me, I should apologize to the teacher～」
+

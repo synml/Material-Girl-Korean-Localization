@@ -1,0 +1,33 @@
+
+;;【024_09好感度達成.txt】
+
+@change f=黒田 id=6 num=0
+@dir dir=down id=6
+
+@move_speed spd=9 id=6
+@route route=down id=6
+@move_speed spd=3 id=6
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[黒田]「小櫻小姐……非常感謝」
+
+　其他的牛郎驚訝地看著精疲力盡的黑田。
+
+@bs f=サクラ@笑み op2=音符
+
+[小櫻/skr2294]「我還會再來玩的?」
+
+@bs f=サクラ@微笑
+
+[小櫻/skr2295]（呵呵呵，下次跟誰做愛呢……）
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=1000 wt=1
+　腦中想著下次玩耍的對象，小櫻邁開了回家的步伐。
+
+;;過了幾天后，自由行動
+

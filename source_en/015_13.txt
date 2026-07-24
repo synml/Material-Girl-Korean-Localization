@@ -1,0 +1,47 @@
+
+;;○戦闘開始前（レベル5）
+
+;;○戦闘開始前（レベル5）
+
+@huki b=1 id=18 wt=1
+
+@huki b=5 id=18
+[SUDOU]「Why did you put on a gym suit to school! 　Come here……」
+
+@dir dir=up id=18
+@wait t=200
+@dir dir=right id=18
+@wait t=250
+
+@dir dir=up id=18
+@wait t=200
+@dir dir=right id=18
+@wait t=250
+
+@huki b=7 id=18 wt=1
+
+[SUDOU]「……chee, you are too eye-catching here……」
+
+@move_f f=サクラ@考え中 op2=ハテナ in=r t=300
+[SAKURA]「…………?」
+
+@huki b=7 id=18
+[SUDOU]「……Return your classroom quickly! 　Be sure to change it into the school uniform before class」
+
+
+@bs f=サクラ@無表情
+[SAKURA] (……although I don’t know why I avoid this inspection of appearance……it works very well……) 
+@move_f f=サクラ@無表情 out=r t=300
+
+@move_speed spd=3
+@route route=up:4
+
+@dir dir=up id=18
+
+@huki b=4 id=18
+[SUDOU]「……coo coo coo, I will fix you in \C[2] PE \C[0] class」
+
+@dir dir=right id=18
+
+@move_speed spd=4
+

@@ -1,0 +1,12 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@wait t=1200
+
+@se f=衣擦れの音1
+@mes_win back=1 pos=1
+　SAKURA takes that uniform into the dressing room.
+@mes_win back=0 pos=2
+
+@wait t=1200
+

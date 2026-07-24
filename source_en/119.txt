@@ -1,0 +1,49 @@
+
+;;【021_02会社員オヤジフェラ.txt】
+
+;; SAKURA dialogues with a middle-aged company staff on the street.
+
+@bgm f=bgm02
+
+@move_f f=サクラ@微笑 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr1696] (That uncle looks very lascivious. Try to accost him……) 
+
+@bs f=サクラ@笑み
+
+@wait t=1000
+
+[SAKURA/skr1697]「Uncle, excuse me?」
+
+@huki id=45 b=2 wt=1
+
+[Middle-aged Man]「um? 　What is the matter?」
+
+@bs f=サクラ@微笑
+
+@huki b=8 wt=1
+
+[SAKURA/skr1698]「In truth……」
+
+　SAKURA moved closer to that middle-aged man, and spoke to his ear.
+
+@huki id=45 b=1 wt=1
+
+[Middle-aged Man]「Really!?」
+
+[SAKURA/skr1699]「 I am lack of money……10,000 yen once?」
+
+[Middle-aged Man]「Good. OK」
+
+@bs f=サクラ@笑み
+
+@huki b=3 wt=1
+
+[SAKURA/skr1700]「Follow me」
+
+@move_f f=サクラ@笑み out=r t=300
+
+　Holding the middle-aged man’s hand, SAKURA took him into an alley.
+

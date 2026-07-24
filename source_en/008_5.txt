@@ -1,0 +1,9 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@huki b=8
+@move_f f=サクラ@考え中 in=l t=300
+[SAKURA] (……today, it is not necessary to change my clothes.) 
+@move_f f=サクラ@考え中 out=l t=300
+
+

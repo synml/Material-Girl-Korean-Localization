@@ -1,0 +1,48 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+;;【017_06各段階毎のバイト終了.txt】
+
+;; Second stage
+
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA/skr1207]「Be sure to do a good job today!」
+@move_f f=サクラ@無表情 out=r t=300
+
+;; SAKURA opens the cabinet in the dressing room to change the clothes.
+
+@se f=Open1
+@huki b=8 wt=1
+
+@huki b=2
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+[SAKURA/skr1208]「ay?」
+
+@bs f=サクラ@考え中
+[SAKURA/skr1209] (There is something in it……) 
+
+@bs f=サクラ@驚き
+[SAKURA/skr1210]「ay!? what, what is this?……」
+
+@bs f=サクラ@哀しみ op2=汗
+[SAKURA/skr1211] (Why, why was underpants put into the cabinet……? 　Moreover, there is a piece of note……) 
+
+@bs f=サクラ@考え中
+[SAKURA/skr1212] 「……I hope that you are able to wear it to work today……ay ay ay!?」
+
+@bs f=サクラ@哀しみ op2=汗
+@wait t=1000
+
+;; Seeing the content in the note, SAKURA couldn’t help but scream.
+
+@bs f=サクラ@無表情 op2=ハテナ
+[SAKURA/skr1213]「if I put on this underpants, will the store manager increase the hourly wage?」
+
+@bs f=サクラ@考え中 op2=汗
+[SAKURA/skr1214] (What on earth does the store manager think about……however, if the store manager increase the hourly wage……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+;; SAKURA watches the underpants, and thinks over.
+
+@huki b=8 wt=1
+@huki b=8 wt=1 id=101
+

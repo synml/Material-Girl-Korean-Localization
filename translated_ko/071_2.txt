@@ -1,0 +1,8 @@
+
+;;銆?16_06銉戙兂灞嬫闅庯绩.txt銆?
+
+@fade type=out t=1000 wt=1
+@invisible type=on id=101
+@invisible type=on id=102
+@invisible type=on id=103
+

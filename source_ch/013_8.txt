@@ -1,0 +1,36 @@
+
+;;【002_05次の日.txt】
+
+;;効果■時間経過
+@bs
+@move_f f=サクラ@考え中 body=パジャマ in=r t=100
+@fade type=in t=1000 wt=1
+
+[小櫻]「……今天必須要交電費了」
+
+@bgm_save
+@bgm
+
+@fade type=out t=1000 wt=1
+@bs
+
+@se f=Coin
+@mes_win back=1 pos=1
+\CL支付了15,000日元……
+@mes_win back=0 pos=2
+
+@dot_move x=19 y=4
+@bgm_playe
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻]「還好去打工了、總算是把電費湊出來了」
+
+@bs f=サクラ@哀しみ
+[小櫻]「不過、還要把五天后的房租攢出來才行……」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@fade type=out t=1000 wt=1
+;;序章結束
+

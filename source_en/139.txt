@@ -1,0 +1,27 @@
+
+;;【022_04新婚サラリーマン本番.txt】
+
+;; SAKURA dialogues with the newly-married staff.
+
+@bgm f=bgm02
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA/skr2125]「I feel very comfortable today ♪ We make love next time again ♪」
+
+[Staff]「I, I……no longer want to betray my wife.」
+
+　That man lowered his head, paid money, and then moved out of the room.
+
+@bs f=サクラ@笑み op2=音符
+
+[SAKURA/skr2126] (Seemingly, I am addicted to……make love with a married man. ♪) 
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　SAKURA felt her heart thumped at the thought of the excitement of robbing the man, and then licked her lips with her tongue.
+@wait t=1200
+
+

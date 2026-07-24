@@ -1,0 +1,44 @@
+
+;; Common for mature uncle
+
+;; Reading the image in advance
+@fadeout
+@pl f=S_ev18b
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm06
+
+;;ＣＧ■CG18b
+;;@bgf bg=ev18b t=1000
+
+@flash t=500
+@ev_anime f=S_ev18b sx=8 sy=2 fps=3
+
+@bgs f=aegi_skr4
+@se f=ピストン_激しい l=1
+
+[사쿠라/skr2127]「아저씨! 아저씨! 간다! 가버려어어!」
+
+[남자]「후욱……!」
+
+@se
+@bgs
+;;ＣＧ■CG18c
+@fin bg=ev18c se=射精音
+
+[사쿠라/skr2128]「응! 아아아앙! 절정이 멈추질 않아…… 힛! 힛! 아아아아앙!」
+
+[남자]「아아, 아아, 오늘도 정말 완벽하구나, 사쿠라!」
+
+@bgs f=aegi_skr1
+
+[사쿠라/skr2129]「아저씨도…… 아아…… 흐응, 엄청 굉장했어…… 앗」
+
+　정액이 쏟아져 들어오는 기쁨 속에서, 사쿠라의 땀에 흠뻑 젖은 몸은 몇 번이고 절정의 물결을 맞이했다.
+
+@bgs
+@rps
+

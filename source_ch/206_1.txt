@@ -1,0 +1,39 @@
+
+;;【021_01売春①.txt】
+
+@dir dir=down id=59
+@dir dir=down
+@invisible type=on
+
+@fade type=in t=1000 wt=1
+
+@se f=Open1
+@dir dir=left id=59
+@dir dir=right id=59
+@dir dir=up id=59
+@invisible type=off
+
+@mpve_speed spd=3
+@route route=down wt=1
+@mpve_speed spd=4
+
+@dir dir=up
+@wait t=250
+
+@dir dir=right id=59
+@dir dir=left id=59
+@dir dir=down id=59
+@se f=Close1
+
+@mpve_speed spd=3
+@route route=down wt=1
+@mpve_speed spd=4
+@through type=off
+
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻]「呼……由著性子染了……沒關系嗎……？」
+
+@bs f=サクラ@無表情
+[小櫻]「算了，我們學校染發也沒人管，沒問題」
+@move_f f=サクラ@無表情 out=r t=300
+

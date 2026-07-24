@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL 사쿠라는 방에서 쫓겨났다……
+
+@mes_win

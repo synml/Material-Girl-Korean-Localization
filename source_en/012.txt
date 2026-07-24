@@ -1,0 +1,58 @@
+
+;;【002_04司の家のピンポンを鳴らす.txt】
+
+
+@dir dir=up id=101
+@dir dir=down id=102
+
+@chage f=司 id=101 num=0
+@chage f=司_母 id=102 num=0
+
+@bgm_replay
+@fade type=in t=1000 wt=1
+
+@huki b=8 wt=1
+@move_f f=サクラ@微笑 in=r t=300
+[SAKURA]「Aunt. Thank you for your hospitality」
+
+;; After meals, SAKURA bowed to TSUKASA's mother politely.
+
+@huki b=3 id=102
+[TSUKASA's Mother]「Sorry for my poor treat. If SAKURA felt it delicious, aunt’s meal is worth.」
+
+@huki b=3
+@bs f=サクラ@微笑 op2=音符
+[SAKURA]「The foods cooked by aunt are really delicious」
+
+@huki b=3 id=102
+[TSUKASA's Mother]「hum hum hum, next, we cook together.　I will teach you some tips for cooking」
+
+@huki b=8
+@bs f=サクラ@無表情
+[SAKURA]「OK. Thanks. ah, let me clear the table」
+
+@huki b=3 id=102
+[TSUKASA's Mother]「No, thanks. You are welcome, SAKURA」
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[SAKURA]「However, I should not stay idle here……」
+
+@huki b=3 id=102
+[TSUKASA's Mother]「So, let’s do it together.」
+
+@huki b=3
+@bs f=サクラ@微笑
+[SAKURA]「OK」
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=1000 wt=1
+@bgm_save
+@bgm
+
+@mes_win back=1 pos=1
+　After meal, SAKURA and TSUKASA's mother clear the dining table and bowls and chopsticks together.
+@mes_win back=0 pos=2
+
+;; ※After that, through my dinner in TSUKASA’s home, I am able to obtain『TSUKASA’s ・ favorablity ＋１』
+

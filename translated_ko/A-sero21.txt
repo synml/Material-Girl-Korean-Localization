@@ -1,0 +1,58 @@
+;;▼Teenager's mischief series （The heroine's breast is massaged by a teenager）
+
+@huki b=2
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+
+[사쿠라]「뭐지?　방금까지 들리던 소리가 갑자기 사라졌어……」
+
+@route route=r:4 id=101
+@dir dir=u id=101
+@dir dir=r id=102
+
+@bgm_save
+@bgm f=bgm14
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune2 face=0 in=l t=150 h=1
+@bs f=サクラ@驚き_頬
+
+[사쿠라]「꺄앗……!?」
+
+[소년]「우와, 대박!　거유다, 거유야!」
+
+@bs f=サクラ@怒り_頬
+
+[사쿠라]「꺄아앗!　야, 뭐 하는 거야!!」
+
+[소년]「우리 반 여자애들이랑 완전 달라!　우와, 감촉 진짜 좋다!」
+
+@bs f=サクラ@悔しい_頬
+
+[사쿠라]「잠깐, 이러지 마!　그만……놔!」
+
+@move_f f=A-cut_mune2 face=0 out=l t=150
+
+[소년]「고마워, 누나!　다음에도 또 만지게 해줘!」
+
+@route route=l:4 id=101
+
+@route route=l:1,d:10 id=101 wt=0
+@route route=l:1,d:10 id=102 wt=0
+
+@bs f=サクラ@怒り_頬 op2=ビックリ
+
+[사쿠라]「요즘 애들은 대체 왜 이러는 거야!」
+
+@bs f=サクラ@考え中_頬
+@huki b=8 wt=1
+
+@bs f=サクラ@微笑_頬 op2=赤面
+
+[사쿠라]「하지만……방금, 조금 기분 좋았어」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@bgm
+@bgm_replay

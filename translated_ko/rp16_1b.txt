@@ -1,0 +1,21 @@
+
+;; Phase Ⅰ
+
+@bgm f=bgm15
+
+;;ＣＧ■CG16b
+@bgf bg=ev16b t=1000
+
+[사쿠라/skr1691]「에에엣! 으! 아…… 아아아아앙!」
+
+[사쿠라/skr1692]（저, 정말 좀비한테 강간당하게 되다니…… 아）
+
+@rps
+
+@se f=Move
+@fadeout
+
+　가상 세계에서 좀비에게 실컷 능욕당해 기진맥진해진 사쿠라는, 힘없이 보수를 받아 들었다.
+
+;; Free time out of the building
+

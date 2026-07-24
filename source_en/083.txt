@@ -1,0 +1,64 @@
+
+;;【018_01おっぱいパブ.txt】
+
+;; Accost a man when passing by Breast Hotel.
+
+;; Lascivious degree above 30
+
+@bgm_save
+@bgm f=bgm05
+
+@move_speed spd=3
+@route route=up:2
+@move_speed spd=4
+
+@huki id=18 b=1 wt=1
+@route id=18 route=r wt=1
+
+[Man]「nah nah, excuse me?」
+
+@move_f f=サクラ@驚き in=r t=300
+
+@huki b=2 wt=1
+@dir dir=l wt=1
+
+[SAKURA]「ay? 　What is the matter?」
+
+[Man]「Tell me. Do you want to work here?」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「Work?……」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA] (What does this man want to do……I feel suspicious somewhat ……) 
+
+@huki id=18 b=8 wt=1
+
+[Man]「Look at you, so lovely face, so plump breast For you, I have a very good work place.」
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[SAKURA] (A work regarding loveliness and breast……) 
+
+[Man]「This work is only for the girl with big breast and attractive face. Of course, this work will be paid more salary.」
+
+[Man]「Are you interested in it?　Do you want to ask for it?」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@huki b=8 wt=1
+@dir dir=r wt=1
+@wait t=1000
+
+[SAKURA] (What shall I do……) 
+
+;; ○Options: Don’t Ask /Ask
+;;○Don’t ask →018_02話を聞かない
+;;○Ask →018_03話を聞く
+

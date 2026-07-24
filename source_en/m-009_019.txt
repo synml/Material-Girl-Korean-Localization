@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL What will happen if you accost a man sitting on a bench near the park?\n\I[320]\I[322]
+@mes_win
+

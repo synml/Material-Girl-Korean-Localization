@@ -1,0 +1,37 @@
+
+;;【024_14オーナーＨ後.txt】
+;;【025_02話を聞かない.txt】
+
+@bgm f=Dungeon5
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA] (Is it closely linked with my future……)
+
+@bs f=サクラ@考え中
+
+[SAKURA] (Now that it is future thing, I don’t want to think it over now……I don’t need to listen to.) 
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「Sorry. Boss. I will listen to you next time.」
+
+[Boss]「I got it. Next time, when you choose me again, I will tell you.」
+
+@bs f=サクラ@微笑
+
+[SAKURA]「um. Thank you for your care. I am so sorry」
+
+[Boss]「That’s all right……almost……」
+
+@bs f=サクラ@笑み
+
+[SAKURA]「See you next time……ho ho, I am looking forward to it ♪」
+
+@move_f f=サクラ@笑み out=r t=300
+
+　SAKURA moved out of the room with the boss, and then went home.
+
+;; A few days later, free action
+
+;; As long as SAKURA makes love with the boss, the Options of listening to him will appear.
+

@@ -1,0 +1,13 @@
+
+;;【021_04サラリーマンフェラ.txt】
+
+;; SAKURA dialogued with the staff in front of company.
+
+@bgm f=bgm03
+
+@huki id=101 b=8 wt=1
+[Staff]「I, I no longer……betray my wife……」
+
+　After saying that, that man escaped from SAKURA hastily.
+
+

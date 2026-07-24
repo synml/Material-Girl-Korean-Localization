@@ -1,0 +1,22 @@
+;;【002_05次の日.txt】
+;; Effect ■ time change
+
+@if eval=v(36)<=4 ok=jump:*branch000 bad=jump:*branchEND
+*branch000
+
+@if eval=v(37)>3 ok=jump:*branch001 bad=jump:*branchEND
+;;-------------------------------------------------------------------------
+*branch001
+
+@if eval=v(37)%4==0 ok=jump:*branch002 bad=jump:*branchEND
+;;-------------------------------------------------------------------------
+*branch002
+
+@huki b=8
+@move_f f=サクラ@考え中 in=r t=100
+[SAKURA]「um……it is time to go to school……」
+@move_f f=サクラ@考え中 out=r t=300
+
+*branchEND
+;;-------------------------------------------------------------------------
+

@@ -1,0 +1,19 @@
+
+;;【019_01飲み勝負.txt】
+
+;; SAKURA was accosted when she passed by beverage store. 
+
+
+@huki id=25 b=2
+[Frivolous Man １]「Hello, that girl, so beautiful」
+
+@huki id=35 b=8
+[Frivolous Man ２]「So lovely……however, it is too hard for us to accost such girl……」
+
+@huki id=25 b=2
+[Frivolous Man １]「woo～! 　\C[2] If the girl wears common clothes,\C[0] we are able to accost her——」
+
+;; ○Options: Don’t compete / Compete
+;;○Don’t compete →019_02止めておく
+;;○Compete →019_03勝負する
+

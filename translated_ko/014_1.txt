@@ -1,0 +1,45 @@
+
+;;【001_01プロローグ.txt】
+;;【001_03敗北.txt】
+
+@bgm f=bgm01
+
+@huki b=7
+@huki b=8 id=18
+@wait t=1200
+
+@mes_win back=1 pos=1
+@se f=衣擦れの音1
+　아주 잠깐이었지만, 아쉬움이 역력한 얼굴의 스도는, 마침내 그 손을 놓아주었다.
+@mes_win back=0 pos=2
+
+@huki b=8 id=18
+[스도]「……이제 가봐도 좋다」
+
+@move_speed spd=2
+@huki b=7
+@route route=left:2 wt=0 id=18
+@route route=up:2
+
+@dir dir=right id=18
+
+@move_speed spd=4
+@huki b=7
+@move_f f=サクラ@悔しい_頬 op2=困惑 in=r t=300
+[사쿠라/skr0071]（두 번 다시 저놈한테 잡히지 않을 거야……）
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+
+@fade type=out t=1000 wt=0
+
+@route route=up:4
+
+
+@mes_win back=1 pos=1
+;; With such determination, SAKURA moves into the teaching building.
+@mes_win back=0 pos=2
+
+@bgm
+@move_speed spd=4
+
+

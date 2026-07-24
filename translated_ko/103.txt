@@ -1,0 +1,57 @@
+
+;;【020_01VR体験.txt】
+
+;; SAKURA talks with the man in uniform in front of building.
+
+@bgm f=bgm01
+
+@huki id=22 b=8
+@dir dir=left id=22
+
+@move_speed spd=3
+@route route=down:2
+@move_speed spd=4
+
+@huki b=1
+@c_jump wt=0
+
+@huki b=8 id=22
+[연구원]「안녕하세요, 잠깐 시간 좀 내주실 수 있을까요」
+
+@dir dir=right
+
+@move_f f=サクラ@驚き op2=ハテナ in=r t=300
+@huki b=2 wt=1
+[사쿠라]「저요?」
+
+@route route=left id=22
+
+[연구원]「네. 실은 당신에게 차세대 게임을 체험해 주셨으면 해서……」
+
+@bs f=サクラ@驚き
+
+[사쿠라]「차세대 게임……이요?」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[사쿠라]（게임에는 흥미가 있지만……알바도 가야 하는데, 게임 체험할 시간이……）
+
+@huki id=22 b=8 wt=1
+
+[연구원]「무, 물론 공짜로 해달라는 건 아닙니다. 보수는 지불하겠습니다」
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[사쿠라]（보수도 준다고 하고, 흥미도 있으니 한번 받아들여 볼까?　어떡하지……?）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: Don’t play / Play
+;;○Don’t play →020_02試遊しない
+;;○Play →020_03試遊する
+
+

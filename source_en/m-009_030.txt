@@ -1,0 +1,8 @@
+@mes_win back=1 pos=1
+
+\CL There may be underwear or student swimsuits used by someone else left in the street?\nIt is possible to earn a lot of money by picking up and selling them?
+
+\CL ※They may be sold in a uniform shop\nin the happy street (on lower right corner of the map)!
+
+@mes_win
+

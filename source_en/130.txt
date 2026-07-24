@@ -1,0 +1,31 @@
+
+;;【022_01売春②.txt】
+
+;; In reference to the status of prostitution, lascivious degree is above 50.
+
+
+@move_f f=サクラ@無表情 body=パジャマ in=r t=100
+@fade type=in t=1000 wt=1
+
+@huki b=8 wt=1
+[SAKURA]「What shall I do today?」
+
+@huki b=8 wt=1
+@bs f=サクラ@考え中
+[SAKURA] (Compared with oral sex, I am able to earn more by sexual intercourse.) 
+
+[SAKURA] (If I want to earn more money……I shall choose sexual intercourse next time.) 
+
+@huki b=3 wt=1
+@bs f=サクラ@微笑
+[SAKURA]「ho ho, anyway I can’t do anything at home. I shall go out to earn money.」
+
+@fade type=out t=1000 wt=1
+@move_f f=サクラ@微笑 out=r t=1
+@bs
+
+;; With coquettish smile, SAKURA went out.
+
+;; Free action
+
+

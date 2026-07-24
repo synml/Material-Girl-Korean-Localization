@@ -1,0 +1,44 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_02話を聞かない.txt】
+
+;;@bgm f=Dungeon5
+
+@move_f f=サクラ@哀しみ op2=困惑 in=r t=300
+
+[사쿠라]（이 알바, 절대 제대로 된 일이 아니야……）
+
+@dir dir=l wt=1
+@wait t=1000
+
+@bs f=サクラ@哀しみ
+
+[사쿠라]「죄송해요. 별로 관심 없어서……」
+
+@huki id=18 b=8 wt=1
+
+[남자]「그래……아쉽네. 너 정도면 분명 가게에서 인기 많았을 텐데」
+
+[남자]「마음 바뀌면 날 찾아와. 한몫 단단히 챙기게 해줄 테니까!」
+
+@bs f=サクラ@無表情
+
+[사쿠라]「저기……저는 이만 가볼게요」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout wt=1
+@bgm
+@wait t=1000
+
+@move_speed spd=8 id=18
+@fb dir=back id=18
+@move_speed spd=3 id=18
+
+;; SAKURA leaves here in a hurry.
+
+;; After that, when SAKURA dialogues with man, the options of “Don’t Ask /Ask” will appear.
+
+@bgm_replay
+@fadein wt=1
+

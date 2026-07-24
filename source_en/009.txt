@@ -1,0 +1,103 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+
+@bgm
+@huki b=1 id=3 wt=1
+
+@bgm f=bgm05
+
+;; Put out the bakery uniform’s picture
+
+@huki b=4 id=3
+@huki b=8 wt=1
+
+@ev f=サクラ@パン屋制服_全体 opacity=0 dec=1
+@move f=サクラ@パン屋制服_全体 opa=0 x=0 y=500 h=60 w=60 t=100 wt=1
+@wait t=100
+@move f=サクラ@パン屋制服_全体 opa=255 x=0 y=400 h=60 w=60 t=400 wt=1
+@wait t=500
+
+@move f=サクラ@パン屋制服_全体 opa=255 x=0 y=-1000 h=100 w=100 t=1000 wt=1
+@wait t=400
+@move f=サクラ@パン屋制服_全体 opa=255 x=0 y=1000 h=100 w=100 t=2000 wt=1
+@wait t=1000
+
+@move f=サクラ@パン屋制服_全体 opa=0 x=0 y=1000 h=100 w=100 t=300 wt=1
+@ev
+
+@huki b=1 id=3
+@huki b=8
+@c_jump id=3
+
+;;@move_f f=パン屋 in=r t=300 wt=0
+@move_f f=サクラ@考え中 in=l t=300
+[Store Manager] 「oh oh oh oh! 　So great! 　This uniform is simply tailored for you!」
+
+@huki b=6
+@bs f=サクラ@哀しみ op2=汗
+[SAKURA]「Thank you……」
+
+@bs f=サクラ@微笑_頬 op2=困惑
+[SAKURA] (A little shy……on earth he praises me, not too bad) 
+
+@huki b=1 id=3
+[Store Manager] 「OK! 　You have been hired! 　Be sure to work in my store!」
+
+;; The store manager seemingly fears that SAKURA in the uniform will be robbed, he made a decision to hire SAKURA right away.
+
+@bs f=サクラ@驚き op2=ビックリ
+@huki b=1 wt=1
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[SAKURA]「……I've not yet decided to work here……」
+@move_f f=パン屋 out t=r t=300 wt=0
+@move_f f=サクラ@悔しい out=l t=300
+
+@huki b=8 id=3
+@huki b=6 wt=1
+
+@huki b=9 id=3
+@huki b=2 wt=1
+
+;;p@move_f f=パン屋 in=r t=300 wt=0
+@move_f f=サクラ@悔しい op2=汗 in=l t=300
+[Store Manager] 「When you want to be here anytime, you are welcome. If so, are you OK?」
+
+[Store Manager] 「one or two hours after school.……OK?」
+
+@bs f=サクラ@悔しい
+[SAKURA] (I don’t know if I am able to find a better job……) 
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[SAKURA] (After all, the store manager said that I am able to work here at any time……) 
+
+@bs f=サクラ@考え中
+[SAKURA] (If not, I am able to find other job……furthermore, its hourly wage is very high……) 
+
+@huki b=8
+@bs f=サクラ@無表情
+[SAKURA]「In the future, please take more care」
+
+@c_jump id=3 wt=0
+@huki b=1 id=3 wt=1
+
+@huki b=3 id=3
+[Store Manager]「It's deal! 　You may take this uniform back.」
+
+@huki b=8 id=3
+[Store Manager] 「When you want to work here, you may wear this uniform.」
+
+@huki b=3 id=3
+[Store Manager] 「 I really hope that you are able to work here each day.」
+
+;;@move_f f=パン屋 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+
+@fade type=out t=1000
+@move_speed spd=4
+@bg
+
+

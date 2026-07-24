@@ -1,0 +1,92 @@
+;;▼Convenience store: A man stands in the counter of adult magazines in the convenience store. A sexual harassment will occur by standing next to him. 
+;;　　　　　　An erotic event will be triggered if the carnality is high at night. 
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「What magazines can be useful?」
+
+@bs f=サクラ@微笑
+
+[SAKURA]「Ah, this one look great」
+
+@huki b=2
+@bs f=サクラ@無表情
+
+[SAKURA]（……Gee? I feel that the man next to me is closer……）
+
+@bgm_save
+@bgm f=bgm14
+
+@se f=服を脱ぐ音3
+@bs f=サクラ@驚き_頬 op2=ビックリ
+@move_f f=A-cut_sitagi face=0 in=l t=150
+
+[SAKURA]（Ah? He puts his hand on my buttock?……Is he a lovelace!?）
+
+@bs f=サクラ@悔しい_頬 op2=赤面
+
+[SAKURA]（He even dares to make a sexual harrasment in a convenience store……Ah, what a nuisance……He puts his hand in my skirt……）
+
+;;Conditional branch
+@if eval=v(32)>=25 ok=jump:*cev02 bad=jump:*cev01
+
+;;Branch: no erotic event
+*cev01
+
+@fb dir=back
+@move_f f=A-cut_sitagi face=0 out=l t=150
+@move_f f=サクラ@驚き_頬 out=r t=100
+
+[SAKURA]（……Ah, I am so stupid,  I can keep away from him!）
+
+@dir dir=down
+@move_f f=サクラ@考え中 in=r t=300
+
+[SAKURA]（Please, spare me）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@bgm
+@bgm_replay
+
+@end
+
+;;Branch: an erotic event is triggered
+*cev02
+
+@move_f f=black face=0 in=c t=150
+
+[Man]「Your ass is so sexy, inducing others……have you "accumulated" many?」
+
+[SAKURA]「Of course……no……」
+
+[Man]「Hehe, let me satisfy your desire by inserting my "gadget" into your pussy!」
+
+@se f=挿入音
+@move_f f=A-cut_sev07-3 face=0 in=c t=150
+
+[SAKURA]「Ah, why like this……ah ah ah ah!　You even do this in a convenience store……ah ah ah ah ah!」
+
+@se f=ピストン_高速
+
+[SAKURA]「No way! Ah ah ah! Why here can be completely seen from outside!!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev07-4 face=0
+
+[SAKURA]「Ah ah ah ah!　Ha ah, I can't, I will……!　Ah ah ah ah……ah ah ah ah!」
+[SAKURA]「Ah ah ah……ha ah ah……my pussy is filled with……scorching fluid……ah ah ah ah……」
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+
+@bgm
+@bgm_replay
+

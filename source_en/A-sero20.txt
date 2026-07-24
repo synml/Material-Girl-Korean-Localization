@@ -1,0 +1,45 @@
+;;▼Teenager's mischief series (in a park at noon, a teenager will unveil the heroine's skirt)
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「Let's have a rest in the park」
+
+[Teenagers]「Ok, who will go there? Let's decide through a finger-guessing game!　What, it's me?」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「They are playing, so I can go to the other side……」
+
+@route route=r:4 id=101
+@dir dir=u id=101
+@dir dir=r id=102
+
+@bgm_save
+@bgm f=bgm15
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sitagi face=0 in=l t=150
+@bs f=サクラ@驚き_頬 op2=ビックリ
+
+[SAKURA]「Ah ah ah!?」
+
+[Teenager]「Heyhey, I made it! I can see her underwear!」
+
+@route route=l:4 id=101
+@dir dir=r id=101
+
+@move_f f=A-cut_sitagi face=0 out=l t=150
+@bs f=サクラ@怒り_頬 op2=拒否
+
+[SAKURA]「Hey, it is a crime to unveil other's skirt!」
+
+[Teenager]「Ah? Please forgive me since I am so cute!」
+
+@bs f=サクラ@考え中 op2=困惑
+
+[SAKURA]「This is not what you should say! Shit……」
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@bgm
+@bgm_replay

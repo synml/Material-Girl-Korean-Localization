@@ -1,0 +1,143 @@
+
+  ;;【016_06パン屋段階Ｈ.txt】
+
+;;Phase I
+@bgm f=bgm13
+
+;;ＣＧ■CG11
+@bgf bg=ev11
+
+[Guest 1]「Oops! You gave me the wrong change!」
+
+[SAKURA/skr1052]「Aaah……I'm so sorry……」
+
+[Guest 1] 「What a bunch of headache!...... It seems that you are absent-minded.」
+
+[SAKURA/skr1053]「……I'm so sorry......」
+
+[Shopkeeper]「SAKURA, what's up?」
+
+[SAKURA/skr1054] 「It's..... I gave wrong change to the guest.」
+
+[Guest 1] 「Manager, it doesn't matter , just forget that.」
+
+[Guest 1]「but this girl it seems unwilling when she is apologize for that. It seems she is angry with me.」
+
+[SAKURA/skr1055] 「No......I am not.」
+
+[SAKURA/skr1056] 「Cause,I've never good at to propitiate someone.」
+
+[Shopkeeper] 「It's a troublesome, this frenquent customer is important fo us.」
+
+[Shopkeeper]「SAKURA,would  u like to smile again ?」
+
+[SAKURA/skr1057] 「um ? ...like ,like this......?」
+
+[Customer 1] 「No, it seems you are not smiling?」
+
+[Guest 1] 「There is no difference when the shopkeeper in the shop , it's so usual.」
+
+[Guest 1] 「I really like the bread here, i am not willing to see this store will be cloesed.」
+
+[Shopkeeper]「SAKURA,pls try to simle again?」
+
+[SAKURA/skr1058] 「Like ,like this?」
+
+[Guest 1] 「Ok, but a little bit stiff......」
+
+[Shopkeeper]「u, uh well, so sorry ......」
+
+[SAKURA/skr1059] 「Hey!」
+
+@se f=衣擦れの音1
+;;ＣＧ■CG11a
+@bgf bg=ev11a
+ 
+
+[SAKURA/skr1060] 「Ass ,ass ...... touch my ass ...」
+
+[SAKURA/skr1061] 「Ah,ah,manger......」
+
+Raised the minishirt, the shopkeeper slightly touch the SAKURA's ass behind the casher.
+
+[Guest 1] 「Oh ,her apperance looks gentlier than before,」
+
+[Shopkeeper] 「SAKURA, smile again, hurry up.」
+
+[SAKURA/skr1062]「but，but……」
+
+@se f=衣擦れの音1
+@flash t=300
+
+[SAKURA/skr1063] (Coo ... ah, ah, please, please do not ... please do not touch my ass ...)
+
+[Shopkeeper]] 「Oh yeah, hurry up」
+
+@se f=衣擦れの音1
+@flash t=300
+
+[SAKURA/skr1064] 「Ah!? Whining!」
+
+Sakera's ass was severely caught and make a reflectively sound .
+
+[Guest 1] 「Umm? what happened?」
+
+[SAKURA/skr1065] 「No,no, nothing......」
+
+[SAKURA/skr1066] 「Manager......! What 's the hell you are thinking about! ? 」
+
+[Shopkeeper] 「Oh, and then relax a little, relax a little. SAKURA, I feel you are some nervous over it.」
+
+[Shopkeeper] 「Just take a breathe and welcome the customer」
+
+[SAKURA/skr1067] 「Ah,ah...,so,i understand...,en,ah...,um,um,um」
+
+[SAKURA/skr1068] 「Please do not touch my ass!」
+
+[SAKURA/skr1069] 「Ah,because the guests are still here... ... please stop and I can't say anything.」
+
+[SAKURA/skr1070] 「That, that ...... this, look like this?」
+
+@se f=衣擦れの音1
+@flash t=300
+
+SAKURA smiling at the guests while ass was stimulated at the same time.
+
+[Guest 1] 「Oh, it's much better than just now」
+
+[Shopkeeper] 「Hey hey,it's got to relax now!」
+
+[SAKURA/skr1071] 「No,it's not!」
+
+[SAKURA/skr1072] 「Ah,ah...,so, so, um, this is your change ... three hundred and fifty yen」
+
+[SAKURA/skr1073] 「Um,ha,...,ha,ha,it's so sorry to give your wrong change.」
+
+[Guest 1]「No,it's ok. I'm just worried about this shop.」
+
+[Guest 1] 「As long as the store like you so lovely girl, then the guests will become more.」
+
+[Guest 1] 「And the taste of bread is undoubtedly the best.」
+
+[SAKURA/skr1074]「Clear, understand ... please hurry back ......」
+
+[SAKURA/skr1075]「Ass was touched ... ... ah ... ah, so itch ... ... Make out the sound ...」
+
+Though it is good to way to make the unhappy guest happy. 
+
+But at the same time, the manager still continue to touch SAKURA's ass.
+
+[SAKURA/skr1076] 「Hum......ah......hum,ah ah ah ah......」
+
+[SAKURA/skr1077] 「So......I am cry out......」
+
+[Customer 1] 「Then I will go, will come again 」
+
+[SAKURA/skr1078] 「Ah,hum......um,um,thank you for coming today......」
+
+[Shopkeeper] 「Wish you take a convinence in the future !」
+
+The guest took the change then went back finally.
+
+@bgm
+@rps

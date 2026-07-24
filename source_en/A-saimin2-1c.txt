@@ -1,0 +1,24 @@
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA]「……I want to try the conversation……But I can't do it because of the seance」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+;;SAKURA stops after walking several steps
+@route route=down wt=1
+
+@se f=指挿入
+@move_f f=サクラ@悔しい_頬 in=r t=300
+
+[SAKURA]「……？　Why do I always feel my underwear is wet and gross……」
+
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+;;暗转
+
+@mes_win back=1 pos=1
+
+\CL SAKURA gets her underwear that is contaminated by sperm…
+
+@mes_win

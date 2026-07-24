@@ -1,0 +1,44 @@
+
+;;【019_02止めておく.txt】
+
+@bgm f=Dungeon5
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[小櫻]（果然還是算了吧）
+
+;;@dir dir=l wt=1
+;;@wait t=1000
+
+@bs f=サクラ@哀しみ
+
+[小櫻]「抱歉。今天我沒時間」
+
+@huki id=25 b=7 wt=1
+[輕浮男１]「誒～～，真可惜」
+
+[輕浮男２]「我們，一般都在這附近轉悠。想比的時候來找我們哦」
+
+[輕浮男１]「我們等你哦～」
+
+;;@move_speed spd=3
+;;@route route=up wt=1
+;;@move_speed spd=4
+
+@huki b=8
+;;@bs f=サクラ@無表情
+;;[小櫻]（走吧……）
+@move_f f=サクラ@哀しみ out=r t=300
+
+@se f=Move
+@fadeout
+@dot_move id=25 x=6 y=6 dir=down
+@dir dir=up id=35
+
+;;　在男人們的注視下，小櫻快步離去。
+
+;;以后，只要跟男人們對話，就會發生上述選項
+;;自由行動
+

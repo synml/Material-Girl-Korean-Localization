@@ -1,0 +1,24 @@
+
+;;Stage Ⅱ
+
+@bgm f=bgm15
+
+;;ＣＧ■CG15c
+@bgf bg=ev15c t=1000
+@bgs f=aegi_skr2
+@se f=ピストン l=1
+
+[Researcher] 「You do not know that you are invaded by me......Hey-hey-hey!」
+
+[SAKURA/skr1693] 「Hum! Hum......Ah, eh! Ah!」
+
+@se
+@bgs
+@rps
+
+@se f=Move
+@fadeout
+
+　SAKURA accepted the wage for work after the end of the game, with no awareness of being invaded by a man.
+
+;; Free time out of the building.

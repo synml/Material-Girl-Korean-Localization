@@ -1,0 +1,15 @@
+
+;;【017_02着替え終了後.txt】
+;; Mini-game: Place commodities
+
+;; Mini-game ends
+
+[Convenience Store's Manager]「um, sorry, SAKURA……you worked full hours today……」
+
+[Convenience Store's Manager]「Tomorrow, I will adjust your work time before \C[2] 17:00\C[0]. I hope that you are able to work in accordance with this time.」
+
+;; Bowing to the store manager, SAKURA took the salary and then left the convenience store happily. 
+
+;; Free action
+
+

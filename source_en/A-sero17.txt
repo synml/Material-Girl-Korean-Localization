@@ -1,0 +1,60 @@
+;;▼Peeping event (sexual intercourse inside a classroom)
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「Is anyone using the classroom?」
+
+@bgm_save
+@bgm f=bgm15
+
+@move_f f=black face=0 in=c t=150
+@se f=ピストン_高速
+@move_f f=A-cut_sev01-1 face=0 in=c t=150
+
+[Woman]「Ah ah ah! So great! Hey, I want more, give me more!」
+
+;;@bs f=サクラ@驚き_頬 op2=ビックリ
+
+[SAKURA]「Ah! Why!?」
+
+[Man]「Keep your voice down, otherwise others will come here」
+
+[Woman]「But……！　It's too exciting了……ah ah ah ah ah！」
+
+;;@bs f=サクラ@悔しい_頬 op2=汗
+
+[SAKURA]「It seems that I have seen them before……They are about at my age, but their sexual intercourse is so fierce……」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev01-2 face=0
+
+[Woman]「I can't！I am going to……ah ah ah ah ah ah ah ah!!」
+
+@move_f f=A-cut_sev01-1 face=0 out=c t=150
+;;@bs f=サクラ@羞恥_頬 op2=赤面
+
+;;[SAKURA]「Ah ah……his sperm……that girl is shaking……it seems that she feels so comfortable……」
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+@fadein t=1000 wt=1
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中_頬 op2=汗 in=r t=300
+
+[SAKURA]「……I have seen something wonderful」
+
+@move_f f=サクラ@考え中_頬  out=r t=300
+
+@bgm
+@bgm_replay
+

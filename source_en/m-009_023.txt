@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL Rich boys seem to spend a lot of money seducing women\n\I[320]\I[320]\I[320]
+
+@mes_win
+

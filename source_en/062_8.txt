@@ -1,0 +1,6 @@
+
+;;【014_01告白・司.txt】
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA]「This room is for uncle and aunt……we don’t enter it.」
+@move_f f=サクラ@考え中 out=r t=300

@@ -1,0 +1,18 @@
+
+;;【014_01告白?司.txt】
+;;【015_01エンド?司.txt】
+
+@dot_move id=101 x=23 y=4 dir=up
+@change f=司 id=101
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@羞恥 in=r t=300
+
+[小櫻/skr0965]（今天，我和司要……）
+
+[司]「小櫻……」
+
+[小櫻/skr0966]「司……」
+
+@move_f f=サクラ@羞恥 out=r t=300
+

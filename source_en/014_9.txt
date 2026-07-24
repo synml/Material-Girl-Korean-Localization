@@ -1,0 +1,18 @@
+
+;;○戦闘開始前（レベル5）
+
+@bgm f=bgm01
+
+@route route=right:2 id=18
+@dir dir=down id=18
+
+@huki b=4 id=18
+@huki b=7
+;;@move_f f=須藤 face=0 in=l t=300 wt=0
+@move_f f=サクラ@怒り in=r t=300
+
+[SUDOU]「gah gah gah……let me rub slightly. Now you should reflect on your mistakes.」
+
+;;@move_f f=須藤 face=0 out=l t=300 wt=0
+@move_f f=サクラ@怒り out=r t=300
+

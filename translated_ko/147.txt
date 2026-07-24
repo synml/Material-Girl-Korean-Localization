@@ -1,0 +1,21 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;【024_01ホストクラブ.txt】
+
+;;@bgm f=Dungeon3
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=r t=300
+
+@bs f=サクラ@無表情
+[사쿠라]（호스트클럽, 이라……）
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8 wt=1
+
+;;○Branch: When not meeting trigger conditions →024_02発生条件未達成
+
+;;○Branch: When meeting trigger conditions →024_03発生条件達成
+

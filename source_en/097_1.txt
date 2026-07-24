@@ -1,0 +1,15 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04a汎用選択肢.txt】
+
+@huki b=8 id=25
+[Frivolous Man１]「um——, it is hard to be invited such girl……」
+
+@huki b=8 id=35
+[Frivolous Man２]「After you change into your \C[2] private clothes \C[0], you talk it about.」
+
+
+;;○Compete →019_04b汎用選択肢勝負する
+;;○Don’t compete →019_04c汎用選択肢勝負しない
+

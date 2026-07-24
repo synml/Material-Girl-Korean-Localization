@@ -1,0 +1,12 @@
+
+;;【021_01売春①.txt】
+
+;; When the lascivious degree is above 40, the plot will be triggered in the morning of next day.
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA]「Beauty salon?……」
+
+@bs f=サクラ@哀しみ
+[SAKURA] (Although I am interested in the hair coloring previously, I can’t receive the hair coloring……) 
+@move_f f=サクラ@哀しみ out=r t=300
+

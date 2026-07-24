@@ -1,0 +1,50 @@
+
+;; Dressing room (the clothes has been changed) 
+
+@bgm f=Dungeon5
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8 wt=1
+[SAKURA]「woo woo……woo woo woo woo……my head……so painful……」
+
+@dir dir=r wt=1
+@wait t=1000
+@dir dir=l wt=1
+@wait t=1000
+@dir dir=d wt=1
+@wait t=1000
+
+@bs f=サクラ@驚き
+
+[SAKURA]「Where……is it……?」
+
+　Pressing her painful head, SAKURA looked around the room.
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「Why did I stay here……? 　woo woo, disgusting……I really want to vomit……」
+
+@bs f=サクラ@驚き
+
+@huki b=8 wt=1
+
+[SAKURA] (I remembered……yesterday, I participated in the drinking competition……and then……couldn’t remember……) 
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「woo poo……woo woo……so disgusting ……I shall have a bath……」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@fadeout
+
+　SAKURA got up and walked towards the bathroom.
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA] (Hangover……woo woo woo……I no longer participate in such drinking competition……) 
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+　SAKURA bathed her body with hot water.
+

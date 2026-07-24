@@ -1,0 +1,42 @@
+
+@se f=衣擦れの音1
+@wait t=1000
+
+@fadein
+
+;; Move towards the dressing room, and can’t go out.
+
+;; Put on the Bunny Girl in the dressing room.
+
+@move_f f=サクラ@羞恥_z body_op=z in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA] (Too, too shameful……) 
+
+　Watching the Bunny Girl in the mirror, SAKURA was blushed.
+
+@dir dir=r wt=1
+@wait t=800
+@dir dir=l wt=1
+@wait t=800
+@dir dir=d wt=1
+@wait t=1000
+@huki b=8 wt=1
+
+@bs f=サクラ@悔しい_z body_op=z
+
+[SAKURA] (Now that I have decided, I have to work hard!) 
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;;@route route=d,r:3,d wt=0
+@fadeout
+
+;; [SAKURA]「Waiting Room……is over there……」
+
+@se f=Move
+@wait t=2000
+
+
+

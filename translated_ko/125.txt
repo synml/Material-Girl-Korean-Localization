@@ -1,0 +1,19 @@
+
+;;【021_04サラリーマンフェラ.txt】
+
+;; SAKURA dialogued with the staff in front of company.
+
+@dot_move id=101 x=3 y=38 dir=down
+@change f=新婚の会社員 id=101 num=0
+
+@fade type=in t=1000 wt=1
+
+　한 번 거절당하자 오히려 불이 붙은 듯, 사쿠라는 회사원을 잡아끌며 걸음을 옮겼다.
+
+[직원]「이봐요, 잠깐……잠깐만 기다려요」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[사쿠라/skr1823]「기다리기 싫은데♪」
+
+@move_f f=サクラ@微笑 out=r t=300

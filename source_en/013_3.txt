@@ -1,0 +1,17 @@
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA] (It is already so late now……) 
+
+@bs f=サクラ@無表情
+[SAKURA] (……start it next time) 
+@move_f f=サクラ@無表情 out=r t=300
+
+@move_speed spd=3
+@route route=down
+@move_speed spd=4
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

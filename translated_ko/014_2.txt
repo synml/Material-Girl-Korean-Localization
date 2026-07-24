@@ -1,0 +1,30 @@
+
+;;○戦闘開始前（レベル5）
+
+@bgm f=bgm01
+
+@se f=衣擦れの音1
+@huki b=8 id=18
+[스도]「크크크, 가봐도 좋다」
+
+@move_speed spd=2
+@huki b=7
+@route route=left:2 wt=0 id=18
+@route route=up:2
+
+@dir dir=right id=18
+
+@move_speed spd=4
+@huki b=7
+@move_f f=サクラ@悔しい_頬 op2=困惑 in=r t=300
+[사쿠라]（두 번 다시 스도한테 잡히지 않을 거야……）
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+@fade type=out t=1000 wt=0
+
+@route route=up:4
+
+
+@bgm
+@move_speed spd=4
+

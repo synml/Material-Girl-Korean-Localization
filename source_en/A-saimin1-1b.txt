@@ -1,0 +1,274 @@
+
+;;○ help
+
+@route route=up
+@move_f f=サクラ@怒り op2=ビックリ in=r t=300
+
+[SAKURA]「I see」
+
+@huki id=6 b=6
+
+[Head of Supernature Research Department]「Oh……you promise. So, you can stand there…」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「……You pay me first」
+
+@huki id=6 b=7
+
+[Head of Supernature Research Department]「Oh……You look so cute, but you are so greedy.……Here you are.」
+
+;;○ give her money
+
+@se f=Coin
+@bs f=サクラ@微笑 op2=音符
+
+@mes_win back=1 pos=1
+
+\CL gets 1000 yen…
+
+@mes_win
+
+@move_f f=サクラ@微笑 out=r t=300
+
+
+;;SAKURA moves
+@route route=down wt=1
+@dir dir=up wt=1
+@wait t=500
+
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+
+[SAKURA]「I stand here?」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@bgm
+
+[Head of Supernature Research Department]「Yes. Then I will start my  seance experiment…」
+
+@bgm f=bgm12
+
+[Head of Supernature Research Department]「#$%*！#%&#*……@$%@…%#%……%$&」
+
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+
+[SAKURA]（……? What is he talking about…………Dear me!……I suddenly feel so sleepy……）
+
+;;Hypnosis effect: the camera lens zooms in
+
+@move_f f=A-cut_saimin1 face=0 in=c t=150 h=1
+@wait t=500
+@se f=催眠行使
+@move_f f=A-cut_saimin2 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin1 face=0 out=c t=150
+@bs f=サクラ@無表情_催眠
+@wait t=1000
+@move_f f=A-cut_saimin2 face=0 out=c t=150
+@wait t=150
+
+@huki id=6 b=2
+
+[Head of Supernature Research Department]「Hongjiameika……Er? Does it work now? That's strange, it should take one more hour……」
+
+[SAKURA]「…………」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「Er, does it work now? Are you Mr. Oda Nobunaga？」
+
+[SAKURA]「……No」
+
+@huki id=6 b=6
+
+[Head of Supernature Research Department]「No……Ok, I can understand. Let me ask you, you look like something is wrong at the beginning, what's wrong?」
+
+[SAKURA]「……I am in a hypnosis now」
+
+@huki id=6 b=8
+@wait t=1000
+@huki id=6 b=2
+
+[Head of Supernature Research Department]「……What? I didn't make a hypnosis to you……Are you kidding me?」
+
+[SAKURA]「……I am not kidding you」
+
+@huki id=6 b=8
+@wait t=1000
+@huki id=6 b=9
+
+[Head of Supernature Research Department]「……Er……Ok, tell me the measurements of your chest, waist and hips!　Just be kidding」
+
+[SAKURA]「……Chest circumference: 92, waistline: 57 and hipline: 81」
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「……Ah? 　Your……chest circumference is 92……my god」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「You really have had a hypnosis……? Ok, show me your……underwear?」
+
+;;Silk friction sound
+@move_f f=A-cut_saimin3 face=0 in=c t=150
+@wait t=500
+@se f=服を脱ぐ音3
+@move_f f=A-cut_saimin4 face=0 in=c t=150
+@move_f f=A-cut_saimin3 face=0 out=c t=150
+@wait t=1000
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Oh oh oh oh……！！！? Really!?　……You have had a hypnosis…?」
+
+@move_f f=A-cut_saimin4 face=0 out=c t=150
+@wait t=150
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「…………Ok……So……Stop doing something」
+
+[SAKURA]「…………」
+
+@route id=6 route=down wt=1
+
+;;The camera lens of massaging chest zooms in
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune face=0 in=l t=150 h=1 cos=1
+@huki id=6 b=4
+
+[Head of Supernature Research Department]「Wow, wow……so soft……Hahahaha」
+
+@bs f=サクラ@悔しい_催眠_頬
+
+[SAKURA]「……Er……」
+
+;;The close-up lens is finished
+@bgm
+@bs
+@move_speed id=6 spd=6
+@fb id=6 dir=back wt=0
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Wow!? I am sorry…」
+
+@move_speed id=6 spd=3
+
+@move_f f=サクラ@無表情_催眠 in=r t=300
+
+[SAKURA]「…………」
+
+@bgm f=bgm05
+
+@huki id=6 b=6
+
+[Head of Supernature Research Department]「……Hey. Have you waken up?……」
+
+@huki id=6 b=2
+
+[Head of Supernature Research Department]「……How can I make you sober?」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「Ok, please restore to your previous condition?」
+
+[SAKURA]「…………」
+
+@huki id=6 b=7
+
+[Head of Supernature Research Department]「It doesn't work?……What shall I do? Anyway it is not good if things are like this……」
+
+@bgm
+;;叮噔噔噔
+@se f=学校チャイム
+
+@bs f=サクラ@無表情
+@huki id=6 b=1
+@c_jump id=6
+
+[Head of Supernature Research Department]「Wow…！? It scares me to death……It is ringing」
+
+@bgm f=bgm21
+
+@bs f=サクラ@哀しみ op2=ハテナ
+
+[SAKURA]「……? It is strange, what am I……doing……?」
+
+@huki id=6 b=3
+
+[Head of Supernature Research Department]「Oh…！　You wake up, that's great!」
+
+@bs f=サクラ@考え中 op2=困惑
+
+[SAKURA]「Er……My brain is still not quite sober……It seems that I helped you with your experiment……What happened then……？」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]（Oh…She forgot the thing during her hypnosis）
+
+@huki id=6 b=3
+
+[Head of Supernature Research Department]「The experiment is successful! Thank you very much!」
+
+@bs f=サクラ@哀しみ op2=ハテナ
+
+[SAKURA]「Really?」
+
+@huki id=6 b=9
+
+[Head of Supernature Research Department]「Ah…but, I want to continue the experiment and will you still help me?」
+
+@bs f=サクラ@考え中 op2=困惑
+
+[SAKURA]「……Er……I feel uneasy because I forgot what the experiment is about……」
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「No, it doesn't matter. It has no impact on your body!　I will give you 1,500 yen if you still help me!!」
+
+@huki b=8
+@bs f=サクラ@考え中
+@wait t=1000
+@bs f=サクラ@無表情
+
+[SAKURA]「……May I come here if I want to?……\n And you must pay me 1,500 yen」
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Great…! That's a deal, see you next time!」
+
+@bs f=サクラ@哀しみ op2=ハテナ
+
+[SAKURA]（……? He seems to be so happy……Is it necessary to be so excited because the experiment is successful?）
+
+@huki b=8
+@wait t=1000
+@bs f=サクラ@無表情 op2=ハテナ
+
+[SAKURA]「……Anyway whose soul did you summon?」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「Er……? Well……Oichi?」
+
+@huki b=8
+@bs f=サクラ@無表情
+
+[SAKURA]「…………Really?」
+
+@dir dir=down wt=1
+
+@huki b=3
+@bs f=サクラ@微笑
+
+[SAKURA]（……I have some interest in it now……）
+
+@move_f f=サクラ@微笑 out=r t=300
+
+;;Change scene with lights out
+;;End of Stage 1
+

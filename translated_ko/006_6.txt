@@ -1,0 +1,21 @@
+
+;;【002_02教室に入る.txt】
+;;Mobile limit on the business street
+
+@huki b=8
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]「………………」
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]（……날도 저물어 가는데, 오늘은 일자리 찾기에만 집중하자）
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]「……오늘 안에 찾을 수 있으면 좋겠는데」
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+

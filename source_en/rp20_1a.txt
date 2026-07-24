@@ -1,0 +1,293 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;;【024_10ナンバー１Ｈ.txt】
+
+@bgm f=bgm05
+
+;;ＣＧ■CG20
+@bgf bg=ev20 t=1000
+
+[SAKURA/skr2210]「Hoho, nobody else is here.」
+
+[SHIRASAWA](What......What does the girl intend to do......)
+
+　Sitting in front of SHIRASAWA with her feet crossed, she smiled happily.
+
+[SHIRASAWA](She is so sexy as a girl only in her teens......I cannot believe that......)
+
+[SAKURA/skr2211]「Ah? Are you unhappy staying together with me alone?」
+
+[SHIRASAWA]「No, I’m not. I can hear my heartbeats now.」
+
+[SAKURA/skr2212]「Really? Did you say it to other girls?」
+
+[SHIRASAWA]「I’m genuine and sincere only to you, SAKURA. 」
+
+[SAKURA/skr2213]「Hoho, I’m happy to be the starring for you......」
+
+[SHIRASAWA]「Then, both of us are excited.」
+
+[SHIRASAWA](Whir......I have to calm down. My task is to make him keen on me.)
+
+[SHIRASAWA](In order to make her satisfied as in a dream......I have to spend some money here.)
+
+[SHIRASAWA]「SAKURA, we have a lot of time......What would you like to drink?」
+
+[SHIRASAWA]「Don’t stare at me like this. I can cook delicious dishes for you. What do you want to eat?」
+
+[SAKURA/skr2214]「Although I want to have something to eat......What I really want is......」
+
+　SAKURA interrupted SHIRASAWA and stared at him, and then slowly unfolded her crossed legs.
+
+[SHIRASAWA]「Ah......」
+
+;;ＣＧ■CG20a
+@bgf bg=ev20a t=500
+
+[SHIRASAWA](Ouch......You scared me!)
+
+　SHIRASAWA stared the lower belly of SAKURA when she unfolded her legs.
+
+[SHIRASAWA](Although I have seen numerous naked women......)
+
+[SHIRASAWA](She astonished me by unfolding her legs......)
+
+[SAKURA/skr2215]「Hoho, so you know what I need now?」
+
+[SHIRASAWA]「All right. Now that you want it so much, I’m coming now......」
+
+　Then SHIRASAWA put his hands on his clothes.
+
+[SAKURA/skr2216]「Whir......What a beautiful body!」
+
+[SHIRASAWA]「It’s my work to satisfy women.」
+
+[SHIRASAWA]「Are you satisfied with my stature? Does it as sexy as what you expected?」
+
+[SAKURA/skr2217]「Eh......Hum, whir, as long as I think of hugging with you......」
+
+[SAKURA/skr2218]「I’m so tense and excited......My body is changing hotter.」
+
+[SHIRASAWA]「So do I......I’m so excited to hug you, SAKURA.」
+
+[SAKURA/skr2219]「Hoho, you said it to other girls, I guess!」
+
+[SHIRASAWA]「It’s my true words. It’s natural to be excited to hug a charming girl like you.」
+
+[SAKURA/skr2220]「Well......than, just fuck me!」
+
+[SHIRASAWA]「As you wish.」
+
+　SHIRASAWA showed his charming smile, and got close to SAKURA slowly.
+
+@se f=挿入音
+;;ＣＧ■CG20b
+@bgf bg=ev20b t=500 v=1
+@bgs f=aegi_skr2
+
+;; For retrospect if virgin
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following is the text if SAKURA is considered as a virgin.
+
+[SHIRASAWA]「SAKURA......Could it be that it is the first time for you......」
+
+[SAKURA/skr2221]「Hum......Whir, um, are you surprised?」
+
+[SHIRASAWA]「Eh, no......」
+
+[SHIRASAWA](She is so calm even in the first time......What kind a girl she is on earth......)
+
+[SAKURA/skr2222]「Ah, hum, it is my first time but not yours, so please relax. Just show me your excellent skills!」
+
+[SHIRASAWA]「I see. Then......as usual......」
+
+;; Above is the text if SAKURA is considered as an experienced girl.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;; Following is the text if SAKURA is considered as an experienced girl.
+
+[SAKURA/skr2223]「Humm, whir, ahh, ahh, hum, whir」
+
+[SHIRASAWA]「SAKURA......Humm! Humm! Humm!」
+
+[SAKURA/skr2224]「Hoho, you make me so excited with only your glans penis.」
+
+[SHIRASAWA]「I only......insert my penis into your pussy......I’s so cool!」
+
+[SAKURA/skr2225]「Whir, ahh, ahh......Please insert your whole penis!」
+
+[SHIRASAWA]「I’m coming......Humm! Humm! Humm!」
+
+;; Above is the text if SAKURA is considered as an experienced girl.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+
+;; Following is the text for common.
+
+　Pop, tut, pop, tut
+
+[SAKURA/skr2226]「Ahh, humm......hum......Hum, whir......All your penis is inserted......Ah」
+
+　SAKURA was so excited while the penis was fiercely inserted into the joint lower bodies.
+
+[SHIRASAWA]「Hum......hum, whir......My whole penis is inserting into the pussy of SAKURA」
+
+[SHIRASAWA](Your pussy is so tight......Although I have abundant sexual experience......)
+
+[SHIRASAWA](The pussy of the girl......makes me recall the excitement at my first time......)
+
+[SHIRASAWA](I cannot underestimate the girl......or I may be defeated by her......)
+
+[SHIRASAWA]「Ahh, hum, whir, what kind of sexy do you like?」
+
+[SAKURA/skr2227]「Ah, hum, isn’t it your work to find out my favorite in sex?」
+
+[SHIRASAWA]「Hum......It is....... exactly.」
+
+[SAKURA/skr2228]「Humm, whir, whir....... I’m thirty for it♪ Just show me your skills!」
+
+[SHIRASAWA]「Then......」
+
+[SHIRASAWA](It is my first time to be dominated by a girl during making love......or some attempts......)
+
+[SHIRASAWA](But I have more experience. I’m going to make you cool, SAKURA!)
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+　Poop! Tut!
+
+[SAKURA/skr2229]「Ahh, hum, um......Ahh, hum! Um! Whir!」
+
+　SHIRASAWA moved gently, as if to push aside the tender meat in her pussy, accompanied with fierce movement occasionally.
+
+　Just as to engrave his penis in her pussy, SHIRASAWA swang his waist unceasingly, so as to dye his color in the body of SAKURA.
+
+[SAKURA/skr2230]「Whir, ahh! Ahhh, comfortable ......Humm! Whir, umm! So comfortable!」
+
+[SHIRASAWA](I like her pussy. But she seems not satisfied.)
+
+[SHIRASAWA](I have to occupy all her mind.)
+
+[SAKURA/skr2231]「Whir! Humm! Whir, hum! Huh, ahh! Ahhhh!」
+
+;;ＣＧ■CG20c
+@bgf bg=ev20c t=500 v=1
+
+[SAKURA/skr2232]「Whir, ah, whir, it may be the first time for me to make such a gentle and fierce love. You are actually the starring!」
+
+[SAKURA/skr2233]「Ah, whir, hum, ah, I’m captured by SHIRASAWA.」
+
+[SHIRASAWA](Um......Not finished yet? In this way, I will be the first one to......)
+
+[SHIRASAWA](Ummm!? She moves her body again......She is so......!)
+
+　Although in SHIRASAWA’s opinion, he was on top of skills playing with women, he got anxious when seeing the unsatisfied reaction of SAKURA.
+
+[SAKURA/skr2234]「Ah, whir! Ah, hum! What’s the matter? Fuck me more fiercely! Just show me your giant penis!」
+
+[SHIRASAWA]「As what you wish......Ah......」
+
+[SHIRASAWA](I’m defeated? No, no way......I cannot believe it......)
+
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+[SHIRASAWA]「Humm! Humm! Whir! Umm!」
+
+[SAKURA/skr2235]「Ahhh, yes......Good......Cool! Humm! Then, I’m going to......」
+
+[SAKURA/skr2236]「Ah! Ah! Humm, whir! Hum, whir! Huh, whir!」
+
+[SHIRASAWA]「SAKURA!? How, how can you......Ahhhhh!」
+
+[SAKURA/skr2237]「So? Are you having an orgasm? Are you having it?」
+
+[SHIRASAWA]「No, not yet......Ah......」
+
+[SHIRASAWA](I’m going to have an orgasm first......How, how can it be......I never did that before......)
+
+[SHIRASAWA](Ahhh, but, but I cannot help......I must keep holding on......Or,  I’m going to ejaculate)
+
+[SAKURA/skr2238]「Hum, whir, umm......Umm, huh, just ejaculate if you want」
+
+[SHIRASAWA]「SAKURA......SAKURA, ah......」
+
+[SAKURA/skr2239]「Ah, whir, whir, just ejaculate all your sperms into my uterus!」
+
+　SAKURA requested SHIRASAWA to ejaculate with smile.
+
+[SHIRASAWA](Ahhh! What’s the matter? As long as I see her face......!)
+
+[SHIRASAWA](I want to ejaculate! I’m going to ejaculate to her face!)
+
+[SHIRASAWA]「No......I cannot have an orgasm before my customers......Ah......」
+
+[SAKURA/skr2240]「Ah, whir, ahh, huh, ahh, SHIRASAWA......Your penis is so good♪」
+
+[SAKURA/skr2241]「So, you are rewarded to ejaculate♪ Right now!」
+
+[SHIRASAWA]「How......What do you mean reward......Ahh, but......But, I have......!」
+
+[SAKURA/skr2242]「Just ejaculate! Humm! Humm! Hum, whir!」
+
+[SHIRASAWA]「Ahhhhh! I’m ejaculating!」
+
+@se
+;;ＣＧ■CG20d
+@fin bg=ev20d se=射精音 v=1
+
+　Poop! Wheezing!
+
+[SAKURA/skr2243]「Ahh......Ahhhh......Ah, whir! I’m ejaculating......Um」
+
+[SHIRASAWA]「Huh, huh, ahh, wheezing!」
+
+[SHIRASAWA](She......she made me have an orgasm first......I cannot believe that......)
+
+[SAKURA/skr2244]「Your glans penis......is kissing the deep of my pussy......Please fuck me, gently!」
+
+@se f=ピストン l=1
+
+[SHIRASAWA]「Huh, huh, ah, SAKURA......I!」
+
+　The starring male prostitute listened to the command of a young girl, to swing his waist unceasingly.
+
+[SAKURA/skr2245]「Yes......Cool! Ah! So cool!」
+
+[SHIRASAWA]「Ahh, SAKURA is comfortable......I fucked her comfortable!」
+
+[SHIRASAWA](I’m so happy......to satisfy SAKURA......)
+
+[SAKURA/skr2246]「Ahh! Humm! Huh, ahh! Huh, ahh! It’s finished yet......Shall we go on?」
+
+[SHIRASAWA]「All right......SAKURA, my master......Ah」
+
+[SHIRASAWA](This girl......is my master......I cannot......walk away from her......)
+
+　The starring male prostitute called a girl younger than him as his master while ejaculated into her pussy.
+
+@bgs
+@se
+@rps
+

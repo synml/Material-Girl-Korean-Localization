@@ -1,0 +1,7 @@
+;;Branch: no erotic event
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA]「How long have I been sleeping? But I feel comfortable now」
+
+@move_f f=サクラ@微笑 out=r t=300

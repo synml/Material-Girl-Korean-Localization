@@ -1,0 +1,42 @@
+
+;;【022_04新婚サラリーマン本番.txt】
+
+;; SAKURA dialogues with the newly-married staff.
+
+@huki b=8
+@move_f f=サクラ@微笑 in=r t=300
+[사쿠라/skr2050]「지금, 시간 있으세요?」
+
+@huki id=47 b=2
+[직원]「에……?　저 말입니까?」
+
+@bs f=サクラ@羞恥 op2=赤面
+@huki b=8
+[사쿠라/skr2051]「제가 갑자기 돈이 급하게 필요해져서요……그래서……」
+
+;; SAKURA stared at that staff with her moist eyes.
+
+@huki id=47 b=6
+[직원]「저기……그래서, 뭘……」
+
+@bs f=サクラ@微笑
+[사쿠라/skr2052]「30,000엔에 어때요?」
+
+[직원]「30,000엔……아니……이건……」
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라/skr2053]（망설이고는 있지만, 좀 강하게 나가면 넘어오겠는걸）
+
+@bs f=サクラ@笑み op2=音符
+
+@huki b=3 wt=1
+[사쿠라/skr2054]「우리, 호텔 가요♪」
+
+[직원]「아, 이봐요, 잠깐만」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@se f=Move
+@fadeout
+

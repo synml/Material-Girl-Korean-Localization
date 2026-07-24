@@ -1,0 +1,37 @@
+@fade type=out t=1000 wt=0
+@move_speed spd=5
+@route route=left:12
+@move_speed spd=4
+@wait t=1200
+
+@dot_move y=15 x=13 wt=1
+@fade type=in t=2000 wt=0
+@route route=up:4
+@huki b=8
+@move_f f=サクラ@悔しい op2=困惑 in=l t=300
+
+[사쿠라]（이제, 한계야……체력이……바닥나겠어……대체 언제까지 뛰는 거야……?）
+
+@move_f f=サクラ@悔しい out=l t=300
+@dir dir=right
+@c_jump id=6 wt=0
+@c_jump wt=0
+@huki b=5 id=6
+@huki b=1
+
+[스도]「야!!　사쿠라!!　꾀부리지 마라!!」
+
+@huki b=8
+@dir dir=left
+
+;;
+;; Additional plot
+;;
+;; Options
+;;=======================
+;;→
+;; Lazy running
+;; →No running『052』
+;; →Earnest running  
+;;→ 『053』
+;;=======================

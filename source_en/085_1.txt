@@ -1,0 +1,92 @@
+
+@fadein
+
+[Man]「Come over. Boss, I have brought you a girl in need of work～」
+
+@dir id=6 dir=d wt=1
+
+[Man]「Wait! the boss will talk with you in detail.」
+
+@route id=6 route=r:4,u:3,r:5 wt=0
+@route route=u,l,u,u wt=1
+
+[Boss]「Welcome. oh, so lovely～」
+
+@huki id=5 b=3 wt=1
+
+@move_f f=サクラ@哀しみ op2=汗 in=r t=300
+
+[SAKURA] (He is a man……but her voice……) 
+
+[Boss]「Big breast, and very beautiful」
+
+@bs f=サクラ@羞恥_z body_op=z op2=赤面
+
+[SAKURA] (woo woo woo……he is staring at my breast……) 
+
+[Boss]「Covered by the clothes, her breast looks ♪ big and well-shaped」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「That, that……work refers to……」
+
+[SAKURA] (This store is strange, and persons in this store look eccentric……) 
+
+@bs f=サクラ@哀しみ op2=困惑
+
+[SAKURA] (Surely, it is not a common work……) 
+
+@huki id=5 b=3 wt=1
+
+[Boss]「um hoo hoo ♪ ma, you are sure to think that it is not a common work～」
+
+[Boss]「This store is a breast hotel.」
+
+@bs f=サクラ@驚き
+
+[SAKURA]「Breast, breast hotel……?」
+
+[Boss]「Yeah. Main commodities are girls’ breasts. ♪」
+
+[Boss]「Satisfy the guests with breasts. That is the work here.」
+
+[Boss]「Specifically, let your guests watch and rub your breast……um hoo hoo ♪ even bury their faces into your breast.」
+
+@bs f=サクラ@羞恥 op2=ビックリ
+
+[SAKURA]「woo woo woo!」
+
+[Boss]「oh, your shy expression is so lovely ♪ Surely, it seems to be shameful……」
+
+@huki id=5 b=3 wt=1
+
+[Boss]「However, relatively speaking, its salary is extremely high.」
+
+　Hearing such salary, SAKURA can’t help but swallow the saliva. 
+
+@bs f=サクラ@驚き
+
+[SAKURA]「So much……really?」
+
+[Boss]「um hoo hoo ♪ this is merely basic wage. If you are popular, you are able to earn much more～」
+
+[SAKURA] (so great……if I am able to earn so much money……) 
+
+@bs f=サクラ@羞恥_z body_op=z
+[SAKURA] (however……it is really shameful for me if my breasts are watched by guests……if my breasts are rubbed by the guests……) 
+
+[Boss]「You needn’t make a decision now. hoo hoo, your breasts are absolutely the best.」
+
+[Boss]「If you want to work here, you may tell the receptionist. You are welcomed at any time ♪」
+
+[Boss]「um hoo hoo ♪ I will wait for you～」
+
+@bs f=サクラ@無表情
+[SAKURA]「I know……if I am interested in it……I am possible to work here」
+
+[Boss]「um um, I am looking forward to your work here.」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+　Under the boss’s eyesight, SAKURA left the store.
+

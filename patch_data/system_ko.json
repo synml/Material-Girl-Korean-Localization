@@ -1,0 +1,11 @@
+{
+  "_comment": "System.json의 언어별 용어 배열 → 한국어. RTK1_Option_EnJa의 updateTypeData()가 \"일본어||한국어\" 형태를 분리해 ja 슬롯에는 앞쪽, En 슬롯에는 뒤쪽을 넣는다(구분자는 plugins.js의 separator 파라미터 \"||\"). 배열을 통째로 갈아치우면 ja/ch 슬롯까지 한국어가 되므로 반드시 이 방식을 쓴다.",
+  "_comment2": "equipTypes만 대상이다 — weaponTypes·armorTypes·skillTypes·elements는 전투 화면 전용이고 이 게임에는 전투(명령 301)가 한 건도 없어 표시되지 않는다.",
+  "equipTypes": {
+    "1": "소지품",
+    "2": "방패",
+    "3": "머리",
+    "4": "옷차림",
+    "5": "장식품"
+  }
+}

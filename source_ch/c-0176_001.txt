@@ -1,0 +1,8 @@
+
+
+@mes_win back=1 pos=1
+
+\CL獲得\V[112]日元！
+
+@mes_win
+

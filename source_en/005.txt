@@ -1,0 +1,688 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+@bgm f=bgm02
+
+@huki b=2
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch001 bad=jump:*left_branch001
+;;-------------------------------------
+;;　右の時
+*right_branch001
+
+@map_scroll dir=right dis=5 spd=4
+
+@jump target=*dir_branch001
+;;-------------------------------------
+;;　左の時
+*left_branch001
+
+@map_scroll dir=left dis=4 spd=4
+
+@jump target=*dir_branch001
+;;-------------------------------------
+*dir_branch001
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@move_f f=サクラ@考え中 in=r t=300
+@wait t=1200
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[SAKURA] (Is that……ASAHIKO……? 　What is he doing there?) 
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8
+@wait t=1200
+
+@huki b=1
+@c_jump
+
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+[SAKURA] (ah!? That girl is also over there……Is this a scene of confession?) 
+
+@huki b=8
+
+@bs f=サクラ@考え中
+[SAKURA] (Indeed, ASAHIKO that guy is handsome……Moreover, his family is very rich……) 
+
+@huki b=8
+@bs f=サクラ@悔しい
+[SAKURA] (Each day, the advertisement of ASAHIKO’s family company can be seen on TV; in addition, he is very smart. However……) 
+
+@huki b=7
+@bs f=サクラ@考え中 op2=困惑
+[SAKURA3] (On earth he is ASAHIKO……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=2 id=31
+@route route=left id=31
+@move_speed spd=3 id=31
+
+@huki b=8 id=31
+[Girl Student ]「That, that upperclassman ASAHIKO……!」
+
+@huki b=4 id=31
+
+@huki b=2 id=30
+@wait t=1200
+
+@huki b=2 id=30
+@dir dir=right id=30
+;;@move_f f=朝彦 in=l t=300
+[ASAHIKO]「What can I do for you?」
+
+@huki b=1 id=31
+[Girl Student ]「I, I love you! 　Would you like to be my boyfriend?」
+;;@move_f f=朝彦 out=l t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch002 bad=jump:*left_branch002
+;;-------------------------------------
+;; When selecting right side
+*right_branch002
+
+@map_scroll dir=left dis=5 spd=6
+
+@jump target=*dir_branch002
+;;-------------------------------------
+;; When selecting left side
+*left_branch002
+
+@map_scroll dir=right dis=4 spd=6
+
+@jump target=*dir_branch002
+;;-------------------------------------
+*dir_branch002
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[SAKURA] (It is really a scene of confession. Should I find a place to hide me?……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch003 bad=jump:*left_branch003
+;;-------------------------------------
+;; When selecting right side
+*right_branch003
+
+@route route=left,up:2
+@rpute route=left
+@route_point x=36 y=8 dir=r
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=right dis=6 spd=5
+
+@jump target=*dir_branch003
+;;-------------------------------------
+;; When selecting left side
+*left_branch003
+
+@route route=right
+@route_point x=51 y=8 dir=l
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=left dis=5 spd=5
+
+@jump target=*dir_branch003
+;;-------------------------------------
+*dir_branch003
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8 id=30
+@wait t=1200
+
+;;move_f f=朝彦 in=l t=300
+[ASAHIKO]「Thanks. You love me, I am very happy.」
+;;move_f f=朝彦 out=l t=300
+
+@huki b=8
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[SAKURA] (Viewing such scene as a routine thing, you make hearty laughter……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=4 id=31
+[Girl Student ]「That, that is to say……」
+
+;; Unexpected acceptance of confession moves that girl student so that she almost cries out.
+
+@huki b=8 id=30
+@wait t=1200
+
+;;move_f f=朝彦 in=l t=300
+[ASAHIKO]「Firstly, \C[2]Could you please wear the stockings with garter belt\C[0] Try it on」
+;;move_f f=朝彦 out=l t=300
+
+@huki b=8 id=31
+@wait t=1200
+
+@huki b=2 id=31
+[Girl Student ]「ay……?」
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[SAKURA] (As expected. ASAHIKO has such favourite hobby……) 
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8 id=30
+@wait t=1200
+
+@huki b=9 id=30
+;;move_f f=朝彦 in=l t=300
+[ASAHIKO]「Let me have a look……thisstockings with garter belt relatively fit your style.」
+;;move_f f=朝彦 out=l t=300
+
+@huki b=6
+@move_f f=サクラ@考え中 op2=困惑 in=r t=300
+[SAKURA] (Nobody knows how many the stockings with garter belt this guy has. Unbelievable……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+@route id=30 route=right
+
+@se f=衣擦れの音1
+@huki b=8 wt=1 id=30
+
+@huki b=6 id=31 wt=1
+
+@huki b=2 id=31
+[Girl Student]「ay? 　ay? 　That……upperclassman ASAHIKO……?」
+
+@route id=30 route=left
+
+@dir dir=right id=30
+@huki b=8 id=30 wt=1
+
+;;move_f f=朝彦 in=l t=300
+[ASAHIKO]「I especially love the girl who wears stockings with garter belt. Therefore――」
+
+@huki b=2 id=30
+[ASAHIKO]「If you love me, wear stockings with garter belt for me?」
+;;move_f f=朝彦 out=l t=300
+
+@huki b=8 id=31
+[Girl Student]「…………」
+
+@huki b=7 id=31
+@wait t=1200
+
+@huki b=8 id=31
+[Girl Student]「…… I, I see……」
+
+@huki b=1
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch005 bad=jump:*left_branch005
+;;-------------------------------------
+;; When selecting right side
+*right_branch005
+
+@map_scroll dir=left dis=6 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch005
+;;-------------------------------------
+;; When selecting left side
+*left_branch005
+
+@map_scroll dir=right dis=5 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch005
+;;-------------------------------------
+*dir_branch005
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=6
+@wait t=1200
+
+@move_f f=サクラ@驚き op2=汗 in=r t=300
+[SAKURA] (wow ah ah!? so great……most of girls have refused him, when he asked them to wear the stockings with garter belt.) 
+
+@bs f=サクラ@考え中 op2=汗
+[SAKURA] (This girl, so brave. so great……however, this has proved her love to ASAHIKO……) 
+
+@bs f=サクラ@悔しい
+[SAKURA] (As for me……if I love a man really, would I follow his words?) 
+
+@bs f=サクラ@考え中 op2=汗
+[SAKURA] (Although I……couldn’t image me like that……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch006 bad=jump:*left_branch006
+;;-------------------------------------
+;; When selecting right side
+*right_branch006
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=right dis=6 spd=5
+
+@jump target=*dir_branch006
+;;-------------------------------------
+;; When selecting left side
+*left_branch006
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=left dis=5 spd=5
+
+@jump target=*dir_branch006
+;;-------------------------------------
+*dir_branch006
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=1 id=31
+[Girl Student ]「Wait a moment」
+
+@move_speed spd=5 id=31
+@fade type=out t=1000 wt=0
+@route route=right:7 id=31
+@se f=Move1
+@wait t=2000
+@c_jump id=31 x=-7
+@dir id=31 dir=left
+@fade type=in t=1000 wt=1
+
+;; The Girl Student ran up into that empty classroom, and came out in the stockings with garter belt.
+
+@huki b=8 id=31
+@wait t=1200
+
+@huki b=1 id=31
+[Girl Student ]「Is it OK?」
+
+@huki b=1 id=30 wt=1
+@move_speed spd=7 id=30
+
+@route route=right id=30
+
+@huki b=4 id=30
+@c_jump id=30
+;;@move_f f=朝彦 in=l t=300
+[ASAHIKO]「oh oh! 　Absolutely perfect!」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=1 id=31
+@wait t=1200
+
+@huki b=11 id=31
+[Girl Student ]「ah, um um. Thank you, upperclassman ASAHIKO…………」
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[SAKURA] (That girl looks delighted. However, that is not all……) 
+@move_f f=サクラ@悔しい out=r t=300
+
+@bgm
+
+@huki b=8 id=30
+;;@move_f f=朝彦 in=l t=300
+[ASAHIKO]「So……」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=8 id=30 wt=1
+
+@huki b=2 id=30
+;;@move_f f=朝彦 in=l t=300
+[ASAHIKO]「Could I \C[2]taste\C[0] you?」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=2 id=31
+[Girl Student ]「ay……? 　Taste……?」
+
+@bgm f=bgm12
+
+@huki b=8 id=30 wt=1
+
+@huki b=4 id=30
+;;@move_f f=朝彦 in=l t=300
+[ASAHIKO]「――Yeah, \C[2]taste\C[0] oh」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=8 id=30 wt=1
+
+@huki b=4 id=30
+;;@move_f f=朝彦 out=l t=300
+[ASAHIKO]「\C[2]it is necessary to have a taste\C[0]」
+;;@move_f f=朝彦 out=l t=300
+
+;; ASAHIKO lowered his head without hesitation, and put his tongue out to lick her legs in the stockings with garter belt.
+
+@huki b=4 id=30
+@huki b=7 id=31 wt=1
+
+@bgm
+
+@huki b=8 id=31
+[Girl Student ]「yee……」
+
+
+@dir_fix id=30 type=on
+@walk_anime id=30 type=off
+@move_speed spd=6 id=30
+
+@huki b=1 id=30
+@huki b=1 id=31
+
+@move_speed spd=6 id=31
+
+@se f=Thunder6
+@flash t=500 wt=0
+@anime num=302 id=30 wt=0
+@route id=30 route=left
+@qk
+
+@huki b=7 id=31
+@route route=right:11,up:4 id=31
+@invisible type=on id=31
+
+@huki b=6
+[Girl Student ]「No, ah ah ah!? Psycho～～!!!」
+
+@move_speed spd=4 id=30
+@dir_fix id=30 type=off
+@walk_anime id=30 type=on
+
+@huki b=2 id=30
+
+@fade type=out t=1500
+@wait t=1200
+@fade type=in t=1000
+
+@bgm f=bgm02
+
+@huki b=6
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[SAKURA] (Surely, it is not feasible……is it? Let a boy student lick the stockings with garter belt……so disgusting) 
+@move_f f=サクラ@考え中 out=r t=300
+
+;;@mpve_speed spd=5 id=31
+;;@route id=31 route=right:2
+
+;;@dir dir=left id=31
+
+;;@huki b=7 id=31
+;;@wait t=1200
+
+;;@huki b=1 id=31
+[Girl Student ]「Keep away from me! 　Psycho!!!」
+
+;; That moved girl student shows her disgusting expression, and beats up ASAHIKO.
+
+;;@route id=31 route=right:3
+;;@dir dir=left id=31
+
+;;@huki b=1 id=31
+;;@c_jump id=31
+;; [Girl Student ]「So disgusting! 　Bastard! 　You are a psycho!」
+
+;;@fade type=out t=1000 wt=0
+;;@route id=31 route=right:6 wt=1
+;;@se f=Move1
+;;@wait t=2000
+;;@invisible id=31 type=on
+;;@fade type=in t=1000 wt=1
+
+;; Viewing ASAHIKO as garbage, the girl student in the stockings with garter belt walks away without turning back.
+
+@huki b=8 id=30
+@wait t=1200
+
+@huki b=7 id=30
+;;@move_f f=朝彦 in=l t=300
+[ASAHIKO]「ha ah……why can’t everybody know the beauty of stockings with garter belt.」
+;;@move_f f=朝彦 out=l t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch007 bad=jump:*left_branch007
+;;-------------------------------------
+;; When selecting right side
+*right_branch007
+
+@map_scroll dir=left dis=6 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch007
+;;-------------------------------------
+;; When selecting left side
+*left_branch007
+
+@map_scroll dir=right dis=5 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch007
+;;-------------------------------------
+*dir_branch007
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=6
+@wait t=1200
+
+@move_f f=サクラ@考え中 op2=困惑 in=r t=300
+[SAKURA] (This guy has forgotten the lesson……Anyway, I am indifferent to him……)
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[SAKURA] (However, it is really regrettable. If he is normal somewhat, he is sure to be popular……)
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch008 bad=jump:*left_branch008
+;;-------------------------------------
+;; When selecting right side
+*right_branch008
+
+@route route=down:2
+@dir dir=right
+
+@jump target=*dir_branch008
+;;-------------------------------------
+;; When selecting left side
+*left_branch008
+
+@route route=down
+@dir dir=left
+
+@jump target=*dir_branch008
+;;-------------------------------------
+*dir_branch008
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8
+@wait t=600
+@move_f f=サクラ@考え中 in=r t=300
+@wait t=600
+
+@huki b=8
+@bs f=サクラ@無表情
+[SAKURA] (It is not necessary to hide me. Go) 
+@move_f f=サクラ@無表情 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch009 bad=jump:*left_branch009
+;;-------------------------------------
+;; When selecting right side
+*right_branch009
+
+@route route=right:4,up:2
+
+@jump target=*dir_branch009
+;;-------------------------------------
+;; When selecting left side
+*left_branch009
+
+@route route=left:10
+
+@jump target=*dir_branch009
+;;-------------------------------------
+*dir_branch009
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki id=30 b=8
+@dir dir=up id=30
+
+@huki b=1
+@c_jump wt=0
+
+;;@move_f f=朝彦 in=l t=300
+[ASAHIKO]「oh ah? 　SAKURA」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=7 wt=1
+@dir dir=down
+
+@move_speed spd=3 id=30
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch009 bad=jump:*left_branch009
+;;-------------------------------------
+;; When selecting right side
+*right_branch009
+
+@route route=left:2,up id=30
+
+@jump target=*dir_branch009
+;;-------------------------------------
+;; When selecting left side
+*left_branch009
+
+@route route=left id=30
+@dir dir=up id=30
+
+@jump target=*dir_branch009
+;;-------------------------------------
+*dir_branch009
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;@move_f f=朝彦 in=l t=300
+[ASAHIKO]「Your legs still look bright as usual.」
+
+[ASAHIKO]「SAKURA, you must fit this stockings with garter belt」
+;;@move_f f=朝彦 out=l t=300
+
+@route route=up id=30
+
+@se f=衣擦れの音1
+@huki b=8 id=30 wt=1
+
+@huki b=6
+@fb id=30 dir=back wt=1
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL gets the stockings with garter belt! 
+@mes_win back=0 pos=2
+
+@huki b=7
+;;@move_f f=朝彦 in=l t=300 wt=0
+@move_f f=サクラ@驚き op2=困惑 in=r t=300
+@wait t=1200
+
+@bs f=サクラ@哀しみ op2=困惑
+[SAKURA]「That……you give me this stocking, I really feel embarrassed……」
+@move_f f=サクラ@哀しみ out=c t=300
+
+@huki b=8 id=30
+
+@ev f=サクラ@制服_全体 opacity=0
+@move f=サクラ@制服_全体 opa=0 x=0 y=500 h=60 w=60 t=100 wt=1
+@wait t=100
+@move f=サクラ@制服_全体 opa=255 x=0 y=400 h=60 w=60 t=400 wt=1
+@wait t=500
+@move f=サクラ@制服_全体 opa=255 x=0 y=150 h=100 w=100 t=2000 wt=1
+
+@huki b=4 id=30
+[ASAHIKO]「You are absolutely a girl student who fits this stockings with garter belt. You do believe my judgment.」
+
+@move f=サクラ@制服_全体 opa=0 x=0 y=150 h=100 w=100 t=1000 wt=1
+@ev
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[SAKURA] (This guy totally doesn’t listen to others……) 
+
+@huki b=8 id=30
+[ASAHIKO]「I hope that someday you are able to wear this stockings before me.」
+
+@huki b=4 id=30
+[ASAHIKO]「At that time, be sure to let me \C[2]taste\C[0]」
+
+;;@move_f f=朝彦 out=l t=300 wt=0
+@move_f f=サクラ@悔しい out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch010 bad=jump:*left_branch010
+;;-------------------------------------
+;; When selecting right side
+*right_branch010
+
+@dir dir=up
+
+@jump target=*dir_branch010
+;;-------------------------------------
+;; When selecting left side
+*left_branch010
+
+@route route=left,up
+
+@jump target=*dir_branch010
+;;-------------------------------------
+*dir_branch010
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=7 wt=1
+
+@move_f f=サクラ@悔しい op2=困惑 in=r t=300
+[SAKURA] (So disgusting……how could I let you lick……ha ah ah ah disgusting……this guy’s head is flooded.) 
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8 wt=1
+@huki b=9
+@move_f f=サクラ@微笑 op2=電球 in=r t=300
+[SAKURA] (ah, however, this……should be sold out with a nice price.) 
+@move_f f=サクラ@微笑 out=r t=300
+
+;; Although SAKURA doesn’t want to wear this stockings with garter belt for ASAHIKO――
+
+@se f=Open1
+@dir id=2 dir=left
+@dir id=2 dir=right
+@dir id=2 dir=up
+@fade type=out t=1000
+
+@bgm
+@mes_win back=1 pos=1
+　She wants to sell it for money.
+@mes_win back=0 pos=2
+
+;; Transfer to free action.
+;;@invisible type=on
+@move_speed spd=4
+@se f=Move1
+@bs
+
+
+

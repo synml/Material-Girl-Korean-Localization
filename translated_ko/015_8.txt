@@ -1,0 +1,19 @@
+
+@huki b=1 id=6
+[스도]「사쿠라!?　그 옷차림은 대체 뭐냐……!」
+
+@huki b=8 id=6
+[스도]「……………」
+
+@huki b=7 id=6
+[스도]「……………쳇」
+
+@huki b=8 id=6
+[스도]「……그런 꼴로는 학교에 들여보내줄 수 없다」
+
+[스도]「교복으로 갈아입고 다시 와라」
+
+@move_speed spd=3
+@route route=down
+@move_speed spd=4
+

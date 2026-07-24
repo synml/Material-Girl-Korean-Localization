@@ -1,0 +1,7 @@
+@mes_win back=1 pos=1
+
+\CL Out of service.\nOpening time 10:00 AM ～ 9:00 PM
+
+@mes_win
+
+

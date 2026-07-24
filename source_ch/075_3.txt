@@ -1,0 +1,38 @@
+
+@dot_move id=101 x=3 y=5 dir=up
+@change f=コンビニ店長 id=101
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@無表情 in=r t=300
+[小櫻/skr1197]「那個……我在這里換就好了是吧？」
+
+@route route=up:5,right
+@dir dir=up
+
+@se f=衣擦れの音1
+@huki b=8 wt=1
+
+@bs f=サクラ@哀しみ
+[小櫻/skr1198]（這件制服，在設計上完全和三圍沒什么關系啊……）
+
+@huki b=6
+@bs f=サクラ@考え中
+[小櫻/skr1199]（問三圍這已經可以算是性騷擾了吧。呼——嘛，雖然我無所謂……）
+
+@huki b=8
+@bs f=サクラ@無表情
+[小櫻/skr1200]（時薪還比較高，店長看上去也不像什么壞人……）
+
+@huki b=7
+@bs f=サクラ@考え中
+[小櫻/skr1201]（我這是第一次在便利店打工……但愿別出什么岔子）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@mes_win back=1 pos=1
+\CL正在小櫻變換衣服邊想事情的時候――
+@mes_win back=0 pos=2
+
+@huki b=8 id=101 wt=1
+

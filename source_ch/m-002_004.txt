@@ -1,0 +1,7 @@
+@mes_win back=1 pos=1
+
+\CL 准备中，10:00 开始营业
+
+@mes_win
+
+

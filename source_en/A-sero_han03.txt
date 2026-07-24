@@ -1,0 +1,14 @@
+
+;;【Common dialogue】
+
+
+@move_f f=サクラ@無表情_頬 in=r t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@驚き_頬
+
+[SAKURA]「…………Ah！？　……No way. Nobody can peep me even I care!」
+
+@move_f f=サクラ@驚き_頬 out=r t=300
+
+

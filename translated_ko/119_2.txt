@@ -1,0 +1,9 @@
+
+;;【021_02会社員オヤジフェラ.txt】
+
+;; SAKURA dialogues with a middle-aged company staff on the street.
+
+@dot_move id=101 x=3 y=38 dir=down
+@change f=おじさん id=101 num=0
+
+

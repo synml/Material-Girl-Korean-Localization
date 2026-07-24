@@ -1,0 +1,58 @@
+;;▼Peeping event (sexual intercourse in a classroom)
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「……? It seems that I have heard some strange sound……what's that sound?」
+
+@bgm_save
+@bgm f=bgm15
+
+@move_f f=black face=0 in=c t=150
+@move_f f=A-cut_sev10-1 face=0 in=c t=150
+
+[Man]「O o! Teacher……」
+
+[Teacher]「Hehe……why are you groaning now? You will be punished if you eject like this♪」
+
+;;@bs f=サクラ@驚き_頬 op2=ビックリ
+
+[SAKURA]「！？　……Wow……The teacher is harassing a student……?」
+
+[Man]「Ah ah! Teacher, I, I…have……！！」
+
+[Teacher]「Dear me……You will be definitely pusnished if you eject without my permission」
+
+[Man]「Ah……but……no……I can't help…I am going to eject!!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev10-2 face=0
+
+[Man]「Ah ah! Don't do that!? I am still ejecting it, don't touch it…！
+
+[Teacher]「Hehe……you have a virgin penis without patience. I will let you eject for another 10 times if you really want to do so♪」
+
+@fadeout t=1000 wt=1
+@bs
+
+[Man]「Ah…!!　Please spare me……!　I am going to eject again, ah ah ah!!!」
+
+@wait t=1000
+@fadein t=1000 wt=1
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@羞恥_頬 op2=汗 in=r t=300
+
+[SAKURA]「…………Although he is poor, I can do nothing to help him……」
+
+@move_f f=サクラ@羞恥_頬  out=r t=300
+
+@bgm
+@bgm_replay

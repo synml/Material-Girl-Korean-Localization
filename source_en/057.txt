@@ -1,0 +1,96 @@
+
+;;【011_03着ている.txt】
+
+@dir dir=down id=5
+@fade type=in t=1000 wt=1
+
+@bgm f=bgm01
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki id=5 b=1 wt=1
+
+[SUDOU]「Hello, everybody is here. Let’s begin class!」
+
+@huki id=103 b=2 wt=1
+
+[Boy Student１]「Teacher, what will we do today?」
+
+[SUDOU]「You jump box horse.」
+
+@huki id=104 b=2 wt=1
+
+[Girl Student１]「ay? 　Only jumping box horse?」
+
+[SUDOU]「Yes. Do you have any problem?」
+
+[Girl Student２]「No, no problem……」
+
+@huki id=5 b=8 wt=1
+
+[SUDOU]「Set the box horse. Hurry up!」
+
+[Boy Student２]「I see.」
+
+@dir dir=down
+@route id=101 route=d:9 wt=0
+@route id=102 route=d:2 wt=0
+@route id=103 route=d:9 wt=0
+@route id=104 route=d:9 wt=0
+@route id=105 route=d:9 wt=0
+
+@huki b=8 wt=1
+
+[SAKURA] ( I also want to help them.) 
+
+@dir dir=up
+[SUDOU]「Wait, SAKURA. There are some courses for you. Follow me.」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@route id=5 route=d wt=1
+
+[SAKURA]「ay……?」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@huki id=102 b=8 wt=1
+@dir id=102 dir=u wt=1
+
+[TSUKASA]「SAKURA……」
+
+@huki id=5 b=1
+@c_jump id=5 wt=1
+@wait t=600
+
+[SUDOU]「What do you want to do? Set the box horse in a hurry!」
+
+@dir id=102 dir=u wt=1
+
+[TSUKASA]「I know……」
+
+@route id=102 route=d:7 wt=0
+
+@huki id=102 b=6 wt=1
+
+　Creamed by SUDOU, TSUKASA stared at SAKURA helplessly, and prepared for PE apparatus with other students.
+
+@dir id=5 dir=d wt=1
+
+[SUDOU]「Follow me」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@route id=5 route=l:10,u:3 wt=0
+@route route=u,l:10,u:3 wt=0
+@wait t=300
+@fadeout wt=0 t=2000
+
+[SAKURA] (Why did you only call me……?) 
+
+
+
+　Upset SAKURA walked behind SUDOU forcedly.
+
+@wait t=2000
+

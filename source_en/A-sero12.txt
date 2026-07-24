@@ -1,0 +1,14 @@
+;;▼Health room: When resting in the health room, a random erotic event may be triggered. 
+;;　　　　　The heroine in sleeping will be subject to other's "mischief". 
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「It seems that no one is here, and I can rest here. 」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout t=1000 wt=1
+
+[SAKURA]「I am exhuasted了……I feel so sleepy suddenly……」
+
+@wait t=2000

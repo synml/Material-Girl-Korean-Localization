@@ -1,0 +1,12 @@
+
+@dot_move id=101 x=14 y=5 dir=left
+@change f=須東 num=0 id=101
+
+@fade type=in t=1000 wt=1
+
+@wait t=1000
+
+[SUDOU]「At this moment, there is no one in the healthcare room. I will take good care of you……SAKURA.」
+
+;; SUDOU lifted SAKURA onto the bed in the healthcare room, with dirty smile on his face. 
+

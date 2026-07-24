@@ -1,0 +1,25 @@
+
+;;【020_01VR体験.txt】
+
+;; SAKURA talks with the man in uniform in front of building.
+
+@bgm f=bgm01
+
+@huki id=29 b=8
+[연구원]「아아」
+
+@huki id=29 b=2
+[연구원]「오늘도, 차세대 게임을 체험해 주셨으면 하는데…………괜찮으실까요?」
+
+@huki id=29 b=8
+[연구원]「물론, 공짜는 아닙니다. 보수는 지불하겠습니다」
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（오늘은 어떡할까……?　받아들여도 되긴 하지만……）
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: Don’t play / Play
+;;○Don’t play →020_02試遊しない
+;;○Play →020_03試遊する
+
+

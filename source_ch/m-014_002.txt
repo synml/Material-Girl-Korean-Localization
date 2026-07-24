@@ -1,0 +1,7 @@
+
+@mes_win back=1 pos=1
+
+\CL上鎖了。
+
+@mes_win
+

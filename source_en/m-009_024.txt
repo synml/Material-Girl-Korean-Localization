@@ -1,0 +1,8 @@
+@mes_win back=1 pos=1
+
+\CL A shop where girls will be spoiled by handsome boys?\nThey seem to have requirements on dressing. So go, buy and wear better clothes to take a look there
+
+\CL ※When I have enough money, I will go to a high-end clothing store!
+
+@mes_win
+

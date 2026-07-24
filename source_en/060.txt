@@ -1,0 +1,22 @@
+
+;;【013_01エンド・須東.txt】
+
+@bgm f=Dungeon5
+
+@huki id=101 b=8 wt=1
+
+[TSUKASA]「ha ah……」
+
+[TSUKASA] (SAKURA……suddenly dropped out……where on earth did she go?……) 
+
+@move_speed id=101 spd=2
+@route id=101 route=u:5,r:3,u:2 wt=0
+
+　Someday, the school suddenly received SAKURA’s application for dropping out from school.
+
+　Within the several months after SAKURA handled the procedures for dropping out from school, TSUKASA hasn’t seen SAKURA.
+
+[TSUKASA] (SAKURA also never replied any message……what’s matter with SAKURA?……) 
+
+[TSUKASA]「ha ah ah ah」
+

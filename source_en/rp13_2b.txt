@@ -1,0 +1,32 @@
+
+;;【018_08おっぱいパブ段階Ｈ（汎用）.txt】
+
+;;Phase II
+
+@bgm f=bgm04
+
+;;ＣＧ■CG13b
+@bgf bg=ev13b t=1000
+@bgs f=aegi_skr1
+
+[SAKURA/skr1415] 「Hum......Hum......You wanna eager time today? 」
+
+[Guest] 「Of,course」
+
+[SAKURA/skr1416] 「Fine, ok. Then...... 」
+
+
+;;ＣＧ■CG13c
+@bgf bg=ev13c t=500
+@bgs f=aegi_skr2
+
+[Guest] 「Ahhhh...I am so high......ah」
+
+[SAKURA/skr1417] (Hum, he is so satisfied cause of my breasts......and I don`t know why I am so happy too.)
+
+SAKURA's heart was beating quickly when she saw guest's obscene expression, then she moved her breasts towards guest closer.
+
+
+@bgs
+@rps
+

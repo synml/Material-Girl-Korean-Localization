@@ -1,0 +1,97 @@
+;;▼Suspicious character: In specific periods, some pedestrains will make sexual harassment on the street. 
+;;　　　　　If the carnality is high, it will be taken to a place under shade to trigger a sexual intercourse. 
+
+
+[Man]「Hehe, are you inducing me with your big boobs?」
+
+@move_f f=サクラ@怒り in=r t=300
+
+[SAKURA]「What are you talking about? Nuisance, don't follow me!」
+
+[Man]「Don't be so cold. Let me take you to a good place, okay?」
+
+@bs f=サクラ@怒り_頬_z body_op=z
+
+[SAKURA]「Don't touch me! No, let go of me!」
+
+[Man]「All the women who had sex with me were crying and screaming. You don't wanna a try? 」
+
+;;Conditional branch
+@if eval=v(32)>=50 ok=jump:*hev02 bad=jump:*hev01
+
+;;Branch: no erotic event
+*hev01
+
+@se f=壁当たり
+@fb dir=back
+
+@move_f f=サクラ@怒り_頬 out=r t=100
+
+[SAKURA]「Don't say those disgusting words! Leave me alone!」
+
+[Man]「Shit, don't be pure and simple. It's obvious that you are a slut.」
+
+@dir dir=down
+@move_f f=サクラ@考え中 in=r t=300
+
+[SAKURA]「What are you doing, shit……」
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@end
+
+;;Branch: an erotic event is triggered
+*hev02
+
+@bgm_save
+@bgm f=bgm14
+
+@bs f=サクラ@哀しみ_頬_z body_op=z
+
+[SAKURA]「That, that thing……I am……」
+
+@move_f f=black face=0 in=c t=150
+
+[Man]「Come, go there. I will make you feel comfortable.」
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-3 face=0 in=c t=150 h=1
+
+[SAKURA]「Ah, no way……in a place like this……ah, no……」
+
+@move_f f=A-cut_sev06-3 face=0 out=c t=150
+
+@se f=挿入音
+@move_f f=A-cut_sev05-1 face=0 in=c t=150
+
+[SAKURA]「You suddenly insert your penis into my body…ah ah ah ah!」
+
+@se f=ピストン_高速
+
+[Man]「What? You pussy has been wet, hasn't it? Maybe you like my body very much?」
+
+[SAKURA]「Of course not, don't say that! Ah, don't be so……intense………ah ah ah ah ah ah!」
+
+[Man]「The show has just started! Come on, come on!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev05-2 face=0
+
+[SAKURA]「Ah, ah. What a nuisance. I am screaming! Ah ha ah ah…ah ah……ah ah ah ah ah!!」
+
+[SAKURA]「Ah ah ah……the scorching liquid is flowing out……」
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+
+@bgm
+@bgm_replay
+
+@fadein t=1000 wt=1

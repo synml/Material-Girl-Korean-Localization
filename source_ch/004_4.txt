@@ -1,0 +1,38 @@
+
+@huki b=1 id=31
+[女子學生]「不、不好意思！」
+
+@huki b=2
+@move_f f=サクラ@考え中 op2=ハテナ in=l t=300
+[小櫻]「…………？」
+
+@huki b=2 id=31
+[女子學生]「您、您和朝彥學長……是同班同學吧？」
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[小櫻]「……沒錯啊？」
+
+@bs f=サクラ@驚き
+@huki b=1 id=31
+[女子學生]「那、那個！　能麻煩您、告訴我您們班級的位置嗎！」
+
+@huki b=6
+@bs f=サクラ@哀しみ op2=汗
+[小櫻]「那個……」
+@move_f f=サクラ@哀しみ out=l t=300
+
+@huki b=8
+@huki b=8 id=31 wt=1
+
+@huki b=8 id=31
+@huki b=6 wt=1
+
+@huki b=7 wt=1
+
+@map_scroll dir=up dis=7 spd=5
+
+@move_speed spd=5
+@map_scroll dir=right dis=18 spd=6
+@move_speed spd=4
+

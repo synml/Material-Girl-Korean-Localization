@@ -1,0 +1,25 @@
+
+;;【005_01イジメられる司.txt】
+;;【005_03敗北.txt】
+
+@bgm f=bgm04
+
+@huki b=1
+@anime num=302 wt=0
+@wait t=500
+
+@se f=Blow6
+@change num=1
+@dir dir=down
+
+@huki b=7
+@move_f サクラ@悔しい op2=困惑 in=l t=300
+[SAKURA]「coo!?」
+
+@huki b=1 id=10
+[HOOLIGAN１]「ha ah, ha ah, ha ah, surrender, your ugly girl!」
+
+@move_f サクラ@悔しい out=l t=300
+
+;; ※Refight
+

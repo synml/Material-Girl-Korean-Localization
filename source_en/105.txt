@@ -1,0 +1,21 @@
+
+;;【020_03試遊する.txt】
+
+@bgm f=bgm01
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA/skr1459] (Now that it is not unpaid, I will experience the game.) 
+
+@huki b=8 wt=1
+
+[SAKURA/skr1460]「So……I have a try」
+
+[Researcher]「oh oh, thanks a lot. Please come over here」
+
+[SAKURA/skr1461]「OK」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=1000 wt=1
+　SAKURA follows that man to enter the building.
+

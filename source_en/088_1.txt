@@ -1,0 +1,8 @@
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA] (Uniform, this Bunny Girl uniform?) 
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout

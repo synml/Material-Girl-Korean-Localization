@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL Preparing  It's open at 18 o'clock.
+
+@mes_win

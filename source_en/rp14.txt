@@ -1,0 +1,372 @@
+
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+@bgm f=bgm05
+
+;;ＣＧ■CG14
+@bgf bg=ev14 t=1000
+
+[SAKURA/skr1422] 「Hum......hum......hummm......」
+
+[Frivolous Guy 1]「You just completely lie down♪」
+
+「Frivolous Guy 2 」「Hum，what about using SAKURA`s body to take place of the money of drink~♪」
+
+Those men looked at SAKURA who lay on hotel`s bed in a wild sight.
+
+[Frivolous Guy 1] 「But I have to say, she`s so cute and slim.」
+
+[Frivolous Guy 2] 「It`s so hard to get this top-class girl♪.」
+
+[ Frivolous Guy 1] 「So how about starting from me.」
+
+[Frivolous Guy 2] 「Got it.]
+
+[Frivolous Guy 1]「Let`s start from these lovely breasts♪.」
+
+[SAKURA/skr1423]「Huh......hum......hummmmm」
+
+There was one guy who is ready to approach to SAKURA.
+
+[Frivolous Guy 1]「SAKURA♪ Wake up. Are you conscious?」
+
+[SAKURA/skr1424] 「Huh......hum......I`m not feeling well......」
+
+[Frivolous Guy 1 ] 「Really. You are not feeling well♪ Now let me help comforting you~♪」
+
+[Frivolous Guy 2 ] 「Yesyes♪ We are experienced in comforting girls♪ Just relax.」
+
+[SAKURA/skr1425]「Ah......hum......huh......」
+
+SAKURA did not know what`s going in right now, however, these men were so eager to touch her body.
+
+@se f=衣擦れの音1
+;;ＣＧ■CG14a
+@bgf bg=ev14a t=500
+
+[Frivolous Guy1]「Ahhh！Those breasts are pretty good♪」
+
+[Frivolous Guy 2]「I could feel her size through her clothes.」
+
+[Frivolous Guy 1]「Yeah. This girl looks thin no matter she gets dressed or not. So let`s go~」
+
+The man started to grab SAKURA`s breasts smilingly.
+
+@bgs f=aegi_skr1
+
+[SAKURA/skr1426] 「Oh......huh......hummm」
+
+[Frivolous Guy 2 ]「 Sensitivity is pretty good」
+
+[Frivolous Guy 1 ]「It reacts  well after being grabbing♪ Look at that, SAKURA feels so well,too」
+
+[SAKURA/skr1427]「Ahhhh......hummm......ahhh.....」
+
+[Frivolous Guy 2 ]「She`s feeling something♪」
+
+[Frivolous Guy 1 ]「How do your nipples feel~?」
+
+[SAKURA/skr1428]「Ah!? ah...hummmm! Hoo! Ahhhh!」
+
+[Frivolous Guy 1 ]「Her nipples are pretty sensitive~great♪」
+
+[Frivolous Guy 2 ]「It`s whoth a try. I`m expecting it」
+
+[Frivolous Guy 1 ]「Let`s make the nipples get erectile♪ huh! Hmm!」
+
+[SAKURA/skr1429]「Ah，humm......huh......ahahhahah」
+
+SAKURA`s body began to shake as her nipples were grabbed.
+
+@bgs
+
+[Frivolous Guy 2 ]「Does She get hot soon if we keep doing it?
+
+[Frivolous Guy 1 ]「Perhaps. Let me confirm it a bit~. I can`t resist it anymore♪」
+
+The man started to take off SAKURA`s pants slowly.
+
+@se f=衣擦れの音1
+;;ＣＧ■CG14b
+@bgf bg=ev14b t=500
+
+[Frivolous Guy 1 ]「Wow! The feeling is so great, isn`t it, SAKURA~♪」
+
+[Frivolous Guy 2 ]「It`s so sexy  that she gets hot~♪」
+
+These men looked at SAKURA who was asleep smiling.
+
+[Frivolous Guy 1 ]「Look at that♪  It`s the penis you want, SAKURA♪」
+
+@bgs f=aegi_skr1
+
+[SAKURA/skr1430]「Huh......hum, ahh, humm......」
+
+[Frivolous Guy 1 ]「Haha, you just can`t help shaking when your body being rubbed, SAKURA♪」
+
+[Frivolous Guy 2 ]「Just get your penis in. I wanna have sex with her」
+
+[Frivolous Guy 1 ]「Don`t hurry. I need more time......huh, she is getting hot~」
+
+[SAKURA/skr1431]「Ahh......huh......hum」
+
+[Frivolous Guy 1 ]「I am getting in~♪ SAKURA, I am getting in♪」
+
+The man whispered to SAKURA  who lay on the bed and fucked her harder.
+
+[SAKURA/skr1432]「Huh......hum......humm. Ahhhh!」
+
+[Frivolous Guy 1 ]「Fine! I am getting in!」
+
+@se f=挿入音
+;;ＣＧ■CG14c
+@bgf bg=ev14c t=500 v=1
+
+;;recall her virgin time
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following text is the period when she is virgin.
+
+[SAKURA/skr1433]「Hum!? Hum......it hurts me......huh!」
+
+[Frivolous Guy1]「Ahhh！ What? Is this your first time having sex!? SAKURA!?」
+
+[Frivolous Guy 2 ]「No way!? It`s your first time!」
+
+[Frivolous Guy 1 ]「Ah, it`s so good, virgin`s pussy is damn good」
+
+[SAKURA/skr1434]「Ah,hum! Ahh......Ahhh!」
+
+[Frivolous Guy 1 ]「Now let me help you get high~SAKURA♪」
+
+;; Previous text described SAKURA`s virgin time.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;;Following text describes SAKURA`s well-expericend time.
+
+[SAKURA/skr1435]「Ah!? Ah! Um! Hummm......I, I am......」
+
+[Frivolous Guy 1 ]「Oh, are you conscious after being fulfilled by my penis?」
+
+[Frivolous Guy 2 ]「But it seems like that she does not know what happened yet♪」
+
+[Frivolous Guy 1 ]「Hum......nice......it`s so great to get a pussy♪」
+
+[SAKURA/skr1436]「Hum......huh!? 　Hmm! Ahh!」
+
+[Frivolous Guy 1 ]「Look at that, SAKURA♪ My penis is working♪」
+
+;;Previous text described SAKURA`s non-virgin time.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+
+;; Following text is common.
+
+@se f=ピストン l=1
+@bgs f=aegi_skr2
+
+Swishing! Swishing! Swishing!
+
+[SAKURA/skr1437]「Ahh......huh! Ahhhh!」
+
+[Frivolous Guy 1 ]「Hum！ Now her pussy could not be better♪ She`s coming soon」
+
+[Frivolous Guy 2 ] 「It`s my turn after she got high」
+
+[Frivolous Guy 1]「I know that♪ hum! Hmm!」
+
+[SAKURA/skr1438]「Hum! Hmm! Ahh, ah......ahh, ahhhh」
+
+[Frivolous Guy 1]「You know what, SAKURA? Now you are being fucked by my penis, you are having sex?」
+
+[SAKURA/skr1439]「Huh!? hum......ahh......having sex......hum! ahhh!」
+
+[Frivolous Guy 2]「Seems like that she is not ready. She is unconscious yet」
+
+[Frivolous Guy 1]「Don`t you think it`s better? Look at that! Look at that!」
+
+He fucked SAKURA even harder.
+
+[SAKURA/skr1440]「Hum！Hmm! Hmm! Hmm! Hummmm!」
+
+[Frivolous Guy 1]「I am losing! I am losing SAKURA! Hmm! I am losing!」
+
+@se
+;;ＣＧ■CG14d
+@fin bg=ev14d se=射精音 v=1
+@bgs f=aegi_skr3
+
+Swishing! Swishing! Swishing!
+
+[SAKURA/skr1441]「Ahh! Ah! Ah! I`m being touched......touched......huh!」
+
+[SAKURA/skr1442]「Something......something is flowing into my body.....huh!」
+
+[Frivolous Guy 2]「Ahhh♪ It`s my sperm, SAKURA. I`m giving you my sperm♪」
+
+[Frivolous Guy 1]「And uterus gets so tight. SAKURA also gets high?」
+
+[SAKURA/skr1443]「Am I coming......am I......am I coming?」
+
+[Frivolous Guy 2]「Hhhhh♪ Yes. It’s great?」
+
+[SAKURA/skr1444]「Hum,ah......hum! Hoo! Ahhh!」
+
+@bgs
+
+SAKURA began shaking with so much sperm in her pussy.
+
+[Frivolous Guy 1]「It`s damn good♪」
+
+[Frivolous Guy 2]「Let me have a try, it`s my turn」
+
+[Frivolous Guy 1]「 Easy, man. Let me fuck you pussy harder one more time!」
+
+@bgs f=aegi_skr3
+
+[SAKURA/skr1445]「Ahh! Ahh! Ahhh! You are so impressive!」
+
+[Frivolous Guy 1]「Ahh♪ You are coming, SAKURA♪」
+
+[Frivolous Guy 1]「Now let`s make some change. I am pulling my penis out, SAKURA~」
+
+[SAKURA/skr1446]「Huh......humm......ahhhh」
+
+;;ＣＧ■CG14e
+@bgf bg=ev14e t=500 v=1
+@bgs f=aegi_skr1
+
+The man`s huge penis pulled out slowly.
+
+[SAKURA/skr1447]「Hum......ahh, ahhh......huh」
+
+[Frivolous Guy 2]「Wow♪ Wait a second,  too much ejaculation♪」
+
+[Frivolous Guy 1]「Ah, you know that ~」
+
+[Frivolous Guy 2]「Sperm is flowing out persistently」
+
+[Frivolous Guy 1]「Whatever. It could not be better when I get her pussy. Do not care too much.」
+
+[SAKURA/skr1488]「Hum......huh, ahh, hummmm......」
+
+[Frivolous Guy 2]「SAKURA, now let me make you high~」
+
+The other man started to touch SAKURA`s shaking body slowly.
+
+@se f=挿入音
+;;ＣＧ■CG14f
+@bgf bg=ev14f t=500 v=1
+@bgs f=aegi_skr2
+
+[SAKURA/skr1449]「Hum!? Ha! Ah! Ahhh!」
+
+[Frivolous Guy 2]「Wow! Her pussy is so nice!」
+
+[Frivolous Guy 1]「Is it? I have told you that?」
+
+[Frivolous Guy 2]「It seems that I am losing sooner♪」
+
+[Frivolous Guy 1]「I am always ready when you finish ejaculation」
+
+[Frivolous Guy 2]「Time is enough for me. Let me love you dearly, SAKURA♪」
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+[SAKURA」「Ahh！Ah! Hmm! Ahh! Something hot......is inside my body......!」
+
+[Frivolous Guy 2]「Yeah♪ My penis would make you high~♪」
+
+[SAKURA/skr1451]「Huh!? hum, humm! Ahh!」
+
+[Frivolous Guy 2]「Hey! Hey!"
+
+Sperm spilled out everywhere when he hit SAKURA`s pussy.
+
+[SAKURA/skr1452]「Huh!? Ah! Ummah! I am......so hot」
+
+[Frivolous Guy 1]「You are so erotic, SAKURA♪」
+
+[Frivolous Guy 2]「Look at that. Come on~♪ Her breasts are jumping up and down」
+
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+[SAKURA/skr1453]「Huh! Ummm! Hoo! Hoo! Humm!」
+
+[Frivolous Guy 2]「Oh!? Penis is out of control! Ohhh! 　I’m coming!」
+
+[SAKURA/skr1454]「It is coming again...... again! Ahh, something hot is coming......huh!」
+
+[Frivolous Guy 2]「Take it take it♪ Just enjoy it! Let`s get high together, SAKURA!」
+
+[SAKURA/skr1455]「Ahh! Ah! Ahh! Um! Humm!」
+
+Although SAKURA was a little bit unconscious, her gentle breathing was reverberating in that room.
+
+@bgs
+@se
+;; background.switch in dark
+@fade type=out t=1000 wt=1
+@wait t=1000
+@fade type=in t=1000 wt=1
+;; affection. time goes by slowly
+
+;;@bgm f=bgm05
+;;ＣＧ■CG14g
+@bgf bg=ev14g t=1000 v=1
+@bgs f=aegi_skr1
+
+[SAKURA/skr1456]「Humm......ahh......huh,hum......it`s so great」
+
+[Frivolous Guy 1]「Ah, I give five shots」
+
+[Frivolous Guy 2]「Mine is four. Ah, I already do not know where those sperm came from♪」
+
+Those sperm covered the bed sheet and SAKURA`s pussy was still open.
+
+[SAKURA/skr1457]「Huh......humm......ahhh! Huhh!」
+
+[Frivolous Guy 1]「Hah♪ It seems like that she is coming again. Does she get high in her dream,too~?」
+
+[Frivolous Guy 2]「SAKURA is so amazing」
+
+[Frivolous Guy 1]「Will she get pregnant? Never mind, we don`t need take any responsibility for her cause we won`t meet each other anymore」
+
+[Frivolous Guy 2]「I am sorry~SAKURA♪」
+
+[Frivolous Guy 1]「I think it`s time to go」
+
+[Frivolous Guy 2]「Yeah. Bye-bye~SAKURA. Have a nice dream~」
+
+These men left this room smiling.
+
+[SAKURA/skr1458]「Hum,hum......ahhh.......ahhhh」
+
+SAKURA was panting unconsciously though she was left there alone.
+
+Sperm was flowing out of her pussy constantly.
+
+@bgs
+@rps
+

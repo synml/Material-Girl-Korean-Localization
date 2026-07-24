@@ -1,0 +1,76 @@
+
+;;【002_04司の家のピンポンを鳴らす.txt】
+
+;; SAKURA comes to TSUKASA’s home and rings the doorbell.
+
+@se f=玄関チャイムの音
+@wait t=1200
+
+@dir dir=up
+
+@huki b=8 wt=1
+
+
+@se f=Open1
+@wait t=500
+
+@change f=司 id=101
+;;@route route=down id=101
+
+@huki b=8 id=101 wt=1
+;;@move_f f=司 in=l t=300
+[TSUKASA]「Welcome, SAKURA. We have been waiting for you.」
+;;@move_f f=司 out=l t=300
+
+@dir dir=up id=101
+@wait t=250
+
+@se f=Move1
+@change f=void id=101
+
+;;@route route=left id=101
+;;@dir dir=down id=101
+
+;;@change f=司_母 id=102
+;;@route route=down id=102
+
+;;@huki b=8 id=102
+;; [TSUKASA's Mother]「You're back, AKURA」
+
+;;@huki b=8
+;;@move_f f=サクラ@哀しみ in=r t=300
+;; [SAKURA]「Aunt, I have been eating in your home recently. I'm sorry to trouble you……」
+
+;;@huki b=3 id=102
+;; [TSUKASA's Mother]「We are neighbors. Don't be too polite. I have been viewing SAKURA as my daughter.」
+
+;;@huki b=8
+;;@bs f=サクラ@無表情
+;; [SAKURA] (My aunt is gentle as always. Each time when I chat with my aunt, I feel warm in my heart.) 
+;;@move_f f=サクラ@無表情 out=r t=300
+
+;;@huki b=8 wt=1
+
+;;@move_f f=司 in=l t=300 wt=0
+;;@move_f f=サクラ@微笑 in=r t=300
+;; [SAKURA] (TSUKASA’s gentle character must be inherited from my aunt.) 
+;;@move_f f=司 out=l t=300 wt=0
+;;@move_f f=サクラ@微笑 out=r t=300
+
+;;@huki b=3 id=102
+;; [TSUKASA's Mother]「Please come in. You're welcome」
+
+;;@move_f f=サクラ@微笑 in=r t=300
+;; [SAKURA]「I am sorry to interrupt you」
+;;@move_f f=サクラ@微笑 out=r t=300
+
+
+@move_speed spd=2
+@fade type=out t=1000 wt=0
+@route route=up
+@move_speed spd=3
+
+@bgm
+@se f=Move1
+
+

@@ -1,0 +1,181 @@
+
+;;【005_01イジメられる司.txt】
+;;【005_02勝利.txt】
+
+@bgm f=bgm04
+
+@dir_fix type=on id=10
+@dir_fix type=on id=11
+@walk_anime type=off id=10
+@walk_anime type=off id=11
+
+@anime id=10 num=302 wt=0
+@anime id=11 num=302 wt=0
+@wait t=500
+
+@c_jump id=10 x=-1 y=1 wt=0
+@c_jump id=11 x=1
+
+@se f=Blow6
+@change num=1 id=10
+@change num=1 id=11
+@dir_fix type=off id=10
+@dir_fix type=off id=11
+
+@dir dir=down id=10
+@dir dir=down id=11
+@qk
+
+@walk_anime type=on id=10
+@walk_anime type=on id=11
+
+@huki b=7 id=10 wt=1
+@change num=0 id=10
+
+@huki b=1 id=10
+[不良１]「可、可惡……！　區區女子……你給我記住了！」
+
+@move_speed spd=7 id=10
+@route route=up,left:8,up:10 id=10
+
+@se f=Move1
+@invisible type=on id=10
+
+@huki b=6 wt=1 id=11
+@change num=0 id=11
+
+@huki b=7 id=11
+[不良２]「喂、喂、等等我啊～」
+
+@move_speed spd=7 id=11
+
+@dir dir=left
+
+@route route=left:12,up:10 id=11
+
+@se f=Move1
+@invisible type=on id=11
+
+@bgm
+@fade type=out t=1000 wt=1
+@move_speed spd=4
+@route route=left
+@dir dir=right
+@wait t=1200
+@fade type=in t=1000 wt=1
+
+;;　見識到了小櫻的身手之后，不良少年們像過街老鼠一樣四散逃竄。
+
+@bgm f=bgm03
+;;@move_f f=司 in=r t=300
+@huki b=8 id=9 wt=1
+[司]「謝謝你、小櫻。」
+
+@move_f f=サクラ@微笑 in=l t=300
+@huki b=8
+[小櫻]「畢竟總去司家吃白飯嘛。這算回禮啦。」
+
+@huki b=7 id=9
+[司]「……我也，我也想要變強。」
+
+@huki b=8
+@bs f=サクラ@無表情
+[小櫻]「我認為司保持現在這個樣子就好啦。我會保護你的。」
+
+;;@move_f f=司 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+
+@huki b=7 id=9 wt=1
+
+@huki b=8 id=9
+;;@move_f f=司 in=r t=300
+[司]「我……我不想一直被保護，我也想保護小櫻啊！」
+;;@move_f f=司 out=r t=300
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[小櫻]「嗯？　你說什么了嗎？」
+
+@move_f f=サクラ@無表情 out=l t=300
+
+@huki b=1 id=9 wt=1
+@huki b=7 id=9 wt=1
+
+@huki b=6 id=9
+;;@move_f f=司 in=r t=300
+[司]「啊、沒。沒什么。」
+
+;;　一臉害羞的司、搖了搖頭。
+
+@huki b=8
+@move_f f=サクラ@考え中 in=l t=300
+[小櫻]「司的話，不是那種適合打架的人啦。所以、你只要保持現狀就好。」
+
+@huki b=6 id=9
+[司]「……啊、嗯。」
+;;@move_f f=司 out=r t=300 wt=0
+@move_f f=サクラ@考え中 out=l t=300
+
+@huki b=8 wt=1 id=9
+@huki b=7 wt=1 id=9
+
+;;　因小櫻的話而略顯傷心的司，默默的點了點頭。
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[小櫻]（司既聰明又溫柔……即便不會打架也足夠強大了。）
+
+@huki b=2
+@bs f=サクラ@考え中 op2=ハテナ
+[小櫻]（但是、為什么他會這么失落呢？）
+@move_f f=サクラ@考え中 out=l t=300
+
+@huki b=8 id=9 wt=1
+@huki b=1 id=9 wt=1
+;;@move_f f=司 in=r t=300
+[司]「啊、小櫻……你的手表……」
+;;@move_f f=司 out=r t=300
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@huki b=7
+@bs f=サクラ@哀しみ op2=困惑 
+[小櫻]（貌似剛才和那些不良少年打架的時候被弄壞了……）
+
+@huki b=7 id=9
+;;@move_f f=司 in=r t=300
+[司]「抱歉。都怪我……」
+
+@huki b=8
+@bs f=サクラ@微笑
+[小櫻]「哪里的話啊。也不是司的過錯。不必放在心上啦。」
+
+@huki b=8
+@bs f=サクラ@考え中
+[小櫻]「我得先走了。再見咯，司。」
+
+;;@move_f f=司 out=r t=300 wt=0
+@move_f f=サクラ@考え中 out=l t=300
+
+@move_speed spd=3
+@bgm
+@fade type=out t=1000 wt=0
+@route route=left:4
+@bs
+@bgm
+@move_speed spd=4
+
+@mes_win back=1 pos=1
+　和司告別之后，小櫻默默地離開了。
+@mes_win back=0 pos=2
+
+;;※司?好感度＋10
+
+;;※自由行動。
+

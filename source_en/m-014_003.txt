@@ -1,0 +1,7 @@
+
+@mes_win back=1 pos=1
+
+\CL ～Changing room～
+
+@mes_win
+

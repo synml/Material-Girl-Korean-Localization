@@ -1,0 +1,35 @@
+
+;;【017_08覗き段階Ｈ（汎用）.txt】
+
+;;Phase III
+
+@bgm f=bgm06
+
+;;ＣＧ■CG12c
+@bgf bg=ev12c t=1000
+
+[SAKURA/skr1251] 「Do I have to wear this kind of underware today, it's...it's...ashamed.」
+
+[SAKURA/skr1252]「But I could get more pay today, OK, I'll wear it.」
+
+;;ＣＧ■CG12d
+@bgf bg=ev12d t=500
+
+[Shopkeeper] Well, it's quite fit for SAKURA.
+
+[SAKURA/skr1253]「Emm, Ah, feel ashamed...Hope nobody can see my expression... so ashamed」
+
+
+[Shopkeeper] :「I'm watching you♪」
+
+
+[SAKURA/skr1254] 「Let's put on the uniform quickly.」
+
+
+SAKURA was so shy because of her sexy underwear and she was starred at by the shopkeeper who was laughing obscenely.
+
+@rps
+
+
+@rps
+

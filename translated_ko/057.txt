@@ -1,0 +1,96 @@
+
+;;【011_03着ている.txt】
+
+@dir dir=down id=5
+@fade type=in t=1000 wt=1
+
+@bgm f=bgm01
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki id=5 b=1 wt=1
+
+[스도]「좋아, 전원 모였겠지. 수업 시작한다!」
+
+@huki id=103 b=2 wt=1
+
+[남학생1]「선생님, 오늘은 뭐 해요?」
+
+[스도]「너희들은 뜀틀이나 해라」
+
+@huki id=104 b=2 wt=1
+
+[여학생1]「에?　뜀틀만요?」
+
+[스도]「그래. 뭐 불만이라도 있나?」
+
+[여학생2]「아, 아뇨, 아무것도……」
+
+@huki id=5 b=8 wt=1
+
+[스도]「그럼 잔말 말고, 얼른 뜀틀이나 설치해!」
+
+[남학생2]「아, 알겠습니다」
+
+@dir dir=down
+@route id=101 route=d:9 wt=0
+@route id=102 route=d:2 wt=0
+@route id=103 route=d:9 wt=0
+@route id=104 route=d:9 wt=0
+@route id=105 route=d:9 wt=0
+
+@huki b=8 wt=1
+
+[사쿠라]（나도 가서 도울까）
+
+@dir dir=up
+[스도]「잠깐, 사쿠라. 너는 특별한 수업을 받아야 한다. 따라와라」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@route id=5 route=d wt=1
+
+[사쿠라]「에……?」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@huki id=102 b=8 wt=1
+@dir id=102 dir=u wt=1
+
+[츠카사]「사쿠라……」
+
+@huki id=5 b=1
+@c_jump id=5 wt=1
+@wait t=600
+
+[스도]「뭘 하려는 거냐? 얼른 가서 뜀틀 준비나 해!」
+
+@dir id=102 dir=u wt=1
+
+[츠카사]「아, 알겠습니다……」
+
+@route id=102 route=d:7 wt=0
+
+@huki id=102 b=6 wt=1
+
+　스도의 호통에, 츠카사는 걱정스러운 눈으로 사쿠라를 바라보다가, 하는 수 없이 학생들 틈으로 돌아가 체육 기구를 준비하러 갔다.
+
+@dir id=5 dir=d wt=1
+
+[스도]「따라와라」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@route id=5 route=l:10,u:3 wt=0
+@route route=u,l:10,u:3 wt=0
+@wait t=300
+@fadeout wt=0 t=2000
+
+[사쿠라]（왜 나만 부르는 거야……?）
+
+
+
+　스도의 속셈에 대한 불안을 품은 채, 사쿠라는 마지못해 스도의 뒤를 따라 걸었다.
+
+@wait t=2000
+

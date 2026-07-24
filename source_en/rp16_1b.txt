@@ -1,0 +1,21 @@
+
+;; Phase Ⅰ
+
+@bgm f=bgm15
+
+;;ＣＧ■CG16b
+@bgf bg=ev16b t=1000
+
+[SAKURA/skr1691] 「Ehhh! Um! Ah.....Ahhhhh!」
+
+[SAKURA/skr1692](I am raped by a zombie......Ah!)
+
+@rps
+
+@se f=Move
+@fadeout
+
+　SAKURA accepted the salary exhaustedly after she was violently invaded by the zombie in the VR world.
+
+;; Free time out of the building
+

@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL 1,500엔을 받았다.
+
+@mes_win

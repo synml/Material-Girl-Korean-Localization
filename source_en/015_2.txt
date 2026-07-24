@@ -1,0 +1,46 @@
+
+;;○戦闘開始前（レベル10）
+
+@fade type=in t=1000 wt=1
+
+@route route=up:2
+
+@huki b=5 id=18
+
+@huki b=1
+@c_jump
+
+[SUDOU]「SAKURA! 　You are late!」
+
+@dir dir=left
+
+@huki b=7
+@move_f f=サクラ@哀しみ in=r t=300
+[SAKURA]「……Very sorry」
+
+@huki b=7 id=18
+[SUDOU]「……chee! 　 I will report to your class adviser……」
+
+@huki b=5 id=18
+[SUDOU]「Return your classroom quickly!」
+
+@move_f f=サクラ@哀しみ out=r t=300
+@huki b=7
+@huki b=8 id=18
+
+@move_speed spd=3
+
+@route route=right:2,up id=18 wt=0
+@route route=up:4
+
+@move_speed spd=4
+@dir dir=down
+
+@huki b=8 id=18
+[SUDOU]「Don't be late tomorrow!」
+
+@fade type=out t=1000 wt=0
+@route route=up:3 wt=0
+@route route=down,left:2 id=18 wt=1
+@dir dir=right id=18
+@wait t=1000

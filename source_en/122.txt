@@ -1,0 +1,13 @@
+
+;;【021_03男子生徒フェラ.txt】
+
+;; SAKURA dialogues with the school’s boy student (underclassman).
+
+@se f=Open1
+　Holding the boy student’s hand, SAKURA moved into the healthcare room.
+
+@dot_move x=14 y=5 id=101 dir=down
+@change f=学生01 id=101 num=0
+
+@fade type=in t=1000 wt=1
+

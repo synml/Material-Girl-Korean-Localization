@@ -1,0 +1,109 @@
+
+;;【020_05ステージクリア.txt】
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@驚き in=r t=300
+
+[SAKURA/skr1553]「ah ah ah ah ah! 　ha ah, ha ah, ha ah!」
+
+;; Unconscious SAKURA screamed and then got up.
+
+
+@bs f=サクラ@哀しみ
+
+@huki b=1 wt=1
+
+[SAKURA/skr1554]「ha ah, ha ah, Zombie……!?」
+
+@dir dir=r wt=1
+@wait t=500
+@dir dir=l wt=1
+@wait t=500
+@dir dir=d wt=1
+@wait t=500
+
+[Researcher]「It is OK now. Game is over.」
+
+@bs f=サクラ@驚き_z body_op=z
+
+[SAKURA/skr1555]「ah!?」
+
+　Hearing what that man said, SAKURA suddenly came to her senses.
+
+@bs f=サクラ@哀しみ_z body_op=z
+
+@huki b=8 wt=1
+
+[SAKURA/skr1556] (My body……without any abnormalities……although the games is very real……it is merely a thing in the game……) 
+
+[SAKURA/skr1557] (However, it is too horrible……full of sweat……) 
+
+@huki id=3 b=8 wt=1
+
+[Researcher]「Could I listen to your feeling?」
+
+@huki b=8 wt=1
+@dir dir=r wt=1
+
+@bs f=サクラ@羞恥_z body_op=z
+
+[SAKURA/skr1558]「Feeling……is……very terrible and very uncomfortable ……. Such is the case……」
+
+@bs f=サクラ@哀しみ_z body_op=z
+
+[SAKURA/skr1559]「Touched feeling……and…… other things are too realistic……very terrible」
+
+[Researcher]「Really. However, what you have met are some things in the virtual world」
+
+@huki id=3 b=8 wt=1
+
+[Researcher]「Even for so horrible things, if it is merely experience in the virtual world, do you think of any problem?」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1560]「Maybe……this is ture……」
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[SAKURA/skr1561] (Indeed……anyway it is not realistic. If we have various experiences, it is really very good……) 
+
+@huki id=3 b=8 wt=1
+
+[Researcher]「Seemingly, you fit the VR world well. Be sure to experience the game again」
+
+[Researcher]「This is today’s salary」
+
+@bs f=サクラ@驚き
+
+@huki b=1 wt=1
+
+[SAKURA/skr1562]「So much……!?」
+
+[Researcher]「Because you have met many horrible things today」
+
+@huki b=8 wt=1
+
+[SAKURA/skr1563] (If I am able to get so much……maybe I will come again……) 
+
+@bs f=サクラ@無表情
+
+[SAKURA/skr1564]「I'm gonna go now」
+
+[Researcher]「um. I will wait for you. Be sure to come again.」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1565]「……Surely, I will come again if I am interested in it.」
+
+
+@move_f f=サクラ@哀しみ out=r t=300
+　After that, SAKURA left the room.
+
+@se f=Move
+@fadeout
+
+;; Free action outside the building.
+

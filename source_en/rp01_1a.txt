@@ -1,0 +1,130 @@
+
+@bgm f=bgm11
+
+@ev f=ev01 opacity=0
+@flash t=500 wt=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250 wt=1
+
+[SUDOU] 「Sure, there is something hidden here. Your rebellious attitude is the hard evidence.」
+
+SUDOU seized the opportunity to grasp those beautiful breasts with both hands across the school uniform.
+
+@se f=衣擦れの音1
+@move f=ev01 x=-170 y=115 w=200 h=200 opa=255 t=250 wt=1
+@qk
+
+[SAKURA/skr0042] 「Ummm! Er......Coo......Ummm!」
+
+[SAKURA/skr0043] (Oh, he is rubbing my breasts......I can feel the movement of that hand even across my school uniform......)
+
+[SAKURA/skr0044] (That's disgusting! Disgusting! Disgusting!)
+
+@se f=衣擦れの音1
+@qk
+
+[SAKURA/skr0045] 「I don't have anything in it......Please......Move your hand......Ummm...」
+
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250 wt=1
+
+[SUDOU] 「Just wait till I check out!」
+
+@se f=衣擦れの音1
+@flash t=500
+
+Ignoring my protest, SUDOU kept rubbing my breasts like he was enjoying it. 
+
+[SAKURA/skr0046] (That's too bad ...... Today is the most unlucky day ......)
+
+[SAKURA/skr0047](Does he seem excited? He began to pant...... Hmm!? Oh, that stinks......!)
+
+[SAKURA/skr0048] (Don't breath out to me......Ummm, ahhh, disgusting)
+
+[SAKURA/skr0049] (Come on, it's over...... This, this kind of thing...... When will it is going to the last?)
+
+@se f=衣擦れの音1
+@flash t=500
+
+When SAKURA was caught, the rest of students walked quickly as if fleeing from the clutches of SUDOU.
+
+[SAKURA/skr0050] (Ahhh......See...... Everyone saw my chest rubbed ....)
+
+[SAKURA/skr0051] (So ashamed......My body gets hot with shyness......)
+
+[SAKURA/skr0052] (Ummm......Why......No one came to save me......)
+
+[SAKURA/skr0053] (I......Just like them......I haven't helped that girl when she was sexually harassed by SUDOU......)
+
+[SAKURA/skr0054] (If......Who will be caught......I have to help her......)
+
+@move f=ev01 x=0 y=0 h=100 w=100 opa=255 t=255
+
+[SUDOU] 「Ummm......Ummm. There's nothing hidden here」
+
+[SAKURA/skr0055] 「I said "nothing" just now, didn't I?」
+
+@se f=衣擦れの音1
+@flash t=500 wt=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250
+
+[SUDOU] 「In that case, then why are you resisting?」
+
+SUDOU still grabbed the breasts and leaned to me with his face as if licking my ears.
+
+[SAKURA/skr0056] 「Umm......Cooo......Hooo, that's what Mr. SUDOU thought, I'm resisting」
+
+[SAKURA/skr0057] 「I......am the same as usual......」
+
+[SAKURA/skr0058] (Breath at me again......Don't do that. It's disgusting!)
+
+[SAKURA/skr0059] (I really want to hit him like this......But......If I do this......)
+
+[SAKURA/skr0060] (It might give him a favorable excuse to do something more outrageous to me......)
+
+[SAKURA/skr0061] 「I didn't break any school rules......Ok?」
+
+[SUDOU] 「Hum! But, this side has to be checked」
+
+@se f=衣擦れの音1
+@move f=ev01 x=-170 y=115 w=200 h=200 opa=255 t=250 wt=1
+@qk
+
+[SAKURA/skr0062] 「Ah......Ummm......」
+
+SUDOU tried to fight for time and started to move his hands on the pretext of checking.
+
+[SAKURA/skr0063] (I, I make some strange noises......)
+
+@move f=ev01 x=-512 y=384 w=200 h=200 opa=255 t=250
+
+[SUDOU] 「Ummm~? What's up？」
+
+[SAKURA/skr0064] (This smile is disgusting......This is simply a scumbag dirty looks!)
+
+[SAKURA/skr0065] (......Nothing)
+
+[SAKURA/skr0066] (I feel irritated......really......)
+
+[SUDOU] 「Ha, the teacher's touche make you feel strange?」
+
+[SAKURA/skr0067] 「Please, please stop!」
+
+[SAKURA/skr0068] (How could that be! That was just the sound of my astonishment ... Just that)
+
+@move f=ev01 x=0 y=0 h=100 w=100 opa=255 t=255
+
+[SUDOU] 「Hum! There seems to be no hiding things. Let me just leave you alone today.」
+
+He thought it might irritate SAKURA which was not the best thing to do if he continued to annoy her. SUDOU stopped movements of his hands.
+
+[SUDOU] 「Don't take a rebellious attitude. Because I am your teacher.」
+
+[SAKURA/skr0069] 「Please move your hand......」
+
+[SAKURA/skr0070] (What a teacher......would make such scum-like behavior......)
+
+[SUDOU] 「Hum!」
+
+@se f=衣擦れの音1
+@rps
+
+

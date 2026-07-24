@@ -1,0 +1,13 @@
+
+;;【017_02着替え終了後.txt】
+;; Mini-game: Place commodities
+
+;; Mini-game ends
+
+[Convenience Store's Manager]「SAKURA, thank you for your hard work today. It's a big help.」
+
+[Convenience Store's Manager]「The store depends on you in the future.」
+
+;; Free action
+
+

@@ -1,0 +1,16 @@
+
+;;銆?06_01銈ゃ偢銉°倝銈屻倠鍙革紥.txt銆?
+;;銆?06_03鏁楀寳.txt銆?
+
+
+@dot_move id=101 x=14 y=5 dir=left
+@dot_move id=102 x=14 y=6 dir=left
+@dot_move id=103 x=13 y=6 dir=up
+
+@change f=不良A num=0 id=103
+@change f=不良B num=0 id=102
+@change f=佐竹 num=0 id=101
+
+@fade type=in t=1000 wt=1
+
+

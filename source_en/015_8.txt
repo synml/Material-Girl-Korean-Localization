@@ -1,0 +1,19 @@
+
+@huki b=1 id=6
+[SUDOU]「SAKURA!? What is the matter with your clothes……!」
+
+@huki b=8 id=6
+[SUDOU]「……………」
+
+@huki b=7 id=6
+[SUDOU]「……………chee」
+
+@huki b=8 id=6
+[SUDOU]「……If you put on such clothes, you can’t enter school」
+
+[SUDOU]「You must change the uniform and return to school」
+
+@move_speed spd=3
+@route route=down
+@move_speed spd=4
+

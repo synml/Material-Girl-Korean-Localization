@@ -1,0 +1,18 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+;;【017_04バイトしない.txt】
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+@move_f f=サクラ@哀しみ in=r t=300
+[SAKURA]「I have some personal affairs today……I am so sorry.」
+
+@bs f=サクラ@無表情
+[Convenience Store's Manager]「well. I have no way.」
+
+[Convenience Store's Manager]「Anytime when you want to work here, you may come over.」
+
+[SAKURA]「OK. I'm gonna go now.」
+
+;;@move_f f=コンビニ店長 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+

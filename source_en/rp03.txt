@@ -1,0 +1,401 @@
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;;ＣＧ■CG03
+
+;; Reading image beforehand
+@fadeout
+@pl f=S_ev03c v=1
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm14
+
+@bgf bg=ev03
+@qk
+
+[SAKURA/skr0466]「No……! What, what are you going to do!?」
+
+SATAKE pulled SAKURA into the health room and pushed her down on the bed.
+
+[SAKURA/skr0467] (Ummm! I'm out of my energy......!)
+
+[SATAKE]「Hey hey! I will be not too rude!」
+
+@qk
+[SAKURA/skr0468]「Coo……Umm! That hurt......」
+
+SAKURA couldn't defeat SATAKE completely. It was impossible for her to escape from under SATAKE's body.
+
+[SAKURA/skr0469] (I will be assaulted by this dirty dog who just has brute force......Umm!)
+
+[SATAKE]「Haha, a very smug look. It would be nice to have a woman like you yelling under my body.」
+
+[SAKURA/skr0470]「You are so mean! Enough! is enough!」
+
+[SATAKE]「It's just beginning. How can I stop?」
+
+[SAKURA/skr0471]「What, what are you going to do......」 
+
+[SATAKE]「That goes without saying?」
+
+@se f=チャックを下ろす音
+@flash t=500
+
+SATAKE picked out his swollen cock at the base of the thighs and showed it to SAKURA, with an evil smile rising from his corners of mouth.
+
+[SAKURA/skr0472]「Ah……」 
+
+[SATAKE]「Let me have a good time.」 
+
+@se f=衣擦れの音1
+@qk
+
+[SAKURA/skr0473]「No, no.......Umm!? Ah, no!」
+
+[SAKURA/skr0474] (Don't......Don't take off my clothes! Are you really going to do it......in this place?)
+
+@se f=衣擦れの音1
+@qk
+
+[SAKURA/skr0475]「No, no....... Ah!」
+
+@se f=パンストを破る
+;;ＣＧ■CG03a
+@bgf bg=ev03a
+@qk
+
+[SAKURA/skr0476] (If go on like this, I will.......be raped by such a mean person......! I must escape from him......in any case)
+
+[SATAKE]「Hey! Look, don't let anyone in」
+
+SATAKE gave a command to the rogues under him who were watching SAKURA's naked body with erotic eyes.
+
+[Rogue 1]「But, but, SATAKE. We also want to……」
+
+[Rogue 2]「Yes, yes? Is that ok?」
+
+[SATAKE]「Ok, but after a while. Anyway, go and watch out」
+
+[Rogue 1]「I, I know.......Please let us enjoy later」 
+
+@se f=Open1
+@flash t=300
+Reluctant as they were, they went out to stare at anyone in order to keep them out from the health room.
+@se f=Close1
+
+[SATAKE]「Then we can enjoy ourselves. Hey hey, are you happy?」
+
+@qk
+[SAKURA/skr0477]「 Go, go away......! Go away!」
+
+@qk
+[SATAKE]「Oh! I won't hurt you!」
+
+@se f=Blow4
+@flash t=500 wt=0
+@qk
+
+[SAKURA/skr0478]「Umm!? Huh! Ummmm!」
+
+[SATAKE]「Hey, this expression really aroused my interest」
+
+[SAKURA/skr0479] (My body was seen by this despicable man......Well not willing......Oh!)
+
+[SAKURA/skr0480] (But...... Ah...... I have no strength......)
+
+[SAKURA/skr0481] (As long as there is a little chance, you can...... Beat the man to the ground......!)
+
+[SAKURA/skr0482]「Umm! 　Ahhh! 　Don't look...... Oh!」
+
+[SAKURA/skr0483] (You, where are you looking?...... Don't! Don't look at that kind of......ashamed part!)
+
+SATAKE's eyes rested on SAKURA's labia.
+
+[SATAKE]「Relax, it's ok. Hey hey hey.」
+
+[SAKURA/skr0484] (Ah, ah......Breathe out there...... That's disgusting......!)
+
+[SATAKE]]「Let me confirm the situation first.」
+
+Just when SAKURA was wondering if he would lick there by his tongue, SATAKE climbed over there with his fingers.
+
+[SAKURA/skr0485]「Ah! Unh! Ahhh! No, no....... Ahh!」
+
+[SATAKE]「I'll make you comfortable. You will enjoy it.」
+
+;;ＣＧ■CG03b
+@se f=淫唇を開く音
+@bgf bg=ev03b
+
+[SAKURA/skr0486]「Ah!? Ahhh! Umm! Huh!」
+
+[SATAKE]「What a beautiful cunt. Hey, it's really worth looking forward to it.」
+
+[SAKURA/skr0487] (How, how can I be seen by a man like that......Wow, he was looking at my pussy......)
+
+Just like SATAKE's erotic eyes saw into her pussy——
+
+SAKURA's body suddenly became as hot as if it were to burn.
+
+@qk
+
+[SAKURA/skr0488]「Umm! Ummm! Ahh! Um, stop, stop! It's enough, stop!」
+
+[SATAKE] 「How could I stop here? I just get it started.」
+
+[SATAKE] 「Hey, your pussy kinda wants as well. You want my dick, don't you?」
+
+[SAKURA/skr0489] 「Please, please don't make this kind of joke......!」
+
+[SAKURA/skr0490] (It is unbearable to be teased by this kind of jerk!)
+
+[SAKURA/skr0491] (But......but......How can I deal with it!? If I just allow him to touch me......I will be raped.)
+
+[SATAKE] 「Anyway, no matter what you say, I will fuck you!」
+
+@se f=淫唇を開く音
+SATAKE says and cannot help himself poking his dick into her pussy.
+
+@se f=挿入音
+
+
+;;ＣＧ■CG03c
+@bgf bg=ev03c v=1
+
+;; For retrospect if virgin
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;;Following is the text if virgin.
+
+@qk
+
+[SAKURA/skr0492] 「Huh!? Huh! Ummm!」
+
+[SAKURA/skr0493] (It is painful! It is so painful! It is so painful! How could he......put this dirty thing into my body!)
+
+[SATAKE]「Oh! Hey, I didn't expect that you are a virgin? What a luck for me to taste a virgin.」
+
+[SAKURA/skr0494] 「How dare you......! How dare you......Oh!」
+
+SAKURA leers at the guy who grabbed away her virginity--
+
+[SATAKE] 「Let you feel how awesome my dick is!」
+
+SATAKE doesn't even care about SAKURA's leer. He excitedly insult SAKURA and violently fucks her.
+
+;;Above is the text if virgin.
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+
+;;Following is the text if not virgin.
+
+@qk
+[SAKURA/skr0495] 「Um!? Umm! Umm!」
+
+[SAKURA/skr0496] (I was, was thrusted in......Aha, aha......I was fucked by that dick......Aha)
+
+[SATAKE] 「Hey, even if you seem to be a well-behaved kid, the fact that you are fucked is already the truth」
+
+SATAKE thrusts his dick all the way to the deepest and sneers at SAKURA from the above.
+
+[SAKURA/skr0497] 「Huh, um......Um, it's none of your business......Um!」
+
+[SATAKE] 「Since you have already done this, I do not have anything to worry about! Huh, I was thinking that if you are virgin, I will be more careful!」
+
+SATAKE licentiously announces that he will fuck SAKURA and start to thrust his dick.
+
+;;Above is the text if not virgin.
+@jump target=*branchEND001
+;;==================================================================================
+
+
+;;Following is the text if mixed.
+*branchEND001
+
+@flash t=500
+@ev_anime f=S_ev03c sx=8 sy=2 fps=3 v=1
+
+@se f=ピストン l=1
+@flash t=500
+
+Pu! Pu! Pupu! Pupupu! (SATAKE is fucking SAKURA)
+
+[SAKURA/skr0498] 「Pu! Pu, pu!」
+
+@bgv f=aegi_skr1
+
+[SATAKE] 「Your impression is so luring! You cannot bear me fucking you, don't you!」
+
+[SAKURA/skr0499] 「You, you are such a jerk! Um, umm! You, you are such a jerk!」
+
+[SAKURA/skr0500](You did this obscene thing to me......I will never forgive you......! Never!)
+
+[SATAKE] 「You are so bold! You still dare to say these words till now? Oh! Oh!」
+
+@flash t=300
+@qk
+
+[SAKURA/skr0501] 「Ah!? Err! Ahhh!Um......Huh!」
+
+[SATAKE]「Your pussy is so tight. Hey! I am coming now!」
+
+@qk
+
+[SAKURA/skr0502] 「Don't, don't blast inside! Don't blast inside please!」
+
+[SATAKE] 「Fool~girl♪ Why can't I blast inside? Maybe you can be pregnant」
+
+[SAKURA/skr0503] 「No! No! Don't do this!」
+
+[SATAKE] 「Hahaha! Blasting inside of a woman who does't want it is so awesome♪ I am coming! Hey! Admit it!」
+
+@flash t=300
+@qk
+
+
+[SAKURA/skr0504] 「No. Ahhhhhhhhhh!」
+
+;;ＣＧ■CG03d
+@fin se=射精音 bg=ev03d v=1
+
+　Biu! Biu!
+
+@qk
+
+[SAKURA/skr0505] 「How could it be...!? Um, aha! You are lying......It is not true!」
+
+[SATAKE] 「It is true! I blasted inside! Aha! Your pussy is fully blasted!」
+
+[SAKURA/skr0506] 「Umm! Whining!」
+
+I was blasted with sperm by this kind of jerk.
+
+This fact makes SAKURA feel hopeless, keeping the eyes wide open and crying.
+
+[SAKURA/skr0506] (Umm! I don't want it......I don't want it......!)
+
+[SATAKE] 「This face! Is really nice! Oh! Oh!I didn't finish yet!」
+
+@fin se=射精音 bg=ev03d v=1
+　Biu! Biu! 
+
+[SAKURA/skr0508] 「Um!? Hmm!? Don't blast inside please! Don't, don't blast inside please!」
+
+@qk
+
+[SAKURA/skr0509] (I will never be pregnant with this jerk's baby......No! Never!)
+
+[SATAKE] 「Fool~girl♪ We just started! Hey! I will keep coming!」
+
+@se f=ピストン_激しい l=1
+@flash t=500
+
+[SAKURA/skr0510] 「Huh!? Huh!? Hmm! No!」
+
+@bgv f=aegi_skr2
+
+SATAKE laughs and stares at crying SAKURA from the above.
+
+Fucking the pussy that is already full of sperm.
+
+[SAKURA/skr0511] 「Coo!? Huh!? Um! Huh!」
+
+[SAKURA/skr0512] (I was, was thrusted in......Aha, aha......I was fucked by that dick......Aha!)
+
+
+[SATAKE] 「Then, let's keep doing it.」
+
+[SAKURA/skr0513] 「Huh!? Ummah! How, how could you......Um!」
+
+[SATAKE] 「My dick says it is not enough?」
+
+After blasting with sperm, that thick dick keeps rubbing against the pussy.
+
+[SAKURA/skr0514] 「How could......could......you......Aha.」
+
+@fade type=out t=1000 wt=1
+
+@se
+@bgv
+@bgs
+@bgm
+
+;;Background■Turned dark
+The spilled sperm falls off from belly, SAKURA hopelessly looks at that sperm and cannot help crying.
+
+@wait t=1800
+
+;;Effect■Time passing
+@bgm f=bgm14
+
+@bgv f=aegi_skr1
+@fin se=射精音 bg=ev03e v=1
+
+;;ＣＧ■CG03e
+@fade type=in t=1000 wt=1
+
+
+[SAKURA/skr0515] 「Um......um, aha......Uh! Aha......Ahhhh.」
+
+Though heavily breathing, SAKURA only looks at the above dully.
+
+[SATAKE]「Huh~~, let me have a good time.」
+
+
+@se f=愛液1
+[SAKURA/skr0516]( The inside....The inside was full of...this jerk's sperm......)
+
+The belly is bulged with sperm.
+
+[SAKURA/skr0517] 「Hum, um......I will be pregnant.......」
+
+[SATAKE] 「You could be pregnant. But, it would be fine. I could probably not the dad」
+
+[SAKURA/skr0518] 「What......Hum, um......What are you talking about?」
+
+[SATAKE] 「It's never finished. You guys! Can come in!」
+
+@se f=Open1
+@flash t=300
+
+
+[Rascal 1] 「I have waited for so long~」
+
+[Rascal 2] 「We can also blast as we want~」
+
+@qk
+
+[SAKURA/skr0519]「Ah......Um......Ah, aha, ah」
+
+[SAKURA/skr0520] (I still have to be raped......I, I have to run away......Aha!? I cannot move......)
+
+[SAKURA/skr0521]「Don't, don't come over......Don't come over......Aha」
+
+[Rascal 1] 「Come on! I will let you compensate more than you owed!」
+
+[SAKURA/skr0522] 「No......Please set me free......set me free......Aha!」
+
+@fade type=out t=1000 wt=1
+
+Crying with begging and rascal's laughters fulfill the medical room.
+
+@rps
+@fade type=in t=1000 wt=1
+
+

@@ -1,0 +1,45 @@
+;;▼學校的樓梯：在特定的時間下樓梯的話，就會被附近的男生偷窺裙子內部。
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[小櫻]「接下來去哪呢……」
+
+@bgm_save
+@bgm f=bgm15
+
+@move_f f=black face=0 in=c t=150
+@move_f f=サクラ@無表情 out=r t=300
+
+[男]（噢……好像沒有注意到我這邊）
+
+[男]（在這個位置的話，能夠以超棒的角度偷窺到裙子內部?）
+
+@move_f f=A-cut_sitagi face=0 in=c t=150
+
+[男]（噢噢，今天的貨色很棒！）
+
+[男]（豐盈的大腿，在加上深陷的內褲……好贊啊?）
+
+[男]（好想把臉貼在那里）
+
+@move_f f=A-cut_sitagi face=0 out=l t=150
+@move_f f=black face=0 out=c t=150
+
+@huki b=2
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+
+[小櫻]「感覺有人在看我……是我錯覺嗎？」
+
+@move_f f=black face=0 in=c t=150
+
+[男]（哎呀，真危險。我竟然讓她起疑了）
+
+[男]（我只會偷窺而已。這樣就很滿足了……嘻嘻）
+
+@fadeout t=1000 wt=1
+@move_f f=black face=0 out=c t=150
+@bs
+
+@bgm
+@bgm_replay
+

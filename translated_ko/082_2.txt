@@ -1,0 +1,29 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+;; Third stage
+@fade type=in t=1000 wt=1
+
+;;@move_f f=コンビニ店長 face=0 in=l t=300
+
+@huki b=8 id=6
+[편의점 점장]「자, 이건 오늘 급료일세」
+
+@move_f f=サクラ@羞恥_頬 op2=汗 in=r
+[사쿠라]「가, 감사합니다……」
+
+@huki b=7
+@bs f=サクラ@悔しい_頬 op2=困惑
+[사쿠라]（으으으……이런 팬티를 입은 모습을 점장님한테 보인다고 생각하니……마음이 진정되질 않아……）
+
+;; Seemingly the store manager has seen her nasty underpants, so SAKURA felt upset at this moment.
+
+@bs f=サクラ@羞恥 op2=困惑
+[사쿠라]「그럼, 별일 없으면 저는 이만 가볼게요」
+
+;;@move_f f=コンビニ店長 face=0 out=l t=300 wt=0
+@move_f f=サクラ@羞恥 out=r t=300
+
+@fade type=out t=1000 wt=1
+;; SAKURA runs out of convenience store in a hurry.
+
+

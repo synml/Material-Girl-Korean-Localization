@@ -1,0 +1,19 @@
+
+;;○戦闘開始前（レベル40）
+
+@bgm f=bgm01
+
+@route route=right:2 id=18
+@dir dir=down id=18
+
+@huki b=1 id=18
+@huki b=1
+
+;;@move_f f=須藤 face=0 in=l t=300 wt=0
+@move_f f=サクラ@驚き in=r t=300
+
+[스도]「크하하하하!!　이 슈퍼 프로틴 한 병만 들이켜면 나는 천하무적이다!!!　오오오오오오오!」
+
+;;@move_f f=須藤 face=0 out=l t=300 wt=0
+@move_f f=サクラ@驚き out=r t=300
+

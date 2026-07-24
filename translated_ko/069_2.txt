@@ -1,0 +1,34 @@
+
+;;【016_06パン屋段階Ｈ.txt】
+
+@dir dir=down id=3
+@dir dir=up
+
+@huki b=1 id=3
+@move_f f=サクラ@考え中 in=l t=300
+[점장]「이야, 정말 큰 도움이 됐구먼!　사쿠라!」
+
+@huki b=3 id=3
+[점장]「아, 이건 오늘 일당일세」
+
+@bs f=サクラ@無表情
+[사쿠라]「감사합니다, 점장님」
+
+@huki b=3 id=3
+[점장]「사쿠라가 가게 일을 도와주니, 정말 다행이야」
+
+@huki b=1 id=3
+[점장]「내일도 와주면 좋겠구먼!」
+
+@bs f=サクラ@考え中
+[사쿠라]「……생각해 볼게요」
+@move_f f=サクラ@考え中 out=l t=300
+
+@fade type=out t=1000 wt=0
+@route route=up id=3
+@se f=Move1
+@invisible type=on id=3
+@wait t=1200
+
+@bs
+

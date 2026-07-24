@@ -1,0 +1,41 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+;; Third stage
+
+@huki b=8 wt=1
+
+@huki b=1
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+[SAKURA/skr1228]「ay!? Shall I wear this underpants today……?」
+
+;; Recently, SAKURA has been accustomed to putting on the underpants prepared by the store manager――
+
+@huki b=7
+@bs f=サクラ@羞恥 op2=困惑
+[SAKURA/skr1229] (Shall I wear this nasty underpants……? 　It is too excessive somewhat……) 
+
+@huki b=7
+@bs f=サクラ@悔しい_頬
+[SAKURA/skr1230] (A note……let me see……cheat!? give fivefold salary if I put it on!?) 
+
+@huki b=8
+@bs f=サクラ@羞恥 op2=困惑
+[SAKURA/skr1231] (Fivefold……what shall I do…… although I feel very shameful……however, nobody sees it……) 
+
+@huki b=8
+@bs f=サクラ@悔しい_頬
+[SAKURA/skr1232] (After all, I put it on under the uniform. I don’t mind……) 
+
+@huki b=8
+@bs f=サクラ@哀しみ_頬
+[SAKURA/skr1233] (I can’t lose such opportunity of fivefold salary……) 
+
+@huki b=7
+@bs f=サクラ@悔しい_頬
+[SAKURA/skr1234] (However, this should absolutely be considered as sexual harassment……)
+
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+@huki b=8 id=101 wt=1
+
+

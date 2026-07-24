@@ -1,0 +1,59 @@
+
+;;○ help
+;;Get 1,500 yen
+
+@huki id=6 b=3
+
+[초자연연구부 부장]「그, 그럼…… 저쪽에 가서 서봐」
+
+@bgm
+@route route=down wt=1
+@dir dir=up wt=1
+
+;;Hypnosis effect
+;;Hypnosis close-up
+
+@move_f f=A-cut_saimin1 face=0 in=c t=150 h=1
+@wait t=500
+@se f=催眠行使
+@move_f f=A-cut_saimin2 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin1 face=0 out=c t=150
+@wait t=1000
+@move_f f=A-cut_saimin2 face=0 out=c t=150
+@wait t=150
+
+@mes_win back=1 pos=1
+
+\CL 사쿠라는 최면에 걸렸다……
+
+@mes_win
+
+@bgm f=bgm12
+
+@huki id=6 b=4
+
+[초자연연구부 부장]「……다음은 그 92짜리 가슴을 시험해 볼까」
+
+@route id=6 route=down wt=1
+
+;;SAKURA's close-up
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune face=0 in=c t=150 h=1 cos=1
+@huki id=6 b=4
+
+[사쿠라]「으응…… 하아……」
+
+@mes_win back=1 pos=1
+
+\CL 사쿠라의 가슴을 마구 주무른다……
+
+@fadeout t=1000 wt=1
+
+@mes_win
+
+@fadeout t=1000 wt=1
+@move_f f=A-cut_saimin8 face=0 out=l t=150
+@bs

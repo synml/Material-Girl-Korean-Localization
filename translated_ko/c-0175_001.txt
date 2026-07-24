@@ -1,0 +1,6 @@
+
+@mes_win back=1 pos=1
+
+\CL 오늘은 정기휴일이다.
+
+@mes_win

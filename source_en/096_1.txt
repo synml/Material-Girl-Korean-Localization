@@ -1,0 +1,27 @@
+
+
+[Clerk]「Do you participate in the drinking competition? Let’s begin now～」
+
+@huki id=4 b=3 wt=1
+
+[Frivolous Man１]「We won't lose～, come on, SAKURA ♪」
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA]「I absolutely won't lose.」
+
+@huki id=6 b=8 wt=1
+
+[Clerk]「So, begin!」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;; Mini-game: Drinking competition
+
+After mini-game, Branch
+
+;;Win →019_04勝利
+;;Fail →019_05敗北
+

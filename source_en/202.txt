@@ -1,0 +1,9 @@
+
+;;【021_01売春①.txt】
+
+;; When the lascivious degree is above 40, the plot will be triggered in the morning of next day.
+
+@bs f=サクラ@無表情
+[SAKURA]「um——……I should forget it now」
+@move_f f=サクラ@無表情 out=r t=300
+

@@ -1,0 +1,48 @@
+
+
+;;▼Videos will be broadcast if the TV set is turned on in TSUKASA's room (or other person's home), which results in the increase of carnality. 
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「I'm worried about today's weather……Though it is not proper to turn on other's TV, let me see the weather forecast. Where is the remote control……」
+
+@bs f=サクラ@哀しみ op2=ハテナ
+
+[SAKURA]「Why is there no TV picture? Is it this button? Or this one……Ah, there is a picture」
+
+@bgm_save
+
+@move_f f=A-cut_sev04-1 face=0 in=l t=150
+@bs f=サクラ@驚き_頬 op2=ビックリ
+@bgm f=bgm15
+
+[SAKURA]「……Wow, what's this!? This is a blue movie!?　Why is there such video like this……」
+
+@bs f=サクラ@哀しみ_頬 op2=困惑
+
+[SAKURA]「Ah, it is the remote control……It is a remote control commonly used for DVD recorder and TV. A compact disc is still in the recorder」
+
+@bs f=サクラ@考え中_頬 op2=汗
+
+[SAKURA]「If it is broadcast from the middle……which means, in this part……this is what I am watching」
+
+@move_f f=A-cut_sev04-2 face=0 in=l t=150
+@move_f f=A-cut_sev04-1 face=0 out=l t=150
+
+@bs f=サクラ@哀しみ_頬 op2=赤面
+
+[SAKURA]「Oh, I see boys like such videos……」
+
+@bs f=サクラ@驚き_頬 op2=拒否
+@move_f f=A-cut_sev04-2 face=0 out=l t=150
+
+[SAKURA]「……Ah, why am I so serious! Stop! Stop!」
+
+@bs f=サクラ@哀しみ_頬 op2=困惑
+
+@bgm
+[SAKURA]「My god……But the actress in the video……looks like me」
+
+@move_f f=サクラ@哀しみ_頬 out=r t=300
+@bgm_replay

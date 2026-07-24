@@ -1,0 +1,64 @@
+
+;;【018_01おっぱいパブ.txt】
+
+;; Accost a man when passing by Breast Hotel.
+
+;; Lascivious degree above 30
+
+@bgm_save
+@bgm f=bgm05
+
+@move_speed spd=3
+@route route=up:2
+@move_speed spd=4
+
+@huki id=18 b=1 wt=1
+@route id=18 route=r wt=1
+
+[남자]「저기저기, 잠깐 실례해도 될까?」
+
+@move_f f=サクラ@驚き in=r t=300
+
+@huki b=2 wt=1
+@dir dir=l wt=1
+
+[사쿠라]「네?　무, 무슨 일이시죠?」
+
+[남자]「있잖아, 너 말이야. 알바 안 할래?」
+
+@bs f=サクラ@無表情
+
+[사쿠라]「알바, 요……」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[사쿠라]（이 사람 뭐 하자는 거지……어쩐지 수상한데……）
+
+@huki id=18 b=8 wt=1
+
+[남자]「거 봐, 얼굴은 이렇게 귀엽지, 가슴은 이렇게 풍만하지. 너 같은 애한테 딱 좋은 알바 자리가 있거든」
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[사쿠라]（귀여움이랑 가슴 크기에 관련된 알바……）
+
+[남자]「가슴 크고 귀여운 여자애들만 할 수 있는 특별한 일이라구. 그런 만큼 벌이도 아주 짭짤하지」
+
+[남자]「관심 있어?　한번 가서 물어볼래?」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@huki b=8 wt=1
+@dir dir=r wt=1
+@wait t=1000
+
+[사쿠라]（어떻게 하지……）
+
+;; ○Options: Don’t Ask /Ask
+;;○Don’t ask →018_02話を聞かない
+;;○Ask →018_03話を聞く
+

@@ -1,0 +1,45 @@
+;;▼School stairway: The part inside a schoolgirl's skirt will be peeped by nearby schoolboys if she walks downstairs in specific period.
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]「이제 어디로 갈까……」
+
+@bgm_save
+@bgm f=bgm15
+
+@move_f f=black face=0 in=c t=150
+@move_f f=サクラ@無表情 out=r t=300
+
+[남자]（오……이쪽은 눈치 못 챈 모양이군）
+
+[남자]（이 위치라면 최고의 각도로 치마 속을 훔쳐볼 수 있지♪）
+
+@move_f f=A-cut_sitagi face=0 in=c t=150
+
+[남자]（오오, 오늘 물건은 상급이야!）
+
+[남자]（탱탱한 허벅지에, 깊이 파고든 팬티……끝내주는군♪）
+
+[남자]（저기에 얼굴을 파묻고 싶다）
+
+@move_f f=A-cut_sitagi face=0 out=l t=150
+@move_f f=black face=0 out=c t=150
+
+@huki b=2
+@move_f f=サクラ@無表情 op2=ハテナ in=r t=300
+
+[사쿠라]「누가 날 보고 있는 것 같은데……기분 탓인가?」
+
+@move_f f=black face=0 in=c t=150
+
+[남자]（이런, 아슬아슬했군. 의심을 사버렸잖아）
+
+[남자]（나는 훔쳐볼 뿐. 그걸로 충분히 만족하니까……히히）
+
+@fadeout t=1000 wt=1
+@move_f f=black face=0 out=c t=150
+@bs
+
+@bgm
+@bgm_replay
+

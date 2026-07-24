@@ -1,0 +1,31 @@
+
+;;【024_15ホストＨ(汎用).txt】
+
+;; Common for the third starring
+
+@bgm f=bgm05
+
+;;ＣＧ■CG20b
+@bgf bg=ev20b t=1000
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+[SAKURA/skr2408]「Are you going to ejaculate? Humm, hum, whir, are you going to ejaculate now?」
+
+[AOKI]「Please allow me to ejaculate......I’m going to ejaculate!」
+
+[SAKURA/skr2409]「Well, OK♪ Then you can ejaculate now♪」
+
+@se
+@bgs
+;;ＣＧ■CG20d
+@fin bg=ev20d se=射精音
+
+　Poop! Pooppp!
+
+[SAKURA/skr2410]「Ah, whir, humm......Ahh, your expression during ejaculating♪ is so cute......Humm! Humm!」
+
+[SAKURA/skr2411]「I want to see more cute expressions......Just ejaculate more♪」
+
+@rps
+

@@ -1,0 +1,56 @@
+
+;;○勝利（レベル40）
+
+@flash t=500 wt=0
+@qk
+
+@huki b=7 wt=1 id=18
+
+;;@move_f f=須藤 face=0 in=l t=300 wt=0
+@move_f f=サクラ@考え中 in=r t=300
+
+[SUDOU]「ga ah ah ah ah!? how, how could it be possible……even if I have drunk super protein, I couldn’t defeat her!?」
+
+@huki b=7 id=18
+[SUDOU]「coo woo woo…… I was defeated completely……I admitted my defeat」
+
+@bs f=サクラ@無表情
+
+;; SUDOU knelt on the ground mopishly.
+;; ○Condition of event occurrence: Defeat LV.40 SUDOU
+
+@huki b=8 id=18
+[SUDOU]「Seemingly, it is time for me to exit from the post of life-guide teacher……」
+
+@huki b=1 id=18 wt=1
+
+@bs f=サクラ@驚き op2=ビックリ
+;; SUDOU said and handed over the bamboo knife in his hands to SAKURA.
+
+@huki b=8 id=18 wt=1
+[SUDOU]「This bamboo knife was inherited from generations of life-guide teachers.」
+
+@huki b=8
+@bs f=サクラ@考え中
+[SAKURA]「……」
+
+@bs f=サクラ@無表情
+[SAKURA] (The bamboo knife symbolizes the life-guide……I receive it.) 
+
+;;@move_f f=須藤 face=0 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@fade type=out t=1000 wt=0
+
+@move_speed spd=3
+@route route=left:2 id=18 wt=0
+@route route=up:4 wt=1
+@dir dir=right id=18
+
+@move_speed spd=4
+@bgm
+@bs
+
+　Since then, the school rule that the life-guide teacher inspects the students, appearance is abolished.
+
+;; ※After that, SUDOU-related plot will not be seen.

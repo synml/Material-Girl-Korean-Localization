@@ -1,0 +1,14 @@
+
+;;【023_01高額エロバイト.txt】
+
+@huki b=8
+@move_f f=サクラ@考え中 in=r t=300
+
+@bs f=サクラ@哀しみ op2=困惑
+[小櫻]「我再也不想到這個地方來了……」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+

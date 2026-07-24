@@ -1,0 +1,49 @@
+
+;;【010_01体育.txt】
+;;【010_03着ている.txt】
+
+@bgm f=bgm01
+@dir dir=down id=6
+@fade type=in t=1000 wt=1
+
+[스도]「다 모였군. 그럼 수업을 시작한다」
+
+
+[스도]「오늘 체육 수업 내용은 마라톤이다!」
+
+@huki id=104 b=7 wt=1
+
+[남학생1]「에에～!」
+
+@huki id=103 b=7 wt=1
+
+[남학생2]「축구였으면 좋았을 텐데」
+
+@huki id=102 b=7 wt=1
+
+[여학생1]「하아. 마라톤 제일 싫은데」
+
+@dir id=6 dir=r wt=1
+@wait t=500
+@dir id=6 dir=l wt=1
+@wait t=500
+@dir id=6 dir=d wt=1
+@wait t=500
+@huki id=6 b=1 wt=1
+
+[스도]「닥쳐!　투덜댈 시간 있으면 빨리 뛰어!!」
+
+[스도]「꼴찌로 들어오는 놈은 벌칙이 있을 줄 알아라!」
+
+@fadeout
+
+@se f=Move1 p=80
+
+　스도의 으름장에, 모두가 하는 수 없이 마라톤을 뛰기 시작했다.
+
+;; ○Mini-game: Marathon 
+;; Marathon succeeds →010_04成功
+
+;; Marathon fails →010_05失敗
+
+

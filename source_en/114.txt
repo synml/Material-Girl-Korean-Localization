@@ -1,0 +1,55 @@
+
+;;【020_05ステージクリア.txt】
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr1685]「woo……ah ah……woo woo woo……」
+
+@huki id=3 b=8 wt=1
+
+[Researcher]「How did you feel today?」
+
+@bs f=サクラ@羞恥 op2=赤面
+
+[SAKURA/skr1686]「So, so great……ah……」
+
+　SAKURA nodded and blushed.
+
+@huki id=3 b=8 wt=1
+
+[Researcher]「Really……however, I felt there is still room for improvement.」
+
+[Researcher]「Could you please help me later……」
+
+@bs f=サクラ@羞恥
+
+[SAKURA/skr1687]「ah……um……I, I got it……if I could help me……」
+
+[Researcher]「Really. See you next time」
+
+@bs f=サクラ@無表情
+
+[SAKURA/skr1688]「OK……」
+
+@dir dir=d wt=1
+@huki b=8 wt=1
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1689] (I don’t want to be raped by Zombie……it is only because that this game is very interesting……it is merely a job……) 
+
+[SAKURA/skr1690] ( I absolutely haven’t wanted……wanted to be raped……) 
+
+@se f=Move
+@fadeout
+
+　SAKURA’s mutter becomes lower and lower.
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+;; Free action outside the building.
+

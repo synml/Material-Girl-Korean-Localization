@@ -1,0 +1,198 @@
+
+;;【006_01イジメられる司２.txt】
+;;【006_02勝利.txt】
+
+@bgm f=bgm04
+
+@c_jump id=101 x=-3
+@dir dir=down id=101
+
+
+@huki b=1 id=12
+@move_speed spd=7 id=12
+@anime id=12 num=304 wt=0
+@wait t=250
+@dir dir=down id=12
+@change num=1 id=12
+@dir_fix id=12 type=on
+@route route=right:5 id=12
+@dir_fix id=12 type=off
+
+@huki b=8 wt=1 id=12
+
+@huki b=5 id=12
+@dir dir=left id=12
+@change num=0 id=12
+[SATAKE]「ga…!? you bitch……!」
+
+@move_speed spd=3
+@route route=right:2
+
+@move_f f=サクラ@無表情_z body_op=z in=c t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@怒り_z body_op=z
+[SAKURA]「 I never forgive the guy who dares to bully TSUKASA!」
+@move_f f=サクラ@怒り_z out=c t=300
+
+@huki b=5 id=12 wt=1
+
+
+@se f=Sword5 pitch=130
+@huki b=1 id=12
+@huki b=1 id=9
+@huki b=1
+
+[SATAKE]「Bastard!」
+
+;; Head of hooligans takes out a knife.
+
+@huki b=1 id=9
+[TSUKASA]「SAKURA! 　Be careful!」
+
+;; Seeing the sliver light reflected by the knife, TSUKASA can’t help but scream.
+
+@change f=教師 num=0 id=101
+@move_speed spd=8 id=101
+@huki b=1 id=101
+@route route=down:9 id=101
+@dir dir=right id=101
+
+@huki b=1 id=101
+@huki b=1 id=10
+@huki b=1 id=11
+@huki b=1 id=12
+
+@dir dir=left
+@dir dir=left id=10
+@dir dir=left id=11
+
+@change num=0 id=10
+@change num=0 id=11
+
+[Teacher]「 What are you doing!」
+
+@huki b=7 id=12 wt=1
+@huki b=1 id=12
+[SATAKE]「chee!」
+
+@move_speed spd=7 id=10
+@move_speed spd=7 id=11
+@move_speed spd=7 id=12
+
+@huki b=1 id=10
+@c_jump id=10 wt=1
+[HOOLIGAN１]「Too bad! 　Go!」
+
+@dir dir=right
+
+@route route=down,right:13 id=10
+@se f=Move1
+@invisible id=10 type=on
+
+@huki b=1 id=11
+@c_jump id=10 wt=1
+[HOOLIGAN２]「oh, oh oh!」
+@route route=down:2,right:8 id=11
+@se f=Move1
+@invisible id=11 type=on
+
+@huki b=7 id=12 wt=1
+
+@huki b=1 id=12
+[SATAKE]「 I will remember you!」
+
+@route route=right:3 id=12
+@se f=Move1
+@invisible id=12 type=on
+
+@bgm
+@fade type=out t=1000 wt=1
+@c_jump x=-2
+@c_jump id=9 x=-4
+@c_jump id=101 x=2
+@dir dir=left
+@wait t=1200
+@fade type=in t=1000 wt=1
+
+;; And then, HOOLIGANS escaped.
+
+@bgm f=bgm03
+
+@huki b=8
+@huki b=8 id=9
+@huki b=8 wt=1 id=101
+
+@huki b=2 id=101
+[Teacher]「What are you doing!　What happened?」
+
+@huki b=7
+@move_f f=サクラ@哀しみ op2=困惑 in=r t=300
+[SAKURA]「ah, nothing happed……」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@huki b=6
+@huki b=8 id=9 wt=1
+
+@route route=left:2 id=9
+
+@huki b=8 id=9
+[TSUKASA]「Nothing happed. ……SAKURA almost fell down just now; therefore……」
+
+@move_speed spd=3 id=101
+@huki b=8 id=101 wt=1
+[Teacher]「well. That's all right.」
+
+@route route=left:2,up:9 id=101 wt=0
+@fade type=out t=2000 wt=1
+@c_jump id=9 x=-1 y=1
+@dir dir=right id=9
+@invisible id=101 type=on
+@wait t=1200
+@fade type=in t=2000 wt=1
+
+;; After that, the teacher leaves here.
+
+@huki b=8
+@huki b=8 wt=1 id=9
+[TSUKASA]「Thanks. SAKURA…… ah, this……is my gift for you.」
+
+@route route=right id=9
+
+@huki b=1
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL obtained watch! 
+@mes_win back=0 pos=2
+
+@move_f f=サクラ@驚き in=r t=300
+@fb id=9 dir=back
+
+@bs f=サクラ@微笑 op2=音符
+[SAKURA]「Thanks……this watch is so lovely.」
+
+@huki b=8 id=9
+[TSUKASA]「um. After all, your watch is broken……」
+
+@bs f=サクラ@笑み
+[SAKURA]「Thanks.」
+
+@bs f=サクラ@微笑
+[SAKURA]「I’m gonna go now.」
+
+@move_speed spd=3
+@fade type=out t=1000 wt=0
+@route route=down,left:4
+@bs
+@bgm
+@move_speed spd=4
+
+;; After receiving the watch and saying good-bey to TSUKASA, SAKURA leaves here.
+
+Prop watch
+
+;; ※ TSUKASA ・ favorability ＋30
+
+;;※Free action.
+

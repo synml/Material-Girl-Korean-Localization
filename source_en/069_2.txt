@@ -1,0 +1,34 @@
+
+;;【016_06パン屋段階Ｈ.txt】
+
+@dir dir=down id=3
+@dir dir=up
+
+@huki b=1 id=3
+@move_f f=サクラ@考え中 in=l t=300
+[store manager] 「yah, it's a big help!　SAKURA!」
+
+@huki b=3 id=3
+[Store Manager] 「ah, this is today’s salary.」
+
+@bs f=サクラ@無表情
+[SAKURA]「Thanks, store manager.」
+
+@huki b=3 id=3
+[Store Manager] 「SAKURA, you come to work in the store, it's too great.」
+
+@huki b=1 id=3
+[Store Manager] 「I really hope that you are able to come tomorrow!」
+
+@bs f=サクラ@考え中
+[SAKURA]「……Let me think it over.」
+@move_f f=サクラ@考え中 out=l t=300
+
+@fade type=out t=1000 wt=0
+@route route=up id=3
+@se f=Move1
+@invisible type=on id=3
+@wait t=1200
+
+@bs
+

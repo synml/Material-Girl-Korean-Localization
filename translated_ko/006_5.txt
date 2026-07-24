@@ -1,0 +1,27 @@
+
+;;【002_02教室に入る.txt】
+
+@move_speed spd=3
+@fade type=in t=1000 wt=0
+
+@route route=down:2
+@move_speed spd=4
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（……상점가, 오긴 왔는데）
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]（과연 그럭저럭 괜찮은 일자리를 찾을 수 있을까……）
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]「……일단, 찾아보자」
+@move_f f=サクラ@考え中 out=r t=300
+
+@fade type=out t=1000
+@wait t=1200
+@fade type=in t=1000
+

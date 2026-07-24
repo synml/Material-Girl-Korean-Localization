@@ -1,0 +1,27 @@
+
+@move_f f=サクラ@考え中 op2=困惑 in=r t=300
+[SAKURA]「…………no way.」
+
+;;@move_f f=朝彦 face=0 in=l t=300
+[ASAHIKO]「well……woo woo……what a pity……」
+
+@bs f=サクラ@驚き op2=汗
+[SAKURA] (Doomsday-like expression……a big heart hit) 
+
+@bs f=サクラ@無表情
+[ASAHIKO]「However, if you change your mind, you put on stockings with garter belt and come to me.」
+
+[ASAHIKO]「 I will wait for SAKURA at any time. As long as I can taste your beautiful feet……」
+
+;;@move_f f=朝彦 face=0 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+　Actually, SAKURA also covets this 5000 yen……
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA]「Let me think it over……」
+
+@fade type=out t=1000 wt=1
+@bs
+;; ※Transfer to free action
+

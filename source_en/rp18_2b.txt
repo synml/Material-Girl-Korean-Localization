@@ -1,0 +1,30 @@
+
+;; Common for classmaters
+
+@bgm f=bgm06
+
+;;ＣＧ■CG18a
+@bgf bg=ev18a t=1000
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+[MAEDA]「I’m going to having an orgasm! I, I cannot make it more, SAKURA!」
+
+[SAKURA/skr2130]「Come on......just do it! Just do it now......Ahh!」
+
+[MAEDA]「Ahhhh!」
+
+@se
+@bgs
+;;ＣＧ■CG18c
+@fin bg=ev18c se=射精音
+
+[SAKURA/skr2131]「Ahh! Ahhh! Ahhhh, your big penis......is ejaculating......」
+
+[MAEDA]「Ahh, ahh, I will continue to save money and come to you......Wait for me, SAKURA!」
+
+[SAKURA/skr2132]「Humm♪ Hey-hey, I’m waiting for you, MAEDA♪」
+
+　SAKURA laughed in a trance while she was caught in the pleasant sensation of the sperms of her classmate.
+
+@rps

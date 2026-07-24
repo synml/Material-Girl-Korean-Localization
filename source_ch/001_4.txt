@@ -1,0 +1,17 @@
+
+;;【001_01プロローグ.txt】
+
+@dir_fix type=off id=41
+
+@huki id=41 b=4
+[男子學生]「咕嘿嘿、每天早上\C[2]在這里看她們檢查服裝\C[0]真是爽爆了……」
+
+@dir dir=down id=41
+
+@huki id=41 b=6
+[男子學生]「……啊！？　你、你什么時候在這里的！？」
+
+@dir dir=up id=41
+
+@dir_fix type=on id=41
+

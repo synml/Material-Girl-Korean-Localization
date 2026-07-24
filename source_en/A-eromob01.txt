@@ -1,0 +1,34 @@
+
+;;【001_01プロローグ.txt】
+
+[Weird Uncle]「…………Hehehe,it is quite dangerous for you to roam on the street alone」
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA]「…………Ha」
+
+[Weird Uncle]「Otherwise……You buttock will be massaged!」
+
+@bgm_save
+@bgm f=bgm14
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_siri face=0 in=l t=150
+@bs f=サクラ@驚き_頬
+[SAKURA]「Ah……！？」
+
+@bs
+@c_jump
+
+[Weird Uncle]「Oh…！　So soft…」
+
+@bgm
+@wait time=500
+@bgm_replay
+@huki b=7
+@move_f f=サクラ@悔しい_頬 in=r t=300
+[SAKURA]「Oooo……Never come here again」
+@move_f f=サクラ@悔しい_頬 out=r t=300
+

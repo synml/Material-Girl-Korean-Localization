@@ -1,0 +1,19 @@
+
+;;【021_04サラリーマンフェラ.txt】
+
+;; SAKURA dialogued with the staff in front of company.
+
+@dot_move id=101 x=3 y=38 dir=down
+@change f=新婚の会社員 id=101 num=0
+
+@fade type=in t=1000 wt=1
+
+　SAKURA dragged the staff to move.
+
+[Staff]「hey, wait……wait a moment.」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA/skr1823]「I don't want to wait ♪」
+
+@move_f f=サクラ@微笑 out=r t=300

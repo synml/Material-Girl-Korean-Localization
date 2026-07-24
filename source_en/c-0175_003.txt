@@ -1,0 +1,7 @@
+
+@mes_win back=1 pos=1
+
+\CL End of business today.
+\CL Business hours: 7:00 to 20:00
+
+@mes_win

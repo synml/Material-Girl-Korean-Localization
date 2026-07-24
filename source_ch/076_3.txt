@@ -1,0 +1,6 @@
+
+;;【017_02著替え終了後.txt】
+
+@fade type=out t=1000 wt=1
+@wait t=1200
+

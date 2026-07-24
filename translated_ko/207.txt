@@ -1,0 +1,6 @@
+
+;;【021_01売春①.txt】
+
+;; When the lascivious degree is above 40, the plot will be triggered in the morning of next day.
+
+[미용사]「어서 오세요!　오늘은 어떻게 해드릴까요?」

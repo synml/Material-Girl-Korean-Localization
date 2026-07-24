@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL What is the Chemical Manager worrying about? \n※There will be a change in prompt when an event is triggered.
+
+@mes_win
+

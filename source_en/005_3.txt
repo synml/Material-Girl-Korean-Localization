@@ -1,0 +1,18 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+@huki id=12 b=7
+[Girl Student１]「ha ah……this morning, I have suffered from SUDOU’s sexual harassment, too disgusting」
+
+@huki id=11 b=6
+[Girl Student２]「Really……」
+
+@huki id=11 b=6
+[Girl Student２] (Seemingly, I have been ignored……) 
+
+@huki id=12 b=8
+[Girl Student１]「Why can this bastard survive in the solar system.」
+
+@huki id=11 b=6
+[Girl Student２] (……your degree of disgust is too deep!) 
+

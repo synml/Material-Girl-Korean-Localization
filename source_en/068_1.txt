@@ -1,0 +1,22 @@
+
+;;【016_03バイト服を着ている.txt】
+
+@huki b=2 id=3
+[Store Manager] 「What shall I do today? 　Do you want to start working?」
+
+@bs f=サクラ@考え中
+
+@huki b=8 id=3
+[Store Manager] 「SAKURA, if you are able to work today, you really give me a big help.」
+
+@bs f=サクラ@無表情
+@wait t=500
+
+;;@move_f f=パン屋 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+
+;; Options: Don’t work / Work
+
+;;Don’t work →016_04バイトしない
+;;Work →016_05バイトする
+

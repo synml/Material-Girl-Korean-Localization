@@ -1,0 +1,33 @@
+
+;;【001_01プロローグ.txt】
+
+@huki b=2 id=29
+[Boy Student１]「……hey, have you heard that?」
+
+@huki b=2 id=30
+[Boy Student２]「ah ah, SUDOU that bastard did that thing again……」
+
+@huki b=5 id=29
+[Boy Student１]「Too disgusting! 　that bastard……!」
+
+@huki b=7 id=28
+[Boy Student３]「ha ah, why doesn’t the education commission punish that bastard……」
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA]「…………」
+
+@huki b=6
+@bs f=サクラ@哀しみ op2=汗
+[SAKURA] (……seemingly, they didn’t know that real victim is me.) 
+
+@huki b=8
+@bs f=サクラ@考え中
+[SAKURA] (Anyway, nothing happens to me……) 
+
+@huki b=8
+@bs f=サクラ@無表情
+[SAKURA] (……I’d better go to classroom now.) 
+
+@move_f f=サクラ@無表情 out=r t=300
+

@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL There will be a raised favorability if a meal is shared together in the evening.
+
+@mes_win
+

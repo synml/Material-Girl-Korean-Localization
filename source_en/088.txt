@@ -1,0 +1,25 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_06働く.txt】
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA]「Please advise」
+
+[Receptionist]「Please put on the uniform in the dressing room」
+
+[Receptionist]「After you put on the uniform, you shall wait in the Waiting Room.」
+
+@bs f=サクラ@笑み
+
+[SAKURA]「I know.」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@se f=Move
+@fadeout
+
+　Following the direction pointed by the receptionist, SAKURA moved into a dressing room.
+

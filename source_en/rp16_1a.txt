@@ -1,0 +1,277 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;;【020_06VR＋リアル段階Ｈ.txt】
+
+;;Phase Ⅰ
+
+@bgm f=bgm15
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG16
+@bgf bg=ev16 t=1000
+
+[SAKURA/skr1506] 「Ahhhh!?」
+
+[Zombie] 「WoW......Ahh!?」
+
+[SAKURA/skr1507](Zombie, am I caught by a zombie......っ!?)
+
+[SAKURA/skr1508](So......smelly! And, and I know very clearly that my bubby is held......)
+
+[SAKURA/skr1509](This, this is not true......Hum, eh! Ah, so, why is the feeling so true!)
+
+　SAKURA thought this was only the setting in the game. But the kneading on her bubby and the foul smell rushed to her face made her have goose bumps all over. 
+
+[SAKURA/skr1510] 「Help! Is there anyone here? Help me, please!」
+
+　She cried for help, but that man gave no response at all.
+
+[SAKURA/skr1511](No......Am I going to be raped by the zombie?)
+
+[SAKURA/skr1512](I cannot believe this......No, please do not!)
+
+[SAKURA/skr1513] 「Hum! Ah, please release me......Stop that! No!」
+
+[Zombie] 「Ummm......Ahhh......」
+
+[SAKURA/skr1514] 「Eh!? Awful! Terrible! Let me go! Let me go, please!」
+
+　SAKURA put up a desperate fight to try to escape from the Zombie, but she cannot, because her bubby was roughly kneaded by the Zombie.
+
+[SAKURA/skr1515] 「Hum! Ah......Wah-wah! Ah! Hum!」
+
+[SAKURA/skr1516]( No, I cannot escape......In this way, I......)
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG15b
+@bgf bg=ev15b t=1000
+
+[Researcher] 「Hey-hey-hey, she seems to be caught by the Zombie. So, next......」
+
+　SAKURA was tied up to the chair, trembling, and the man put his hands on her uniform.
+
+　He stretched his hands to the exposed bubby of SAKURA, with evil smile on his face.
+
+[SAKURA/skr1517] 「Hum......Eh! Wah!? Ah, please help me......Ah......Help me!」
+
+[Researcher] 「What I did not tell you is that my true purpose is to research the reaction of the girl offended in both the virtual world and the real one.」
+
+[Researcher] 「Hey-hey-hey, so......I will do it in the real world......The zombie will do it in the virtual reality world.」
+
+[Researcher] 「I use so many efforts to find a girl of my type.」
+
+[Researcher] 「Good, you are a girl the same as the one in my dream!」
+
+[SAKURA/skr1518] 「Eh!? No......Awful......Ahh! Hum! Humm!」
+
+[Researcher] 「What an excellent reaction! Do you want to escape from the zombie? No, you cannot.」
+
+　The man roughly grasped the soft bubby of SAKURA with his hands suddenly.
+
+[SAKURA/skr1519] 「Ahh!? Ah! Huh, hum!」
+
+[Researcher] 「Hey-hey-hey......Thanks to that program......I realize my dream.」
+
+[Researcher] 「I will......become the redeemer of the world」
+
+[Researcher] 「I want you to accompany with me to the end, to realize my dream.」
+
+[SAKURA/skr1520] 「Huh, ahh......Ah!?」
+
+　The man showed ominous smile as he was attached by a ghost, staring at SAKURA, who was huddling herself up for her bubby was kneaded.
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG16a
+@bgf bg=ev16a t=1000
+
+　The man unbuttoned the uniform of SAKURA, making her bubby exposed, while the zombie put its hands on the uniform of SAKURA.
+
+[SAKURA/skr1521] 「Ah, ah! Stop......Ah!」
+
+[SAKURA/skr1522](Touched......Ahh, hum......The bubby......the bubby is touched by the awful fingers.)
+
+[SAKURA/skr1523](Terrible......Ah! Ummm! Terrible!)
+
+　Kneaded by the rotten hands of the zombie on her bubby, SAKURA cannot help shaking due to fears. 
+
+[SAKURA/skr1524] 「Ah? Hum! Eh! Ahhh!」
+
+[SAKURA/skr1525](It is awful and terrible......Ah......My bubby is kneaded......Ahh!)
+
+[SAKURA/skr1526](It is so comfortable......Why......!? This is so weird......)
+
+[Zombie] 「Ummm......Ummm!」
+
+[SAKURA/skr1527] 「Eh!? Ah, it is not true......」
+
+[SAKURA/skr1528](Penis......The penis of the zombie......is changing bigger......)
+
+[SAKURA/skr1529] 「No, please do not rub......ah......please do not!」
+
+　SAKURA cried out in disgust, starting to breath out with hot air. 
+
+[SAKURA/skr1530](It’s terrible and awful......ah......it’s so disgusting......I’m getting hot......Ummm)
+
+[SAKURA/skr1531](Why do I have such reaction......it that because I’m in the game world!?)
+
+[SAKURA/skr1532] 「Ahh, Umm......ah, ahh......wait......wait a moment......Stop! Please stop it!」
+
+[SAKURA/skr1533](Penis......he wants to insert his penis into by body......Ahh, he wants to insert his penis into my body!)
+
+[SAKURA/skr1534] 「How......How can it be......I will be raped by the zombie......No! Please do not!」
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@se f=挿入音
+
+;;ＣＧ■CG15c
+@bgf bg=ev15c t=1000 v=1
+@bgs f=aegi_skr2
+
+
+
+;; For retrospect if virgin
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following is the text if SAKURA is considered as a virgin.
+
+[Researcher] 「Oh! Ohh! Hey-hey-hey, is this the first time?」
+
+　The man took off the underwear of SAKURA, and inserted his penis into the private part of SAKURA.
+
+　He had smile on his lip when he saw the bleeding due to the laceration rupture of the hymen.
+
+[Researcher] 「Hey-hey-hey, what about making love with a zombie as a virgin?」
+
+;; Above is the text if SARKURA is considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;; Following is the text if SAKURA is not considered as a virgin.
+
+[Researcher] 「Hey-hey-hey, although it is disgusting......it is wet in it.」
+
+[SAKURA/skr1535] 「Ummm......ah......Hum, ahh, no, please stop it!」
+
+[Researcher] 「What about invaded by a zombie? Come on! I will make it faster!」
+
+;; Above is the text if SAKURA is not considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+;; Following is the text for common.
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+[SAKURA/skr1536] 「Huh......Ummm......Ehh! Ummm!」
+
+[Researcher] 「Hey-hey, great, right?」
+
+[Researcher] 「Not only the real world but also the VR world deliver stimulation to the brain.」
+
+[Researcher] 「It is so great for being invaded by me and a zombie at the same time in both the real world and the VR world, right?」
+
+[SAKURA/skr1537] 「Ah! Ummm! Ahh, I am raped by a zombie......」
+
+[SAKURA/skr1538] 「Hum! Hum! Humm! Ahh! Ahhh!」
+
+[Researcher] 「Ah......you are so tight. I know you are so excited.」
+
+[Researcher] 「Ahh, great......Your response is so great!」
+
+　SAKURA was more excited than what he expected, and the man moved faster while looking at the response of SAKURA.
+
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+[SAKURA/skr1539] 「Huh! Hum! Humm! Ahh! Ahhh!」
+
+[Researcher] 「Hey-hey, it seems that you are enjoying the fear brought by the invasion of the zombie.」
+
+[Researcher] 「Never mind, and you will get used to it right now......yes, you will......Then, I am coming!」
+
+[Researcher] 「Ahh, hum! I am getting there!」
+
+　The penis of the man got bigger and bigger, and his waist moved faster.
+
+[SAKURA/skr1540] 「No......Ah......Ah......Ahh, no......Ahh!」
+
+[Researcher] 「Ahh! I’m almost there! I’m getting there!」
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG16d
+@fin bg=ev16d se=射精音 v=1
+@bgs f=aegi_skr4
+
+[Zombie] 「Umm! Wahhhhhhh! Ohhhhhh!」
+
+[SAKURA/skr1541] 「Eh!? Ahh, no! Ahhhhhhhh!」
+
+@fin se=射精音
+
+　Poppp! Popppp!
+
+[SAKURA/skr1542]( He ejaculated into my body......Ah......Ah! Ahh! No way......into my body......He ejaculated into my body......Ah!)
+
+[SAKURA/skr1543](The sperm of a zombie......Ah......!? He ejaculated into my body......Ah!)
+
+[SAKURA/skr1544](Ah, it’s so hot......Eh!? Ahh! He ejaculated into my body in gurgles......In, into my body......Ah!)
+
+　SAKURA shook her body fiercely, because the feeling was so true that she cannot believe it happened in the VR world.
+
+[Zombie] 「Ummm! Ohhhh!」
+
+[SAKURA/skr1545] 「Eh!? Ehhh! Stop ejaculating......Ah, please stop it!」
+
+[SAKURA/skr1546](The penis......is getting bigger again in my body......Ah!)
+
+[SAKURA/skr1547](Eh!? Ahh! Ahhhhhh!)
+
+[SAKURA/skr1548] 「Ahh! Um!? Ahhh! Stop it! Please stop it!」
+
+@fin se=射精音
+
+　Poopppp! Pooppp!
+
+[SAKURA/skr1549] 「Ahh!? Ah......Ahhhh! Hum, eh!? Umm! Ahhhh!」
+
+[SAKURA/skr1550](He is ejaculating into my body, again......Um......Um......Ahhhh!)
+
+[SAKURA/skr1551](The child of a zombie......If I get pregnant......what about the child of a zombie......Ah!)
+
+　SAKURA considered about it in her mind in confusion of consciousness, because the feeling about the ejaculating sperm was so true.
+
+[SAKURA/skr1552](It’s only in the game......I will not get pregnant......But......Ah!? But......Um......)
+
+　SAKURA gradually got into confusion of consciousness, feeling the warm sperm in her uterus.
+
+@bgs
+@bgv
+@se
+
+@rps
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

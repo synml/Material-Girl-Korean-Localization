@@ -1,0 +1,17 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04b汎用選択肢勝負する.txt】
+
+@bgm f=bgm02
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[사쿠라]「오늘도, 반드시 이길 거예요」
+
+[양아치남1]「아니 아니, 오늘은 내가 이길 거라구!　와라, 사쿠라!」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout

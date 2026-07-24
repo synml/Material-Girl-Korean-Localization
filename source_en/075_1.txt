@@ -1,0 +1,18 @@
+
+;;【017_01コンビニ.txt】
+
+@huki b=8 id=6 wt=1
+
+@huki b=7 id=6
+[Convenience Store's Manager]「ha ah……I haven’t found any satisfied staff recently……」
+
+@huki b=2
+@move_f f=サクラ@考え中 op2=ハテナ in=r t=300
+
+[SAKURA] (He looks annoyed somewhat……I also don’t want to buy anything. I’d better not accost him.) 
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=7 id=6
+[Convenience Store's Manager]「…………although \C[2] I have posted \C[0] many posters \C[2] in the park \C[0], but I don’t know if I am able to find a good girl?」
+
+

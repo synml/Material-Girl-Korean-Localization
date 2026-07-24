@@ -1,0 +1,35 @@
+
+;;【020_02試遊しない.txt】
+
+@bgm f=Dungeon5
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA] (Although am interested in game……this man looks so strange ……) 
+
+@bs f=サクラ@無表情
+
+[SAKURA] (Forget it) 
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA]「Sorry. I have no time today……」
+
+[Researcher]「Really……if you want to experience the game, you may tell me」
+
+[Researcher]「Be sure to come. I really want to know the feedback from the young girl like you.」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「Let me think it over.」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;; SAKURA greets that man, and leaves directly.
+
+;;@wait t=1000
+;;@dir dir=down
+
+;; As long as SAKURA dialogues with this man, the above options will appear.
+

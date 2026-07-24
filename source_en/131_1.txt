@@ -1,0 +1,30 @@
+
+;;【022_01売春②.txt】
+
+;; In reference to the status of prostitution, lascivious degree is above 50.
+
+;;【022_02ダンディなオヤジ本番.txt】
+
+;; SAKURA dialogues with a fashion uncle on the street.
+
+;;@bgm f=bgm02
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA] ( ah ah, I want to make love with that uncle again……) 
+
+@bs f=サクラ@微笑
+[SAKURA] (Greet him) 
+
+@bs f=サクラ@羞恥
+[SAKURA]「Excuse me」
+
+@huki b=8
+@bs f=サクラ@笑み_z body_op=z
+[SAKURA]「Would you like to……make love……with me again?」
+
+[Man]「……OK. So, let’s go to hotel.」
+
+@move_f f=サクラ@笑み_z out=r t=300
+@fade type=out t=1000 wt=1
+

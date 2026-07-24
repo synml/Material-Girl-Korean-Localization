@@ -1,0 +1,12 @@
+
+@dot_move id=101 x=14 y=5 dir=left
+@change f=須東 num=0 id=101
+
+@fade type=in t=1000 wt=1
+
+@wait t=1000
+
+[스도]「이 시간엔 보건실에 아무도 안 온다. 내가 아주 잘 보살펴 주마……사쿠라」
+
+;; SUDOU lifted SAKURA onto the bed in the healthcare room, with dirty smile on his face. 
+

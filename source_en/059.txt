@@ -1,0 +1,79 @@
+
+;;【012_01堕ちたサクラ.txt】
+
+H scene is triggered in the gymnasium.
+
+;; Discover the dialogue between SUDOU and SAKURA at the shoe-changing box.
+
+@dir dir=down id=32
+
+@fade type=in t=1000 wt=1
+
+@bgm f=Dungeon2
+
+[SUDOU]「SAKURA, I have something to tell you.」
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr0806]「……What do teacher SUDOU want to tell me?」
+
+@route route=r:2,d wt=1
+
+[SUDOU]「About this thing——」
+
+@route id=32 route=r:1,d:3,r wt=1
+@dir id=32 dir=u wt=1
+@wait t=700
+@bs f=サクラ@悔しい op2=ビックリ
+
+@huki b=1 wt=1
+
+[SAKURA/skr0807]「woo woo woo!」
+
+　SUDOU took his mobile phone out of his bag, and then showed that picture to SAKURA again.
+
+[SUDOU]「Is it not a good place to say thing? 　We change a place.」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA/skr0808] (If I follow him, I am sure to be raped by him……) 
+
+@huki id=32 b=2 wt=1
+
+[SUDOU]「What's up? 　Come here, SAKURA!」
+
+@huki b=8 wt=1
+
+[SAKURA/skr0809] (However……If you don’t follow him……that picture will be exposed……) 
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA/skr0810]「……Where do you want to take me?」
+
+[SUDOU]「My home. In that case, we are able to have a good chat.」
+
+@bs f=サクラ@悔しい
+
+@huki b=8 wt=1
+
+[SAKURA/skr0811]「coo……I……know……」
+
+@huki id=32 b=3 wt=1
+
+[SUDOU]「hee hee hee hee, you are very honest now. Go.」
+
+@route id=32 route=d:2 wt=1
+@fadeout
+
+　Endless humiliation makes SAKURA clench her fists, but SAKURA has to be controlled by SUDOU in desperation.
+
+@route route=d:5 wt=0
+@route id=32 route=d:5 wt=0
+@fadeout wt=1
+

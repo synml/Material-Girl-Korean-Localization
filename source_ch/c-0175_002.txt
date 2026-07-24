@@ -1,0 +1,6 @@
+
+@mes_win back=1 pos=1
+
+\CL準備中　7點開始營業。
+
+@mes_win

@@ -1,0 +1,42 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+
+;;
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[小櫻]（就聽聽他怎么說的吧……）
+
+@bs f=サクラ@哀しみ
+
+@dir dir=l wt=1
+@wait t=1000
+
+[小櫻]「打工要做些什么呢……？」
+
+@huki id=18 b=1 wt=1
+
+[男人]「哦！　看來你很有興趣嘛。那就跟我走一趟吧。老板會告訴你具體要做什么的」
+
+@bs f=サクラ@無表情
+
+[小櫻]「……我明白了」
+
+@route id=18 route=l wt=0
+@route route=l wt=1
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[小櫻]（一旦事情不對我就逃跑……）
+
+@move_f f=サクラ@無表情 out=r t=300
+
+
+
+@se f=Move
+@fadeout
+@dot_move map=30 dir=up x=4 y=11
+

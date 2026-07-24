@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL Men in the happy street are lusty.\nBe careful when accosting someone
+
+@mes_win
+

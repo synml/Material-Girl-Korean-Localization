@@ -1,0 +1,33 @@
+[Lady-killer]「……！」
+
+[SAKURA]「Er……?」
+
+[Lady-killer]「There is a loophole that can be used!」
+
+@bgm_save
+@bgm f=bgm14
+
+;;@move_f f=black face=0 in=c t=150
+@move_f f=A-cut_mune face=0 in=c t=150 h=1
+
+[SAKURA]「Ah!　O……ohoo……ah」
+
+[Lady-killer]「The breast is so huge……there is a girl like this……」
+
+[SAKURA「Wait, ah, hu ah ah ah……let go of me……っ」
+
+[Lady-killer]「Coo o o o, it sucks my finger tightly, and I cannot let it go!」
+
+[SAKURA]「Help, help~!」
+
+@bs
+
+[Lady-killer]「I know! I will let it go right now!」
+
+[SAKURA]「……Pervert」
+
+[Lady-killer]「Why do I feel delighted by being called a "pervert. That's incredible.」
+
+@bgm
+@bgm_replay
+

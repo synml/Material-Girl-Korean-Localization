@@ -1,0 +1,33 @@
+　TSUKASA returned his room, with a long sigh.
+
+@route id=101 route=u:2 wt=1
+@dir id=101 dir=l
+@wait t=1000
+@huki id=101 b=2 wt=1
+
+[TSUKASA]「ay……? 　A post to me……? 　I haven’t bought anything……」
+
+@route id=101 route=l:3 wt=1
+
+[TSUKASA] (Open it to have a look……what on earth is it?) 
+
+@se f=Equip3 v=100
+@wait t=1000
+@huki id=101 b=1 wt=1
+
+[TSUKASA]「wow!?」
+
+　In a small carton box is an AV disc.
+
+[TSUKASA]「Why, why was such thing sent to me……ah, ay?」
+
+　On the package of AV disc is a pregnant girl student.
+
+@huki id=101 b=8 wt=1
+
+[TSUKASA] (Although her eyes have been covered by the black line……this, this girl student is……) 
+
+[TSUKASA]「How, how……this, this is impossible……but……」
+
+
+

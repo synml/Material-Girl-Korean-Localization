@@ -1,0 +1,6 @@
+
+@mes_win back=1 pos=1
+
+\CL 교복으로 갈아입었다.
+
+@mes_win

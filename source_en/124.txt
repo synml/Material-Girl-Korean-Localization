@@ -1,0 +1,38 @@
+
+;;【021_04サラリーマンフェラ.txt】
+;; SAKURA dialogued with the staff in front of company.
+
+@move_f f=サクラ@微笑 in=r t=300
+[SAKURA/skr1818] (Try to dialogue with that man) 
+
+@huki b=8
+@bs f=サクラ@笑み
+[SAKURA/skr1819]「Excuse me?」
+
+@huki id=47 b=2
+[Staff]「What is the matter?」
+
+@bs f=サクラ@微笑
+[SAKURA/skr1820]「In truth……」
+@move_f f=サクラ@微笑 out=r t=300 wt=1
+
+@huki b=8 wt=1
+
+;; With coquettish smile, SAKURA spoke to his ear.
+
+@huki id=47 b=1
+[Staff]「No, I……I don’t need. I have my wife.」
+
+@huki b=7
+@move_f f=サクラ@悔しい op2=困惑 in=r t=300 wt=1
+[SAKURA/skr1821] (Refused SAKURA feels unreconciled somewhat.) 
+
+@huki b=8
+@bs f=サクラ@微笑
+[SAKURA/skr1822]「As long as your wife don’t know, you don’t worry it about. Follow me.」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@se f=Move
+@fadeout
+

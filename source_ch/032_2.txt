@@ -1,0 +1,15 @@
+
+;;【005_01イジメられる司.txt】
+;;【005_03敗北.txt】
+
+@bgm
+
+@huki b=7
+@fade type=out t=1000 wt=1
+@change num=0
+
+@move_speed spd=4
+
+;;※再戰
+
+

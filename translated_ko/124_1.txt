@@ -1,0 +1,27 @@
+
+;;【021_04サラリーマンフェラ.txt】
+;; SAKURA dialogued with the staff in front of company.
+
+@move_f f=サクラ@微笑 in=r t=300
+[사쿠라]（저 사람한테 또 말 걸어볼까）
+
+@huki b=8
+@bs f=サクラ@笑み
+[사쿠라]「안녕하세요」
+
+@huki id=47 b=1
+[직원]「또, 또 당신입니까!?　전 아내가 있는 몸이라, 당신 유혹엔 안 넘어갑니다!」
+
+@huki b=7
+@bs f=サクラ@悔しい
+[사쿠라]（……흥, 그때는 그렇게나 좋아 죽으려고 했으면서）
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라/skr1822]「잠깐만요, 저 좀 따라와요」
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@se f=Move
+@fadeout
+

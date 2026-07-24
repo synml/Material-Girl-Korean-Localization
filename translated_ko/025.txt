@@ -1,0 +1,27 @@
+
+;;【004_01パンスト舐め.txt】
+
+;; SAKURA, without the stockings with garter belt, accosted ASAHIKO.
+
+@bgm f=bgm02
+
+@huki b=8 id=30 wt=1
+;;@move_f f=朝彦 face=0 in=l t=300 wt=0
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+
+@huki b=8 id=30
+[아사히코]「어라, 팬티스타킹을 안 신었잖아. 어째서 그런 미학에 반하는 짓을 하는 거지?」
+
+[아사히코]「부디, 팬티스타킹을 신은 다음에 말을 걸어줘」
+
+@huki b=4 id=30
+[아사히코]「이 팬티스타킹을 신어준다면 네 요구를 경청하도록 하지. 네가 신은 모습을 기대하고 있을게」
+
+;;@move_f f=朝彦 face=0 out=l t=300 wt=0
+@move_f f=サクラ@考え中 out=r t=300
+
+@fade type=out t=1000 wt=1
+
+@bgm
+@bs
+

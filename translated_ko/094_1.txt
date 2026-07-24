@@ -1,0 +1,19 @@
+
+;;【019_01飲み勝負.txt】
+
+;; SAKURA was accosted when she passed by beverage store. 
+
+
+@huki id=25 b=2
+[양아치남1]「야, 저 애 좀 봐. 꽤 괜찮지 않냐?」
+
+@huki id=35 b=8
+[양아치남2]「확실히 귀엽긴 한데……교복 입은 애한테 들이대는 건 좀 그렇잖아?」
+
+@huki id=25 b=2
+[양아치남1]「으～!　\C[2]평범한 옷\C[0]이었으면 바로 들이댔을 텐데――」
+
+;; ○Options: Don’t compete / Compete
+;;○Don’t compete →019_02止めておく
+;;○Compete →019_03勝負する
+

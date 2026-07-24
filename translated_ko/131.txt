@@ -1,0 +1,52 @@
+
+;;【022_01売春②.txt】
+
+;; In reference to the status of prostitution, lascivious degree is above 50.
+
+;;【022_02ダンディなオヤジ本番.txt】
+
+;; SAKURA dialogues with a fashion uncle on the street.
+
+;;@bgm f=bgm02
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라/skr1891]（저 아저씨, 엄청 잘생겼네……저런 사람은, 어떤 식으로 섹스할까）
+
+[사쿠라/skr1892]（말 걸어보자）
+
+@bs f=サクラ@微笑
+[사쿠라/skr1893]「저기, 실례합니다」
+
+@huki id=46 b=2
+[남자]「나한테 무슨 볼일이지?」
+
+@huki b=8
+@bs f=サクラ@笑み_z body_op=z
+[사쿠라/skr1894]「괜찮으시면……저랑……섹스, 해주실래요?」
+
+[남자]「호오」
+
+　사쿠라의 갑작스러운 제안에, 남자는 다소 경계하는 눈으로 그녀를 바라보았다.
+
+@huki id=46 b=8 wt=1
+
+[남자]「으음……」
+
+@huki b=8
+@bs f=サクラ@微笑_z body_op=z
+[사쿠라/skr1895]「30,000엔에 어때요?」
+
+[남자]「……좋아. 그럼, 호텔로 가지」
+
+　남자는 사쿠라의 전신을 다시 한번 훑어보고는, 수긍하듯 고개를 끄덕였다.
+
+@bs f=サクラ@笑み
+
+[사쿠라/skr1896]「네」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+　사쿠라는 남자를 따라 호텔로 향했다.
+

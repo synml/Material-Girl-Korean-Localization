@@ -1,0 +1,74 @@
+
+@wait t=1800
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(109)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;-------------------------------------
+;; At right side
+*branchA001
+
+@dot_move x=3 y=4 dir=down id=4
+@dot_move x=5 y=4 dir=down id=5
+@dot_move x=4 y=3 dir=down id=6
+@fade type=in t=1000 wt=1
+
+@dir dir=right id=4
+@huki b=8 id=4
+[SHIRASAWA]「Wine is almost drunk up.」
+
+@huki b=2 id=4
+[SHIRASAWA]「One more bottle?」
+
+@jump target=*end
+;;-------------------------------------
+;; At left side
+*branchB001
+@if eval=v(109)==1 ok=jump:*branchA002 bad=jump:*branchB002
+;;-------------------------------------
+;; At right side
+*branchA002
+
+@dot_move x=3 y=4 dir=down id=5
+@dot_move x=5 y=4 dir=down id=6
+@dot_move x=4 y=3 dir=down id=4
+@fade type=in t=1000 wt=1
+
+@dir dir=right id=5
+@huki b=8 id=5
+[KURODA]「Wine is already drunk up.」
+
+@huki b=2 id=5
+[KURODA]「One more bottle?」
+
+@jump target=*end
+;;-------------------------------------
+;; At left side
+*branchB002
+@if eval=v(109)==2 ok=jump:*branchA003 bad=jump:*branchB003
+;;-------------------------------------
+;; At right side
+*branchA003
+
+@dot_move x=3 y=4 dir=down id=6
+@dot_move x=5 y=4 dir=down id=4
+@dot_move x=4 y=3 dir=down id=5
+@fade type=in t=1000 wt=1
+
+@dir dir=right id=6
+@huki b=8 id=6
+[AOKI]「You have drunk a lot……」
+
+@huki b=8 id=6
+[AOKI]「One more bottle?」
+
+@jump target=*end
+;;-------------------------------------
+*branchB003
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*end
+
+
+
+

@@ -1,0 +1,53 @@
+
+@dot_move id=101 x=9 y=10 dir=down
+@dot_move id=102 x=9 y=12 dir=up
+@dot_move id=103 x=12 y=9 dir=left
+@dot_move id=104 x=10 y=14 dir=up
+
+@change id=101 f=須東
+@change id=102 f=司_体操服
+@change id=103 f=男子学生01_体操服
+@change id=104 f=女子学生01_体操服
+
+@invisible id=5 type=on
+
+@fade type=in t=1000 wt=1
+
+@huki b=2 id=101
+[SUDOU]「Have you jumped the box horse completely?」
+
+@huki b=6 id=103
+[Boy Student１]「Yes……Teacher SUDOU」
+
+@huki b=7
+@move_f f=サクラ@哀しみ_頬 in=r t=300
+[SAKURA/skr0804] (Everybody looked at……) 
+
+　Everybody looked at SAKURA. Seemingly, they have known what happened between them. 
+
+@huki b=8 id=101
+[SUDOU]「OK. Class is over. Dismiss.」
+
+@route route=right:15,down:100 id=101 wt=0
+@wait t=500
+
+@move_speed spd=5 id=102
+
+@route route=up:2 id=102
+@huki b=8 wt=1 id=102
+
+@huki b=2 id=102
+[TSUKASA]「SAKURA, are you OK?」
+
+　 TSUKASA asks SAKURA with care――
+
+@huki b=7
+@bs f=サクラ@悔しい_頬
+[SAKURA/skr0805]「I'm all right……Nothing happened.」
+
+@fade type=out t=1000 wt=1
+　SAKURA answered TSUKASA with faint smile, and left gymnasium with her heavy paces.
+
+@move_f f=サクラ@悔しい_頬 out=r t=300
+@bs
+

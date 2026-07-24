@@ -1,0 +1,42 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+
+;;　一到放學、小櫻便拿著一大把招工傳單沖向了商業街。
+
+@mes_win back=1 pos=1
+\CL『招募打工者！　一小時1000日元！』
+
+\CL『打工時段任您選擇！』
+@mes_win back=0 pos=2
+
+@huki b=8 wt=1
+@move_f f=サクラ@無表情 in=r t=300
+[小櫻]「面包店啊……」
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[小櫻]（比起其他的店、只有這家面包店工資給的這么高……）
+
+@huki b=2
+@bs f=サクラ@考え中 op2=ハテナ
+[小櫻]（為什么呢？）
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=r t=300
+
+@bs f=サクラ@無表情
+[小櫻]「總之先去問問看吧」
+@move_f f=サクラ@無表情 out=r t=300
+
+@dir dir=left
+@map_scroll dir=left dis=29 spd=6 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻]（那個……沿著這條路向前走一會兒就能到……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@map_scroll dir=right dis=30 spd=7 wt=1
+
+

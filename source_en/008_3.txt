@@ -1,0 +1,7 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@move_f f=パン屋 face=0 in=r t=300
+[Store Manager] 「The uniform is placed in the \C[2] dressing room\C[0]! 　Be sure to try it on!」
+@move_f f=パン屋 face=0 out=r t=300
+

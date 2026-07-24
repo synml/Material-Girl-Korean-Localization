@@ -1,0 +1,78 @@
+
+;;【010_01体育.txt】
+;;【010_05失敗.txt】
+
+@move_speed spd=3
+@invisible id=105 type=on
+
+@fade type=in t=1000 wt=0
+@route route=up:4
+@move_speed spd=4
+
+@bgm f=Dungeon2
+@move_f f=サクラ@哀しみ in=r t=300
+
+[사쿠라/skr0680]「하아, 하아, 하아, 앗!?」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@change num=1
+@qk
+@se f=Earth3
+@dir dir=u wt=1
+
+;;@c_jump id=101 wt=0
+;;@c_jump id=102 wt=0
+;;@c_jump id=103 wt=0
+;;@c_jump id=104 wt=1
+
+@wait t=1000
+
+　체력이 바닥난 사쿠라는 운동장에 쓰러지고 말았다.
+
+@invisible id=105 type=off
+@huki b=1 id=105
+@c_jump id=105 wt=1
+
+@move_speed spd=6 id=105
+@route id=105 route=up,right,up:2
+
+[츠카사]「사쿠라!　괘, 괜찮아!?」
+
+@move_speed id=6 spd=4
+@route route=down:3,left:4 id=6
+
+@se f=Blow2
+@dir dir=right id=105
+@dir_fix id=105 type=on
+
+@route id=105 route=left wt=0
+@route id=6 route=left wt=1
+
+[스도]「비켜!」
+
+@dir dir=up id=6
+
+　스도는 부축하러 달려온 츠카사를 밀쳐내고, 사쿠라를 안아 들었다.
+
+[사쿠라/skr0681]「으……으으으」
+
+[스도]「이런. 벌써 의식을 잃었군. 너희들!　계속 뛰어라!」
+
+@wait t=500
+
+[스도]「사쿠라는 내가 보건실로 데려간다」
+
+@huki id=105 b=8 wt=1
+[츠카사]「스도 선생님, 제가 갈게요……」
+
+@dir id=6 dir=l wt=1
+[스도]「너는 계속 뛰어!」
+
+@dir id=6 dir=up wt=1
+[츠카사]「앗!?」
+
+@fade type=out t=1000 wt=1
+
+　츠카사에게 버럭 소리친 스도는 그대로 보건실로 향했다.
+

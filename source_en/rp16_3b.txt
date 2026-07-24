@@ -1,0 +1,25 @@
+
+;; Phase Ⅲ
+
+@bgm f=bgm15
+
+;;ＣＧ■CG15e＋CG16d
+@bgf bg=ev16d t=1000
+@bgs f=aegi_skr4
+@se f=ピストン_激しい l=1
+
+[SAKURA/skr1694]「I’m having an orgasm! An orgasm! I’m getting there!」
+
+[Researcher]「I’m going to ejaculate my sperms into your body!」
+
+[SAKURA/skr1695]「Ah, ah! Ah......So good......Ah, the orgasm is so good!」
+
+@se
+@bgs
+@rps
+
+@fadeout
+
+　The man ejaculated sperms into the body of SAKURA, who was lost in the joy caused by being invaded by the zombie, not even aware of that.
+
+;; Free time out of the building

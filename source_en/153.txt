@@ -1,0 +1,45 @@
+
+;; Move to the front of mansion. Restore free action
+
+@dot_move x=6 y=7 dir=right id=4
+@dot_move x=8 y=7 dir=left
+
+;;【024_06aゴージャスな服購入.txt】
+@fade type=in t=1000 wt=1
+
+@huki b=2 id=4
+[Store Owner]「How do you think of this dress?」
+
+@huki b=8 wt=1
+@move_f f=サクラ@無表情_z body_op=z in=r t=300
+[SAKURA] (Advanced fur plus pearl necklace……gem-made earring and finger ring……) 
+
+@bs f=サクラ@哀しみ_z body_op=z op2=困惑
+[SAKURA] (I no longer look like a student……is it too exaggerated?) 
+
+@bs f=サクラ@考え中
+[SAKURA] (However, only with such dress can I enter that store……) 
+
+@bs f=サクラ@微笑
+[SAKURA]「um, that is it. Please check it out.」
+
+@se f=Coin
+@mes_win back=1 pos=1
+\CL paid 1,000,000 yen…….
+@mes_win back=0 pos=2
+
+@huki b=8 id=4
+[Store Owner]「Thank you for your patronage.」
+
+@bs f=サクラ@無表情
+[SAKURA] (OK, this time, I must……) 
+
+@move_f f=サクラ@無表情 out=r t=300
+@fade type=out t=1000 wt=1
+
+　When SAKURA paid money to the smiling store owner, SAKURA felt fully-confident.
+
+;; Money reduces 2,000,000 yen.
+
+;; Free action
+

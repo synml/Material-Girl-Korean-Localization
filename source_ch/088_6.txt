@@ -1,0 +1,7 @@
+
+@dot_move x=16 y=4 dir=up
+@dot_move id=6 x=16 y=3 dir=down
+@change f=客 id=6 num=0
+
+@fade type=in t=1000 wt=1
+

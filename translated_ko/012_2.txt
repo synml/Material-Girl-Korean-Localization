@@ -1,0 +1,13 @@
+
+;;【002_04司の家のピンポンを鳴らす.txt】
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（……날도 저물었으니, 일찍 들어가서 쉬자）
+@move_f f=サクラ@考え中 out=r t=300
+
+@fb dir=back
+
+;; ※After that, through my dinner in TSUKASA’s home, I am able to obtain『TSUKASA’s ・ favorablity ＋１』
+
+

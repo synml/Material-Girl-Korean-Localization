@@ -1,0 +1,24 @@
+
+;;【002_02教室に入る.txt】
+@fade type=out t=1000
+@fade type=in t=1000
+
+[SAKURA]「…………」
+
+[SAKURA] (Anyhow, this store is also……) 
+
+[SAKURA] (…………) 
+
+[SAKURA] (However, salary is very high…………)
+
+[SAKURA]「…………」
+
+[SAKURA] (……In the case of lack of money, I shall take it into consideration.) 
+
+[SAKURA]「…………」
+
+[SAKURA]「Well, forget it……」
+
+@fade type=out t=1000 wt=1
+@fade type=in t=1000 wt=1
+

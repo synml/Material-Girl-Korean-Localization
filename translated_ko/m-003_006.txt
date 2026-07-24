@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL 누군가 놓고 간 브래지어를 손에 넣었다!
+
+@mes_win

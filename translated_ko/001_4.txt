@@ -1,0 +1,17 @@
+
+;;【001_01プロローグ.txt】
+
+@dir_fix type=off id=41
+
+@huki id=41 b=4
+[남학생]「그헤헤, 매일 아침\C[2] 여기서 복장 검사 구경하는 게\C[0] 진짜 최고라니까……」
+
+@dir dir=down id=41
+
+@huki id=41 b=6
+[남학생]「……앗!? 너, 넌 언제부터 거기 있었어!?」
+
+@dir dir=up id=41
+
+@dir_fix type=on id=41
+

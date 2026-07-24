@@ -1,0 +1,27 @@
+
+[Nasty old man]「O o……」
+
+[SAKURA]「What happened?」
+
+[Nasty old man]「Touch……touch……」
+
+[SAKURA]「Does your back pain? Is my touch correct?」
+
+[Nasty old man]「May I touch your buttock?」
+
+@bgm_save
+@bgm f=bgm14
+
+;;@move_f f=black face=0 in=c t=150
+@move_f f=A-cut_siri face=0 in=c t=150
+
+[SAKURA]「Wow! What are you doing?」
+
+[Nasty old man]「Wow! The buttock of a young girl is superb!」
+
+@bs
+
+[SAKURA]「Shit! I shouldn't worry about you!」
+
+@bgm
+@bgm_replay

@@ -1,0 +1,89 @@
+
+;;【002_05次の日.txt】
+
+;; Effect ■ time change
+
+@move_speed spd=9
+@se f=衣擦れの音1
+@route route=down
+@move_speed spd=4
+@bs
+@move_f f=サクラ@考え中 in=r body=パジャマ t=100
+@fade type=in t=1000
+
+@huki b=8 wt=1
+[사쿠라]「으음……후아아아. 벌써 아침, 인가……」
+
+@bs f=サクラ@悔しい
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@考え中
+[사쿠라]（오늘은, 어떻게 보내지……）
+
+@huki b=8
+@bs f=サクラ@悔しい
+[사쿠라]（학교는 당연히 가야 하고……그치만, 오늘부턴 생활비를 벌어야 해……）
+
+@huki b=2
+@bs f=サクラ@哀しみ
+[사쿠라]（아니면 오늘은 하루 쉬고 일자리를 더 찾아볼까?）
+
+@bs f=サクラ@考え中
+[사쿠라]（지금 찾은 건 빵집 하나뿐인데……어쩌면 좋담……）
+
+나흘 뒤에는 전기요금 15,000엔을 내야 한다.
+
+그로부터 다시 닷새 뒤에는, 집세 50,000엔도 내야만 한다.
+
+@huki b=7
+@bs f=サクラ@悔しい op2=困惑
+[사쿠라]（하아아……돈만 있으면 이런 걱정은 안 해도 될 텐데）
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라]「으으으으으으. 돈이 없으니 진짜 죽을 맛이야……」
+;;@move_f f=サクラ@哀しみ out=r t=300
+
+;; After feeling the significance of money deeply, SAKURA gives a slight sign.
+
+
+;;@huki b=8 wt=1
+;;@huki b=7 wt=1
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라]（학교를 가든 일자리를 찾든, 일단은 일어나야지）
+;;@move_f f=サクラ@哀しみ out=r t=300
+
+;;@move_speed spd=3
+;;@route route=down,left:2
+;;@dir dir=down
+
+@bs f=サクラ@考え中
+@wait t=400
+
+@huki b=3
+@bs f=サクラ@微笑
+[사쿠라]「후아아아아. 세상에서 제일 편한 건 역시 하루 종일 침대에서 뒹굴거리는 거지」
+
+@huki b=3
+@bs f=サクラ@考え中
+[사쿠라]「으으음――!」
+;;@move_f f=サクラ@考え中 out=r t=300
+
+;; After stretching herself, SAKURA gets up.
+
+@move_speed spd=4
+@fade type=out t=1000
+@move_f f=サクラ@考え中 out=r t=1
+@bs
+
+@se f=衣擦れの音1
+@mes_win back=1 pos=1
+\CL 유니폼으로 갈아입었다!
+@mes_win back=0 pos=2
+
+
+;; Prologue ends
+

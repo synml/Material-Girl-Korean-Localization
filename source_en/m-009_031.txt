@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL Money is very important! Work hard to earn money\nIt will be a tragy if the money saved from the beginning to the given day is not enough!?
+
+@mes_win
+

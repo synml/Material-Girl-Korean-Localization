@@ -1,0 +1,59 @@
+
+;;【024_08好感度未達成.txt】
+
+@dir dir=down id=6
+@dir dir=down id=5
+@dir dir=down id=4
+
+@dot_move id=7 x=6 y=8 dir=up
+@invisible id=7 type=off
+
+@fade type=in t=1000 wt=1
+
+@huki b=8 id=7
+[사장님]「사쿠라 님…… 시간이 다 되었습니다」
+
+@move_f f=サクラ@驚き in=r t=300
+
+@huki b=2
+[사쿠라]「에?　벌써, 끝났다고……?　후우우웅. 한창 재밌게 놀고 있었는데」
+
+@bs f=サクラ@微笑
+
+@fade type=in t=1000 wt=1
+
+@dot_move x=6 y=10 dir=up
+@dot_move x=5 y=8 id=4 dir=down
+@dot_move x=6 y=8 id=5 dir=down
+@dot_move x=7 y=8 id=6 dir=down
+@dot_move x=5 y=10 id=7 dir=right
+@wait t=1200
+
+@fade type=out t=1000 wt=1
+
+@huki b=8 id=7
+[사장님]「찾아주셔서 대단히 감사합니다」
+
+@huki b=8
+[사쿠라]「그럼, 또 봐……」
+
+@huki b=8 id=7
+[사장님]「잠시만 기다려 주십시오, 사쿠라 님」
+
+@huki b=8 id=7 id=4
+@huki b=8 id=7 id=5
+@huki b=8 id=7 id=6
+@huki b=8 id=7 id=7 wt=1
+
+@bs f=サクラ@笑み
+[사쿠라]（다들 나와서 나를 배웅해 주다니……）
+
+　가게 밖에 일렬로 늘어선 호스트들에게 손을 흔들어 주고, 사쿠라는 발걸음을 옮겼다.
+
+[사쿠라]（돈은 꽤 많이 썼지만. 그래도, 꽤 재밌었어）
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+
+;; Free action
+

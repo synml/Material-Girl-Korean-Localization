@@ -1,0 +1,17 @@
+;;Phase I
+@bgm f=bgm13
+
+;;ＣＧ■CG11a
+@se f=衣擦れの音1
+@bgf bg=ev11a
+
+[shopkeeper ] 「Very good. It is really good to relax, SAKURA.」 
+
+[SAKURA/skr1184] 「Ahh......Umm......Ummmm......」
+
+[SAKURA / skr1185] (Because the buttocks were touched it's not easy to calm down... ...)
+
+SAKURA is continuing to accept the guests ,meanwhile suffering the shopkeeper slightly touch. 
+
+@bgm
+@rps

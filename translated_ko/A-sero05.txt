@@ -1,0 +1,63 @@
+;;▼A woman will be drunken after overdrinking and she will be unable to go home. As a result, the woman will be raped in the lane. 
+;;　The woman will wake up in the lane next morning. 
+
+@bgm_save
+@bgm f=bgm14
+
+@move_f f=black face=0 in=c t=500
+
+[사쿠라]「어라～, 세상이～ 흔들흔들거려……넘어질 것 같아～」
+
+[남자]「이런, 괜찮아?　자, 다른 사람들이랑 부딪히지 않게 저쪽으로 가자」
+
+[사쿠라]「아저씨는 누구야～?」
+
+[남자]「나는 의사란다. 자, 어디가 안 좋은지 검사해줄게」
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune face=0 in=c t=150 h=1
+
+[사쿠라]「어, 잠깐……만지면 안 되는데……아읏!!　싫어, 안 돼……」
+
+[남자]「가만히 있어!　지금 바로 주사를 놓아줄 테니까!」
+
+@se f=挿入音
+@move_f f=A-cut_sev05-1 face=0 in=c t=150
+
+[사쿠라]「안 돼!　들어와버렸어……아아아아앙!!」
+
+@se f=ピストン_高速
+
+[사쿠라]「앗, 아앙……힘은 하나도 안 들어가는데……몸은 이렇게나 민감해져서……!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev05-2 face=0
+
+[사쿠라]「앗, 하아앙!　안 돼, 나 이제……아아앙……아아아아아앙!」
+
+@fadeout t=1000 wt=1
+@bs
+
+@bgm
+@bgm_replay
+
+@wait t=2000
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+
+[사쿠라]「으윽……머리 아파……어라?　여긴……어디지?」
+
+@bs f=サクラ@悔しい
+
+[사쿠라]「……으으, 어제 일이 기억 안 나는 데다…몸까지 끈적끈적해……최악이야」
+
+@move_f f=サクラ@悔しい out=r t=300

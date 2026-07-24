@@ -1,0 +1,17 @@
+
+;;【023_01高額エロバイト.txt】
+
+@bgm f=bgm03
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA/skr2137] (hey……I should not be lured by money……) 
+
+[SAKURA/skr2138] (500,000 yen……how could it be obtained easily……) 
+
+　Although I felt regretful, it is too late.
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@dot_move x=10 y=26 dir=left id=101
+@change f=People1 id=101 num=0
+

@@ -1,0 +1,26 @@
+
+;;Phase I
+
+@bgm f=bgm12
+
+;;ＣＧ■CG02b
+@bgf bg=ev02b
+
+[ASAHIKO] 「Perfect...... It's perfect......Whish, whish.」
+
+[SAKURA/skr0452] (What did he enjoy doing......Such a thing?)
+
+[ASAHIKO] 「The smell and taste are perfect. And today's stockings are the most perfect match.」
+
+[SAKURA/skr0453] (It's always been like this......Ahh, that's disgusting...... Hurry up and finish......)
+
+[SAKURA/skr0454] 「Hmm, hooo......Time is nearly over......」
+
+[ASAHIKO] 「Wait for a moment, wait......Whish, whish.」
+
+[SAKURA/skr0455] (Ah, The whole foot is wet......)
+
+@bgm
+@rps
+
+

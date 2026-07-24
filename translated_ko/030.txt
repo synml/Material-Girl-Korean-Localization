@@ -1,0 +1,109 @@
+
+;;【005_01イジメられる司.txt】
+
+@bgm
+
+;; SAKURA discovered TSUKASA tangled by HOOLIGANS.
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@哀しみ op2=ハテナ
+[사쿠라]（저건……츠카사?）
+@move_f f=サクラ@哀しみ out=l t=300
+
+@bgm f=bgm04
+
+@huki b=8 id=10
+[불량배1]「저기 말이야, 우리한테 돈 좀 빌려주라～?」
+
+@huki b=6 id=9 wt=1
+
+@huki b=7 id=9
+[츠카사]「나, 나는……그게……」
+
+@huki b=3 id=11
+[불량배2]「꼭 갚을 테니까♪　좀 빌려주라니까～?」
+
+@huki b=7 id=9
+[츠카사]「하, 하지만……」
+
+@huki b=5 id=10 wt=1
+
+@huki b=1 id=10
+@c_jump id=10 wt=1
+[불량배1]「아아!?　지금 급하게 쓸 데가 있다고. 빨리 내놔!」
+
+@move_speed spd=3
+@huki b=8
+@route route=right:4
+@huki b=8 wt=1
+
+@move_f f=サクラ@怒り in=l t=300
+
+@huki b=1 id=9
+@huki b=1 id=10
+@huki b=1 id=11
+
+[사쿠라]「그만해!」
+@move_f f=サクラ@怒り out=l t=300
+
+@dir dir=left id=9
+@dir dir=left id=10
+@dir dir=left id=11
+
+@huki b=8 id=9
+@huki b=2 id=10
+@huki b=2 id=11 wt=1
+
+[츠카사]「사쿠라……」
+
+@huki b=8 id=10
+@huki b=8 id=11 wt=1
+
+@huki b=2 id=11
+[불량배2]「뭐야?　끼어들지 마. 저리 꺼져!」
+
+@huki b=8
+@move_f f=サクラ@考え中 in=l t=300
+[사쿠라]「……」
+@move_f f=サクラ@考え中 out=l t=300
+
+@through type=on
+@route route=right:2,up,right:2
+
+@fb dir=back id=9 wt=0
+@dir dir=up wt=0 id=10
+@dir dir=up wt=0 id=11
+
+@route route=right
+@dir dir=down
+
+@move_f f=サクラ@考え中_z in=c body_op=z t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情_z body_op=z
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中_z out=c t=300
+
+@huki b=5 id=10 wt=1
+
+;; Ignoring hooligans’ words, SAKURA continues to protect TSUKASA.
+
+@huki b=1 id=10
+[불량배1]「짜증 나네!　쓸데없이 참견하지 말라고 했지!」
+
+@move_speed spd=4
+@through type=off
+
+@bgm f=bgm14 pitch=130
+
+;;○战斗：vs不良少年
+
+;;○勝利　→005_02勝利
+
+;;○败北　→005_03败北
+
+

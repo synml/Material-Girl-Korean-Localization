@@ -1,0 +1,42 @@
+
+;;【022_03クラスメート本番.txt】
+
+;; SAKURA dialogues with the schoolmate in the classroom.
+
+;;@bgm f=bgm02
+
+[MAEDA]「That, that. Are you free now?」
+
+@huki b=2 wt=1
+@move_f f=サクラ@驚き in=r t=300
+[SAKURA]「MAEDA? 　What's up?」
+
+;; Although MAEDA is her schoolmate, so far MAEDA never has greeted her.
+
+@huki id=15 b=8 wt=1
+[MAEDA]「That……SAKURA……I want to make love with you once again……」
+
+@bs f=サクラ@微笑
+[SAKURA] (ho ho, do you……want to make love with you.) 
+
+@bs f=サクラ@無表情_z body_op=z
+[SAKURA]「Now, is your money enough?」
+
+[MAEDA]「um, um」
+
+@huki b=4
+@bs f=サクラ@微笑_z body_op=z
+[SAKURA]「Let's go to hotel.」
+
+[MAEDA]「um, um」
+
+@bs f=サクラ@無表情_z op2=赤面 body_op=z
+[SAKURA/skr1980] (His penis has swelled. Boy, really lascivious.) 
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@se f=Move
+@fadeout
+
+　SAKURA shrugged her shoulder, and then went out of school towards the hotel.
+

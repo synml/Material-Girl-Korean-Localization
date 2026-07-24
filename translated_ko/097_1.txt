@@ -1,0 +1,15 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04a汎用選択肢.txt】
+
+@huki b=8 id=25
+[양아치남1]「음――, 저런 차림이면 말 걸기가 좀 그런데……」
+
+@huki b=8 id=35
+[양아치남2]「전에 입었던 그 \C[2]사복\C[0]으로 갈아입고 나면 다시 말 걸어줘」
+
+
+;;○Compete →019_04b汎用選択肢勝負する
+;;○Don’t compete →019_04c汎用選択肢勝負しない
+

@@ -1,0 +1,64 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04勝利.txt】
+
+@bgm f=Battle5
+
+@huki id=4 b=7 wt=1
+
+[Frivolous Man１]「woo poo ……I, I am……done……」
+
+@dir id=5 dir=r wt=1
+@huki id=5 b=8 wt=1
+
+[Frivolous Man２]「hey hey, come on～」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA]「coo loo! 　coo loo! 　coo loo! 　poo ha ah ah!」
+
+@huki id=4 b=7 wt=1
+
+[Frivolous Man１]「 I lost……I surround……」
+
+@dir id=6 dir=r wt=1
+@huki id=6 b=3 wt=1
+
+[Clerk]「Congratulations! 　This guest won!」
+
+@bs f=サクラ@笑み_z body_op=z op2=音符
+
+[SAKURA]「hoo woo woo woo. Good drink. Thank you for your hospitality」
+
+[Clerk]「This is your bonus」
+
+@bs f=サクラ@笑み_z body_op=z
+
+@huki b=3 wt=1
+
+[SAKURA]「hoo hoo, thanks」
+
+[Clerk]「Please this guest pay the money for drink!」
+
+[Frivolous Man２]「SAKURA, let us compete next once again. Do you accept?」
+
+@bs f=サクラ@笑み_z body_op=z op2=音符
+
+[SAKURA]「OK. ho ho ho, I will accept your challenge anytime～」
+
+　SAKURA nodded to accept the men’s challenge for revenge.
+
+@bs f=サクラ@微笑
+
+[SAKURA]「so, I'm gonna go now～」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@se f=Move
+@fadeout
+
+　SAKURA walked haltingly out of the store, with bonus in hands.
+
+;; As long as SAKURA dialogues with men, the general options will appear.
+

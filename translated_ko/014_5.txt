@@ -1,0 +1,51 @@
+
+;;○戦闘開始前（レベル5）
+
+@bgm f=bgm01
+
+;;-----------------------------------------------------------------------------
+
+@huki b=7
+@huki b=4 id=18 wt=1
+
+;;　キーンコーンカーンコーン
+@se f=学校チャイム
+@huki b=1
+@huki b=1 id=18 wt=1
+
+@huki b=7 id=18
+[스도]「쳇!　이제부터가 진짜 볼거리인데 말이야」
+
+@huki b=6
+@move_f f=サクラ@羞恥 op2=汗 in=r t=300
+[사쿠라/skr0128]（하아, 하아, 하아, 사, 살았다……）
+
+@huki b=7 id=18
+[스도]「오늘은 그냥 봐주마!」
+
+;; Transient students’ contempt and remarks stop SUDOU’s harassment to me.
+
+@huki b=7 id=18
+[스도]「사쿠라, 다음엔 잊지 말고 치마 고쳐 와라」
+
+@huki b=7
+@bs f=サクラ@悔しい_頬 o2p=困惑
+[사쿠라/skr0129]「저, 저는 이만 가볼게요……」
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+@fade type=out t=1000 wt=0
+
+@route route=left:2 wt=0 id=18
+@route route=up:4
+
+@dir dir=right id=18
+
+;; Blushed SAKURA breathes heavily and whispers slightly――
+
+;; Next, she turns around to run towards the teaching building.
+
+;;-----------------------------------------------------------------------------
+
+@bgm
+@move_speed spd=4
+

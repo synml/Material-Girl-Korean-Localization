@@ -1,0 +1,9 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;flagON, buy deluxe dress. 
+
+;;【024_07ゴージャスな服を着ている.txt】
+
+[Boss]「I see……after you are free, you are welcome to this store at any time.」
+

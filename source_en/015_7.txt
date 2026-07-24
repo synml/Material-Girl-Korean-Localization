@@ -1,0 +1,39 @@
+
+@move_f f=サクラ@考え中 out=r t=300
+@if eval=v(104)>10 ok=jump:*is_hit01 bad=jump:*no_hit01
+;;-------------------------------------
+;; There are SUDOU’s PE classes today.
+*is_hit01
+
+[SAKURA]「Is next class a PE class……?」
+
+@bs f=サクラ@無表情
+
+@if eval=v(154)==1 ok=jump:*is_hit03 bad=jump:*no_hit03
+
+*no_hit03
+[SAKURA]「To attend PE class, be sure to put on \C[2] gym suit \C[0] and go to \C[2] the playground \C[0]」
+@jump target=*event_end
+
+*is_hit03
+[SAKURA]「To attend PE class, be sure to put on \C[2] gym suit \C[0] and go to \C[2] the playground \C[0]」
+@jump target=*event_end
+;;-------------------------------------
+*no_hit01
+
+@if eval=v(104)>0 ok=jump:*is_hit02 bad=jump:*no_hit02
+;;-------------------------------------
+;; SUDOU performs the physical examination.
+*is_hit02
+
+ [SAKURA]「A little while, will the physical examination be performed……?」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「Will the physical examination be performed in \C[2] healthcare room \C[0]?」
+
+@jump target=*event_end
+;;-------------------------------------
+*event_end
+@move_f f=サクラ@無表情 out=r t=300
+

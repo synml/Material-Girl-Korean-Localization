@@ -1,0 +1,33 @@
+@wait t=1000
+@se f=学校チャイム
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@悔しい
+
+[SAKURA]「……Er……Ah?」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「Ah, wake up. The experiment is over.」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「……Er…I feel that……Is it reasonable for me to get paid for such easy and simple thing?」
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Of course! Please do assist me afterwards!」
+
+@bs f=サクラ@驚き
+
+[SAKURA]「I see……」
+
+[SAKURA]（He is so passionate……Is it so funny to do such experiments…?）
+
+@move_f f=サクラ@驚き out=r t=300
+@fadeout t=1000 wt=1
+@se
+@bs

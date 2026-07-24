@@ -1,0 +1,7 @@
+
+@mes_win back=1 pos=1
+
+\CL獲得制服內褲（自慰使用過的）！
+
+@mes_win
+

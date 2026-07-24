@@ -1,0 +1,57 @@
+;;▼Peeping event (sexual intercourse in a classroom)
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]「어라?　……이 교실엔 아무도 없을 텐데…?」
+
+@bgm_save
+@bgm f=bgm15
+
+@move_f f=black face=0 in=c t=150
+@se f=ピストン_高速
+@move_f f=A-cut_sev09-1 face=0 in=c t=150
+
+[신임 교사]「아, 안 돼…!　그, 그렇게 격렬하게 넣었다 빼면, 나 이상해져버린다니까!」
+
+;;@bs f=サクラ@驚き_頬 op2=ビックリ
+
+[사쿠라]「뭐야!?　저건…선생님이잖아?」
+
+[남자]「아앗!　쿄 선생님, 저…이제 쌀 것 같아요…!!」
+
+[신임 교사]「아, 안 돼…!　오늘은 위험한 날이란 말이야!　그, 그러니까…!!」
+
+[남자]「싼다!!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev09-2 face=0
+
+[신임 교사]「잠깐!?　……꺄아아아아아앙!!　뜨, 뜨거운 게…깊은 곳에……!」
+
+@move_f f=A-cut_sev09-1 face=0 out=c t=150
+;;@bs f=サクラ@羞恥_頬 op2=赤面
+
+;;[SAKURA]「Ah ah……the sperm……the woman is shaking……it seems that she is so comfortable……」
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+@fadein t=1000 wt=1
+
+@huki b=8 wt=1
+
+@move_f f=サクラ@考え中_頬 op2=汗 in=r t=300
+
+[사쿠라]「……으으……팬티가 조금 젖었어……」
+
+@move_f f=サクラ@考え中_頬  out=r t=300
+
+@bgm
+@bgm_replay

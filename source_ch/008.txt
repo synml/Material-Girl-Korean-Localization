@@ -1,0 +1,181 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@bgm
+@c_jump x=18 y=5 id=101
+@dir id=101 dir=down
+@invisible type=on
+@invisible type=on id=3
+
+@dir dir=up
+@fade type=in t=1000 wt=1
+
+@se f=Move1
+@invisible type=off
+
+@move_speed spd=3
+
+@route route=up:5 wt=1
+
+@huki b=8 wt=1
+
+@dir dir=right wt=1
+@wait t=200
+@dir dir=left wt=1
+@wait t=250
+
+@dir dir=right wt=1
+@wait t=200
+@dir dir=left wt=1
+@wait t=250
+
+@dir dir=up
+@huki b=8 wt=1
+
+@se f=Move1
+@change f=パン屋 id=101 num=0
+@huki b=1 id=101 wt=1
+@move_speed spd=5 id=101
+
+@route route=down id=101
+@dir dir=left id=101
+
+@bgm f=bgm05
+@huki b=1 id=101
+@huki b=1
+@c_jump
+
+@move_f f=パン屋 face=0 in=r t=300
+[店長]「欢迎光临！」
+
+@huki b=1
+@dir dir=right
+
+@move_f f=サクラ@驚き op2=ビックリ in=l t=300
+[小櫻]「誒……！？」
+@move_f f=パン屋 face=0 out=r t=300 wt=0
+@move_f f=サクラ@驚き out=l t=300
+
+出來迎接小櫻的、是和可愛店面完全不相符的虎背熊腰的中年男子。
+
+好……好恐怖……！
+
+@huki b=8 wt=1
+
+@huki b=2 id=101
+@huki b=7
+@move_f f=パン屋 face=0 in=r t=300
+@move_f f=サクラ@悔しい op2=困惑 in=l t=300
+[小櫻]（估計他不是客人吧？　好健碩的肌肉……難不成、這個人就是店長？）
+@move_f f=パン屋 face=0 out=r t=300 wt=0
+@move_f f=サクラ@悔しい out=l t=300
+
+;;　和可愛店面完全不相符的虎背熊腰的健碩中年男子用粗獷的聲音打著招呼――
+
+;;　這讓小櫻有些害怕了。
+
+@huki b=6 wt=1
+
+@huki b=2 id=101
+@huki b=8 wt=1
+
+@huki b=7
+@move_f f=サクラ@悔しい op2=困惑 in=l t=300
+[小櫻]（現在不是吃驚的時候。要趕緊說打工的事情！）
+@move_f f=サクラ@悔しい out=l t=300
+
+@route route=right
+
+@huki b=8
+@move_f f=パン屋 face=0 in=r t=300 wt=0
+@move_f f=サクラ@哀しみ in=l t=300
+[小櫻]「我是來應征打工招募的」
+
+@huki b=1 id=101
+@c_jump id=101 wt=1
+[店長]「哦哦！　應征打工招募啊。咿呀、幫大忙了」
+
+@huki b=8 id=101
+[店長]「我啊、是為了做出最好的面包才開的面包店……」
+
+@huki b=6 id=101
+[店長]「但進來的客人們、一看到我就轉頭跑出去了啊」
+
+@huki b=6
+@bs f=サクラ@考え中 op2=汗
+[小櫻]（這……我多少也能理解……）
+
+;;　聽著店長的一席話、小櫻在心中默許了這個事實。
+
+@huki b=7
+@bs f=サクラ@悔しい op2=困惑
+[小櫻]（我也被嚇了一跳……這和店面的畫風差太大了吧）
+
+@huki b=9 id=101
+[店長]「所以、就是這樣。比起我在前臺も、我更希望一個肯打工的孩子來幫我」
+
+@huki b=3 id=101
+[店長]「這樣、我也能集中精力做出最好吃的面包了。所以時薪才給得這么高」
+
+@huki b=2
+@bs f=サクラ@哀しみ op2=ハテナ
+[小櫻]「那個……只有我一個人、在店里、打工嗎？」
+
+@huki b=3 id=101
+[店長]「畢竟我們這家店并不那么興隆啊～。眼下只能先雇用一名臨時工」
+
+@huki b=1 id=101
+[店長]「所以、前臺只有你一個人哦」
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[小櫻]（我并不擅長和陌生人交談……恐怕這個工作不太適合我）
+
+@huki b=7
+@bs f=サクラ@哀しみ op2=困惑
+[小櫻]（要是有一起工作的人的話還好辦……但要我一個人的話……還真不好說啊）
+
+@huki b=8
+@bs f=サクラ@悔しい
+[小櫻]（雖然浪費了這么高時薪的工作……我還是拒絕了比較好吧？）
+
+@huki b=1 id=101
+[店長]「呀啊、像你這樣的孩子能來我們店打工、簡直是天賜的救星啊」
+
+@huki b=3 id=101
+[店長]「這種酷酷的感覺、和我只做面包的理念完全一致！」
+
+@huki b=7
+@bs f=サクラ@驚き op2=困惑
+[小櫻]（事到如今再拒絕的話未免太尷尬了點……怎么辦好啊……）
+
+@huki b=1 id=101
+@c_jump id=101
+[店長]「對了！　我有一套特別為打工的孩子準備的制服。請務必穿上試試看！？」
+
+@huki b=3 id=101
+@huki b=6 wt=1
+
+;;　充滿熱切期待的店長像小櫻投來了熱誠的目光。
+
+@huki b=7
+@bs f=サクラ@考え中 op2=困惑
+[小櫻]（店長他、貌似看出來我在想什么了……就穿一個衣服的話……）
+
+@bs f=サクラ@哀しみ op2=汗
+[小櫻]「那……總之我先穿穿看吧」
+
+@huki b=3 id=101
+[店長]「你的話一定會很合適的！　來吧來吧、到里面換換看吧」
+
+@huki b=8
+@bs f=サクラ@無表情
+[小櫻]「我知道了」
+@move_f f=パン屋 face=0 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+@fade type=out t=1000 wt=1
+@invisible type=off id=3
+@invisible type=on id=101
+
+@move_speed spd=4
+

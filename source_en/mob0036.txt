@@ -1,0 +1,34 @@
+[Erotic office worker]「Hi, it seems that you need help」
+
+[SAKURA]「? I don't need help.」
+
+[Erotic office worker]「No, you need help. My name is Erotic office worker, an office worker who saves young girls.」
+
+[SAKURA]「……Erotic?」
+
+[Erotic office worker]「Ok, you notice that. Let me water your pussy now!」
+
+@bgm_save
+@bgm f=bgm14
+
+;;@move_f f=black face=0 in=c t=150
+@se f=指挿入
+@move_f f=A-cut_kokan face=0 in=c t=150 cos=1
+
+[SAKURA]「……Wow, ah, no, you are touching my……o hoo ah ah ah ah ah ah ah!
+
+@se f=指挿入
+
+[Erotic office worker]「How about that. The problem is easily solved with my help.」
+
+[SAKURA]「Ha ah……ha ah……this……this is pure sexual harassment……」
+
+@bs
+
+[Erotic office worker]「I can help you anytime if you need me!」
+
+[SAKURA]「No, no need……」
+
+@bgm
+@bgm_replay
+

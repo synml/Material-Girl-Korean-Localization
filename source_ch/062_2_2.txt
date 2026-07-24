@@ -1,0 +1,14 @@
+
+;;【014_01告白?司.txt】
+
+@fade type=in t=1000 wt=1
+
+@huki b=8
+@move_f f=サクラ@微笑 in=r t=300 wt=1
+[小櫻]「今天也多謝款待咯。」
+
+[司]「嗯嗯。再見咯小櫻。」
+@move_f f=サクラ@微笑 out=r t=300 wt=1
+
+@fade type=out t=1000 wt=1
+

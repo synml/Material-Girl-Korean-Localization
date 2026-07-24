@@ -1,0 +1,84 @@
+
+;;【021_03男子生徒フェラ.txt】
+
+;; SAKURA dialogues with the school’s boy student (underclassman).
+
+@move_f f=サクラ@微笑 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr1749] (That boy……so lovely) 
+
+[SAKURA/skr1750] (For this boy at his age, whosoever is interested in making love with him ♪) 
+
+@bs f=サクラ@笑み
+
+@wait t=1000
+
+[SAKURA/skr1751]「Hello」
+
+@huki id=33 b=2 wt=1
+
+[Boy Student]「Hello, what is the matter?」
+
+　The boy student who suddenly was accosted by an upperclassman felt nervous somewhat.
+
+@bs f=サクラ@笑み_z body_op=z op2=音符
+
+@huki b=4 wt=1
+
+[SAKURA/skr1752]「Could I give you oral sex?」
+
+@huki id=33 b=1 wt=1
+
+[Boy Student]「ay!? Oral, oral sex!? oral sex……that……that……」
+
+@bs f=サクラ@微笑_z body_op=z
+
+[SAKURA/skr1753] (His blushed face looks very lovely. ho ho, however, he has showed his expected expression ♪) 
+
+@bs f=サクラ@微笑
+
+@huki b=8 wt=1
+
+[SAKURA/skr1754]「Of course, this is not unpaid. You have to pay 10,000 yen」
+
+@huki id=33 b=8 wt=1
+
+[Boy Student]「10,000 yen……sorry……」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1755]「um ? 　What's up?」
+
+[Boy Student]「I……only have 5000 yen……」
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[SAKURA/skr1756] (5000 yen……woo～ um) 
+
+[Boy Student]「……」
+
+@huki b=8 wt=1
+
+[SAKURA/skr1757] (He is so expected……and very lovely……5000 yen, that’s OK) 
+
+@wait t=1000
+
+@bs f=サクラ@微笑
+
+[SAKURA/skr1758]「I know. That’s OK, 5000 yen」
+
+@huki id=33 b=1 wt=1
+
+[Boy Student]「Is this OK!?」
+
+@bs f=サクラ@笑み
+
+[SAKURA/skr1759]「ho ho, because you are lovely, I give you a special care. ♪ follow me.」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1

@@ -1,0 +1,64 @@
+
+;;【010_01体育.txt】
+;;【010_04成功.txt】
+
+
+@fade type=out t=1000 wt=0
+@move_speed spd=5
+@route route=left:12
+@move_speed spd=4
+@wait t=1200
+
+@bgm f=bgm01
+
+@dot_move x=18 y=15 dir=up
+@fade type=in t=1000 wt=1 wt=0
+
+@move_speed spd=4
+@route route=up:3
+
+@move_f f=サクラ@哀しみ in=r t=300
+[SAKURA]「hoo, hoo, hoo!」
+
+@huki b=8 id=6
+[SUDOU]「uh-huh！」
+
+@wait t=1000
+@bs f=サクラ@微笑
+[SAKURA] (Although I earnestly runs, he seemingly looks unhappy…… however……to do so, I am able to avoid his sexual harassment.) 
+
+　After running the whole journey, Sakura took a deep breath.
+
+
+@bs f=サクラ@無表情
+@wait t=1000
+
+@dir dir=left
+@dir dir=left id=6
+
+@huki b=5 id=6
+[SUDOU]「hey!　You run quickly!」
+
+　SUDOU screamed towards the running boy students.
+
+@bs f=サクラ@微笑_z body_op=z
+
+@huki b=1
+[SAKURA]「SHI! 　Come on!」
+
+@huki b=7 id=6
+[SUDOU]「chee!」
+
+@move_f f=サクラ@微笑_z out=r t=300
+
+@fade type=out t=1000 wt=1
+@bgm
+
+@mes_win back=1 pos=1
+Seeing that SAKURA fuels SHI, SUDOU looked extremely disdainful. This PE class finally came to its end.
+@mes_win back=0 pos=2
+
+@se f=学校チャイム
+@wait t=300
+
+

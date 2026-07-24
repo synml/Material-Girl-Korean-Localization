@@ -1,0 +1,11 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]「……지금은 집에 들를 필요 없겠다, 바로 츠카사네 집으로 가자」
+@move_f f=サクラ@無表情 out=r t=300
+
+@move_spedd spd=3
+@fb dir=back
+@move_spedd spd=4

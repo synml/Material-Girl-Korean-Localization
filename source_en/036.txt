@@ -1,0 +1,139 @@
+
+;;【007_01イジメられる司３.txt】
+
+;;『Bullied TSUKASA ２』wins. SAKURA discovered TSUKASA tangled by HOOLIGANS .
+
+@bgm
+
+@huki b=7 id=9
+@c_jump id=10 wt=0
+@huki b=1 id=10
+@huki b=5 id=11
+@huki b=8 id=12
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bgm f=bgm04
+
+@bs f=サクラ@怒り
+[SAKURA] (Those guys start again……) 
+
+;; SAKURA saw that TSUKASA was taken away by HOOLIGANS.
+
+@huki b=8
+@bs f=サクラ@考え中
+[SAKURA] (Today, I must defeat them!) 
+
+@huki b=1
+@bs f=サクラ@怒り
+[SAKURA] (I must beat so violently that they dare not tangle TSUKASA! 　I force them to swear that they no longer tangle TSUKASA!) 
+@move_f f=サクラ@怒り out=l t=300
+
+@move_speed spd=3
+@route route=right:4
+@move_speed spd=4
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@huki b=1 id=9
+@huki b=1 id=10
+@huki b=1 id=11
+@huki b=8 id=12
+
+@huki b=1
+@bs f=サクラ@怒り
+[SAKURA]「Stop!」
+@move_f f=サクラ@怒り out=l t=300
+
+@dir dir=left id=9
+@dir dir=left id=10
+@dir dir=left id=11
+@dir dir=left id=12
+
+@huki b=8 id=9
+@huki b=8 id=10
+@huki b=8 id=11
+@huki b=8 id=12
+[TSUKASA]「SAKURA……」
+
+@move_speed spd=4 id=12
+@route route=down,left:5 id=12
+
+@huki b=8 id=12 wt=1
+
+@huki b=1 id=12
+[SATAKE]「oh, wait you for a long time. I suppose you must come if we catch this guy.」
+
+@se f=Sword5 pitch=130
+@huki b=1 id=9
+@huki b=1
+@huki b=8 id=12 wt=1
+
+;; SATAKE who has been defeated by SAKURA before bursts out the evil in his eyes.
+
+@huki b=8 id=12
+[SATAKE]「If I am defeated by a girl, I feel shameful. hey hey hey, I must knock you down anyway!」
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[SAKURA]「With a knife……dirty dog……」
+@move_f f=サクラ@無表情 out=l t=300
+
+@huki b=5 id=12 wt=1
+
+@huki b=1 id=12
+[SATAKE]「Come on!」
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@怒り
+[SAKURA] (I am not afraid of your knife……) 
+@move_f f=サクラ@怒り out=l t=300
+
+@huki b=1 id=12
+@c_jump id=10 wt=0
+@c_jump id=11
+
+[SATAKE]「hey! 　Surround!」
+
+@move_speed spd=6 id=10
+@move_speed spd=6 id=11
+
+@route route=left:6 id=11 wt=0
+@route route=up:2,left:4 id=10
+
+@dir dir=down id=10 wt=0
+@dir dir=up id=11
+
+;; Obeying SATAKE’s order, HOOLIGANS surround SAKURA quickly.
+
+@move_f f=サクラ@無表情 in=l t=300
+@huki b=8 wt=1
+
+@huki b=1
+@bs f=サクラ@怒り
+;; [SAKURA]「I absolutely defeat this dirty dog!」
+[SAKURA]「I absolutely defeat this dirty dog!」
+
+@huki b=1
+@bs f=サクラ@考え中
+[SAKURA] (Today, I must defeat them!) 
+@move_f f=サクラ@考え中 out=l t=300
+
+;;@huki b=1
+;;@bs f=サクラ@怒り
+;; [SAKURA]「Come on!」
+;;@move_f f=サクラ@怒り out=l t=300
+
+;;○Fight: vs Head of hooligans (with a knife) ＋hooligans gang
+
+@bgm f=bgm14 pitch=130
+;;勝利　→008_02勝利へ
+
+;;敗北　→008_03敗北へ
+

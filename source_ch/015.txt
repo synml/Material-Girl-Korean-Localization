@@ -1,0 +1,20 @@
+
+;;○戦闘開始前（レベル10）
+
+@bgm f=bgm01
+
+@route route=right:2 id=18
+@dir dir=down id=18
+
+@huki b=1 id=18
+@huki b=8
+
+;;@move_f f=須藤 face=0 in=l t=300 wt=0
+@move_f f=サクラ@怒り in=r t=300
+
+[須東]「哼哼哼……２０％、就讓我用２０％的實力對付你吧。畢竟跟女人犯不上動用全力」
+
+;;@move_f f=須藤 face=0 out=l t=300 wt=0
+@move_f f=サクラ@怒り out=r t=300
+
+

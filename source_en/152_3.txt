@@ -1,0 +1,21 @@
+
+;; Move to the front of mansion. Restore free action
+
+
+;;【024_06aゴージャスな服購入.txt】
+
+;; When the flag for purchasing the deluxe dress is ON, SAKURA enters the clothes store.
+
+@move_f f=サクラ@考え中 in=r t=300 wt=1
+[SAKURA]「It's not easy to come the clothes store……」
+
+@bs f=サクラ@哀しみ
+[SAKURA] (However, I have no spare money to buy these……) 
+
+@bs f=サクラ@無表情
+[SAKURA]「……Buy it next time」
+
+@move_f f=サクラ@無表情 out=r t=300 wt=1
+
+@fb dir=back
+

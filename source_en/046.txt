@@ -1,0 +1,86 @@
+
+;;【009_02全ての素材を渡す.txt】
+
+;;背景■暗転
+;;効果■時間経過
+@fade type=out t=1000 wt=1
+@wait t=1000
+@fade type=in t=1000 wt=1
+
+@bgm f=Dungeon5
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr0670]「um……ah ah……ha ah, um um um……I on earth……」
+
+@dir dir=r wt=1
+@wait t=1000
+@dir dir=l wt=1
+@wait t=1000
+@dir dir=d wt=1
+@wait t=1000
+
+　After coming to her sense, SAKURA looked around.
+
+@bs f=サクラ@驚き
+
+@huki b=8 wt=1
+
+[SAKURA/skr0671] (After drinking MAKIOKA’s drug……ay? 　 I couldn’t remember anything……) 
+
+@bs f=サクラ@哀しみ op2=汗
+
+[SAKURA/skr0672] (She seemingly loses her memory……) 
+
+[MAKIOKA]「woo woo……woo woo woo woo woo」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@huki b=1 wt=1
+
+[SAKURA/skr0673]「woo wa ah!!」
+
+@dir dir=u wt=1
+@wait t=500
+
+　Looking to the direction of voice, SAKURA saw the naked MAKIOKA on the ground.
+
+@bs f=サクラ@驚き
+
+[SAKURA/skr0674]「MAKIOKA……?」
+
+@huki id=101 b=8 wt=1
+
+[MAKIOKA]「I beg you……forgive me……please……」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr0675] (Why did he faint here in naked body……moreover……what on earth have I done?) 
+
+　SAKURA really wants to know what has happened within one hour; however, anyway, moaned MAKIOKA has lost his consciousness.
+
+@huki b=8 wt=1
+
+[SAKURA/skr0676]「Her body……sticky……what is this……what on earth has happened?」
+
+@bs f=サクラ@哀しみ op2=汗
+
+[SAKURA/skr0677] (Although I feel sorry somewhat……I have to go home firstly. I have to bath at home.) 
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA/skr0678]「……MAKIOKA, I’m gonna go now.」
+
+[MAKIOKA]「woo woo……please forgive me……」
+
+@huki b=8 wt=1
+
+[SAKURA/skr0679]「……be sure to prevent from catching a cold……」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+　Covering school uniform onto the naked MAKIOKA, SAKURA lefts the school.
+

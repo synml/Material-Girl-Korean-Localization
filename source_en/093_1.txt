@@ -1,0 +1,48 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_06働く.txt】
+;; Phase Ⅲ
+
+;; Waiting Room
+
+@bgm f=bgm01
+
+@huki id=3 b=3 wt=1
+
+[Boss]「Thank you for your hard work today ♪ SAKURA ♪ um hoo hoo ♪ today, you made it ♪」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+@huki b=3 wt=1
+
+[SAKURA/skr1408]「Yes. I made it」
+
+@huki id=3 b=4 wt=1
+
+[Boss]「um hoo hoo ♪ SAKURA, you give off the woman’s best brilliance ♪」
+
+[Boss]「Now you are very excellent. ♪ so enviable ♪」
+
+@bs f=サクラ@笑み op2=音符
+
+[SAKURA/skr1409]「Thank you very much」
+
+@huki id=3 b=3 wt=1
+
+[Boss]「Be sure to work harder ♪」
+
+@bs f=サクラ@笑み
+
+@huki b=1 wt=1
+
+[SAKURA/skr1410]「OK!」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@se f=Move
+@fadeout
+
+　After obtaining the salary, SAKURA began to change the clothes happily.
+

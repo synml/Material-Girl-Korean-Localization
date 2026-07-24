@@ -1,0 +1,345 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+@bgm f=bgm11
+
+;;ＣＧ■CG07
+@bgf bg=ev07 t=1000
+
+
+[SAKURA/skr0682] 「Um......Um......」
+
+[SUDOU] 「I have always been doing research on you, SAKURA.」
+
+[SUDOU] 「After all, the more you want to resist, the greater pleasure I will get out of fucking you.」
+
+SUDOU opens SAKURA's legs largely.
+
+[SUDOU] 「Huh, I have to lock up the door of the medical room well.」
+
+[SUDOU] (Haha, after all, I don't want anyone to see what will happen.)
+
+SUDOU licks his lips and then locks the door up from the inside.
+
+[SUDOU] 「It's all set.Huh, I don't know how many times I masturbate while thinking about your body.」
+
+[SAKURA/skr0683] 「Um......um.......um」
+
+Every time fainting SAKURA breathes, that beautiful bubbies will shake up and down.
+
+[SUDOU] (Though I want to fuck her violently at once......)
+
+[SUDOU] (But if she wakes up, it's gonna be a trouble......I have to be careful.)
+
+[SUDOU] (Huh, Let me put that "thing" in later on.Think about it, SAKURA)
+
+[SUDOU] (If she faints because of the devoid of energy, it is not easy for her to wake up)
+
+[SUDOU] (Based on my past experience, huh, even if my dick pokes in, she won't wake up)
+
+[SUDOU] (After all, I fucked a lot of girls in this way.)
+
+[SUDOU] 「Let me appreciate your body first.」
+
+After saying, SUDOU reaches his hand out to SAKURA's sweater.
+
+@se f=衣擦れの音1
+;;ＣＧ■CG07a
+@bgf bg=ev07a t=500
+
+[SAKURA/skr0684] 「Um......Um......Aha」
+
+[SUDOU] (Um......? Is she awake?)
+
+SUDOU makes her bubbies naked and then takes off her panties, making her lower body naked.But at that time, SAKURA twists her body.
+
+[SAKURA/skr0685] 「Um......Um......Um......Huh」
+
+[SUDOU] (Nothing went wrong, actually......Huh.It made me kinda scared.)
+
+[SUDOU] (I cannot let her wake up before I put my dick in If I put my dick in, haha, everything will be set)
+
+If I "fuck" her, I can threaten her using this fact.
+
+[SUDOU] (Anyway......Her body is awesome)
+
+[SAKURA/skr0686] 「Huh......Um, um--, um---」
+
+SUDOU looks at half naked SAKURA from the above and his dick is so large that it seems to make the pants burst.
+
+[SUDOU] (Although I want to poke my dick in and fuck her right now......)
+
+[SUDOU] (Calm down, calm down.I cannot awaken her before me going in)
+
+SUDOU tries to let himself calm down and approach his face to that naked pussy.
+
+[SUDOU] 「The smell of sweat and pee, huh, really nice smell, SAKURA)
+
+[SAKURA/skr0687] 「Huh......um, huh, aha......」
+
+Maybe she feels the air breathed to her pussy, SAKURA slightly twists her body.
+
+[SUDOU] (SAKURA, let me examine how your pussy look like)
+
+@se f=淫唇を開く音
+;;ＣＧ■CG07b
+@bgf bg=ev07b t=500
+
+[SAKURA/skr0688] 「Um......Um, huh」
+
+After that pussy is opened by coarse fingers, SAKURA breathes out.
+
+[SUDOU] (Hahaha, SAKURA, I am helping you to open the pussy)
+ .
+[SUDOU] (Young girls are really awesome.After all those old women won't have this "fresh" pussy.)
+SUDOU watches the twist of that pinky flesh wall and smiles licentiously.
+
+[SAKURA/skr0689] 「Um, ummm......Um, um, ummm」
+
+[SUDOU] (Haha, you face is turning red, isn't it?SAKURA.What kind of dream are you having right now?)
+
+[SUDOU] (A dirty dream? But we will do some dirty things now.)
+
+[SUDOU] (Just watchign her is not enough.)
+
+SUDOU moved his fingers around her pussy, as if caressing it.
+
+[SAKURA/skr0690] 「Hmm, hmm...ummm...ummm」
+
+[SUDOU] (It's getting a little wet. If I slowly put my penis in, she won't be woken up then)
+
+[SUDOU] (Your body is rather sensitive, SAKURA. Seems this will be a great sex experience)
+
+[SAKURA/skr0691] 「Ah...Ummm!? Ah!」
+
+[SUDOU] 「!?」
+
+[SUDOU] (You scared me. Don't move all of sudden. No...Don't wake up now...)
+
+[SUDOU] (If she wakes up at the moment, all will be in vain)
+
+SUDOU held the labia open as he looked at SAKURA.
+
+[SUDOU] (Well, it seems alright. Time to put it in)
+
+[SAKURA/skr0692]「Hah, ummm...ah, um, ummm...」
+
+[SUDOU] (It will be OK if I slowly put it in...Well, time to get in. SAKURA)
+
+@se f=挿入音
+;;ＣＧ■CG07c
+@bgf bg=ev07c t=500 v=1
+@bgs f=aegi_skr1
+
+;; For retrospect if virgin
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;;Following is the text if SAKURA is considered as a virgin.
+
+[SAKURA/skr0693]「Um...um...um...um, ummm」
+
+[SUDOU] (Ummm! So tight. Oh!? She's a virgin. Well, today's my lucky day)
+
+When the penis got in, the virgin blood drained from the junction.
+
+[SUDOU] (SAKURA, I took your virginity. Aren't you happy!)
+
+[SAKURA/skr0694] [Aha, ah...um, ummm...ummm.]
+
+[SUDOU] (I will inscribe the trace of this penis, to make you never forget how it took away your virginity.)
+@se f=ピストン l=1
+
+(Sound of insertion)
+
+[SUDOU] (Ah, so tight. A virgin feels so different. Your pussy is awesome, SAKURA)
+
+[SAKURA/skr0695] 「Ha, ummm...ummm...ummm」
+
+[SUDOU] (What an ecstatic expression. Such a face makes me wanna fuck you even harder)
+
+[SUDOU] (Aah! I want to fuck her so hard...)
+
+[SUDOU] (Will this awake her? No, a little bit harder will be fine, right?)
+
+SUDOU paied attention not to wake SAKURA up as he gradually sped up the insertion.
+
+[SAKURA/skr0696] 「Um...ummmm...ah, um, ha...um」
+
+[SUDOU] (Well!? It seems OK. I'll work harder then, SAKURA!)
+
+;;Above is the text if SAKURA is considered as a virgin.
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;;Following is the text if SAKURA is not considered as a virgin.
+
+[SAKURA/skr0697] 「Ah, umm...aah, um...um, ummm.」
+
+[SUDOU] (Um...It's so tight, but I can put it in easily.)
+
+The penis slided into her pussy with a watery sound of insertion.
+
+[SUDOU] (Hum! Already had sex with others.)
+
+[SUDOU] (Could it be TSUKASA?)
+
+[SUDOU] (That guys seems so worried when SAKURA fell down...Well!)
+
+[SUDOU] (TSUKASA, the girl you like is now under my body!)
+
+@se f=ピストン l=1
+
+SUDOU thought of the face of his student TSUKASA as he slowly twisted his waist.
+
+[SAKURA/skr0698] 「Aah...Umm...Ummmm...Aaah」
+.
+[SUDOU] (Hum! Seeing her like this makes me out of control.)
+
+[SUDOU] (As if begging me for more! I'll do it right now, SAKURA!)
+
+[SAKURA/skr0699] 「Ha!? Ah...ummm!」
+
+[SUDOU] (Well, are you having erotic dreams while being violated by my penis? Putting out such a sluttish expression!)
+
+[SUDOU] (Aah, I cann't help it!)
+
+SUDOU could not suppress his bubbling instinct. He got his penis in and out of SAKURA's body fiercely as due to his sexual desire.
+
+;;Above is the text if SAKURA is not considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+;;Following is the text for common.
+
+@se f=ピストン_高速 l=1
+@bgs f=aegi_skr2
+
+(Sound of insertion)
+
+[SAKURA/skr0700] 「Um! Ummm! ah...um...aaah」
+
+[SUDOU] (Ha! Her boobs are flipping continuously! What a wonderful sight!)
+
+Whenever SUDOU hit her waist, her bare boobs bumped up and down.
+
+[SUDOU] (Oh, it's sucking me so tight! Your womb wants my cum so much, huh!?)
+
+[SAKURA/skr0701]「Um...Ah...um, uh, ummm」
+
+[SUDOU] (I'll make you cry even louder! Come on! Come on!)
+
+[SUDOU] (Oops, I'll need to film the sex scene before I continue....)
+
+[SUDOU] (Good, it's OK now. It doesn't matter even if you wake up. I'll fuck you hard!)
+
+[SAKURA/skr0702]「Umm! Um! Um! Umm! Ummm!」
+
+[SUDOU] (Ha, SAKURA, you're the first girl being violated so hard but haven't woken up.)
+
+[SUDOU] (But I don't dislike the shamless you! I'll send you to orgasm while you're sleeping!
+
+[SUDOU] (Come on! Come on! Come on!)
+
+The intense grape of her pussy showed that SAKURA's body is reacting to the insertion.
+
+[SUDOU] (Ummm! Your pussy is awesome!)
+
+[SAKURA/skr0703] 「Ha!? Um...aah...umm...um, aaaah!」
+
+[SUDOU] (Are you there!? Good! Come! Come!)
+
+[SAKURA/skr0704] 「Umm!? AAAh! Um, aaah!」
+
+[SUDOU] (Umm!? I'm coming....!)
+
+@se
+@bgs
+;;ＣＧ■CG07d
+@fin bg=ev07d se=射精音 v=1
+
+(The sound of sperm coming)
+
+[SAKURA/skr0705] 「Um!? AAh! Ummm!」
+
+[SUDOU] (SAKURA, you're having an orgasm. Your pussy is convlusing...you're having an orgasm, right!?)
+
+SUDOU looked at SAKURA's face as he ejected his cum inside her pussy.
+
+[SAKURA/skr0706] 「Ha! Aaaaah!」
+
+[SUDOU] (She's having an orgasm. Well, an orgasm while sleeping, how extraordinary)
+
+[SUDOU] (Well!? It's sucking tight again!)
+
+[SAKURA/skr0707] 「Aha, umm...ummm! Um! Aaaah!」
+
+SAKURA trembled unconsciously on the bed and exhalated a damp and hot breath.
+
+[SUDOU] 「Aha, aha, ah」
+
+[SUDOU] You're sucking me so hard...Seems like you're longing for my cum Then I'll give you!)
+
+@fin se=射精音
+
+(The sound of sperm coming)
+
+[SAKURA/skr0708] 「Aah, um, ha, umm!」
+
+[SUDOU] (Well, it can't hold all the sperm and it's coming out. SAKURA)
+
+[SUDOU] (Ho-ho-ho. I haven't been such satisfied in a long time. Thank you so much, SAKURA)
+
+After ejaculation, SUDOU gave a sigh of relief and slowly took his penis out.
+
+;;ＣＧ■CG07e
+;;@bgf bg=ev07e t=500 v=1
+
+[SAKURA/skr0709] 「Um...ah...umm...ummmm...」
+
+[SUDOU] 「Ho-ho-ho」
+
+As the penis came out, foam bubbled from her pussy and out came the cum.
+
+[SAKURA/skr0710] 「Um...um, um...ummm」
+
+[SUDOU] (Such an intense violation didn't wake you up. Well, you're something)
+
+[SUDOU] (Then again...Just looking at her makes me wanna fuck her again)
+
+[SUDOU] (Even though I'd like another fuck...but class is almost over)
+
+[SUDOU] (Anyway, she'll definitely wake up if I do it again...I'll have to wait for another time)
+
+[SAKURA/skr0711] 「Aha, umm...um...aha, aha, ummm...」
+
+[SUDOU] (Ha, I'll come and fuck you in a few days, SAKURA)
+
+[SUDOU] (And your pussy will keep my penis in mind, right)
+
+SAKURA lay on the bed, still indulged in the remins of orgasm. SUDOU glanced at her and left the healthcare room.
+
+[SAKURA/skr0712] 「Um...aah, aaah」
+
+Only the sound of SAKURA's hot breath could be heard in the healthcare room.
+
+@rps
+@bgs
+@bgv
+@se
+
+

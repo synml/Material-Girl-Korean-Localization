@@ -1,0 +1,181 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@bgm
+@c_jump x=18 y=5 id=101
+@dir id=101 dir=down
+@invisible type=on
+@invisible type=on id=3
+
+@dir dir=up
+@fade type=in t=1000 wt=1
+
+@se f=Move1
+@invisible type=off
+
+@move_speed spd=3
+
+@route route=up:5 wt=1
+
+@huki b=8 wt=1
+
+@dir dir=right wt=1
+@wait t=200
+@dir dir=left wt=1
+@wait t=250
+
+@dir dir=right wt=1
+@wait t=200
+@dir dir=left wt=1
+@wait t=250
+
+@dir dir=up
+@huki b=8 wt=1
+
+@se f=Move1
+@change f=パン屋 id=101 num=0
+@huki b=1 id=101 wt=1
+@move_speed spd=5 id=101
+
+@route route=down id=101
+@dir dir=left id=101
+
+@bgm f=bgm05
+@huki b=1 id=101
+@huki b=1
+@c_jump
+
+@move_f f=パン屋 face=0 in=r t=300
+[점장]「어서 오시오!」
+
+@huki b=1
+@dir dir=right
+
+@move_f f=サクラ@驚き op2=ビックリ in=l t=300
+[사쿠라]「엑……!?」
+@move_f f=パン屋 face=0 out=r t=300 wt=0
+@move_f f=サクラ@驚き out=l t=300
+
+사쿠라를 맞이한 것은, 귀여운 가게와는 전혀 어울리지 않는 떡 벌어진 체격의 중년 남자였다.
+
+무…… 무서워……!
+
+@huki b=8 wt=1
+
+@huki b=2 id=101
+@huki b=7
+@move_f f=パン屋 face=0 in=r t=300
+@move_f f=サクラ@悔しい op2=困惑 in=l t=300
+[사쿠라]（설마 손님은 아니겠지?　우락부락한 근육 좀 봐…… 혹시, 이 사람이 점장인가?）
+@move_f f=パン屋 face=0 out=r t=300 wt=0
+@move_f f=サクラ@悔しい out=l t=300
+
+;; This big-boned robust middle-aged man greets me with his rough voice――
+
+;; SAKURA feels fearful somewhat.
+
+@huki b=6 wt=1
+
+@huki b=2 id=101
+@huki b=8 wt=1
+
+@huki b=7
+@move_f f=サクラ@悔しい op2=困惑 in=l t=300
+[사쿠라]（지금 놀라고 있을 때가 아니지. 얼른 알바 얘기부터 꺼내야 해!）
+@move_f f=サクラ@悔しい out=l t=300
+
+@route route=right
+
+@huki b=8
+@move_f f=パン屋 face=0 in=r t=300 wt=0
+@move_f f=サクラ@哀しみ in=l t=300
+[사쿠라]「아르바이트 모집 보고 왔는데요」
+
+@huki b=1 id=101
+@c_jump id=101 wt=1
+[점장]「오오!　알바 지원이구먼! 이야, 이거 큰 도움이 되겠소」
+
+@huki b=8 id=101
+[점장]「나는 말이오, 최고의 빵을 만들려고 이 빵집을 차렸는데……」
+
+@huki b=6 id=101
+[점장]「들어온 손님들이 날 보자마자 뒤돌아 도망쳐 버린단 말이지」
+
+@huki b=6
+@bs f=サクラ@考え中 op2=汗
+[사쿠라]（그건…… 나도 어느 정도 이해가 가……）
+
+;; After hearing the store manager’s words, SAKURA acquiesces to this fact.
+
+@huki b=7
+@bs f=サクラ@悔しい op2=困惑
+[사쿠라]（나도 깜짝 놀랐으니까…… 가게 분위기랑 너무 딴판이잖아）
+
+@huki b=9 id=101
+[점장]「그러니까, 뭐 그런 사정이오. 내가 카운터를 보느니, 일해 줄 아가씨가 있는 편이 백번 낫겠다 싶어서」
+
+@huki b=3 id=101
+[점장]「그래야 나도 최고로 맛있는 빵 만들기에만 전념할 수 있으니 말이오. 시급을 이만큼 쳐주는 것도 그래서라오」
+
+@huki b=2
+@bs f=サクラ@哀しみ op2=ハテナ
+[사쿠라]「저기…… 가게에서 일하는 건, 저 혼자인가요?」
+
+@huki b=3 id=101
+[점장]「뭐, 우리 가게가 그리 잘되는 편은 아니라서 말이지～. 당장은 알바 한 명 쓰는 게 고작이라오」
+
+@huki b=1 id=101
+[점장]「그러니까, 카운터는 아가씨 혼자 보는 거요」
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[사쿠라]（난 낯선 사람이랑 얘기하는 게 서툰데…… 이 일은 나랑 안 맞을 것 같아）
+
+@huki b=7
+@bs f=サクラ@哀しみ op2=困惑
+[사쿠라]（같이 일하는 사람이라도 있으면 모를까…… 나 혼자라면…… 좀 자신 없는데）
+
+@huki b=8
+@bs f=サクラ@悔しい
+[사쿠라]（이렇게 시급 좋은 일자리가 아깝긴 하지만…… 거절하는 게 낫겠지?）
+
+@huki b=1 id=101
+[점장]「이야, 아가씨 같은 사람이 우리 가게에 와 주다니, 그야말로 하늘이 내린 구세주요」
+
+@huki b=3 id=101
+[점장]「그 쿨한 느낌, 빵만 만들겠다는 내 철학과 완벽하게 일치하오!」
+
+@huki b=7
+@bs f=サクラ@驚き op2=困惑
+[사쿠라]（이제 와서 거절하기도 민망한데…… 어쩌면 좋지……）
+
+@huki b=1 id=101
+@c_jump id=101
+[점장]「참!　알바생을 위해 준비해 둔 유니폼이 있소. 꼭 한번 입어 봐 주겠소!?」
+
+@huki b=3 id=101
+@huki b=6 wt=1
+
+;; The store manager looks at SAKURA sincerely.
+
+@huki b=7
+@bs f=サクラ@考え中 op2=困惑
+[사쿠라]（점장님, 내 생각을 읽은 건가…… 옷 한 번 입어 보는 것 정도라면……）
+
+@bs f=サクラ@哀しみ op2=汗
+[사쿠라]「그럼…… 일단 입어 보기만 할게요」
+
+@huki b=3 id=101
+[점장]「아가씨라면 분명 잘 어울릴 거요!　자자, 안에 들어가서 갈아입어 보시오」
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]「알겠습니다」
+@move_f f=パン屋 face=0 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+@fade type=out t=1000 wt=1
+@invisible type=off id=3
+@invisible type=on id=101
+
+@move_speed spd=4
+

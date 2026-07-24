@@ -1,0 +1,16 @@
+
+;; Move to the front of mansion. Restore free action
+
+
+;;【024_06aゴージャスな服購入.txt】
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（비싼 옷은 이미 갖고 있으니까……）
+
+@bs f=サクラ@無表情
+[사쿠라]（굳이 새로 살 필요는 없겠지）
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fb dir=back
+

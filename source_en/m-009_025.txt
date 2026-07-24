@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL There seems to be a man who will pay money if you show your underwear to him\nIt looks good to earn some pocket money\n\I[320]
+
+@mes_win
+

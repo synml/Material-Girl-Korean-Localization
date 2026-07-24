@@ -1,0 +1,28 @@
+
+;;【024_09好感度達成.txt】
+
+@change f=白沢 id=6 num=0
+@dir dir=down id=6
+
+@move_speed spd=9 id=6
+@route route=down id=6
+@move_speed spd=3 id=6
+
+@fade type=in t=1000 wt=1
+@move_f f=サクラ@微笑 in=r t=300
+
+[白澤]「非常感謝！　請您再來！」
+
+　一夜之后，在牛郎們的目送下，小櫻離開了店子。
+
+@bs f=サクラ@笑み op2=音符
+
+[小櫻/skr2247]（呵呵，真開心啊。下次跟其他的人做愛吧?）
+
+@move_f f=サクラ@笑み out=r t=300
+@fade type=out t=1000 wt=1
+
+　感覺自己當上了女王一般，小櫻準備回家。
+
+;;過了幾天后，自由行動
+

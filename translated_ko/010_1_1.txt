@@ -1,0 +1,18 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（오늘은 수확이 꽤 짭짤했으니, 먼저 츠카사네 집에 가자）
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+
+;; SAKURA looks forward to the delicious foods cooked by TSUKASA’s mom, and walks on her way home blithely.
+
+;;※ Bakery Uniform・ Start
+
+;;※Free action.
+
+

@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL 超自然研究部好像在三樓的教室里做什么
+@mes_win
+

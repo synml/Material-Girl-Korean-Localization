@@ -1,0 +1,8 @@
+@mes_win back=1 pos=1
+
+\CL If you don't stop making love, \nyou will be lustier and lustier?
+
+\CL ※There will be more and more hearts on the menu!\nIf you become lusty, then maybe there will be something new.
+
+@mes_win
+

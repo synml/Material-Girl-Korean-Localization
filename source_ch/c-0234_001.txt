@@ -1,0 +1,6 @@
+
+@mes_win back=1 pos=1
+
+\CL獲得芭妮兔制服！
+
+@mes_win

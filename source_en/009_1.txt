@@ -1,0 +1,41 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+@bgm
+
+@c_jump id=3 wt=0
+@huki b=1 id=3 wt=1
+
+@dir dir=down id=3
+@huki b=2
+@dir dir=up
+
+@bgm f=bgm05
+@huki b=2 id=3
+@move_f f=パン屋 face=0 in=r t=300
+[Store Manager] 「By the way, what’s your name?」
+
+@huki b=8
+@move_f f=サクラ@無表情 in=l t=300
+[SAKURA]「 I am SAKURA」
+
+@huki b=4 id=3
+[Store Manager] 「SAKURA um um. So lovely name」
+
+@huki b=8
+@bs f=サクラ@考え中
+[SAKURA]「I'm sorry for my rudeness」
+@move_f f=サクラ@考え中 out=l t=300
+
+@huki b=3 id=3
+@c_jump id=3 wt=1
+[Store Manager] 「I will wait for you!」
+
+@move_f f=パン屋 face=0 out=r t=300
+
+@dir dir=down
+
+@se f=Move1
+@fade type=out t=1000 wt=1
+@bgm
+
+

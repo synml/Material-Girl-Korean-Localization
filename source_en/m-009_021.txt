@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL Don't go even if accosted by a frivolous man! \n I don't know how they will talk about me
+
+@mes_win
+

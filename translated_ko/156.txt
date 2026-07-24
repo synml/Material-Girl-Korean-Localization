@@ -1,0 +1,31 @@
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki id=4 b=8 wt=1
+[호스트1]「어서 오십시오」
+
+@huki id=5 b=8 wt=1
+[호스트2]「손님께서 즐거운 시간을 보내실 수 있도록, 성심성의껏 모시겠습니다」
+
+@huki id=6 b=8 wt=1
+[호스트3]「잘 부탁드립니다」
+
+@huki b=1 wt=1
+@bs f=サクラ@驚き
+
+[사쿠라]（와아, 굉장해…… 이런 미남들의 극진한 시중을 받을 수 있다니……）
+
+[사장님]「이쪽은 저희 가게의 3대 넘버, 시라사와, 구로다, 아오키입니다」
+
+[사장님]「마음껏 즐기다 가십시오」
+
+@move_f f=サクラ@驚き out=r t=300
+
+;; ○Mini-game: Advanced Host Club
+;;○Branch: Within the limit time, no host reaches favorability of MAX →024_08 好感度未達成
+;;○Branch: Favorability is MAX→024_09好感度達成
+
+@fade type=out t=1000 wt=1
+@invisible type=on id=7
+@dot_move x=4 y=4 dir=down
+

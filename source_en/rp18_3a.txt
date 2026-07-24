@@ -1,0 +1,337 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;; Reading the image in advance
+@fadeout
+@pl f=S_ev18b v=1
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm06
+
+;;ＣＧ■CG18
+@bgf bg=ev18 t=1000
+@bgs f=aegi_skr1
+
+[White collar]「This......」
+
+[SAKURA/skr2056]「Ah, hey-hey......Hum, your penis is getting so big! Never say you do not want it!」
+
+@se f=愛液1
+
+　SAKURA twisted her flexible body to show to the man while rubbed the penis of the man with her pussy.
+
+[White collar]「Ah, ahh, humm......But......」
+
+[SAKURA/skr2057]「Look♪ Hum, ahh, what about the liquid♪」
+
+[SAKURA/skr2058]「Your penis is very honest!」
+
+[White collar]「Wait, wait a moment......I just got married not long before. How, how can I do it......」
+
+[SAKURA/skr2059](Right. He is thinking of his wife......Because they just got married......)
+
+[SAKURA/skr2060](But, he is thinking of his wife after seeing me naked......I cannot bear it.)
+
+[SAKURA/skr2061]「Your penis is getting bigger, because you want to fuck me, right?」
+
+[White collar]「That, that is because......You push me to do so......」
+
+[SAKURA/skr2062]「Oh. Then I stop it now.」
+
+[White collar]「Eh!?」
+
+[SAKURA/skr2063]「Hey-hey♪ You want it, don’t you?」
+
+[White collar]「......」
+
+[SAKURA/skr2064]「Are you going to insert into my pussy? Hum, hum, or I can stop it now.」
+
+@se f=愛液1
+
+　SAKURA rubbed the penis with her pussy as if she wanted to make the penis feel about her soft pussy.
+
+[White collar]「Ahh, ahh......Hum......Sorry, ......SAEKO......」
+
+[SAKURA/skr2065](Hum, hum♪ The name of his wife is SAEKO.)
+
+[White collar]「Then, well......please continue......」
+
+[SAKURA/skr2066]「Hey-hey♪ Then, thirty thousand Japanese yen exactly later♪」
+
+[White collar]「OK, I see」
+
+[SAKURA/skr2067]「♪I’m so sorry, SAEKO♪ I’m going to play with the big penis of your husband♪」
+
+[White collar]「Ahhh!」
+
+@se f=挿入音
+;;ＣＧ■CG18a
+@bgf bg=ev18a t=500 v=1
+@bgs f=aegi_skr2
+
+;; Following is the recall if SAKURA is considered as a virgin.
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following is the text if SAKURA is considered as a virgin.
+
+[SAKURA/skr2068]「Whir......Ahh, ahhh, ahh, umm......Ah, whir!」
+
+[White collar]「Is this the first time for you!?」
+
+[SAKURA/skr2069]「Hey-hey-hey, are you happy to make love with a virgin?」
+
+[White collar]「Well......not so much. It is the first time for you......Why would you like to do it......」
+
+[SAKURA/skr2070]「Ahh, I have told you that I need money. Ah, ahh, did you make love with your wife when she was a virgin?」
+
+[White collar]「No, she wasn’t......」
+
+[SAKURA/skr2071]「Then please enjoy it......Ahh, ahhh♪ Just enjoy the pussy of a virgin♪」
+
+　With a bright smile on her face, SAKURA slowly sat down to put the whole penis into her pussy.
+
+;; Above is the text if SAKUFA is considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;; Following is the text if SAKURA is not considered as a virgin.
+
+[SAKURA/skr2072]「Ahh! Hum! Ahh! Ahhhh! Your gient penis......is fiercely moving in my body♪」
+
+[White collar]「I, I do not mean to do that......」
+
+[SAKURA/skr2073]「Even a man just got married, hey-hey, wants to make love with other woman, am I right?」
+
+[White collar]「That, that is because......」
+
+[SAKURA/skr2074]「Ahh, ahh, hum, then just enjoy......the pussy different from your wife♪ Humm! Humm」
+
+　With aggradevole laughter, SAKURA fiercely sat down, until wrapped the whole penis with the pussy to the deep.
+
+;; Above is the text if SAKURA is not considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+;; Following is the text for common.
+
+[SAKURA/skr2075]「Ahh! Humm! Ahhhh......Your penis is inserting......into the deep of my pussy」
+
+[White collar]「Humm, whir, ahh......I’m betraying you, SAEKO」
+
+[SAKURA/skr2076]「Ahh, are you still thinking of your wife? Your penis is inserting into my pussy♪」
+
+[White collar]「Eh! That, that is because......you are always reminding me about my wife!」
+
+[SAKURA/skr2077]「Ahh, ahh, umm, hum, which is better, my pussy or your wife’s?」
+
+[White collar]「No......I will not answer this question!」
+
+[SAKURA/skr2078]「Then, I’m going to making you more excited......Humm! Humm! Humm!」
+
+[White collar]「Ahhh!? Ahhhh!」
+
+[SAKURA/skr2079]「Ahh♪ Your giant penis seems to be happy......Ahhh, ahh, ahhh♪」
+
+[White collar]「So, so tight......Ah......Oh, your pussy is so tight......」
+
+[SAKURA/skr2080]「Then you can forget about your wife?」
+
+[White collar]「Please......Please do not remind me about her again.」
+
+[SAKURA/skr2081]「Because you want to concentrate on making love with me?」
+
+[White collar]「......」
+
+[SAKURA/skr2082]「Ahh, ahhh, hum, humm......Just say it clearly♪」
+
+[SAKURA/skr2083]「Say that you want to concentrate to make love with me and beg me not to remind you about SAEKO again.」
+
+[White collar]「I, I want to concentrate to make love with you......Do not remind me about SAEKO again, ahh!」
+
+[SAKURA/skr2084](Ahh♪ I’m getting more and more excited♪ I, I just......took him away from his wife♪)
+
+[SAKURA/skr2085](At this moment......the moment making love, he does not belong to his wife, but me♪)
+
+[SAKURA/skr2086](I’m so excited......My uterus is getting tighter......Ahh♪)
+
+[White collar]「Ahh!? Eh! You are getting tighter......Good......」
+
+[SAKURA/skr2087]「♪Hum♪ Humm♪ I’m getting tighter♪ Just enjoy it!」
+
+Lost in the joy of taking a man away from his wife, SAKURA twisted her waist even faster.
+
+;;ＣＧ■CG18b
+;;@bgf bg=ev18b t=500 v=1
+
+@flash t=500
+@ev_anime f=S_ev18b sx=8 sy=2 fps=3 v=1
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+[SAKURA/skr2088]「Whir! Ahh! Ah! Uh-huh! Ahhh!」
+
+[White collar]「Ahh, ahh, I, I cannot help ejaculating!」
+
+[SAKURA/skr2089]「Hum!? Whir! Eh! Ahh, the big penis......Come on......」
+
+[SAKURA/skr2090]「Come on♪ Come on to mash my pussy♪」
+
+[White collar]「Hum! Humm! Hummm!」
+
+[SAKURA/skr2091]「Good! So good! Move faster!」
+
+[White collar]「Because......you are so lewd......!」
+
+[SAKURA/skr2092]「How do you feel when making love with your wife, as excited as making love with me?」
+
+[White collar]「No, SAEKO does not like exciting gestures......」
+
+[SAKURA/skr2093]( ♪Hey-hey, he has been addicted to making love with me......He starts to mention about his wife voluntarily.)
+
+[SAKURA/skr2094]「I......I like exciting movements♪ Fuck me harder♪」
+
+@se f=ピストン_激しい l=1
+
+[White collar]「Like this? Hum! Hum! Humm!」
+
+[SAKURA/skr2095]「Good♪ You are so good♪ Cool!」
+
+[White collar]「Ahh, do you like my penis now?」
+
+[SAKURA/skr2096]「This is your penis♪ It make my pussy excited! Hum! Ahh! Ahhh!」
+
+[SAKURA/skr2097]「Which do you like better, your wife’s pussy or mine?」
+
+[White collar]「Well......but......Ahhh! Now......I mean at his moment, I prefer your pussy!」
+
+[SAKURA/skr2098]「I’m so happy! Humm! Ehh! Ahh! Give me an orgasm! Give me an orgasm with your giant penis!」
+
+[White collar]「I will! I will give you an orgasm! Come on......Hum!」
+
+[SAKURA/skr2099]「I’ll give you an orgasm♪ Whir, hum! Just enjoy it♪」
+
+　Lost in desires, they moved unceasingly to pursue for the final orgasm.
+
+@bgs f=aegi_skr4
+
+[SAKURA/skr2100]「Whir! Eh! Ahh! Ahh! Ahhh! Hum! Ahhhh!」
+
+[SAKURA/skr2101](Compared with his wife’s pussy, he likes mine better♪ It’s so exciting......Ah♪)
+
+[SAKURA/skr2102](The giant penis......belongs to me at this moment! He is lost in my pussy♪)
+
+[White collar]「Ahh! Ahh! Humm! It seems......I’m having an orgasm!」
+
+[SAKURA/skr2103]「No......Not yet......Ahh!」
+
+[White collar]「Although you want me to take it further......No, I cannot......Ah! I’m having an orgasm!」
+
+[SAKURA/skr2104]「Humm! Hummm! Hummmm!」
+
+　SAKURA sat down fiercely on purpose, so as to stop the man to pull his penis out. 
+
+[White collar]「You, what do you want......? No......I cannot......I cannot ejaculate into your pussy! I do not wear a condom!」
+
+[SAKURA/skr2105]「You can......you can ejaculate into my pussy♪ I want to be pregnant for you before your wife♪」
+
+[SAKURA/skr2106]「Whir! Hum! Eh! I want to be pregnant for you! Humm! Hummm!」
+
+[White collar]「No, you cannot! I, I......love my wife!」
+
+[SAKURA/skr2107]「Ejaculate! Just ejaculate! Ejaculate into my pussy!」
+
+[White collar]「I cannot help......Ahhh! No, I cannot do this!」
+
+[SAKURA/skr2108]( I will be pregnant for a married man♪)
+
+[SAKURA/skr2109]( So good! I’m so excited......Ah! I’m getting more and more excited! I’m having an orgasm!)
+
+[White collar]「No, please do not! I’m having an orgasm! I’m ejaculating! Ahhh!」
+
+[SAKURA/skr2110]「I’m sorry, SAEKO♪ I’m going to having an orgasm when making love with your husband, ahh♪ 」
+
+[SAKURA/skr2111]「I’m getting there, ahhh! I’m having an orgasm, ahhhhhhh!」
+
+@bgs
+@se
+;;ＣＧ■CG18c
+@fin bg=ev18c se=射精音 v=1
+
+[SAKURA/skr2112]「Here they are......Ah......Ah♪ Here they are......Ah♪ Eh! Eh! Ahhhhh!」
+
+[SAKURA/skr2113]( A married man is ejaculating into my pussy......Ahh ♪)
+
+[White collar]「Please forgive me......SAEKO......Ahh」
+
+[SAKURA/skr2114]「Ahh, ehh......If I am pregnant for you......You♪ you cannot leave me ♪」
+
+[White collar]「What, what do you say......」
+
+[SAKURA/skr2115](Hey-hey, I do not worry about it......But I want to play with him when seeing his anxious expression......)
+
+@bgs f=aegi_skr3
+
+[SAKURA/skr2116](What’s more......Ahh, as long as I think about being pregnant for a married man......)
+
+[SAKURA/skr2117](There is a pain on my uterus, but I cannot help feeling cool!)
+
+[SAKURA/skr2118]「Humm! Ahhh! Ehh! Ahh! Ahh! I’m going to having an orgasm!」
+
+[White collar]「Wait, wait......Ah, you are so tight there, and I......Ah!」
+
+@fin se=射精音
+
+　Chirps! Chirps!
+
+[SAKURA/skr2119]「Ahhh!? Ahhh! I’m having another orgasm......」
+
+[SAKURA/skr2120]「You do want to make me pregnant♪ You are ejaculating so much♪」
+
+[White collar]「No......not at all!」
+
+[SAKURA/skr2121]「Eh! Humm, ahh, my uterus......is full of your sperms!」
+
+[SAKURA/skr2122]「Ahh! Ah! Ahh! Ahhhh! Ahh!」
+
+　Seeing the sperms flowing from their sexual organs, the man was in a daze and SAKURA was in a trance.
+
+;;ＣＧ■CG18d
+@bgf bg=ev18d t=500 v=1
+@bgs f=aegi_skr1
+
+[White collar]「Ahh......What did I do......」
+
+[SAKURA/skr2123]「Ahh, ahh, humm......Hey-hey......If I give birth to a baby for you, I will bring it to your wife♪」
+
+[SAKURA/skr2124]「Ahh, hey-hey......Huh♪ You cannot leave me then......Ah......Ahhh, Huh♪」
+
+@bgs
+
+[White collar]「Please forgive me......SAEKO......Please forgive me......」
+
+　Seeing the man apologizing to his wife due to the regret of his behaviors, SAKURA smiled as a little devil. She left from the penis by slowly raising her waist.
+
+
+@rps
+
+

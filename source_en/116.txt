@@ -1,0 +1,29 @@
+
+;;【020_05ステージクリア.txt】
+
+;; Free action outside the building.
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@驚き in=r t=300
+[SAKURA]「woo ……woo woo woo……ah ah!?」
+
+@huki b=7
+@bs f=サクラ@哀しみ
+[SAKURA]「 I, I……」
+
+@bs f=サクラ@羞恥 op2=困惑
+[SAKURA] (I have been raped again……climax……) 
+
+[Researcher]「If you can, I hope that you can continue to play this game.」
+
+@huki b=8 wt=1
+@bs f=サクラ@悔しい
+[SAKURA]「……I can’t guarantee that.」
+
+[Researcher]「If you are interested in it, you may find me at any time.」
+
+@move_f f=サクラ@悔しい out=r t=300
+
+@se f=Move
+@fadeout

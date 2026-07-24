@@ -1,0 +1,34 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04c汎用選択肢勝負しない.txt】
+
+@bgm f=Dungeon5
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[사쿠라]（오늘은 관두자……）
+
+@wait t=1000
+
+@bs f=サクラ@哀しみ op2=拒否
+
+[사쿠라]「다음에, 기회 되면 해요」
+
+[양아치남1]「다음엔, 꼭 붙는 거다!」
+
+[양아치남2]「기다리고 있을게!」
+
+@bs f=サクラ@無表情
+
+[사쿠라]「저는 이만 가볼게요」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout
+
+　승부를 원하는 남자들을 뿌리치고, 사쿠라는 재빨리 발걸음을 옮겼다.
+
+;; Restore free action
+

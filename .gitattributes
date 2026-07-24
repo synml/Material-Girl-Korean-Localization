@@ -1,0 +1,17 @@
+# 모든 텍스트 파일은 인덱스·작업 트리 모두 LF로 고정한다.
+# eol=lf가 없으면 Windows 체크아웃(특히 rebase/squash 중간 체크아웃)이 작업 트리를
+# 조용히 CRLF로 바꿔놓는다. eol=lf 경로는 정규화 후 비교하므로 그 오염이
+# `git status`에도 잡히지 않는다 (스쿼시 후 실제로 453개 파일이 CRLF로 바뀌었다).
+* text=auto eol=lf
+
+# 게임 텍스트 자원: 엔진이 바이트 단위로 읽고 원본이 LF다.
+translated_ko/** text eol=lf
+source_en/** text eol=lf
+source_ch/** text eol=lf
+patch_data/** text eol=lf
+
+# 원본 게임 데이터 사본(빌드 입력) — 게임이 배포한 바이트 그대로 보존.
+source_data/** -text
+
+# 조립된 패치 트리는 바이트 단위 산출물 — 정규화 금지.
+patch/** -text

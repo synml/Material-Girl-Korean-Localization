@@ -1,0 +1,60 @@
+
+;;【019_02止めておく.txt】
+;;【019_03勝負する.txt】
+
+@bgm f=bgm02
+@move_f f=サクラ@考え中 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA] (Even if I lose, I have no loss……if I win, I am able to obtain the bonus……) 
+
+@bs f=サクラ@微笑_z body_op=z
+
+[SAKURA]「Let us compete!」
+
+@huki id=1 b=3 wt=1
+
+[Frivolous Man １]「Very good, ♪ full of confidence～」
+
+[Frivolous Man ２]「hey, what is your name?」
+
+@bs f=サクラ@微笑
+
+[SAKURA]「 I am SAKURA」
+
+@huki id=25 b=3 wt=1
+
+[Frivolous Man １]「SAKURA～. OK～, we won’t lose～. Let us begin!」
+
+@bs f=サクラ@悔しい
+
+@huki b=8 wt=1
+
+[SAKURA] (I bet on my living cost! 　How could I lose to these dandiacal guys!) 
+
+[Frivolous Man ２]「SAKURA, you look very confident. Are you good at drinking?」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「Never……I haven’t drunken a little. However, I won’t lose!」
+
+[Frivolous Man１]「ha ha, so powerful～. However, SAKURA looks very great ♪」
+
+@huki id=35 b=3 wt=1
+
+[Frivolous Man２]「We enter the store. This way, please」
+
+@bs f=サクラ@悔しい
+
+@huki b=8 wt=1
+
+[SAKURA] (So brazen-faced……however, be patient……) 
+
+@move_f f=サクラ@悔しい out=r t=300
+
+@se f=Move
+@fadeout
+
+　Although SAKURA felt very uncomfortable when the men held her hands, she entered the store.
+

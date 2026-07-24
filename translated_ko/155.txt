@@ -1,0 +1,13 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;flagON, buy deluxe dress. 
+
+;;【024_07ゴージャスな服を着ている.txt】
+
+
+[사장님]「어서 오십시오」
+
+[사장님]「오늘은 어떤 서비스를 원하십니까?」
+
+

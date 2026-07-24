@@ -1,0 +1,21 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04a汎用選択肢.txt】
+
+@bgm f=bgm02
+@move_f f=サクラ@無表情 in=r t=300
+
+[양아치남1]「사쿠라, 우리랑 한판 붙자!」
+
+[양아치남2]「이겼다고 도망가기 없기다～」
+
+@huki b=8 wt=1
+
+[사쿠라]（어떡하지……）
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;;○Compete →019_04b汎用選択肢勝負する
+;;○Don’t compete →019_04c汎用選択肢勝負しない
+

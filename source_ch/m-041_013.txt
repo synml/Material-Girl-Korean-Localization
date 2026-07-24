@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL收下2500日元。
+
+@mes_win

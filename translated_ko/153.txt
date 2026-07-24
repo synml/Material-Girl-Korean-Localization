@@ -1,0 +1,45 @@
+
+;; Move to the front of mansion. Restore free action
+
+@dot_move x=6 y=7 dir=right id=4
+@dot_move x=8 y=7 dir=left
+
+;;【024_06aゴージャスな服購入.txt】
+@fade type=in t=1000 wt=1
+
+@huki b=2 id=4
+[가게 주인]「이 코디는 어떠신가요?」
+
+@huki b=8 wt=1
+@move_f f=サクラ@無表情_z body_op=z in=r t=300
+[사쿠라]（고급 모피에 진주 목걸이…… 보석 귀걸이와 반지까지……）
+
+@bs f=サクラ@哀しみ_z body_op=z op2=困惑
+[사쿠라]（학생 티라곤 하나도 안 나네…… 좀 과한 거 아닐까?）
+
+@bs f=サクラ@考え中
+[사쿠라]（하지만 이 정도로 차려입어야 그 가게에서 제대로 놀 수 있겠지……）
+
+@bs f=サクラ@微笑
+[사쿠라]「음, 이걸로 할게요. 계산해 주세요」
+
+@se f=Coin
+@mes_win back=1 pos=1
+\CL 100만 엔을 지불했다…….
+@mes_win back=0 pos=2
+
+@huki b=8 id=4
+[가게 주인]「구매해 주셔서 대단히 감사합니다」
+
+@bs f=サクラ@無表情
+[사쿠라]（좋아, 이번에야말로 반드시……）
+
+@move_f f=サクラ@無表情 out=r t=300
+@fade type=out t=1000 wt=1
+
+　활짝 웃는 점주에게 돈을 치르고 나니, 마음속에 자신감이 차올랐다.
+
+;; Money reduces 2,000,000 yen.
+
+;; Free action
+

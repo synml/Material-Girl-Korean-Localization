@@ -1,0 +1,321 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;; Reading the image in advance
+@fadeout
+@pl f=S_ev18b v=1
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm06
+
+;;ＣＧ■CG18
+@bgf bg=ev18 t=1000
+@bgs f=aegi_skr1
+
+[SAKURA/skr1897]「Hum.......Whirr.......Ah, so big.......」
+
+[Man]「Actually, I got a shock just now. You talked to me suddenly.」
+
+[SAKURA/skr1898]「Hey-hey-hey, I’m interested in making love with a mature and charming man like you!」
+
+[SAKURA/skr1899]「Besides, hum, I.......I have to make money.」
+
+[Man]「Oh.......But, it’s a digression. I do not care about it.」
+
+[SAKURA/skr1900]「You are right.......Now, hum.......I’m thinking about H. I want to be more comfortable.」
+
+@se f=愛液1
+
+　SAKURA slowly rubbed the penis with her wet pussy, and then twisted her waist forward and backward.
+
+[SAKURA/skr1901](We are going to make love.......Hum, hum, but he is so calm.......) 
+
+[SAKURA/skr1902](Mature man is so charming.......What experience will I have.......I’m a little nervous.)
+
+[SAKURA/skr1903](Ah, uh-huh, I.......I’m so wet now.......I may have several orgasms today.)
+
+　Looking forward to the passion of adult with the mature uncle, SAKURA got excited gradually.
+
+[Man]「In fact, I did not make love with a young girl like you, and I’m looking forward it.」
+
+[SAKURA/skr1904]「Whirr, ahh, I will try my best to make you satisfied.」
+
+[SAKURA/skr1905](Ahh, I’m getting hotter.......with the gentle touch of the uncle.......)
+
+[SAKURA/skr1906](My nipples are getting harder.......Ah, hum, ahh!)
+
+[SAKURA/skr1907](Please insert into my pussy right now.......But.......Will he feel that I’m too thirty?)
+
+@se f=愛液1
+
+　There were lewd sounds of liquid from the pussy of the moving body of SAKURA.
+
+[SAKURA/skr1908]「Uncle.......Ah.......Are you going to insert your penis into my body now?」
+
+[SAKURA/skr1909](I cannot take it anymore.......I want your penis so much.......Insert into my body, please.)
+
+[Man]「Ok.......I’m ready.......Whatever time you want it.」
+
+[SAKURA/skr1910]「Ahh, hum, ahh.......Then.......I’m having your penis into my body♪」
+
+　SAKURA lifted up the erected penis with her hands, and raised her waist slowly.
+
+[SAKURA/skr1911](My liquid from the pussy.......makes your penis wet and smooth.......)
+
+[SAKURA/skr1912]「Ahh.......Hum.......Ahh, ahh, uh-huh, ahhh!」
+
+[SAKURA/skr1913](I.......I’m getting so excited.......I have to calm down. Or I’m going to getting there soon.)
+
+[SAKURA/skr1914]「Hum, hum.......uh-huh.......I’m coming!」
+
+@se f=挿入音
+;;ＣＧ■CG18a
+@bgf bg=ev18a t=500 v=1
+@bgs f=aegi_skr2
+
+;; Recall if SAKURA is considered as a virgin.
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following is the text if SAKURA is considered as a virgin.
+
+[SAKURA/skr1915]「Um.......! Umm! Ahh, umm, ahh!」
+
+[Man]「Hum!? You make me surprised.......Is it the first time for you?」
+
+　The man asked with surprise when he saw the bleeding as the evidence of chastity.
+
+[SAKURA/skr1916]「Hey-hey♪ Because I always keep my first time for a mature and charming man like you.」
+
+[SAKURA/skr1917]「Ahh, uh-huh! I’m so happy now♪」
+
+[Man]「I’m your right person. Hum! Hum! I will give you the happy first time!」
+
+[SAKURA/skr1918]「♪So happy♪ Thank you.......」
+
+;; Above is the test if SAKURA is considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;; Following is the text if SAKURA is not considered as a virgin.
+
+[Man]「Hoho.......Whirr, this.......is so great.」
+
+[SAKURA/skr1919]「Ah, ah, uh-huh, I’m so happy for your praise♪」
+
+[Man]「Hum! Hum! Can I insert to the bottom?」
+
+[SAKURA/skr1920]「Sure.......I want.......your penis deeper.......」
+
+[SAKURA/skr1921]「Ahh! Whirr! Ahhh! Uh-huh!」
+
+[Man]「So good.......I’ve not been so excited for long. I’m having an exciting orgasm today!」
+
+;; Above is the text if SAKURA is not considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+;; Following is the text for common.
+
+@se f=ピストン l=1
+
+[SAKURA/skr1922]「Hum, hum! Hum, hum! Ahh! Ahh! Hum, hum!」
+
+　SAKURA twisted her waist as drawing circles after holding the whole penis into her body.
+
+[SAKURA/skr1923](Your penis.......is so good.......Your penis can touch with my favorite part as long as a slight move.......Um)
+
+[SAKURA/skr1924](As if.......your penis knows my pussy so well.......!)
+
+[SAKURA/skr1925](I will.......Ahhh! I will have an orgasm first.......!)
+
+[SAKURA/skr1926](But, but I do not give up.......Hum!)
+
+[SAKURA/skr1927]「Ahh! Whirr! Whirr! Ahhhh!」
+
+　SAKURA tightly held the penis of the man. The pussy got tighter and tighter with the twisting body, and SAKURA got more and more excited.
+
+[SAKURA/skr1928](The uncle is looking at me.......He is looking at my twisting and lewd waist.......Um)
+
+[SAKURA/skr1929]「Uh-huh, ah, ahhh! Ahhh! Ahhhh!」
+
+[SAKURA/skr1930](It is the first time for me to make love with an uncle.......But my pussy seems so familiar with the penis.)
+
+[SAKURA/skr1931](My pussy will surely remember the penis.......Umm!)
+
+[SAKURA/skr1932](I cannot stop! I want to twist my waist.......It’s so comfortable.......I cannot stop it!)
+
+[Man]「Hey-hey, it is so passionate when making love with a young girl. It’s my turn, now!」
+
+[SAKURA/skr1933]「Ah.......? Ah!? Ahhh! Ahhhh!」
+
+;;ＣＧ■CG18b
+;;@bgf bg=ev18b t=500 v=1
+
+@flash t=500
+@ev_anime f=S_ev18b sx=8 sy=2 fps=3 v=1
+
+@se f=ピストン_高速 l=1
+@bgs f=aegi_skr3
+
+　Poop♪ Poop ♪ Poopp♪
+
+　The man impacted the deep of the pussy of SAKURA in a flexible way with ordinary speed.
+
+[SAKURA/skr1934]「Uh-huh!? Humm! Ahhhhh!」
+
+[SAKURA/skr1935](This feel is.......so, so great! It’s so great!)
+
+[SAKURA/skr1936](How.......How comfortable it is.......Ahh)
+
+[Man]「Come on, let me have a look at you. Let me have a look at your body in orgasm.」
+
+[SAKURA/skr1937]「OK.......Please see .......Uh-huh, hum! Ahhh! Please have a look at my body.......Ahhh!」
+
+[SAKURA/skr1938](My body cannot help moving.......with the fierce impact of the penis of the uncle.......My body cannot help moving.)
+
+[SAKURA/skr1939]「Ah! Ahh! Ahh! Ahh! Good♪ Good♪ It’s so good!」
+
+[SAKURA/skr1940]( I must.......make the uncle comfortable.......)
+
+[SAKURA/skr1941]( I’m going to tightening my pussy.......tighten my pussy.......to make the uncle comfortable.......Um! Hummmm!)
+
+[Man]「Oh!? Oh, so great!」
+
+[SAKURA/skr1942]「So, so happy.......I’m so happy to make you satisfied.」
+
+[Man]「So do I.......I’m excited to make love with a young girl like you.」
+
+[SAKURA/skr1943]「Well, this penis is so great.......! I, I seem to be addicted to make love with you.」
+
+[SAKURA/skr1944]「It’s so good making love with you.......Ahh, ahh, uh-huh! I can never forget about this feeling again.......!」
+
+[Man]「Hey-hey, so do I, and I cannot forget about you.」
+
+[SAKURA/skr1945]「I’m so happy to be praised.......Hum.......I, I.......I’m so happy.......」
+
+[SAKURA/skr1946](There is coo-coo sound in my uterus.......as if I want to be pregnant for you.)
+
+[SAKURA/skr1947]「Ejaculate in it! Ejaculate in it! Uncle.......! Just ejaculate into my uterus.......!」
+
+[Man]「Hum.......!? What! Can I?」
+
+[SAKURA/skr1948]「Hum, hum, I.......I want it! I want you to ejaculate all your sperms.......into my pussy.......♪」
+
+[Man]「I see! Hum! Hummm!」
+
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+　Poop! Poop! Pooppp!
+
+[SAKURA/skr1949](So great! You are so great! Your penis is going to bring me an orgasm!)
+
+[SAKURA/skr1950]「I’m getting there! Uncle♪ Uncle, ahhh!」
+
+[Man]「Ok. I.......I’m having an orgasm, too.」
+
+[SAKURA/skr1951]「Come on! Come on! I’m having an orgasm! Ahhhhhh!」
+
+[Man]「Hey-hey! Whirr! Come on and have an orgasm! Hum! Have an orgasm together with me!」
+
+[SAKURA/skr1952]「Ok♪ I’m getting there! I’m having an orgasm! Ahhhh!」
+
+@bgs
+@se
+;;ＣＧ■CG18c
+@fin bg=ev18c se=射精音 v=1
+
+[SAKURA/skr1953] I’m having an orgasm♪ Ahh.......Ah♪)
+
+[SAKURA/skr1954]( I’m having an orgasm.......So much hot liquid from the pussy.......Hum!)
+
+@se f=ピストン_激しい l=1
+
+[Man]「Hum! Hum! Hum!」
+
+@bgs f=aegi_skr3
+
+[SAKURA/skr1955]「Ahh!? Uh-huh! Eh! The liquid is all in my pussy, in a mess.......Ah」
+
+[SAKURA/skr1956]「I’m having an orgasm again! I’m having another orgasm.......Ahh!」
+
+[Man]「I want to see more about your expression in orgasm. You are as sexy as the senior sex trade girls at this moment!」
+
+@bgs f=aegi_skr4
+
+[SAKURA/skr1957]「So, so great.......It’s so good.......Ahh! Ahh! Uh-huh! I’m having another orgasm!」
+
+[Man]「Then just have an orgasm!」
+
+　SAKURA gave reaction on her body immediately after receiving the order, and had an orgasm.
+
+[SAKURA/skr1958]「I’m getting there! I’m getting there.......Ahhh!」
+
+@bgs
+@se
+@fin se=射精音
+
+　Poop! Poop! Chirps!
+
+[SAKURA/skr1959](The liquid is getting out♪ It is getting out as long as I tighten my pussy.......)
+
+[Man]「Ahh, ahh, ahh.......I cannot help ejaculating again.......」
+
+@bgs f=aegi_skr3
+
+[SAKURA/skr1960]「So, so happy♪ I, I’m super happy now.......!」
+
+[SAKURA/skr1961]「I’m so happy to have orgasms together with you! I’m so happy.......Ahhh!? I’m almost getting there again♪」
+
+[Man]「Just do it! I’m going to appreciate your sexy expression in orgasm!」
+
+@bgs f=aegi_skr4
+
+[SAKURA/skr1962]「Hum♪ OK♪ I’m having an orgasm! Look at me! Please! Look at me, and I’m having an orgasm, ahhhhhhhhh!」
+
+[SAKURA/skr1963]「Ahhhh.......っ! I’m having an orgasm, ahhhhっ!」
+
+@flash t=500
+
+Swinging her face fiercely, SAKURA had another orgasm with spasms. 
+@bgs
+
+[SAKURA/skr1964](I’m so happy to make love with you.......It’s so perfect.......I, I will never forget about it!)
+
+[SAKURA/skr1965](My uterus.......is full of sperms.......It is so full.......Ah♪)
+
+[Man]「Hey-hey, hey-hey, we are making a perfect love!」
+
+;;ＣＧ■CG18d
+@bgf bg=ev18d t=500 v=1
+
+[SAKURA/skr1966]「So, so do I.......I had orgasms.......Ah♪ It’s so great to make love with you.......♪」
+
+[SAKURA/skr1967]「My, my pussy.......seems to never forget about your big penis.」
+
+[SAKURA/skr1968]「Whir, whir, humm.......Ahh, whir.......I love you so much.......♪」
+
+　Breathing out in a trance, SAKURA lied on the man as if she had used up all her strength.
+
+
+@rps
+

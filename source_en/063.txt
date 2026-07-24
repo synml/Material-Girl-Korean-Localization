@@ -1,0 +1,63 @@
+
+;;【014_01告白・司.txt】
+;; Event will be triggered after they reach the roof.
+
+@bgm f=Dungeon3
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「TSUKASA, what is that important thing?」
+
+@huki b=8 wt=1
+
+[SAKURA] ( TSUKASA, what's up? 　You look so serious……) 
+
+@bs f=サクラ@哀しみ
+
+[SAKURA] (Has he been bullied by someone?) 
+
+@huki id=4 b=8 wt=1
+
+[TSUKASA]「SAKURA, I……I have been loving you, SAKURA!」
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA]「……」
+
+@bs f=サクラ@驚き
+
+@huki b=2 wt=1
+
+[SAKURA]「……ay?」
+
+@huki id=4 b=8 wt=1
+
+[TSUKASA]「When I was young, SAKURA had been protected me.」
+
+[TSUKASA]「However, from now on, I want to be your dependence. I want to protect SAKURA!」
+
+@wait t=1000
+
+[TSUKASA]「I hope that you become my girlfriend!」
+
+　Blushed TSUKASA pours out his love for SAKURA.
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA] ( TSUKASA……has been loving me.　I never thought about such thing……) 
+
+@bs f=サクラ@哀しみ
+
+[SAKURA] (How shall I answer him……) 
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+　In face of unexpected confession, SAKURA falls in unprecedented confusion.
+
+;; ○Options: Agree/Refuse
+;;○Agree →014_02付き合う
+;;○Refuse →014_03断る
+

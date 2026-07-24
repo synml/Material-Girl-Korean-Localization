@@ -1,0 +1,48 @@
+
+;;【004_01パンスト舐め.txt】
+
+;; SAKURA, without the stockings with garter belt, accosted ASAHIKO.
+
+@bgm f=bgm02
+
+@huki b=8 id=30 wt=1
+
+;;@move_f f=朝彦 face=0 in=l t=300 wt=0
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[ASAHIKO]「oh ah, you're not wearing the stockings with garter belt Why did you do such thing which ignores aesthetics?」
+
+@huki b=4 id=30
+[ASAHIKO]「If you want to talk with me, be sure to put on stockings with garter belt.」
+@move_f f=サクラ@考え中 out=r t=300
+
+@se f=衣擦れの音1
+@huki b=6 wt=1
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL Get the pantyhose!
+@mes_win back=0 pos=2
+
+@move_f f=サクラ@驚き op2=困惑 in=r t=300
+@huki b=7 wt=1
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[SAKURA/skr0269] (ASAHIKO……How many stockings with garter belt do you take to the school each time……) 
+
+@huki b=8 id=30
+[ASAHIKO]「Please put on this stockings with garter belt, and then talk about your requirements.」
+
+@huki b=4 id=30
+[ASAHIKO]「I am looking forward to it.」
+
+@fade type=out t=1000 wt=1
+
+;;@move_f f=朝彦 face=0 out=l t=300 wt=0
+@move_f f=サクラ@悔しい out=r t=300
+
+;; If you don’t wear the stockings with garter belt, the decoration bar will be increased a stockings with garter belt.
+
+@bgm
+@bs
+

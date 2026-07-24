@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL獲得兒童緊身褲！
+
+@mes_win

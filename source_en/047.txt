@@ -1,0 +1,23 @@
+
+;;【009_02全ての素材を渡す.txt】
+
+@bgm f=Dungeon5
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「hoo……」
+
+　SAKURA bathed at home comfortably. At this moment, the sun goes down.
+
+@bs f=サクラ@哀しみ op2=困惑
+
+[SAKURA]「What on earth is this drug?」　Moreover……what on earth have I become?」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「Tomorrow, I have to ask MAKIOKA……」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+　SAKURA falls asleep soon.
+
+

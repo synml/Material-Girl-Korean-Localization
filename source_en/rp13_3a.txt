@@ -1,0 +1,324 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;;Picture pre-loading
+@fadeout
+@pl f=S_ev13d v=1
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm04
+
+;;ＣＧ■CG13
+@bgf bg=ev13 t=1000
+
+[SAKURA/skr1337]Welcome♪
+
+[KONDOU] 「Here I come again, SAKURA」
+
+[SAKURA/skr1338] 「Hi, I am so happy♪」
+
+[ SAKURA/skr1339] (His penis is erectile......hum, after a short look he is erectile......)
+
+[KONDOU] 「I have been always thinking about your breasts recently」
+
+[SAKURA/skr1340] 「I am so happy♪  However, once KONDOU see my breasts, he won't care my face anymore......」
+
+[SAKURA/skr1341] 「What about not showing my breasts~, I wanna talk to KONDOU a bit」
+
+[KONDOU] 「How could you......I won't stare at your breasts only, I prefer to stare at you, so......」
+
+The guest became impatient, his breath turned disorderly, and began to stared at SAKURA's breasts.
+
+[SAKURA/skr1342] 「Now your eyes are fulfilled with my breasts」
+
+[SAKURA/skr1343] (Hh, look at how anxious he is,his penis gets erectile......it's shaking continuously)
+
+[KONDOU] 「SAKURA, I can't bear it anymore」
+
+[SAKURA/skr1344] 「Ahh, sorry. I just want to play a joke with you, you always stare at my breasts.」
+
+[SAKURA/skr1345] 「Ah, I just wanna let KONDOU......stare at my breasts......」
+
+SAKURA showed her breasts wholly with some whispers.
+
+@se f=衣擦れの音1
+;;ＣＧ■CG13a
+@bgf bg=ev13a t=500
+@bgs f=aegi_skr1
+
+[KONDOU] 「Ahhhhh......」
+
+The guest got infatuated when he saw those naked breasts.
+
+[SAKURA/skr1346] 「Hum......hum, KONDOU is staring at my breasts......」
+
+[ KONDOU ] 「Nipples are already erectile」
+
+[SAKURA/skr1347] 「 After all......my heart continuously beat once I think of KONDOU is staring at my breasts......」
+
+[SAKURA/skr1348] 「And......KONDOU also......Hmm! His penis is......also erectile」
+
+SAKURA uesd her ass touch KONDOU's erectile penis.
+
+[KONDOU] 「Hum! Hum......that's no doubt. Am I watching SAKURA's lovely breasts now ?」
+
+[SAKURA/skr1349] 「Ah, hum......look at yourself, KONDOU, it looks like that you can't wait for a second anymore」
+
+[KONDOU] 「Hum......I wanna......I wanna grab SAKURA's breasts 」
+
+[SAKURA/skr1350] 「Ah, what should I do now♪」
+
+[KONDOU]「You are so evil today, SAKURA......ahh, but I do like the evil SAKURA」
+
+[SAKURA/skr1351]「I just can't help myself playing a joke on you because I like you♪」
+
+[KONDOU]「SAKURA told me that she liked...... me......me......」
+
+[SAKURA/skr1352]「Hum, because you love my breasts, KONDOU......」
+
+[SAKURA/skr1353]「I start to like you a bit♪」
+
+[KONDOU]「I am so happy now, SAKURA......now let me kiss your breasts dearly, OK?」
+
+[SAKURA/skr1354]「Fine......hum, set your affection on me like always♪」
+
+[SAKURA/skr1355] (Ah......I......hum, I am a little unusual now......)
+
+[SAKURA/skr1356] ( This place...... develops a second personality in me......)
+
+;;ＣＧ■CG13b
+@bgf bg=ev13b t=500
+@bgs f=aegi_skr2
+
+[SAKURA/skr1357]「Ah! Ahhhh......hum......ahhhh」
+
+The man's finger grabbed those breasts in a short time.
+
+[SAKURA/skr1358] ( I become so sensitive cause of being stared......)
+
+[SAKURA/skr1359] (My pussy gets so wet......hum......just cause he touch it......)
+
+[KONDOU]「Ahh, ah, ah......SAKURA's breasts are so great......yeah! Hmm!」
+
+[SAKURA/skr1360]「Hum, hum, please......please just fuck me harder」
+
+[KONDOU]「Like, like this strength? How about this strength?」
+
+[SAKURA/skr1361]「Ahhhhh！ Ahhhh, hum, great, so great♪」
+
+[SAKURA/skr1362]「Because you set your affection on my breasts......hum, ahh, ahh」
+
+[SAKURA/skr1363]「My breasts are becoming more lubricious」
+
+[SAKURA/skr1364]「Hum, hum, hum, my nipples are so numb......you are responsible for it♪」
+
+[KONDOU]「Yeah,of course......I wanna eager time today」
+
+[SAKURA/skr1365]「Fine♪ Hum, you must treat my nipples carefully♪」
+
+[Clerk]「Are you ready, sir? Let's start the eager time!」
+
+[Clerk]「So! Eager time begins now!」
+
+;;ＣＧ■CG13c
+@bgf bg=ev13c t=500
+@bgs f=aegi_skr3
+
+[SAKURA/skr1366]「Hum! Hmm! Hmmmm!」
+
+[KONDOU] 「SAKURA! Swishing! Swishing!」
+
+The man embraced SAKURA's waist and buried his face into her breasts.
+
+[SAKURA/skr1367]「Ahhh！ Ahh! Hum, hummmmm!」
+
+SAKURA's voice even got louder than the BGM.
+
+[KONDOU]「Swishing, Swishing! Swishing!」
+
+[SAKURA/skr1368]「Ah, Humm! Hum......please......please just lick my breasts freely」
+
+[KONDOU]「Your nipples are erectile! SAKURA!」
+
+[SAKURA/skr1369]「Yeah, that's right, my nipples are already erectile......ahh, suck my nipples! Just suck it!」
+
+[KONDOU] 「swishing！」
+
+[SAKURA/skr1370]「Ahh!? Hum, ah, ah, ah, ahhhh!」
+
+[SAKURA/skr1371] (Nipples get numb......hum)
+
+[KONDOU]「SAKURA's nipples are so yummy. swishing! Swishing!」
+
+[SAKURA/skr1372]「Ah, ah, hum......ahhh!」
+
+[SAKURA/skr1373] (His penis gets so big......I need......his penis ......)
+
+[SAKURA/skr1374] (Just fuck me......boss said that it's fine......)
+
+[SAKURA/skr1375] (I am already......I am so hot......ahh, I want it now......)
+
+SAKURA couldn't resisit his huge and erectile penis anymore.
+
+[SAKURA/skr1376]「Ah, ah, ah, KONDOU......]
+
+[KONDOU] 「What's wrong, SAKURA? Are your nipples uncomfortable?」
+
+[SAKURA/skr1377]「No......I feel so comfortable......it's so damn comfortable......」
+
+[SAKURA/skr1378]「Hum, hummm......I need your penis」
+
+SAKURA stepped closer and whispered to guest.
+
+[KONDOU] 「SAKURA......? Hum? Hum?」
+
+[SAKURA/skr1379] 「But the charge will double......if you want that service......」
+
+[SAKURA/skr1380] 「Ahhh, I hope...... you can take responsibility for easing my breasts......」
+
+[KONDOU] [It means that......」
+
+[SAKURA/skr1381]「I need you to fuck me......with your huge penis♪」
+
+[KONDOU] 「Hum, hum. Yeah......of course, I would take responsibility for that」
+
+[SAKURA/skr1382] 「I am so happy......hum, hum......so......」
+
+SAKURA took off her tights swiftly and let him to keep burying his head in her breasts.
+
+;;ＣＧ■CG13d
+@bgf bg=ev13d t=500 v=1
+
+;; If virgin for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;;Following is the text if virgin.
+
+[SAKURA/skr1383] 「Hum!? Hum......hum......KONDOU......it's my first time to have sex......」
+
+[KONDOU] 「Ah!?」
+
+[SAKURA/skr1384] 「Please treat me gently♪」
+
+[KONDOU] [Ahhh,today is so amazing! I will remember today forever!」
+
+[SAKURA/skr1385] 「Ah, me too......after all, it's my first time to have sex......I won't forget the things happened today」
+
+[KONDOU] 「SAKURA!」
+
+;;Above is the text if virgin.
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+;;Following is the text if not virgin.
+
+[SAKURA/skr1386] 「Ah! 　Hmm! Ahh, I am having sex with KONDOU......ah」
+
+[SAKURA/skr1387] 「He is in...... it's so comfortable」
+
+[KONDOU] 「I feel so comfortable, too. SAKURA's pussy is so wet now......」
+
+[SAKURA/skr1388] 「Because you make my breasts so erectile, KONDOU♪」
+
+[SAKURA/skr1389] 「Ah! Hahmm! Hmm! Let me to feel your huge penis freely」
+
+[KONDOU] 「OK! Hmm! Hmmm!」
+
+;;Above is the text if not virgin.
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+The following is common text.
+
+@flash t=500
+@ev_anime f=S_ev13d sx=12 sy=1 fps=3 v=1
+
+@se f=ピストン l=1
+@bgs f=aegi_skr4
+
+[SAKURA/skr1390] 「Ah, ahh......hum......ahh! Hum......」
+
+[KONDOU] 「SAKURA......I can't hold it anymore」
+
+[KONDOU] 「It's too comfortable inside......hum......I am coming」
+
+[SAKURA/skr1391]「Hum! Hmm! Just give it to me if you want, KONDOU♪」
+
+[KONDOU] 「Can I......ejaculate inside?」
+
+[SAKURA/skr1392] 「Ah♪ It's fine if you want to ejaculate, KONDOU」
+
+[KONDOU] 「SAKURA!」
+
+[SAKURA/skr1393] (Ah! Ah! He is so high......his penis gets huge!)
+
+SAKURA also got high cause she pleased this man so well
+
+[KONDOU] 「I am coming! I am coming now! SAKURA!」
+
+[SAKURA/skr1394] 「Hum,hum,so good......ah! Ah! Hummmm!」
+
+[SAKURA/skr1395] (His penis gets bigger......inside......ah! It's so amazing!)
+
+[SAKURA/skr1396] 「KONDOU......my breasts......grab my breasts......ah」
+
+[KONDOU] 「Swishing! Swishing! Swishing! Swishing!」
+
+[SAKURA/skr1397] 「Ah!?  Aha! My breasts and pussy get so high......ah! Ahh!」
+
+[KONDOU] 「I am coming......coming!」
+
+[SAKURA/skr1398] 「Hum！ Hmm!? Hummm!」
+
+@se
+@bgs
+;;ＣＧ■CG13e
+@fin bg=ev13e se=射精音 v=1
+
+[SAKURA/skr1399] (He is ejaculating! He is ejaculating! Ahhhh! His sperm...... is in my body......hum!)
+
+[SAKURA/skr1400] 「Ah！ Aha! Ahh, your penis is so great! So comfortable!」
+
+[KONDOU] 「Hummmm! It's so tight!」
+
+[SAKURA/skr1401]「Pussy gets so wet......because your penis makes me so comfortable♪」
+
+[SAKURA/skr1402] 「Ahh！ Ahh！ Aha! Your penis ......is so great ! so damn great! 」
+
+[KONDOU] 「I'm feeling so high right now, SAKURA! I, I'm really happy!」
+
+[SAKURA/skr1403] 「Ahh，I'm so high now......your penis makes me so high」
+
+[SAKURA/skr1404] 「Ahhh! 　Hmm! Ahhmmm! I'm coming......hummm!」
+
+[SAKURA/skr1405] (It's amazing......I can't imagine how comfortable it is......it's so awesome!)
+
+[KONDOU] 「Ahhh,ah,ah,ahhh」
+
+[SAKURA/skr1406] 「Hum......hum......hummmmmmm......」
+
+[Clerk] 「Are you satisfied with today's service? Eager time is over now!」
+
+[SAKURA/skr1407]「Ah,KONDOU......hum, hope you can make me feel so comfortable next time♪」
+
+[KONDOU] 「Hum,hummm,I promise......SAKURA」
+
+KONDOU pulled his penis out slowly , which made SAKURA feel so comfortable.
+
+@rps
+

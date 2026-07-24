@@ -1,0 +1,59 @@
+
+;;○協助
+;;得到1500塊
+
+@huki id=6 b=3
+
+[超自然研究部部長]「那，那么……你站過去吧」
+
+@bgm
+@route route=down wt=1
+@dir dir=up wt=1
+
+;;催眠效果
+;;催眠特寫
+
+@move_f f=A-cut_saimin1 face=0 in=c t=150 h=1
+@wait t=500
+@se f=催眠行使
+@move_f f=A-cut_saimin2 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin1 face=0 out=c t=150
+@wait t=1000
+@move_f f=A-cut_saimin2 face=0 out=c t=150
+@wait t=150
+
+@mes_win back=1 pos=1
+
+\CL小櫻被催眠了……
+
+@mes_win
+
+@bgm f=bgm12
+
+@huki id=6 b=4
+
+[超自然研究部部長]「……再來試試92的胸圍吧」
+
+@route id=6 route=down wt=1
+
+;;小櫻特寫
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune face=0 in=c t=150 h=1 cos=1
+@huki id=6 b=4
+
+[小櫻]「嗯……啊……」
+
+@mes_win back=1 pos=1
+
+\CL使勁揉搓小櫻的胸部……
+
+@fadeout t=1000 wt=1
+
+@mes_win
+
+@fadeout t=1000 wt=1
+@move_f f=A-cut_saimin8 face=0 out=l t=150
+@bs

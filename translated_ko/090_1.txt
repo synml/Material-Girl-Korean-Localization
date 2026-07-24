@@ -1,0 +1,23 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_06働く.txt】
+;; Phase Ⅱ
+
+;; Waiting Room
+@fade type=in t=1000 wt=1
+
+[사장님]「음후후♪　사쿠라, 오늘도 힘내렴♪」
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라/skr1295]「네, 넷, 다녀오겠습니다」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@se f=Move
+@fadeout
+
+;; SAKURA moved out of Waiting Room towards the guests.
+

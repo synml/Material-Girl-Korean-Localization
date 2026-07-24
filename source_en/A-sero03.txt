@@ -1,0 +1,29 @@
+;;▼Her buttock or chest will be touched by drunken men during her journey to Happy Street. 
+@bgm_save
+@bgm f=bgm14
+
+@se f=尻触り
+@move_f f=A-cut_siri face=0 in=l t=150
+@fuki b=1
+@move_f f=サクラ@驚き in=r t=150
+
+[Drunken man]「Hi, little girl, your buttock is so attractive.」
+
+@bs f=サクラ@驚き_頬
+
+[SAKURA]「Wow！　Hey, what are you doing……」
+
+[Drunken man]「Hahaha！You even yell, so cute」
+
+@bs
+@c_jump
+@wait time=500
+@huki b=7
+@move_f f=サクラ@怒り_頬 in=r t=300
+
+[SAKURA]「Are you kidding me? This is really a chaotic place!」
+
+@move_f f=サクラ@怒り_頬 out=r t=300
+
+@bgm
+@bgm_replay

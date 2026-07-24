@@ -1,0 +1,22 @@
+
+;;【020_03試遊する.txt】
+
+@bgm f=bgm01
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA] (It is a rare opportunity. I will experience the game.) 
+
+@huki b=8 wt=1
+
+[SAKURA]「So……I have a try.」
+
+@huki id=29 b=1 wt=1
+[Researcher]「oh oh, thanks a lot. Please come over here」
+
+[SAKURA/skr1461]「OK」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=1000 wt=1
+;; SAKURA follows that man to enter the building.
+

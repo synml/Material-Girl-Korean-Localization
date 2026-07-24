@@ -1,0 +1,6 @@
+
+@mes_win back=1 pos=1
+\CL～準備室～
+
+@mes_win
+

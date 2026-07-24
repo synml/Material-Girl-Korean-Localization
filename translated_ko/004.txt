@@ -1,0 +1,23 @@
+
+;;【001_01プロローグ.txt】
+;;【001_03敗北.txt】
+
+;;@flash t=300 wt=0
+;;@qk
+
+;;@huki b=4 id=18
+
+;;@move_f f=須東 in=l t=300 wt=0
+;;@move_f f=サクラ@悔しい in=r t=300
+
+;; [SUDOU]「How dare you talk back to me. What do you hide?」
+
+;;@se f=衣擦れの音1
+;;@huki b=4 id=18
+;;@huki b=1
+
+;;@bs f=サクラ@驚き_頬 op2=ビックリ t=300
+;;[SAKURA/skr0036]「ah……」
+;;@move_f f=須東 out=l t=300 wt=0
+;;@move_f f=サクラ@驚き_頬 out=r t=300
+

@@ -1,0 +1,17 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;flagON, buy deluxe dress. 
+
+;;【024_07ゴージャスな服を着ている.txt】
+
+@dot_move x=5 y=8 id=4 dir=down
+@dot_move x=6 y=8 id=5 dir=down
+@dot_move x=7 y=8 id=6 dir=down
+@dot_move x=5 y=10 id=7 dir=right
+
+@change f=白沢 id=4
+@change f=黒田 id=5
+@change f=青木 id=6
+@change f=オーナー id=7
+

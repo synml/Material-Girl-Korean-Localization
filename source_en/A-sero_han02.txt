@@ -1,0 +1,10 @@
+
+;;【Common dialogue】
+
+@move_f f=サクラ@驚き_頬 in=r t=300
+
+[SAKURA]「…………Wow…doing that again……keep away from him」
+
+@move_f f=サクラ@驚き_頬 out=r t=300
+
+

@@ -1,0 +1,23 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_05働かない.txt】
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8
+[SAKURA]「Sorry, I haven’t decided today……」
+
+[Receptionist]「well. If you want to work here, you may contact me at any time」
+
+@bs f=サクラ@無表情
+[SAKURA]「OK. I'm gonna go now」
+
+@bgm
+@move_f f=サクラ@無表情 out=r t=300
+
+@bgm_replay
+
+;; Free action
+

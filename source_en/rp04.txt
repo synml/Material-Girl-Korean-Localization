@@ -1,0 +1,415 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;;ＣＧ■CG04
+@bgm f=bgm14
+
+@bgf bg=ev04
+@qk
+
+[SATAKE] 「You are so troublesome.」
+
+[SAKURA/skr0525] 「Huh!? Huh! Go, go away!」
+
+[SATAKE] 「How could you leave, hey, you guys!」
+
+[HURYOU 1] 「Okay」
+
+[HURYOU 2] 「Compensate everything that you owed to me.」
+
+[HURYOU 3] 「Hey, I didn't expect that I can get so much with SATAKE」
+
+@se f=衣擦れの音1
+Suddenly, several dicks approaches SAKURA.
+
+[HURYOU 2] 「Hey! Hold this!」
+
+[TSUKASA] 「SAKURA......Um!」
+
+[HURYOU 4] 「Be well-behaved!」
+
+@se f=Blow4
+@flash t=500 wt=0
+@qk
+
+[TSUKASA] 「Huh!?」
+
+@se f=Blow6
+@qk
+
+[SAKURA/skr0526] 「Don't go for TSUKASA!」
+
+[HURYOU 3] 「Then hold this.」
+
+[SAKURA/skr0527] 「Umm......Um!」
+
+Seeing that TSUKASA, in deep pain and misery, is being tortured by rascals. SAKURA bits on her lips and holds the dick ignominiously.
+
+[HURYOU 1]「Hello, SATAKE. I wanna fuck her, OK?」
+
+[SATAKE]「Huu, do what you want」
+
+[HURYOU 1]「Hahaha! I'll fuck her」
+
+[SAKURA/skr0528] 「Ahha, ahha.......Coo.... Ahhaummm」
+
+@se f=淫唇を開く音
+@flash t=300
+ The semen-filled cock head pokes in her fucking hole rudely.
+
+@qk
+[SAKURA/skr0529] (Please, do not.....please! Do not put such a dirty thing in me!）
+
+[SAKURA/skr0530](Ah, it is trembling......The dick is trembling im my hand.）
+
+@qk
+[SAKURA/skr0531]「Coo…...Ummm」
+
+@se f=淫唇を開く音
+[SATAKE]「I'll fuck here, ah.」
+
+SATAKE put SAKURA's hips to both sides and poke the cock head into the narrow anus.
+
+@se f=挿入音
+
+;;ＣＧ■CG04a
+@bgf bg=ev04a v=1
+
+
+;; For retrospect if virgin
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;;Following is the text if virgin.
+
+@qk
+[SAKURA/skr0532]「Ha!? 　 Um! 　Ahhh!  Plea, please...do not!」
+
+[TSUKASA]「SAKURA......Ah!」
+
+The gangsters waisted into and jerked out, SAKURA couldn't stand the pain.
+
+[HURYOU 1]「Wow! What!? You are virgin!」
+
+[HURYOU 2]「Shit! How dare you! It is a really bargain!」
+
+[SATAKE]「So, it is your first time to anus sex.」
+
+[HURYOU 2]「Yeah you are right. It would be really abnormal if it wasn't her first time!」
+
+[HURYOU 3]「Hahaha! You are right!」
+
+@qk
+[SAKURA/skr0533]「Coo......Ummm!? Umm......Er, Aha」
+
+Unwilling and painful, SAKURA
+
+has to suffer from them.
+
+;;Above is the text if virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;;Following is the text if not virgin.
+
+@qk
+[SAKURA/skr0534]「Enn! Umm! Ha, ahh!? Ummm!」
+
+Bearing the pain in the small hole and anus at the same time, beads sweat appears on SAKURA's forehead.
+
+[HURYOU 1]「Haha, you are really cheap. You are not the virgin.」
+
+[HURYOU 2]「Is he?」
+
+[HURYOU 1]「Haha! If so, let me show you what a real man is!」
+
+[SAKURA/skr0535]「Shu, Shut up......! He is not that boy that you jerks said!」
+
+@qk
+[SAKURA/skr0536](What!? My anus......I feel the pain in my anus! I can't stand it anymore!）
+
+[SATAKE]「It is your first time? or, you are fucked many time here?」
+
+　SATAKE put his dick into her anus rudely, with no obstruction.
+
+[SAKURA/skr0537](What!? Umm......I am fucked by such jerks......! I can't bear it!）
+
+;;Above is the text if not virgin.
+@jump target=*branchEND001
+;;==================================================================================
+
+;;Following is the text if mixed.
+*branchEND001
+
+[TSUKASA]「SAKURA......Sorry......sorry......All of them are my faults......」
+
+　TSUKASA apologize to SAKURA and can't help tearing with regrets.
+
+[SAKURA/skr0538]「I am OK......I don't mind......I don't mind what they have done to me......」
+
+[SAKURA/skr0539]「TSUKASA......Umm, umm......I will protect you......」
+
+[HURYOU 1]「Haha! You see, I am really a jerk! Haha!」
+
+@se f=愛液1
+@flash t=500 wt=0
+@qk
+
+[SAKURA/skr0540]「Er! Er! Er! Hu!」
+
+[HURYOU 1]「You feel good, right? It's really good fucked by a jerk.」
+
+[SAKURA/skr0541]「Hu, huhu......Er! No......That's not true......」
+
+[SATAKE]「So, How about this way!?」
+
+@se f=愛液1
+@flash t=500 wt=0
+@qk
+
+　Puuu! Puuu! (SAKURA is fucked)
+
+[SAKURA/skr0542]「Woo......Aha! it is in me......hu......ummm!」
+
+[SAKURA/skr0543](My hips will be split! Aha!? Unexpectedly......poke in me, I, I can't breathe......Umm）
+
+My butts almost separate and the impact spread all over the body, gradually breathless.
+
+[HURYOU 1]「Haha! Your face looks so dazzled! Moan louder!」
+
+@flash t=500 wt=0
+@qk
+
+[SAKURA/skr0544]「Umm! Ummm! Umm!」
+
+[SAKURA/skr0545](Dicks......in my ass and pussy...Are inserting......Painful, disgusting!）
+
+[SAKURA/skr0546](They do such things to me......I am not......unwilling......umm）
+
+[SAKURA/skr0547](TSUKASA is crying......Sorry......Sorry, TSUKASA......I should be stronger......）
+
+[HURYOU 1]「Haha, you are wet?  your pussy loves this」
+
+[HURYOU 1]「Wow! 　Look at her. The woman you love deeply is enjoying my cock.
+
+In order to let the TSUKASA and SAKURA heard, he deliberately stirres the sexual liquid, issued a chirp.
+
+@se f=ピストン l=1
+@flash t=500
+
+[TSUKASA]「Oh......Oh......SAKURA......」
+
+[SAKURA/skr0548]「No, it's not true......!? En, umm! I , I can't control my body......」
+
+@bgv f=aegi_skr1
+
+[HURYOU 2]「Ha, you want to be fucked more hard! Could I use my cock? SATAKE」
+
+[SATAKE]「Do what you like.」
+
+[HURYOU 2]「SAKURA♪　Mouth!」
+
+[SAKURA/skr0549]「En......?」
+
+[HURYOU 2]「Swallow my dick! If not, I will hurt him?」
+
+[SAKURA/skr0550]「Rubbish......!」
+
+SAKURA can not resist, only put the dick in the mouth to lick.
+
+[HURYOU 2]「Faster!」
+
+@se f=淫唇を開く音
+@qk
+
+The rascal pulled his penis in SAKURA's mouth.
+
+[SAKURA/skr0551](Please do not embarrass TSUKASA......）
+
+@bgv f=fera_skr1
+
+;;ＣＧ■CG04b
+@bgf bg=ev04b v=1
+
+[SAKURA/skr0552] 「En....Umm...Chirp, whish......Hmm......Hoo, whish!」
+
+[HURYOU 2]「Good! go on bitch♪」
+
+[SAKURA/skr0553](They do such things to me......I am not......unwilling......umm）
+
+[HURYOU 2]「What are you doing～? 　Are you crying? 　Because you are enjoying my cock?」
+
+[SAKURA/skr0554] "En....Umm...Chirp, whish, whish!"
+
+Looking at SAKURA's unwilling face with tears, hooligans can't stop laughing. 
+
+[TSUKASA]「Sorry......Really sorry......」
+
+[SAKURA/skr0555](It's not your fault TSUKASA......not your fault......They are really jerks......!）
+
+[HURYOU 1]「Hu! 　Er!  So, it time to ejaculate?」
+
+[SATAKE]「Right. Yes sir Her anus is so narrow that I almost control myself」
+
+[HURYOU 1]「So do I, SATAKE! SAKURA, you want to be ejaculated in, right?」
+
+@bgv
+
+[SAKURA/skr0556]「In..In........No, Please! Please do not!」
+
+[HURYOU 2]「Not stop lick my cock!」
+
+@se f=愛液1
+@flash t=300 wt=0
+@qk
+
+[SAKURA/skr0557]「Coo!? 　Humm!? 　Hummm!」
+
+@bgv f=fera_skr2
+
+The dick head pokes into SAKURA's mouth which said no just now.
+
+[HURYOU 2] 「Be well-behaved!」 Hey! Lick it!」
+
+[SAKURA/skr0558] "En....Umm...Chirp, whish......Hmm......Hoo, whish!" 　Ahh!  Umm!」
+
+[SAKURA/skr0559](The dick is growing......if so......It'll ejaculate in me!)
+
+[HURYOU 1]「Oh, I am coming!」
+
+[SAKURA/skr0560]「Chrip, chirip......no......please not to ejaculate in me......En!」
+
+The tongue is constantly sucking. Allowing the dick to be pulled out, SAKURA have to keep her waist twisting
+
+[SATAKE]「Don't move! I must give it to you, save it!」
+
+SATAKE's big hands firmly held down the SAKURA's waist.
+
+[SAKURA/skr0561]「What? No, no......! Please do not!」
+
+@se f=ピストン_激しい l=1
+@flash t=500 wt=0
+@qk
+
+[HURYOU 1]「I am coming! I am coming!」
+
+[HURYOU 3]「Follow you! I am coming!」
+
+[HURYOU 2]「Lick me harder! Hey! Lick me harder, bitch!」
+
+[SATAKE]「So narrow your anus! Come on! Come on!」
+
+@flash t=500 wt=0
+@qk
+
+[SAKURA/skr0562]「Chrip! Ummm! No, please......Ahhhha!」
+
+[HURYOU１]「Wowww! I ejaculate!」
+
+;;ＣＧ■CG04c
+@fin se=射精音 bg=ev04c v=1
+
+　Biu! 　Biu! 　Biu!
+
+@flash t=500
+[SAKURA/skr0563]「Ahh——!」
+
+In the moment dicks leave the anus and small hole, SAKURA felt hot semen burst out suddenly.
+
+[HURYOU 2]「Hahahahah!」
+
+@qk
+[SAKURA/skr0564](How smell......How dirty! So disgusting! I was defiled by the semen of the scum ...!)
+
+[SAKURA/skr0565](Umm!? 　Shit!? The semen......are filled of me......um!）
+
+[TSUKASA]「No! No! No!!」
+
+[SAKURA/skr0566](Please not to look a t me......TSUKASA......Please! Please do not look at my embarrassing）
+
+[HURYOU 4]「Hey. This guy was ejaculate too」
+
+A rogue noticed a liquid seeping out of the trousers between his thighs.
+
+[HURYOU 1]「Hahaha! He did it as us!」
+
+[TSUKASA]「Sorry......SAKURA......Sorry......ummmm!」
+
+@qk
+
+[SAKURA/skr0567]「En!? 　Ahh! Get out! Get out please......Errr!」
+
+[SAKURA/skr0568](They are flowing......The sperm......sperm is flowing out!）
+
+[SAKURA/skr0569](I don't want to pregnant! No, I don't want to be pregnant!）
+
+Even did not heart he TSUKASA's apology , SAKURA felt disgusting of the injection of semen and her body can not stop trembling.
+
+[SATAKE]「 I still have left! Look!」
+
+;;ＣＧ■CG04d
+@fin se=射精音 bg=ev04d v=1
+
+　咚咻! 　咚咻! 　咚咻!
+
+[SAKURA/skr0570]「Ahhhh!? Ahhhh——!」
+
+[SAKURA/skr0571](You are lying......lying! I am hit by semen again!? I have already filled with it......!）
+
+[SAKURA/skr0572](My womb......my womb will be swollen by seme）
+
+[HURYOU 1]「Your pussy is going to be tighter ! So all of you want is my sperm!?」
+
+[HURYOU 3]「Haha, I love your bitch face!」
+
+[SAKURA/skr0573]「Stop! No! Ah! Ahh!? No, please!」
+
+@bgv f=aegi_skr2
+
+@se f=愛液1
+@flash t=500
+
+[HURYOU 2]「Let me give you a sperm mask SAKURA!」
+
+He used the glans to rub on the face with semen, and tried to fill it with the white turbid liquid.
+
+[SAKURA/skr0574](Umm! Ummm! I couldn't breath......So disgusting......Ouu!）
+
+[SAKURA/skr0575](I can't......I am blank......Umm......）
+
+[SATAKE]「Come on! Fuck you again!」
+
+@se f=愛液1
+@flash t=500
+
+[SAKURA/skr0576]「Er!? Hu! Ahhh......Ah! Ahhhhh!」
+
+After a burst of shouting, SAKURA collapsed .
+
+[HURYOU 1]「Haha! She is too enjoying it」
+
+[SATAKE]「Come on, my cock is still strong, she is OK. Just go on.」
+
+[HURYOU 4]「Let me join you!」
+
+@fade type=out t=1000
+@rps
+
+The gangters begin to rape SAKURA just like the she is only a doll.
+
+@fade type=in t=1000
+
+;;※Failed results. Please choose to fight again or return to the theme .

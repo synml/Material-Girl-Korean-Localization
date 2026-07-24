@@ -1,0 +1,23 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;【024_05中に入る.txt】
+
+@move_f f=サクラ@微笑 in=r t=300
+[SAKURA]「um. I am also interested in Host Club.」
+@move_f f=サクラ@微笑 out=r t=300
+
+@move_speed spd=3
+
+@fade type=out t=1000 wt=0
+@route route=up
+
+@move_speed spd=4
+
+;; SAKURA decides to enter the store.
+
+;; ○Conditional branch: Without deluxe dress →024_06ゴージャスな服を着ていない 
+
+;; ○Conditional branch: With deluxe dress →024_07ゴージャスな服を着ている
+
+

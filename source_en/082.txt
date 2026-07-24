@@ -1,0 +1,79 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+;; Third stage
+@fade type=in t=1000 wt=1
+
+;;@move_f f=コンビニ店長 face=0 in=l t=300
+@huki b=2 id=6
+[Convenience Store's Manager]「SAKURA, that underpants……have you put it on?」
+;;@move_f f=コンビニ店長 face=0 out=l t=300
+
+@huki b=1
+@c_jump wt=1
+
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+@wait t=300
+
+@huki b=7
+@bs f=サクラ@羞恥 op2=困惑
+[SAKURA]「woo woo woo, yes, I have put it on……」
+
+@huki b=2 id=6
+;;@move_f f=コンビニ店長 face=0 in=l t=300
+[Convenience Store's Manager]「How do you feel? 　I want to know what you think of that underpants.」
+
+@huki b=7
+@bs f=サクラ@悔しい_頬 op2=困惑
+[SAKURA]「This, this is somewhat……」
+
+@huki b=2 id=6
+[Convenience Store's Manager]「If you don’t want to tell me your thought, I can’t give you the additional salary.」
+
+@huki b=1
+@bs f=サクラ@驚き_頬
+@wait t=600
+
+@bs f=サクラ@悔しい_頬
+[SAKURA]「woo woo……! 　It is so short that I have to pull my skirt carefully……so shy.」
+
+@huki b=8 id=6
+[Convenience Store's Manager]「well. However, SAKURA loves this underpants, doesn’t you?」
+
+@huki b=7
+@bs f=サクラ@哀しみ_頬 op2=困惑
+[SAKURA]「No, I don’t. If the store manager increase the salary……
+
+@huki b=3 id=6
+[Convenience Store's Manager]「ha ha ha, however, you put it on, I feel very happy.」
+
+@huki b=8 id=6
+[Convenience Store's Manager]「I think that this underpants fits SAKURA very well, so I selected it.」
+
+@huki b=7
+@bs f=サクラ@悔しい_頬 op2=困惑
+[SAKURA]「This, well……could you please not stare at my that part.」
+
+@huki b=8 id=6
+[Convenience Store's Manager]「Sorry. Here you are. This is today's salary.」
+
+@bs f=サクラ@羞恥_頬 op2=汗
+[SAKURA]「Thank you very much……」
+;;@move_f f=コンビニ店長 face=0 out=l t=300 wt=0
+@move_f f=サクラ@羞恥_頬 out=r t=300
+
+@huki b=6
+@huki b=4 id=6 wt=1
+
+@huki b=7
+@move_f f=サクラ@悔しい_頬 op2=困惑 in=r t=300
+[SAKURA] (woo woo woo……when she thought of the expression that the store manager watched her to wear this underpants……she couldn’t calm down……) 
+
+;; Seemingly the store manager has seen her nasty underpants, so SAKURA felt upset at this moment.
+
+@bs f=サクラ@羞恥 op2=困惑
+[SAKURA]「If there is nothing to do, I'm gonna go now.」
+@move_f f=サクラ@羞恥 out=r t=300
+
+@fade type=out t=1000 wt=1
+　SAKURA runs out of convenience store in a hurry.
+

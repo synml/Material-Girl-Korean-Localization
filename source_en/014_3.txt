@@ -1,0 +1,63 @@
+
+;;○戦闘開始前（レベル5）
+
+@bgm f=bgm01
+
+;;-----------------------------------------------------------------------------
+
+@se f=衣擦れの音1
+
+@huki b=7
+@huki b=8 id=18
+@wait t=1200
+
+@huki b=8 id=18
+[SUDOU]「um! 　Seemingly, you haven’t hide anything」
+
+@huki b=7
+@move_f f=サクラ@羞恥 op2=困惑 in=r t=300
+[SAKURA/skr0099]「ha ah, um, woo woo, I……haven’t broken the school rules」
+
+@huki b=8 id=18 wt=1
+[SUDOU]「but the length of your skirt is not qualified. Next, you are sure to modify it」
+
+@huki b=7
+@bs f=サクラ@悔しい_頬 op2=困惑
+[SAKURA/skr0100]「coo……!」
+
+@huki b=8
+@bs f=サクラ@哀しみ_頬
+[SAKURA/skr0101] ( I have no money to buy new uniform……however, in this way……) 
+
+@huki b=7
+@bs f=サクラ@悔しい_頬
+[SAKURA/skr0102] (In this case, SUDOU has a reason for inspecting my appearance……what shall I do……) 
+
+@huki b=8
+@bs f=サクラ@考え中_頬
+[SAKURA/skr0103] (I have to find a way……if I don’t do something……however……ah ah ah, I come up with no idea……) 
+
+@move_f f=サクラ@考え中_頬 out=r t=300
+
+@huki b=8 id=18
+[SUDOU]「You can go now. Be careful from tomorrow」
+
+@move_speed spd=3
+@fade type=out t=1000 wt=0
+@huki b=7
+
+@route route=left:2 wt=0 id=18
+@route route=up:4
+
+@dir dir=right id=18
+
+;; SAKURA who is angry at SUDOU’s insolence walks towards the teaching building.
+
+;;-----------------------------------------------------------------------------
+@bg
+@bgm
+@wait t=1200
+@move_speed spd=4
+
+
+

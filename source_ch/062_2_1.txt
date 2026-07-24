@@ -1,0 +1,17 @@
+
+;;【014_01告白?司.txt】
+
+@fade type=in t=1000 wt=0
+
+@huki b=8
+@huki b=8 id=15
+@huki b=8 wt=1 id=17
+@wait t=500
+
+@fade type=out t=1000 wt=1
+
+@dot_move x=12 y=21 dir=up
+@dot_move x=13 y=19 dir=down id=17
+@dot_move x=12 y=19 dir=down id=15
+@wait t=1200
+

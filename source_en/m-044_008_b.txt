@@ -1,0 +1,3 @@
+@huki b=8 id=1
+
+[Store Manager]「Welcome to ... what do you want to sell?」

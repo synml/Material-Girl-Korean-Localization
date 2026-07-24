@@ -1,0 +1,7 @@
+@mes_win back=1 pos=1
+
+\CL獲得芭蕾鞋！
+
+@mes_win
+
+

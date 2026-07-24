@@ -1,0 +1,49 @@
+
+;;【010_01体育.txt】
+;;【010_03着ている.txt】
+
+@bgm f=bgm01
+@dir dir=down id=6
+@fade type=in t=1000 wt=1
+
+[SUDOU]「Everyone is here. Let's begin class.」
+
+
+[SUDOU]「The content of today’s PE class is marathon!」
+
+@huki id=104 b=7 wt=1
+
+[Boy Student１]「ay ay～!」
+
+@huki id=103 b=7 wt=1
+
+[Boy Student２]「If only it is football class.」
+
+@huki id=102 b=7 wt=1
+
+[Girl Student１]「ha ah. I hate marathon most.」
+
+@dir id=6 dir=r wt=1
+@wait t=500
+@dir id=6 dir=l wt=1
+@wait t=500
+@dir id=6 dir=d wt=1
+@wait t=500
+@huki id=6 b=1 wt=1
+
+[SUDOU]「Shut up! 　Stop grumbling. Hurry up!!」
+
+[SUDOU]「The last one will be punished!」
+
+@fadeout
+
+@se f=Move1 p=80
+
+　Hearing SUDOU’s threat, everybody have to run marathon. 
+
+;; ○Mini-game: Marathon 
+;; Marathon succeeds →010_04成功
+
+;; Marathon fails →010_05失敗
+
+

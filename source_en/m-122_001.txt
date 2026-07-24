@@ -1,0 +1,10 @@
+
+@mes_win back=1 pos=1
+
+\CL Because the battlefield cameraman's father is long hospitalized, SAKURA does not have a source of income ……
+
+\CL While worried about how to make money, she is heading to the school.
+
+@mes_win
+
+

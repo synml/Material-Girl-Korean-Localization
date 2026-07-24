@@ -1,0 +1,73 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_06働く.txt】
+;; Phase Ⅱ
+
+;; Waiting Room
+
+
+@fade type=in t=1000 wt=1
+
+@huki id=3 b=3 wt=1
+
+[Boss]「SAKURA, you have fully adapted to this work ♪」
+
+@move_f f=サクラ@羞恥 in=r t=300
+
+[SAKURA/skr1290]「Although I feel very shameful……」
+
+[Boss]「um hoo hoo ♪ your innocence is likely the secret for your high popularity ♪」
+
+@huki id=3 b=8 wt=1
+
+[Boss]「I think that it is time for you to make use of fever time.」
+
+@bs f=サクラ@驚き op2=ハテナ
+
+@huki b=2 wt=1
+
+[SAKURA/skr1291]「Fever time?」
+
+[Boss]「You look at those girls, who pressed their guests onto their breasts.　I refer to this.」
+
+@huki id=3 b=3 wt=1
+
+[Boss]「The money that you get from the guests during the fever time belongs to you ♪」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@huki b=2 wt=1
+
+[SAKURA/skr1292]「Is this right?」
+
+@huki id=4 b=3 wt=1
+
+[Boss]「um hoo hoo ♪ Moreover, it is necessary to bed with the guests ♪」
+
+[Boss]「If you reach an agreement, I will not block you. ♪ um hoo hoo hoo ♪」
+
+@bs f=サクラ@哀しみ_z body_op=z
+
+@huki b=8 wt=1
+
+[SAKURA/skr1293] (This……this is somewhat……) 
+
+@bs f=サクラ@羞恥_z body_op=z
+
+[SAKURA/skr1294] (however, if you move your breast closer to the guests during the fever time……) 
+
+[Boss]「um hoo hoo ♪ SAKURA, you have to work hard today ♪」
+
+@bs f=サクラ@無表情
+
+[SAKURA/skr1295]「OK, I am going now.」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@se f=Move
+@fadeout
+
+　SAKURA moved out of Waiting Room towards the guests.
+

@@ -1,0 +1,34 @@
+
+;;【016_06パン屋段階Ｈ.txt】
+
+@dir dir=down id=3
+@dir dir=up
+
+@huki b=1 id=3
+@move_f f=サクラ@考え中 in=l t=300
+[店長]「咿呀，真是幫大忙了！　小櫻！」
+
+@huki b=3 id=3
+[店長]「啊，這個是今天的工資。」
+
+@bs f=サクラ@無表情
+[小櫻]「謝謝店長。」
+
+@huki b=3 id=3
+[店長]「小櫻能來店里幫忙、真是太好了。」
+
+@huki b=1 id=3
+[店長]「真希望你明天還能來啊！」
+
+@bs f=サクラ@考え中
+[小櫻]「……我考慮一下。」
+@move_f f=サクラ@考え中 out=l t=300
+
+@fade type=out t=1000 wt=0
+@route route=up id=3
+@se f=Move1
+@invisible type=on id=3
+@wait t=1200
+
+@bs
+

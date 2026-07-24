@@ -1,0 +1,34 @@
+
+;;【017_02着替え終了後.txt】
+;; Mini-game: Place commodities
+
+@fade type=in t=1000 wt=1
+
+;; Mini-game ends
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+@move_f f=サクラ@無表情 in=r t=300
+[Convenience Store's Manager]「SAKURA, thank you for your hard work today. [Store Manager] 「It is off work today. Here you are. This is today's salary.」
+
+[SAKURA]「Thank you very much!」
+
+@bs f=サクラ@考え中
+[SAKURA] (The store manager has agreed to her request for daily settlement of salary……Seemingly he is not a bad man.) 
+
+@bs f=サクラ@悔しい op2=困惑
+[SAKURA] (He is of sexual harassment somewhat. Moreover, when he stares at me with smiles, I feel upset somewhat……) 
+
+@bs f=サクラ@無表情
+[SAKURA]「I’m gonna go now. I'm sorry for my rudeness.」
+
+[Convenience Store's Manager]「um. I hope that you are able to work here again.」
+;;@move_f f=コンビニ店長 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　Bowing to the store manager, SAKURA took the salary and then left the convenience store happily. 
+
+;; Free action
+
+

@@ -1,0 +1,24 @@
+
+;;【014_01告白・司.txt】
+;;【015_01エンド・司.txt】
+
+@bgm f=Airship
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA/skr0962] (I am about to graduate……) 
+
+@bs f=サクラ@微笑_z body_op=z
+[SAKURA/skr0963] (hee hee, unexpectedly I have lived through my school life with TSUKASA as my lover.) 
+
+@bs f=サクラ@羞恥_z body_op=z op2=赤面
+
+[SAKURA/skr0964] (However, I can’t live without TSUKASA.) 
+
+@move_f f=サクラ@羞恥_z out=r t=300
+
+　After I have received TSUKASA’s confession, we have become more and more intimate. We finally came to the graduation day.
+
+　In the evening of the same day, TSUKASA came to my room.
+
+

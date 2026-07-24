@@ -1,0 +1,10 @@
+
+;;【010_01体育.txt】
+;;【010_02着ていない.txt】
+
+@bgm f=bgm01
+
+[스도]「이번 시간은 체육이다. 체육복으로 갈아입고 다시 와라!」
+
+;; The gym suit only can be bought or obtained after passing special plot.
+

@@ -1,0 +1,32 @@
+
+[有點怪的爺爺]「…………噢噢，我的腰疼」
+
+@move_f f=サクラ@哀しみ in=r t=300
+[小櫻]「你沒事吧？」
+
+[有點怪的爺爺]「……有破綻，接招！」
+
+@bgm_save
+@bgm f=bgm14
+
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune face=0 in=l t=150 h=1
+@bs f=サクラ@驚き_頬
+[小櫻]「呀啊……！？」
+
+[有點怪的爺爺]「唔嗯唔嗯…奶子觸感不錯，是吧」
+
+@bs
+@bgm
+@bgm_replay
+@c_jump
+@wait time=500
+@huki b=7
+@move_f f=サクラ@考え中_頬 in=r t=300
+[小櫻]「嗚嗚……我好狠我的熱心腸」
+
+@move_f f=サクラ@考え中_頬 out=r t=300
+

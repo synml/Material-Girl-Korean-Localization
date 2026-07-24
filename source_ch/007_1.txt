@@ -1,0 +1,24 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+;;　一到放學、小櫻便拿著一大把招工傳單沖向了商業街。
+
+@huki b=8 wt=1
+
+@huki b=7
+@move_f f=サクラ@悔しい op2=困惑 in=r t=300
+[小櫻]「這家店……在哪來著……」
+
+@bs f=サクラ@考え中
+[小櫻]（……這張傳單上的確寫著在這里啊）
+@move_f f=サクラ@考え中 out=r t=300
+
+@dir dir=left
+@map_scroll dir=left dis=29 spd=6 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻]（那個……沿著這條路向前走一會兒就能到……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@map_scroll dir=right dis=30 spd=7 wt=1
+

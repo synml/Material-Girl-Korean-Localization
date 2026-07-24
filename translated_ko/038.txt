@@ -1,0 +1,41 @@
+
+;;【007_01イジメられる司３.txt】
+;;【007_03敗北.txt】
+
+@huki b=1
+@anime num=302 wt=0
+@wait t=500
+
+@move_f f=サクラ@悔しい in=c t=300
+[사쿠라/skr0523]「어, 어떻게……이런……」
+@move_f f=サクラ@悔しい out=c t=300
+
+@se f=Blow6
+@change num=1
+@dir dir=down
+
+@huki b=8 id=12
+@move_speed spd=3 id=12
+@route route=left:2 id=12
+
+@huki b=2 id=12
+[사타케]「후～, 야, 얘들아!　저년을 둘러싸라!」
+
+@c_jump id=10 wt=0
+@c_jump id=11 wt=0
+@huki b=3 id=10
+@huki b=3 id=11 wt=1
+
+　사타케의 명령에, 불량배들이 쓰러진 사쿠라를 에워쌌다.
+
+@huki b=4 id=10
+[불량배1]「야하!　이 순간만을 기다렸다고!　사타케!」
+
+@huki b=4 id=11
+[불량배2]「히히히히, 이제 이년 맘대로 갖고 놀아도 되는 거지!」
+
+@huki b=7
+@move_f f=サクラ@悔しい in=c t=300
+[사쿠라/skr0524]（오지 마!　다, 다가오지 마……아아!）
+@move_f f=サクラ@悔しい out=c t=300
+

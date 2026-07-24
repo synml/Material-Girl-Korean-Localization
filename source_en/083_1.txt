@@ -1,0 +1,23 @@
+
+;;【018_01おっぱいパブ.txt】
+
+;; Accost a man when passing by Breast Hotel.
+
+Lascivious degree above 30
+
+@bgm_save
+@bgm f=bgm05
+
+@huki id=18 b=1 wt=1
+@route id=18 route=r wt=1
+
+[Man]「How do you feel. Are you interested in it?」
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA] (What shall I do……) 
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: Don’t Ask /Ask
+;;○Don’t ask →018_02話を聞かない
+;;○Ask →018_03話を聞く
+

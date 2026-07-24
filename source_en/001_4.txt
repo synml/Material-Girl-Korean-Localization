@@ -1,0 +1,17 @@
+
+;;【001_01プロローグ.txt】
+
+@dir_fix type=off id=41
+
+@huki id=41 b=4
+[Boy Student]「coo hey hey, every morning\C[2] when I watch the inspection of clothes here, \C[0] I feel really fantastic……」
+
+@dir dir=down id=41
+
+@huki id=41 b=6
+[Boy Student]「…… ah!? When, when did you stay here!?」
+
+@dir dir=up id=41
+
+@dir_fix type=on id=41
+

@@ -1,0 +1,9 @@
+
+;;【020_03試遊する.txt】
+
+@huki id=22 b=8
+[Researcher]「……woo um. It is not easy to find. If you have to experience――」
+
+@huki id=22 b=8
+[Researcher]「Let that girl in my favorite \C[2] uniform \C[0] come over here……」
+

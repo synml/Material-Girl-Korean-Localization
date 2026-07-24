@@ -1,0 +1,6 @@
+
+@mes_win back=1 pos=1
+
+\CL 버니 유니폼을 손에 넣었다!
+
+@mes_win

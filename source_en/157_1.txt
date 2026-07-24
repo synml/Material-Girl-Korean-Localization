@@ -1,0 +1,57 @@
+
+;;【024_08好感度未達成.txt】
+
+@dir dir=down id=6
+@dir dir=down id=5
+@dir dir=down id=4
+
+@dot_move id=7 x=6 y=8 dir=up
+@invisible id=7 type=off
+
+@fade type=in t=1000 wt=1
+
+@huki b=8 id=7
+[Boss]「Miss SAKURA……time is up.」
+
+@move_f f=サクラ@驚き in=r t=300
+
+@huki b=2
+[SAKURA]「hoo woo woo woo. I am playing very happy」
+
+@bs f=サクラ@微笑
+
+@fade type=out t=1000 wt=1
+
+@dot_move x=6 y=10 dir=up
+@dot_move x=5 y=8 id=4 dir=down
+@dot_move x=6 y=8 id=5 dir=down
+@dot_move x=7 y=8 id=6 dir=down
+@dot_move x=5 y=10 id=7 dir=right
+@wait t=1200
+
+@fade type=in t=1000 wt=1
+
+@huki b=8 id=7
+[Boss]「Thank you for your patronage.」
+
+@huki b=8
+[SAKURA]「See you later……」
+
+@huki b=8 id=7
+[Boss]「Please wait a moment. Miss SAKURA」
+
+@huki b=8 id=7 id=4
+@huki b=8 id=7 id=5
+@huki b=8 id=7 id=6
+@huki b=8 id=7 id=7 wt=1
+
+;; SAKURA waved to the queued hosts, and then moved out of the store quickly.
+
+@bs f=サクラ@笑み
+[SAKURA] (Although I have spent a lot of money, it is really interesting.) 
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+
+;; Free action
+

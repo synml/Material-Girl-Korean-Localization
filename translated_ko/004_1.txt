@@ -1,0 +1,48 @@
+
+;;【001_01プロローグ.txt】
+;;【001_03敗北.txt】
+
+@bgm f=bgm01
+
+@huki b=7
+@huki b=8 id=18
+@wait t=1200
+
+@mes_win back=1 pos=1
+@se f=衣擦れの音1
+　아주 잠깐이긴 했지만, 아쉬움이 뚝뚝 묻어나는 얼굴로 스도는 겨우 손을 놓았다.
+@mes_win back=0 pos=2
+
+@huki b=8 id=18
+[스도]「가 봐라」
+
+@change f=void id=101
+@change f=void id=102
+@change f=void id=103
+@change f=void id=104
+@change f=void id=105
+@change f=void id=106
+@change f=void id=107
+@change f=void id=108
+@change f=void id=36
+@move_speed spd=2
+@huki b=7
+@route route=up:2
+
+@move_speed spd=4
+@huki b=7
+@move_f f=サクラ@悔しい_頬 op2=困惑 in=r t=300
+[사쿠라/skr0071]（두 번 다시 저 인간한테 잡히나 봐라……）
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+@fade type=out t=1000 wt=0
+@route route=up:4
+
+@mes_win back=1 pos=1
+　그런 결심을 품고, 사쿠라는 본관으로 들어갔다.
+@mes_win back=0 pos=2
+
+@bgm
+@move_speed spd=4
+
+

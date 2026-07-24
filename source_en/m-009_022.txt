@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL There seems to be a porn shop in the happy street\nLusty（\I[321]\I[321]）girls may be found there?
+@mes_win
+

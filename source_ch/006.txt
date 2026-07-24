@@ -1,0 +1,219 @@
+
+;;【002_02教室に入る.txt】
+
+@bgm
+
+@dir_fix type=off id=8
+@dir_fix type=off id=9
+@dir_fix type=off id=5
+
+@through type=on id=8
+@through type=on id=9
+
+@through type=on id=5
+
+@huki b=3 id=8
+@huki b=9 id=9 wt=1
+
+;;@move_speed spd=2
+;;@route route=up wt=1
+;;@dir dir=right
+
+;;@route route=down:6,right:7,down:3 id=9 wt=0
+;;@route route=right,down:6,right:7,down:3 id=8 wt=0
+
+@route id=8 route=left,down wt=0
+@route id=9 route=right,down
+
+@dir id=9 dir=right
+@dir id=8 dir=right
+
+
+@huki b=1 id=5 wt=1
+@route route=down id=5 wt=1
+@dir dir=left id=5
+
+@huki b=8 id=5 wt=1
+
+@move_speed spd=4 id=5
+@route route=left:4,up id=5
+@dir dir=left id=5
+
+@bgm f=bgm03
+
+
+@huki id=5 b=8
+;;@move_f f=司 in=r t=300
+[司]「小櫻、現在方便嗎」
+
+;;　進教室之后叫住我的、是我的青梅竹馬司。
+
+@huki b=8
+@move_f f=サクラ@考え中 in=l t=300
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[小櫻]「怎么了？　司」
+
+@huki id=5 b=2
+[司]「今天、也來我家吃晚飯吧？」
+
+@bs f=サクラ@微笑
+[小櫻]「嗯嗯。謝謝你司」
+
+@huki b=8
+@bs f=サクラ@考え中
+@wait t=1200
+
+@bs f=サクラ@哀しみ
+[小櫻]（平常、司總是在各個方面關照我、都有些不好意思了呢……）
+
+@huki b=8
+@bs f=サクラ@微笑
+[小櫻]「謝謝你啊司、總是這么關心我」
+;;@move_f=司 out=r t=300 wt=0
+@move_f f=サクラ@微笑 out=l t=300
+
+@jump id=5 wt=0
+@huki b=1 id=5 wt=1
+
+@huki b=11 id=5
+;;@move_f=司 in=r t=300
+[司]「誒！？　哪、哪里……我、我才是、小的時候總是被小櫻關照著」
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=l t=300
+
+@bs f=サクラ@無表情
+[小櫻]（小的時候、啊……畢竟司很溫柔、所以總是被欺負啊……）
+
+[司]「每次在我被別人欺負的時候都是小櫻來救我」
+
+@huki id=5 b=3
+[司]「所以、我真的很感謝你。畢竟小櫻、小的時候可是超級厲害的呢」
+
+@huki b=6
+@bs f=サクラ@考え中 op2=汗
+[小櫻]「那個啊……那是陪爸爸一起出差的時候、被強行灌輸的啊……」
+
+[司]「哈哈、之前你也說過吧。在海外學過武術什么的」
+
+@bs f=サクラ@哀しみ op2=困惑
+[小櫻]「嗯……這也是被爸爸逼著學的……」
+
+@huki b=8
+@bs f=サクラ@無表情
+[小櫻]「拜此所賜、我從來不怕那些欺負人的孩子」
+
+[司]「也是因為小櫻懲罰了那些欺負人的孩子、我才再也沒被欺負過呢」
+;;@move_f=司 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+
+@huki b=8 id=5
+@huki b=8 wt=1
+
+;;@move_f=司 in=r t=300 wt=0
+@move_f f=サクラ@考え中 in=l t=300
+[小櫻]「那都是以前的事情了……」
+
+@huki b=8 id=5
+[司]「我從那個時候就開始……」
+
+;;@move_f=司 out=r t=300 wt=0
+@move_f f=サクラ@考え中 out=l t=300
+
+@huki b=8 id=5 wt=1
+
+@huki b=2
+@huki b=11 id=5 wt=1
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=l t=300
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[小櫻]「司……？」
+@move_f f=サクラ@無表情 out=l t=300
+
+@c_jump id=5 wt=0
+@huki b=1 id=5 wt=1
+
+@huki b=6 id=5
+;;@move_f=司 in=r t=300
+[司]「啊！？　沒什么沒什么。什么事都沒有。對、對了。小櫻……那個……」
+
+@huki b=8 id=5 wt=1
+
+@huki b=11 id=5
+[司]「方便的話……今天、要不要一起回家呢？」
+
+;;　司鼓起勇氣、提出了一起回家的邀請。
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=l t=300 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[小櫻]（司的臉、怎么有些紅……不會發燒了吧？）
+
+@huki id=8
+@bs f=サクラ@考え中
+@wait t=1200
+
+@huki id=7
+@bs f=サクラ@悔しい op2=困惑
+[小櫻]（難得他今天要請我……但我今天不得不去找工作了啊……）
+
+　一想起錢的事情、我的心情突然低落到了谷底。
+
+　五天后要交的1萬5千日元……拼了命也要給他攢出來。
+
+@huki id=8
+@bs f=サクラ@哀しみ
+[小櫻]「抱歉。我今天要去找工作所以不能一起回家了」
+;;@move_f=司 out=r t=300 wt=0
+@move_f f=サクラ@哀しみ out=l t=300
+
+@c_jump id=5 wt=0
+@huki id=5 b=1 wt=1
+
+@huki b=8 wt=1 id=5
+
+@huki b=7 id=5
+;;@move_f=司 in=r t=300
+[司]「這、這樣啊……那、那就下次再說吧……」
+
+@huki b=8 id=5
+@move_speed spd=3 id=5
+@fade type=out t=1000 wt=0
+@route route=down,right:4,up id=5
+@dir dir=right id=5
+@fade type=in t=1000
+
+@huki b=7 id=5
+;;　帶著一臉的失落、司回到了自己的座位上。
+
+@move_f f=サクラ@考え中 op2=ハテナ in=l t=300
+@huki b=8 wt=1
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[小櫻]（司、他怎么了？　突然垂喪個臉……）
+
+@huki b=8
+@bs f=サクラ@考え中
+[小櫻]（嘛、算了。比起這個、要是能找到個來錢快的工作就好了）
+@move_f f=サクラ@考え中 out=l t=300
+
+@fade type=out t=2000 wt=1
+
+@bgm
+
+@mes_win back=1 pos=1
+　我即刻轉換了心情、全力思考者放學之后去找工作的事。
+@mes_win back=0 pos=2
+
+@move_speed spd=4
+;;放學后的自由活動
+@bs
+

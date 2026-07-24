@@ -1,0 +1,28 @@
+
+;;【017_01コンビニ.txt】
+
+;; See the convenience store’s “Job Wanted” advertisement, and then accost the store manager.
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+@move_f f=サクラ@哀しみ in=r t=300
+[사쿠라]「저기……아르바이트 지원하러 왔는데요」
+
+;;@move_f f=コンビニ店長 in=l t=300 wt=0
+[편의점 점장]「음?　호오호오. 제법 괜찮구먼」
+
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]「네?　무슨 말씀이세요?」
+
+@bs f=サクラ@無表情
+[편의점 점장]「아, 아닐세. 아무것도. 신경 쓰지 말게. 그럼, 일단 면접부터 해볼까」
+
+[편의점 점장]「이쪽으로 잠깐 와주겠나?」
+
+[사쿠라]「네」
+;;@move_f f=コンビニ店長 out=l t=300 wt=0
+@move_f f=サクラ@無表情 out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　사쿠라는 점장과 함께 편의점 창고로 향했다.
+

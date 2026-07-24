@@ -1,0 +1,24 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+;;SAKURA rushes towards the business street after school, with many job leaflets in her hands.
+
+@huki b=8 wt=1
+
+@huki b=7
+@move_f f=サクラ@悔しい op2=困惑 in=r t=300
+[사쿠라]「그 가게…… 어디였더라……」
+
+@bs f=サクラ@考え中
+[사쿠라]（……전단지엔 분명 여기라고 쓰여 있는데）
+@move_f f=サクラ@考え中 out=r t=300
+
+@dir dir=left
+@map_scroll dir=left dis=29 spd=6 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]（그러니까…… 이 길을 따라 조금만 가면 나온다고 했지……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@map_scroll dir=right dis=30 spd=7 wt=1
+

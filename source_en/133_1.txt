@@ -1,0 +1,32 @@
+
+;;【022_01売春②.txt】
+
+;; In reference to the status of prostitution, lascivious degree is above 50.
+
+;;【022_02ダンディなオヤジ本番.txt】
+
+;; SAKURA dialogues with a fashion uncle on the street.
+
+;;@bgm f=bgm02
+
+@huki b=4
+@move_f f=サクラ@羞恥 in=r t=300
+[SAKURA]「Making love with uncle is very comfortable……」
+
+　Washing the love fluid, SAKURA stared at that man with her moist eyes.
+
+[Man]「 I haven’t been so happy for a long time. If you can’t receive it, I will feel very embarrassed.」
+
+[Man]「If you have interest someday, you may find me at any time. I'm gonna go now」
+
+@se f=Move
+@fadeout 
+
+[SAKURA] (ah ah……so good, uncle……) 
+
+[SAKURA] (Uncle’s money……I must use it well……) 
+
+　Her heart thumped just like a girl in love. SAKURA gave a warm sigh.
+
+@bs
+

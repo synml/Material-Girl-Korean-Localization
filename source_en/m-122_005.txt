@@ -1,0 +1,10 @@
+
+@mes_win back=1 pos=1
+
+\CL SAKURA is determined to make money with her own strength for a living\nbeginning to act……
+
+\CL What she will get and lose finally……\nall depends on SAKURA's own acts.
+
+@mes_win
+
+

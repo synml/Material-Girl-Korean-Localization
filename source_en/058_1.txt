@@ -1,0 +1,33 @@
+
+@fade type=out t=1000 wt=1
+@wait t=1800
+@se f=学校チャイム
+
+　ding-tong ding-tong
+
+@fade type=in t=1000 wt=1
+
+[SAKURA/skr0801]「ah ah……yee !? ah ah ah ah!」
+
+[SUDOU]「hum hum, you finally wake up. Only because you fainted away, I didn’t supervise the students!」
+
+@move_f f=サクラ@悔しい_頬 in=r t=300
+[SAKURA/skr0802]「coo……!」
+
+　SUDOU looks at SAKURA with evil smile.
+
+[SUDOU]「Get up, let us go back. Follow me.」
+
+@bs f=サクラ@哀しみ_頬
+[SAKURA/skr0803] (Inside……there……there are this guy’s……) 
+
+@bs f=サクラ@驚き
+[SUDOU]「Come over in a hurry!」
+
+@fade type=out t=1000 wt=1
+
+@move_f f=サクラ@驚き out=r t=300
+@bs
+
+　Treating SAKURA as a toy, SUDOU caught her to walk towards the gymnasium. 
+

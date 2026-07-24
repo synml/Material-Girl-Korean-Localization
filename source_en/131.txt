@@ -1,0 +1,52 @@
+
+;;【022_01売春②.txt】
+
+;; In reference to the status of prostitution, lascivious degree is above 50.
+
+;;【022_02ダンディなオヤジ本番.txt】
+
+;; SAKURA dialogues with a fashion uncle on the street.
+
+;;@bgm f=bgm02
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[SAKURA/skr1891] (that uncle, so handsome……that guy, how does that guy make love?) 
+
+[SAKURA/skr1892] (Try to accost him) 
+
+@bs f=サクラ@微笑
+[SAKURA/skr1893]「hello, sorry」
+
+@huki id=46 b=2
+[Man]「What can I do for you?」
+
+@huki b=8
+@bs f=サクラ@笑み_z body_op=z
+[SAKURA/skr1894]「Would you like to……make love……with me?」
+
+[Man]「hoo oh」
+
+　In face of SAKURA’s unexpected invitation, that man looked at her defensively.
+
+@huki id=46 b=8 wt=1
+
+[Man]「woo um……」
+
+@huki b=8
+@bs f=サクラ@微笑_z body_op=z
+[SAKURA/skr1895]「30,000 yen once?」
+
+[Man]「……OK. So, let’s go to hotel.」
+
+　That man looked through SAKURA, and nodded his head.
+
+@bs f=サクラ@笑み
+
+[SAKURA/skr1896]「OK」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+　SAKURA followed that man to walk towards the hotel.
+

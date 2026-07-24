@@ -1,0 +1,16 @@
+
+@huki b=8 id=16
+[Store Manager]「Welcome.......this is the shop of an old man selling the JK school custom」
+
+@huki b=8 id=16
+[Store Manager]「I'll buy anything I like 」
+
+@huki b=8 id=16
+[Store Manager]「Legal or illegal you can buy or sell anything in my shop」
+
+@huki b=8 id=16
+[Store Manager]「Most customers are the man though」
+
+@huki b=8 id=16
+[Store Manager]「Do you want to sell anything?」
+

@@ -1,0 +1,25 @@
+
+;;【017_01コンビニ.txt】
+
+@huki b=8
+
+@mes_win back=1 pos=1
+\CL 『Staff Wanted! 　Staff Wanted! 　1000 yen hourly wage! 』
+
+\CL 『Interview at shift time!!』
+@mes_win back=0 pos=2
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「……convenience store」
+
+@huki b=8
+@bs f=サクラ@考え中
+[SAKURA] (……Anyway I have other choice.) 
+
+@bs f=サクラ@無表情
+[SAKURA]「I firstly enter into the store to ask……」
+
+@move_f f=サクラ@無表情 out=r t=300
+

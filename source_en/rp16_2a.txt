@@ -1,0 +1,278 @@
+
+;; Reading the image
+@fadeout
+@pl f=S_ev16c
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm15
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG16
+@bgf bg=ev16 t=1000
+
+[SAKURA/skr1566]( Ah......I'm touched again......Hum!? Ah!)
+
+[SAKURA/skr1567](It’s so true......The smelly and sticky feeling is so disgusting......)
+
+[SAKURA/skr1568](Although it is disgusting......it is better than that in the last time......)
+
+[SAKURA/skr1569] 「Hum......Ah, hum, hum......Ah!」
+
+SAKURA trembled immediately after feeling the rotted fingers of the zombie inserted into her bubby.
+
+[SAKURA/skr1570](The rotted fingers......Ah, are kneaded my bubby......Ah!? Ah! Humm!)
+
+[Zombie] 「Um......Umm......」
+
+[SAKURA/skr1571] 「Ah, um! Ah! Humm!」
+
+[SAKURA/skr1572](Although I get better than ever before......It is so terrible......Disgusting!)
+
+[SAKURA/skr1573](I, I......am raped by a zombie just like the last time!)
+
+SAKURA felt the tearing pain on her body when recalling the invasion by the rotted penis.
+
+[SAKURA/skr1574](I get hot and dry when I recall......that......)
+
+[Zombie] 「Ah!? Ah, wait......Really......No!」
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG15b
+@bgf bg=ev15b t=1000
+
+[Researcher] 「Hey-hey-hey! It is much better than the response in the last time!」
+
+[Researcher] 「Are you thirsty for being raped by the zombie?」
+
+[Researcher] 「Look, it’s getting harder here!」
+
+[SAKURA/skr1575] 「Ah!? Hum! Ah......Ah, um!」
+
+　SAKURA got cramp on her stretching legs when she was suddenly grasped with her prominent 
+
+[Researcher] 「There are smells of females here.」
+
+[Researcher] 「Come on! Let me gradually develop your body in the future.」
+
+@bgs f=aegi_skr1
+
+[SAKURA/skr1576] 「Ah......Hum, ah, ah......Um.」
+
+[Researcher] 「You want me to comfort you with my hands here, am I right? Hey-hey-hey!」
+
+[SAKURA/skr1577] 「Stop......Ah......My nipple......is going to be nipped......Hum.」
+
+[Researcher] 「Hum, what are you saying? Obviously, you are thirsty for being invaded like this.」
+
+[SAKURA/skr1578] 「Ah! Hum, ah, ah, ah! Ahh!」
+
+[Researcher] 「Your nipples are getting harder!」
+
+[SAKURA/skr1579] 「Hum, um......Ah, ah! Ahh!」
+
+[Researcher] 「You want it now?」
+
+　The man is pulling out his penis while licking with his tongue.
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG16a
+@bgf bg=ev16a t=1000
+
+[SAKURA/skr1580](The penis......My body is pressed by his penis......)
+
+　He was pressing against the lower belly of SAKURA with his erectile penis while kneading her bubby.
+
+[SAKURA/skr1581]( So, so hard......Ah, he is going to enter into my body......I, I am going to be raped.)
+
+[SAKURA/skr1582] 「Hum, hum! Ah, um!」
+
+[SAKURA/skr1583](Really......It is so terrible......I hate being raped......Hum!)
+
+　SAKURA was surrounded by both the hot pain and the rational warming on disgusting.
+
+[SAKURA/skr1584](Although it is only in the game......I, I do not want to be raped!)
+
+[SAKURA/skr1585](I have to escape......escape......)
+
+[SAKURA/skr1586] 「Ah!? Eh! It’s so, so strong......」
+
+　SAKURA twisted her body so as to escape while she was grasped rudely on her bubby.
+
+[SAKURA/skr1587] 「Ah!? No......Please do not come her......Please do no erect to so big......Eh」
+
+[Zombie] 「Um......um」
+
+[SAKURA/skr1588](This zombie is laughing......He seems to laugh at my disgusting expressions)
+
+[SAKURA/skr1589](Ah, it’s so great......It is so great in the game world......I cannot believe that!)
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG15c
+@bgf bg=ev15c t=1000
+@se f=ピストン l=1
+@bgs f=aegi_skr2
+
+[Researcher] 「So, you want it, right? You are thirty for being raped by the zombie!?」
+
+Pooppp! Poop! Poop!
+
+[SAKURA/skr1590] 「Ah! Please no......」
+
+[Researcher] 「You say no, but you are so wet here!」
+
+[SAKURA/skr1591] 「Ah!? Hum......Ah, ah!」
+
+[SAKURA/skr1592] 「So disgusting......So disgusting......」
+
+[Researcher] 「Don’t tell a lie. Actually, you are comfortable, right?」
+
+　The man arbitrarily laughed at SAKURA, who was so feared about being raped by the zombie in the game.
+
+[Researcher] 「Look! It has been inserted into your vagina completely!」
+
+[SAKURA/skr1593] 「Eh......Eh......Ah, ah, hum!」
+
+[Researcher] 「Hey-hey-hey, what’s your feeling now? Are you hot and dry......and want to be raped violently?」
+
+[Researcher] 「I can satisfy you if you are!」
+
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr3
+
+Poop! Poopp!
+
+[SAKURA/skr1594] 「Hum! Ah! Ah! Ah! Ahh!」
+
+[Researcher] 「Do you want to be raped by the zombie violently? It’s good!?」
+
+[SAKURA/skr1595] 「No, please do not......so hard......I, I’m going to die......」
+
+[Researcher] 「Hey-hey-hey, you are getting wetter and wetter. Ah, you are so great!」
+
+[SAKURA/skr1596] 「Ah!? Hum! ......Ah! Um!?」
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG16c
+;;@bgf bg=ev16c t=1000
+
+@flash t=500
+@ev_anime f=S_ev16c sx=12 sy=1 fps=3
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+[SAKURA/skr1597](It’s getting fiercer......Great! So great!)
+
+[SAKURA/skr1598]( I, I......I......am making love with a zombie......So, so comfortable!)
+
+[SAKURA/skr1599](Although it is in the game......it is so true that I feel I’m making love in the real world......)
+
+　SAKURA was excited due to the penis deeply inserted into her body. She shouted while shook her body.
+
+[SAKURA/skr1600](It’s so cool while making love with a zombie......I, I do not want to make love with an ordinary person any more.)
+
+[SAKURA/skr1601](No, not only me......Everybody feels satisfied when making love in the game world......)
+
+[SAKURA/skr1602] 「Ah! So......so good! Great!」
+
+[SAKURA/skr1603]( I cannot help making a sound......Ahh! Hum! I, I cannot think!)
+
+[SAKURA/skr1604](Although it is so smelly, terrible and disgusting when making love with a zombie......)
+
+[SAKURA/skr1605](It’s so cool when being rubbed by the penis......Um!)
+
+[SAKURA/skr1606] 「Ah! Um, ah! Um! Ah! Ah! Um!」
+
+[SAKURA/skr1607](Making love with a zombie, and I, I’m almost there!? How......)
+
+[SAKURA/skr1608](Really......I cannot help......I have an orgasm while making love with a zombie......No......)
+
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+[Zombie] 「Um......Umm......」
+
+[SAKURA/skr1609] 「Ah!? So......fierce!? Ah! Do not have an orgasm......No!」
+
+[SAKURA/skr1610](The zombie is laughing......He is laughing at me almost having an orgasm......)
+
+[SAKURA/skr1611]( The zombie likes to have a life......Ah!? I’m almost there! I will be laughed at by a zombie!)
+
+　SAKURA had an orgasm on her burning and painful body with a shame.
+
+[SAKURA/skr1612] 「Ah! Please don’t! A!? Please don’t! Please don’t have an orgasm!」
+
+[Zombie] 「Um! Ahhh!!」
+
+[SAKURA/skr1613] 「Ah!? Great......Ah!? Ah! Hum, ahh!」
+
+[SAKURA/skr1614](I’m dying......I’m almost there......I’m almost there while making love with a zombie!)
+
+[SAKURA/skr1615] 「Ah! Ah! Ahh! Ah! Ah—— I’m getting there......Um......」
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;ＣＧ■CG15e
+@fin bg=ev15e se=射精音
+@bgs f=aegi_skr4
+
+[SAKURA/skr1616] 「I’m getting there! I’m getting there! Ummm!」
+
+[Researcher] 「Is that cool to be fucked in the VR world?」
+
+[Researcher] 「The excitement in the VR world can be connected to the true world......」
+
+@fin se=射精音
+
+　Poop! Poop! Pooppp!
+
+　The man ejaculated into the body of SAKURA while looked over her body shaking due to the orgasm.
+
+[SAKURA/skr1617] 「Ah! Ah! Ah! Ah! I’m getting there! I’m getting there!」
+
+[Researcher] 「Hey-hey, I will look through the response data later. And now......」
+
+[Researcher] 「Let me enjoy your smell on your lower body! Hum! Hum! Hum!」
+
+　Looking like occupying the body of SAKURA, the man threw out his waist and thrust fiercely.
+
+[SAKURA/skr1618] 「Ah! Good! So good! I cannot stop......I’m having an orgasm! I cannot stop!」
+
+[Researcher] 「Hey-hey, do you like the penis of the zombie so much? It is my penis, actually.」
+
+[Researcher] 「Come on, and enjoy your orgasm! And I’m almost there!」
+
+[SAKURA/skr1619] 「Eh!? Ah!? Ah! Ah! I’m getting there! I’m getting there! Umm!」
+
+[Researcher] 「So do I! Ehmmmm!」
+
+@fin se=射精音
+
+　Poop! Poopp! Pooppp!
+
+[SAKURA/skr1620] 「Ah!? Ahh! Huh......Ah......」
+
+@bgs
+
+　SAKURA started to relax her body which was twisted just now.
+
+[Researcher] 「Are you exhausted? Hey-hey-hey, it is enough for me to acquire the data.」
+
+　The man took out his penis from SAKURA who had been just satisfied, with a slight smile on his face.
+
+;;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@se
+@bgm
+@bgs
+@bgv
+@rps
+

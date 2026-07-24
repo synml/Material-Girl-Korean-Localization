@@ -1,0 +1,15 @@
+
+;; Inside the building
+
+;;@bgm f=bgm01
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA/skr1462] (The room is in a mess……however, I looks very interesting) 
+
+[Researcher]「Here it is. I have to make preparations」
+
+[SAKURA/skr1463]「OK」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+

@@ -1,0 +1,101 @@
+
+;;【009_02全ての素材を渡す.txt】
+;;【009_04_飲む.txt】
+
+@bgm f=Dungeon3
+@move_f f=サクラ@考え中 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr0618] ( I also want to know what this drug is……Moreover, MAKIOKA also told me not to worry about it……) 
+
+　Due to her thanks and curiosity, SAKURA――
+
+@bs f=サクラ@無表情
+
+@wait t=1000
+
+[SAKURA/skr0619]「So, I drink it.」
+
+　I agree to drink this drug.
+
+@huki id=101 b=1 wt=1
+
+[MAKIOKA]「Thank you very much! 　Its drug effect lasts one hour. Such quantity should be enough……」
+
+@bs f=サクラ@哀しみ op2=困惑
+
+@wait t=500
+@huki b=8 wt=1
+
+[SAKURA/skr0620] (When I really drink this drug……I feel upset somewhat……) 
+
+[MAKIOKA]「Come on, drink this drug, SAKURA schoolmate.」
+
+@bs f=サクラ@無表情
+
+[SAKURA/skr0621]「um.」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA/skr0622] (MAKIOKA looks desired……in this case, I can’t change my mind……) 
+
+@bs f=サクラ@無表情
+
+[SAKURA/skr0623]「So, I drink it. um…… coo!? woo woo!」
+
+@bs f=サクラ@哀しみ
+
+@huki b=1 wt=1
+
+[SAKURA/skr0624] (It smells strange……Moreover……) 
+
+@bgm f=Dungeon2
+@bs f=サクラ@驚き op2=ビックリ
+
+[SAKURA/skr0625]「woo!? ah ah ah!」
+
+@bs f=サクラ@驚き op2=汗
+
+@huki b=1 wt=1
+@dir dir=d wt=1
+
+[SAKURA/skr0626] ( breast ……my breasts are swelled……ah ah……so painful.) 
+
+@move_f f=サクラ@驚き out=r t=300
+
+@huki id=101 b=1 wt=1
+
+[MAKIOKA]「SAKURA schoolmate ……!?」
+
+　Seeing that SAKURA crouched down and covered her chests, MAKIOKA felt fearful somewhat.
+
+[MAKIOKA]「Philter……is it failed!? Wait, however, in theory, it should…… ah ah!? SAKURA schoolmate, are you OK!?」
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8 wt=1
+@dir dir=u wt=1
+
+[SAKURA/skr0627]「ha ah, ha ah, ha, ha……I am OK……suddenly, my breasts feel painful……」
+
+[MAKIOKA]「So great……however, the experiment fails.」
+
+@bs f=サクラ@驚き_z body_op=z op2=ビックリ
+
+@huki b=1 wt=1
+
+[SAKURA/skr0628]「Eh……！？Uhhhh……」 
+
+[MAKIOKA]「Sorry, SAKURA schoolmate. We go to hospital together……ay? 　SAKURA schoolmate?」
+
+@bs f=サクラ@羞恥_z body_op=z
+
+[SAKURA/skr0629]「ha ah, ha ah, ha ah——」
+
+[MAKIOKA]「ay? 　ay!? wow ah ah!?」
+
+@move_f f=サクラ@羞恥_z out=r t=300
+

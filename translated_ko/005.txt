@@ -1,0 +1,688 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+@bgm f=bgm02
+
+@huki b=2
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch001 bad=jump:*left_branch001
+;;-------------------------------------
+;;　右の時
+*right_branch001
+
+@map_scroll dir=right dis=5 spd=4
+
+@jump target=*dir_branch001
+;;-------------------------------------
+;;　左の時
+*left_branch001
+
+@map_scroll dir=left dis=4 spd=4
+
+@jump target=*dir_branch001
+;;-------------------------------------
+*dir_branch001
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@move_f f=サクラ@考え中 in=r t=300
+@wait t=1200
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]（저건…… 아사히코……?　저기서 뭐 하는 거지?）
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8
+@wait t=1200
+
+@huki b=1
+@c_jump
+
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+[사쿠라]（앗!? 저 여자애도 있네…… 설마…… 이거 고백 현장?）
+
+@huki b=8
+
+@bs f=サクラ@考え中
+[사쿠라]（하긴 아사히코 걔가 얼굴은 꽤 잘생겼지…… 게다가 집도 엄청 부자고……）
+
+@huki b=8
+@bs f=サクラ@悔しい
+[사쿠라]（아사히코네 회사 광고는 매일같이 TV에 나오는 데다, 머리까지 좋으니까. 하지만……）
+
+@huki b=7
+@bs f=サクラ@考え中 op2=困惑
+[사쿠라]（어차피 그 아사히코니까……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=2 id=31
+@route route=left id=31
+@move_speed spd=3 id=31
+
+@huki b=8 id=31
+[여학생]「저, 저기 아사히코 선배……!」
+
+@huki b=4 id=31
+
+@huki b=2 id=30
+@wait t=1200
+
+@huki b=2 id=30
+@dir dir=right id=30
+;;@move_f f=朝彦 in=l t=300
+[아사히코]「나한테 무슨 용건이지?」
+
+@huki b=1 id=31
+[여학생]「조, 좋아해요!　저랑 사귀어 주세요!」
+;;@move_f f=朝彦 out=l t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch002 bad=jump:*left_branch002
+;;-------------------------------------
+;; When selecting right side
+*right_branch002
+
+@map_scroll dir=left dis=5 spd=6
+
+@jump target=*dir_branch002
+;;-------------------------------------
+;; When selecting left side
+*left_branch002
+
+@map_scroll dir=right dis=4 spd=6
+
+@jump target=*dir_branch002
+;;-------------------------------------
+*dir_branch002
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[사쿠라]（진짜 고백 현장이었네. 일단 어디 숨을 데부터 찾아야 하나……）
+@move_f f=サクラ@考え中 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch003 bad=jump:*left_branch003
+;;-------------------------------------
+;; When selecting right side
+*right_branch003
+
+@route route=left,up:2
+@rpute route=left
+@route_point x=36 y=8 dir=r
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=right dis=6 spd=5
+
+@jump target=*dir_branch003
+;;-------------------------------------
+;; When selecting left side
+*left_branch003
+
+@route route=right
+@route_point x=51 y=8 dir=l
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=left dis=5 spd=5
+
+@jump target=*dir_branch003
+;;-------------------------------------
+*dir_branch003
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8 id=30
+@wait t=1200
+
+;;move_f f=朝彦 in=l t=300
+[아사히코]「고마워. 네가 날 좋아해 준다니, 정말 기뻐」
+;;move_f f=朝彦 out=l t=300
+
+@huki b=8
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[사쿠라]（이런 상황을 일상처럼 받아들이냐, 그것도 그렇게 해맑게 웃으면서 말이야……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=4 id=31
+[여학생]「그, 그러니까 그 말은……」
+
+;; Unexpected acceptance of confession moves that girl student so that she almost cries out.
+
+@huki b=8 id=30
+@wait t=1200
+
+;;move_f f=朝彦 in=l t=300
+[아사히코]「우선, \C[2]이 팬티스타킹을\C[0] 한번 신어 봐 줄래?」
+;;move_f f=朝彦 out=l t=300
+
+@huki b=8 id=31
+@wait t=1200
+
+@huki b=2 id=31
+[여학생]「에……?」
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[사쿠라]（역시 내 예상대로야. 아사히코 걔, 그런 취향이 있구나……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8 id=30
+@wait t=1200
+
+@huki b=9 id=30
+;;move_f f=朝彦 in=l t=300
+[아사히코]「어디 보자…… 역시 이 팬티스타킹이 네 스타일에 더 잘 어울리겠어」
+;;move_f f=朝彦 out=l t=300
+
+@huki b=6
+@move_f f=サクラ@考え中 op2=困惑 in=r t=300
+[사쿠라]（정말이지, 이 녀석 대체 팬티스타킹을 몇 개나 갖고 다니는 거야. 믿기지가 않네……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@route id=30 route=right
+
+@se f=衣擦れの音1
+@huki b=8 wt=1 id=30
+
+@huki b=6 id=31 wt=1
+
+@huki b=2 id=31
+[여학생]「에?　에?　저기…… 아사히코 선배……?」
+
+@route id=30 route=left
+
+@dir dir=right id=30
+@huki b=8 id=30 wt=1
+
+;;move_f f=朝彦 in=l t=300
+[아사히코]「난 말이지, 팬티스타킹을 신은 여성을 특별히 좋아하거든. 그러니까――」
+
+@huki b=2 id=30
+[아사히코]「나를 좋아한다면, 날 위해 팬티스타킹을 신어 주겠어?」
+;;move_f f=朝彦 out=l t=300
+
+@huki b=8 id=31
+[여학생]「…………」
+
+@huki b=7 id=31
+@wait t=1200
+
+@huki b=8 id=31
+[여학생]「……아, 알겠어요……」
+
+@huki b=1
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch005 bad=jump:*left_branch005
+;;-------------------------------------
+;; When selecting right side
+*right_branch005
+
+@map_scroll dir=left dis=6 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch005
+;;-------------------------------------
+;; When selecting left side
+*left_branch005
+
+@map_scroll dir=right dis=5 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch005
+;;-------------------------------------
+*dir_branch005
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=6
+@wait t=1200
+
+@move_f f=サクラ@驚き op2=汗 in=r t=300
+[사쿠라]（우와아아!? 대단한데…… 여태 대부분의 여자애들은 팬티스타킹을 신으라는 말에 다 거절했었는데）
+
+@bs f=サクラ@考え中 op2=汗
+[사쿠라]（쟤, 진짜 용감하네. 대단해…… 하긴, 그만큼 아사히코를 좋아한다는 증거겠지만……）
+
+@bs f=サクラ@悔しい
+[사쿠라]（나라면 어떨까…… 정말 좋아하는 사람이 생기면, 나도 그 사람 말이라면 뭐든 들어주게 될까?）
+
+@bs f=サクラ@考え中 op2=汗
+[사쿠라]（그런 내 모습은…… 상상이 안 가지만……）
+@move_f f=サクラ@考え中 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch006 bad=jump:*left_branch006
+;;-------------------------------------
+;; When selecting right side
+*right_branch006
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=right dis=6 spd=5
+
+@jump target=*dir_branch006
+;;-------------------------------------
+;; When selecting left side
+*left_branch006
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=left dis=5 spd=5
+
+@jump target=*dir_branch006
+;;-------------------------------------
+*dir_branch006
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=1 id=31
+[여학생]「자, 잠깐만요」
+
+@move_speed spd=5 id=31
+@fade type=out t=1000 wt=0
+@route route=right:7 id=31
+@se f=Move1
+@wait t=2000
+@c_jump id=31 x=-7
+@dir id=31 dir=left
+@fade type=in t=1000 wt=1
+
+;; The Girl Student ran up into that empty classroom, and came out in the stockings with garter belt.
+
+@huki b=8 id=31
+@wait t=1200
+
+@huki b=1 id=31
+[여학생]「이, 이러면 되나요?」
+
+@huki b=1 id=30 wt=1
+@move_speed spd=7 id=30
+
+@route route=right id=30
+
+@huki b=4 id=30
+@c_jump id=30
+;;@move_f f=朝彦 in=l t=300
+[아사히코]「오오!　그야말로 완벽해!」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=1 id=31
+@wait t=1200
+
+@huki b=11 id=31
+[여학생]「아, 네, 네. 감사합니다, 아사히코 선배…………」
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[사쿠라]（쟤 얼굴 완전 신났네. 하지만, 이걸로 끝이 아니거든……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@bgm
+
+@huki b=8 id=30
+;;@move_f f=朝彦 in=l t=300
+[아사히코]「그럼……」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=8 id=30 wt=1
+
+@huki b=2 id=30
+;;@move_f f=朝彦 in=l t=300
+[아사히코]「너를 \C[2]맛보게\C[0] 해 줄 수 있을까?」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=2 id=31
+[여학생]「에……?　마, 맛본다…… 고요?」
+
+@bgm f=bgm12
+
+@huki b=8 id=30 wt=1
+
+@huki b=4 id=30
+;;@move_f f=朝彦 in=l t=300
+[아사히코]「――그래, \C[2]맛보는\C[0] 거야」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=8 id=30 wt=1
+
+@huki b=4 id=30
+;;@move_f f=朝彦 out=l t=300
+[아사히코]「\C[2]이건 꼭 한번 맛을 봐야 하거든\C[0]」
+;;@move_f f=朝彦 out=l t=300
+
+;; ASAHIKO lowered his head without hesitation, and put his tongue out to lick her legs in the stockings with garter belt.
+
+@huki b=4 id=30
+@huki b=7 id=31 wt=1
+
+@bgm
+
+@huki b=8 id=31
+[여학생]「히익……」
+
+
+@dir_fix id=30 type=on
+@walk_anime id=30 type=off
+@move_speed spd=6 id=30
+
+@huki b=1 id=30
+@huki b=1 id=31
+
+@move_speed spd=6 id=31
+
+@se f=Thunder6
+@flash t=500 wt=0
+@anime num=302 id=30 wt=0
+@route id=30 route=left
+@qk
+
+@huki b=7 id=31
+@route route=right:11,up:4 id=31
+@invisible type=on id=31
+
+@huki b=6
+[여학생]「싫어어어!? 변태～～!!!」
+
+@move_speed spd=4 id=30
+@dir_fix id=30 type=off
+@walk_anime id=30 type=on
+
+@huki b=2 id=30
+
+@fade type=out t=1500
+@wait t=1200
+@fade type=in t=1000
+
+@bgm f=bgm02
+
+@huki b=6
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[사쿠라]（역시 안 되는구나…… 하긴 그렇지. 남자한테 팬티스타킹을 핥게 해 달라니…… 생각만 해도 소름 끼쳐）
+@move_f f=サクラ@考え中 out=r t=300
+
+;;@mpve_speed spd=5 id=31
+;;@route id=31 route=right:2
+
+;;@dir dir=left id=31
+
+;;@huki b=7 id=31
+;;@wait t=1200
+
+;;@huki b=1 id=31
+[여학생]「가까이 오지 마세요!　변태!!!」
+
+;; That moved girl student shows her disgusting expression, and beats up ASAHIKO.
+
+;;@route id=31 route=right:3
+;;@dir dir=left id=31
+
+;;@huki b=1 id=31
+;;@c_jump id=31
+;; [Girl Student ]「So disgusting! 　Bastard! 　You are a psycho!」
+
+;;@fade type=out t=1000 wt=0
+;;@route id=31 route=right:6 wt=1
+;;@se f=Move1
+;;@wait t=2000
+;;@invisible id=31 type=on
+;;@fade type=in t=1000 wt=1
+
+;; Viewing ASAHIKO as garbage, the girl student in the stockings with garter belt walks away without turning back.
+
+@huki b=8 id=30
+@wait t=1200
+
+@huki b=7 id=30
+;;@move_f f=朝彦 in=l t=300
+[아사히코]「하아…… 어째서 다들, 팬티스타킹이 지닌 아름다움을 이해하지 못하는 걸까」
+;;@move_f f=朝彦 out=l t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch007 bad=jump:*left_branch007
+;;-------------------------------------
+;; When selecting right side
+*right_branch007
+
+@map_scroll dir=left dis=6 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch007
+;;-------------------------------------
+;; When selecting left side
+*left_branch007
+
+@map_scroll dir=right dis=5 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch007
+;;-------------------------------------
+*dir_branch007
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=6
+@wait t=1200
+
+@move_f f=サクラ@考え中 op2=困惑 in=r t=300
+[사쿠라]（저 녀석, 참 정신 못 차리네…… 뭐, 어차피 나랑은 상관없는 일이지만……）
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[사쿠라]（그래도 참 아깝단 말이지. 조금만 정상이었으면 분명 인기 많았을 텐데……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch008 bad=jump:*left_branch008
+;;-------------------------------------
+;; When selecting right side
+*right_branch008
+
+@route route=down:2
+@dir dir=right
+
+@jump target=*dir_branch008
+;;-------------------------------------
+;; When selecting left side
+*left_branch008
+
+@route route=down
+@dir dir=left
+
+@jump target=*dir_branch008
+;;-------------------------------------
+*dir_branch008
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8
+@wait t=600
+@move_f f=サクラ@考え中 in=r t=300
+@wait t=600
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]（이제 숨어 있을 필요도 없겠다. 가자）
+@move_f f=サクラ@無表情 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch009 bad=jump:*left_branch009
+;;-------------------------------------
+;; When selecting right side
+*right_branch009
+
+@route route=right:4,up:2
+
+@jump target=*dir_branch009
+;;-------------------------------------
+;; When selecting left side
+*left_branch009
+
+@route route=left:10
+
+@jump target=*dir_branch009
+;;-------------------------------------
+*dir_branch009
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki id=30 b=8
+@dir dir=up id=30
+
+@huki b=1
+@c_jump wt=0
+
+;;@move_f f=朝彦 in=l t=300
+[아사히코]「어라?　사쿠라」
+;;@move_f f=朝彦 out=l t=300
+
+@huki b=7 wt=1
+@dir dir=down
+
+@move_speed spd=3 id=30
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch009 bad=jump:*left_branch009
+;;-------------------------------------
+;; When selecting right side
+*right_branch009
+
+@route route=left:2,up id=30
+
+@jump target=*dir_branch009
+;;-------------------------------------
+;; When selecting left side
+*left_branch009
+
+@route route=left id=30
+@dir dir=up id=30
+
+@jump target=*dir_branch009
+;;-------------------------------------
+*dir_branch009
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;@move_f f=朝彦 in=l t=300
+[아사히코]「너의 그 아름다운 다리는, 오늘도 여전히 눈부시게 빛나는구나」
+
+[아사히코]「사쿠라, 너라면 분명 이 팬티스타킹이 잘 어울릴 거야」
+;;@move_f f=朝彦 out=l t=300
+
+@route route=up id=30
+
+@se f=衣擦れの音1
+@huki b=8 id=30 wt=1
+
+@huki b=6
+@fb id=30 dir=back wt=1
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL 팬티스타킹을 손에 넣었다!
+@mes_win back=0 pos=2
+
+@huki b=7
+;;@move_f f=朝彦 in=l t=300 wt=0
+@move_f f=サクラ@驚き op2=困惑 in=r t=300
+@wait t=1200
+
+@bs f=サクラ@哀しみ op2=困惑
+[사쿠라]「저기…… 있잖아, 갑자기 이런 걸 떠안기면 나도 곤란하다고……」
+@move_f f=サクラ@哀しみ out=c t=300
+
+@huki b=8 id=30
+
+@ev f=サクラ@制服_全体 opacity=0
+@move f=サクラ@制服_全体 opa=0 x=0 y=500 h=60 w=60 t=100 wt=1
+@wait t=100
+@move f=サクラ@制服_全体 opa=255 x=0 y=400 h=60 w=60 t=400 wt=1
+@wait t=500
+@move f=サクラ@制服_全体 opa=255 x=0 y=150 h=100 w=100 t=2000 wt=1
+
+@huki b=4 id=30
+[아사히코]「너는 분명 팬티스타킹이 어울리는 여자야. 내 안목은 절대 틀리지 않아」
+
+@move f=サクラ@制服_全体 opa=0 x=0 y=150 h=100 w=100 t=1000 wt=1
+@ev
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[사쿠라]（이 녀석, 남의 말은 아예 안 듣는구나……）
+
+@huki b=8 id=30
+[아사히코]「언젠가 네가 이걸 신고 내 앞에 서 주기를 바랄게」
+
+@huki b=4 id=30
+[아사히코]「그때는, 부디 나에게 \C[2]맛보게\C[0] 해 줘」
+
+;;@move_f f=朝彦 out=l t=300 wt=0
+@move_f f=サクラ@悔しい out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch010 bad=jump:*left_branch010
+;;-------------------------------------
+;; When selecting right side
+*right_branch010
+
+@dir dir=up
+
+@jump target=*dir_branch010
+;;-------------------------------------
+;; When selecting left side
+*left_branch010
+
+@route route=left,up
+
+@jump target=*dir_branch010
+;;-------------------------------------
+*dir_branch010
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=7 wt=1
+
+@move_f f=サクラ@悔しい op2=困惑 in=r t=300
+[사쿠라]（소름 끼쳐 죽겠네…… 누가 핥게 해 준대…… 하아아아. 정말이지…… 이 녀석 머리에 물이라도 찬 거 아니야）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8 wt=1
+@huki b=9
+@move_f f=サクラ@微笑 op2=電球 in=r t=300
+[사쿠라]（아, 그런데 이거…… 팔면 돈이 좀 되지 않을까?）
+@move_f f=サクラ@微笑 out=r t=300
+
+;; Although SAKURA doesn’t want to wear this stockings with garter belt for ASAHIKO――
+
+@se f=Open1
+@dir id=2 dir=left
+@dir id=2 dir=right
+@dir id=2 dir=up
+@fade type=out t=1000
+
+@bgm
+@mes_win back=1 pos=1
+　모처럼 공짜로 얻은 물건이겠다, 사쿠라의 머릿속에 팬티스타킹을 팔아 돈을 마련하자는 생각이 싹텄다.
+@mes_win back=0 pos=2
+
+;; Transfer to free action.
+;;@invisible type=on
+@move_speed spd=4
+@se f=Move1
+@bs
+
+
+

@@ -1,0 +1,78 @@
+
+;;【010_01體育.txt】
+;;【010_05失敗.txt】
+
+@move_speed spd=3
+@invisible id=105 type=on
+
+@fade type=in t=1000 wt=0
+@route route=up:4
+@move_speed spd=4
+
+@bgm f=Dungeon2
+@move_f f=サクラ@哀しみ in=r t=300
+
+[小櫻/skr0680]「哈啊、哈啊、哈啊、啊！？」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@change num=1
+@qk
+@se f=Earth3
+@dir dir=u wt=1
+
+;;@c_jump id=101 wt=0
+;;@c_jump id=102 wt=0
+;;@c_jump id=103 wt=0
+;;@c_jump id=104 wt=1
+
+@wait t=1000
+
+　體力耗盡的效應癱倒在了操場上。
+
+@invisible id=105 type=off
+@huki b=1 id=105
+@c_jump id=105 wt=1
+
+@move_speed spd=6 id=105
+@route id=105 route=up,right,up:2
+
+[司]「小櫻！　你、你沒事吧！？」
+
+@move_speed id=6 spd=4
+@route route=down:3,left:4 id=6
+
+@se f=Blow2
+@dir dir=right id=105
+@dir_fix id=105 type=on
+
+@route id=105 route=left wt=0
+@route id=6 route=left wt=1
+
+[須東]「走開！」
+
+@dir dir=up id=6
+
+　須東推開了跑去攙扶的司，把小櫻抱了起來。
+
+[小櫻/skr0681]「嗚……嗚嗚嗚」
+
+[須東]「糟糕。已經失去意識了。你們！　給我繼續跑！」
+
+@wait t=500
+
+[須東]「我要把小櫻送到保健室。」
+
+@huki id=105 b=8 wt=1
+[司]「須東老師，還是我去吧……」
+
+@dir id=6 dir=l wt=1
+[須東]「你給我繼續跑！」
+
+@dir id=6 dir=up wt=1
+[司]「啊！？」
+
+@fade type=out t=1000 wt=1
+
+　向司吼了一句之后須東便走向了保健室。
+

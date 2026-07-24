@@ -1,0 +1,18 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@huki b=8
+@move_f f=サクラ@考え中 in=l t=300
+[小櫻]「反正現在都穿上了……」
+
+@huki b=8
+@bs f=サクラ@無表情
+[小櫻]「回去的時候、順便讓店長看一眼吧」
+@move_f f=サクラ@無表情 out=l t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+
+
+

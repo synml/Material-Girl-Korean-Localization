@@ -1,0 +1,36 @@
+
+[Man with nasty gesture]「…………」
+
+@move_f f=サクラ@無表情 in=r t=300
+@huki b=2
+[SAKURA]「……？」
+
+[Man with nasty gesture]「……Hey hey, let you feel it now」
+
+@bgm_save
+@bgm f=bgm14
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_kokan face=0 in=l t=150 cos=1
+@bs f=サクラ@驚き_頬
+[SAKURA]「Ah……！？　Stop, stop now…！」
+
+@se f=指挿入
+[Man with nasty gesture]「You cannot resist my powerful fingers」
+
+@se f=指挿入
+@bs f=サクラ@羞恥_頬
+[SAKURA]「Ah！　Er Oh oh oh oh…！！」
+
+@bs
+@fb dir=back
+@wait time=500
+
+@bgm_replay
+
+@huki b=7
+@move_f f=サクラ@考え中_頬 in=r t=300
+[SAKURA]「Oh oh……my underwear……」
+
+@move_f f=サクラ@考え中_頬 out=r t=300
+

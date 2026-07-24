@@ -1,0 +1,15 @@
+
+@fadein
+
+@move_f f=サクラ@哀しみ_z body_op=z in=r t=300
+
+[SAKURA/skr0817]「……I have changed it well.」
+
+[SUDOU]「Let us begin. Today, I have to fuck you up!」
+
+@bs f=サクラ@驚き
+
+[SAKURA/skr0818]「ah ah!? ah ah ah……don't……ah!」
+
+@move_f f=サクラ@驚き out=r t=300
+

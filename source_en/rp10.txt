@@ -1,0 +1,386 @@
+;; Only for retrospect
+
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=処女ルート/*rp_virgin s2=非処女ルート/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;; Image Reading in advance
+@fadeout
+@pl f=S_ev10c v=1
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm04
+
+;;ＣＧ■CG10
+@bgf bg=ev10 t=1000
+
+SHI gently pushes SAKURA down to the bed.
+
+[SAKURA/skr0967] (Ah, now, my heart beats so fast......)
+
+[SHI] 「I love you, SAKURA.」
+
+[SAKURA/skr0968] 「Ah, um. I love you too......」
+
+[SAKURA/skr0969] (Later on, I am gonna have sex with SHI......)
+
+[SHI] 「Haha, I feel that you are kinda shy.」
+
+[SAKURA/skr0970] 「Yes. But, I am really delighted.」
+
+[SHI] 「Can I be your lover?」
+
+[SAKURA/skr0971] 「Haha, what's wrong with you? Why would you say this?」
+
+[SHI] 「Because, SA......SAKURA is adorable and clever......」
+
+[SHI] 「I think that there might be another guy who is better to be your lover than me......」
+
+[SHI] 「Sometimes, I feel worried.」
+
+[SAKURA/skr0972] 「My boyfriend is SHI......SHI, you said so when you confess you love to me, didn't you?」
+
+[SAKURA/skr0973] 「Thinking of the guy who is the most suitable for me......I can only think of SHI right now.」
+
+[SAKURA/skr0974] 「Other things seem meaningless to me......Everything is fine if SHI is here.」
+
+[SHI]「SAKURA……!」
+
+[SAKURA/skr0975] 「Come here, SHI. Let me feel more of SHI.」
+
+[SHI] 「Um, um......clothes......Let me take your clothes off......」
+
+SHI swallows down his saliva and nods. His hands reaches out to SAKURA's clothing with shaking.
+
+@se f=衣擦れの音1
+;;ＣＧ■CG10a
+@bgf bg=ev10a t=500
+
+[SAKURA/skr0976] 「Ah......Um......Ah, aha, ah」
+
+[SHI]「SAKURA……」
+
+[SAKURA/skr0977] 「Watched by SHI......makes my heart beat so fast.」
+
+[SHI] 「Very......Beautiful......」
+
+[SAKURA/skr0978] 「Thank you......I appreciate it.......」
+
+[SAKURA/skr0979] (Simply praised by SHI, I can feel excitement inside of my body.)
+
+[SHI] 「......Can I touch you?」
+
+[SAKURA/skr0980] 「Um......I want you to touch me......」
+
+[SHI] 「Ummm......」
+
+[SAKURA/skr0981] 「Hey!? Umm! Errr!」
+
+[SHI] 「Sorry, sorry. Did I hurt you?」
+
+@bgs f=aegi_skr1
+
+[SAKURA/skr0982] 「No. You didn't hurt me......As soon as thinking about SHI touching me......makes me feel satisfied......」 
+
+[SHI] 「Oh......Ah, SAKURA's bubby......」
+
+[SAKURA/skr0983] 「Um, um, um......But but a little bit harder.」
+
+[SHI] 「Um, um. SAKURA's bubbies are so soft. The tits.......」
+
+[SAKURA/skr0984] 「Your skills are excellent! Um......Ah, aha, um.」
+
+[SHI] 「The nipples are hardened.」
+
+[SAKURA/skr0985] (Holding the nipples......aha, makes me feel more comfortable......)
+
+[SAKURA/skr0986] (Only touched by SHI......makes me so happy and intoxicated.)
+
+[SAKURA/skr0987] 「Um, um......Um, um......Huh, huh, ummm......」
+
+[SHI] 「SAKURA......I want to touch here as well.」
+
+[SAKURA/skr0988] 「Um, ummm......」
+
+[SAKURA/skr0989] (That place......is a bit wet......)
+
+[SHI] 「Um......Huh, ah. Are you wet......?」
+
+[SAKURA/skr0990] 「So, so embarrassed......SHI......Ah......」
+
+[SHI] 「Sorry, sorry. But, if SAKURA is comfortable......I will also be happy.」
+
+[SAKURA/skr0991] 「Ah, aha, I, I also want to make SHI comfortable......」
+
+[SHI] 「Huh? This, what does this mean......」
+
+[SAKURA/skr0992] (The dick......becomes larger......because it wants to fuck into my body......so it erected)
+
+[SHI] 「Can, can I?」
+
+SHI swallowed down the saliva again, asking SAKURA.
+
+[SAKURA/skr0993] 「Um......Haha, I kept enduring until now. Not only SHI」
+
+[SAKURA/skr0994] 「I also......always endure....the mind of having sex with SHI.」
+
+[SHI] 「Ahh! 　SAKURA! SAKURA!!!!」
+
+Hearing these sweet words, SHI's emotions explodes for a sudden.
+
+[SAKURA/skr0995] 「I......have already been well prepared......for welcoming SHI......」
+
+[SHI]「Um, um!」
+
+[SAKURA/skr0955]
+
+@se f=淫唇を開く音
+;;ＣＧ■CG10b
+@bgf bg=ev10b t=500
+
+[SHI] 「Huh, aha, aha, um, that......」
+
+SHI holds the dick and push that glans against the entrance of that little hole.
+
+[SHI] 「Ah!?」
+
+[SAKURA/skr0997] 「Um!? Um......Um......Don't hurry.」
+
+[SHI] 「Um, um. Sorry, SAKURA.」
+
+[SAKURA/skr0998] 「No need to say sorry......Ah, seeing that SHI is working so hard for me makes me so pleased.」
+
+[SAKURA/skr0999] 「Haha, SHI takes efforts......making him so cute......)
+
+[SAKURA/skr1000] (If I can be with SHI, I can accept everything no matter what happens......)
+
+[SAKURA/skr1000] (I didn't realize that I like SHI this much......Haha, it is so out of expectation......)
+
+The glans is at the entrance of vagina. SHI cannot smoothly push the dick in, looking at SAKURA with love in his eyesight.
+
+[SAKURA/skr1002] 「Aha, um......There's, there's still, still a little bit......It's almost there......Um, put strength on your waist and push.......」
+
+[SHI] 「Um, um......Like this? Aha!?」
+
+[SAKURA/skr1003] 「Aha, ha, um, I, I will raise my waist a little bit more.」
+
+[SHI] 「Thank you. SAKURA......SAKURA's vagina keeps secreting.」
+
+[SAKURA/skr1004] 「I want to combine with SHI......so that you can cherish my body.」
+
+[SHI] 「Your words, makes me so happy......I, I, I am crazily excited.」 
+
+[SAKURA/skr1005] 「Aha, but, I was telling you the truth......Aha, um, come on, SHI......」
+
+[SAKURA/skr1006] 「Aha, um, aha, aha, the waist slowing falls down.」
+
+[SHI] 「Like, like this? Is it like this?」
+
+[SAKURA/skr1007] 「Yes, yes. Like this......Don't hurry......Take your time......Aha, um, ha, ummm!」
+
+[SAKURA/skr1008] (Ah!? The, the glans,.....glans poked in......」
+
+[SHI] 「I, I will start to move, SAKURA.」
+
+[SAKURA/skr1009] 「Come on......come on! SHI! I like you! I love you!」
+
+[SHI] 「I also......love you, SAKURA! En! Er! Ennn!」
+
+@se f=挿入音
+;;ＣＧ■CG10c
+@bgf bg=ev10c t=500 v=1
+
+@bgs f=aegi_skr2
+
+;; If SAKURA is considered as a virgin for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following is the text if SAKURA is considered as a virgin.
+
+[SAKURA/skr1010] 「Ahhh! Hey!? Huh, ummm!」
+
+[SHI] 「Ah, SAKURA......sticked into SAKURA's body.」
+
+[SAKURA/skr1011] 「Um, um......combine with SHI......」
+
+[SHI] 「Do you feel the pain? Are you okay?」
+
+Seeing that the attached part is bleeding virgin's blood, SHI looked at SAKURA with concern.
+
+[SAKURA/skr1012] 「It's a little painful, but I am really......really happy.」
+
+[SAKURA/skr1013] 「I give my virginity to SHI......Aha, aha, I am so delighted.」
+
+[SHI] 「I also......give my virginity to SAKURA......I will never forget it for my whole life.」
+
+[SAKURA/skr1014] 「Me too......Let us make today as the most most important memorial day for us.」
+
+[SHI] 「Yes. SAKURA. I love you.」
+
+[SAKURA/skr1015] 「Haha, this is the first time somebody telling that he loves me.」
+
+[SAKURA/skr1016] (SHI seems to be reliable and he told me that he loves me. I am the happiest women......)
+
+[SAKURA/skr1017] 「I also......um, ah, um I also love you, SHI.」
+
+[SAKURA/skr1018] 「Come on......Um, um. It is not that......not that painful. Your penis can move right now.」
+
+[SHI] 「Um.......If you feel painful, tell me. I am already really happy simply by combining with you.」
+
+[SAKURA/skr1019] 「It's okay......Hah, ha, hah, SHI......Let us come together.」
+
+[SHI] 「Um, um」
+
+;;Above is the text if SAKURA is considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+Following is the text if SAKURA and SHI are not considered as virgins.
+
+[SAKURA/skr1020] 「Um!? 　Um! Um, um......Huh, ummm!」
+
+[SHI] 「Ah, SAKURA......My dick is sticking into SAKURA's body.」
+
+[SAKURA/skr1021] 「Hah, um......We finally combine with each other.」
+
+With dick in her body, SAKURA gazed at SHI with sweat on her body.
+
+[SAKURA/skr1022] 「SHI, sorry....」
+
+[SHI] 「Huh? What, what happened......」
+
+[SAKURA/skr1023] 「It's......not my first time......Before being together with SHI, I have already......had sex with others......」
+
+[SHI] 「It's okay. I, don't really, care about this thing.」
+
+[SHI] 「Right now, SAKURA can be my lover. It is already making me feel satisfied.」
+
+[SAKURA/skr1024] 「SHI......I am happy......Ah!!」
+
+[SHI] 「Huh!? Just now, your vagina contracted......」
+
+[SAKURA/skr1025] 「I want you to be more comfortable......I want SHI's dick to be comfortable.」
+
+[SHI] 「I love you, SAKURA.」
+
+[SAKURA/skr1026] 「I also......really love you......very very much. I love you......Ah」
+
+[SAKURA/skr1027] 「Huh, um, um, um, um, come on......Let my little hole holds the imprint of SHI's dick.」
+
+[SHI] 「Huh, huh, um! I start to move, SAKURA!」
+
+[SAKURA/skr1028] 「Um,um.」
+
+Above is the text if SAKURA and SHI are not considered as virgins.
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+;;Following is the text for common.
+
+@flash t=500
+@ev_anime f=S_ev10c sx=8 sy=2 fps=3 v=1
+
+@se f=ピストン l=1
+
+Poop......Poop, poop, poop (The sound of making love)
+
+[SAKURA/skr1029] 「Ah......Ah......Um......Um, um, hah!」
+
+[SHI] 「I connect with SAKURA's vagina.」
+
+[SAKURA/skr1030] 「Because, because......if that part is chafed, it will be itchy and comfortable......Ah.」
+
+[SAKURA/skr1031] 「SHI's dick is really comfortable......I want to be connected with SHI tightly......That's all......)
+
+[SAKURA/skr1032](That's all that can make me happy. The whole body feels comfortable......Aha, so awesome......This is the first time I have ever felt like this......Yeah)
+
+[SAKURA/skr1033] (Having sex with the person you love is, is so......satisfied......)
+
+[SHI] 「SAKURA's little hole is becoming tighter and tighter.」
+
+[SAKURA/skr1034] 「What about SHI? Is it comfortable? Aha, aha, um, is it comfortable?」
+
+[SHI] 「Um, um. From the moment I sticked into SAKURA, I have always been feeling comfortable.」
+
+[SAKURA/skr1035] 「Ah! Unh! We at the same time......huh, feel comfortable.」
+
+[SHI] 「I, currently......feels really please, SAKURA.」
+
+[SAKURA/skr1036] 「I also feel pleased......Aha, aha, so happy. I am gonna be crazy for this happiness.」
+
+[SHI] 「Um!? Ah, SAKURA......?」
+
+@bgs f=aegi_skr3
+
+[SAKURA/skr1037] 「SHI......Ah......I, I, am about, about to......come......」
+
+[SAKURA/skr1038] (It's so embarrassing......So comfortable that I almost, almost come. Huh, it's so embarrassing.)
+
+[SHI] 「Me, me too......I also, will come......come soon.」
+
+[SAKURA/skr1039] 「Um, huh, huh, huh, to, together......Let's come together, SHI」
+
+[SHI] 「Can I ejaculate inside?」
+
+[SAKURA/skr1040] 「Um, um. Okay......I want......SHI's sperm......Ah! Ahha! Enn! Ahhha enn!」
+
+[SHI] 「SAKURA! 　SAKURA! 　SAKURA!」
+
+[SAKURA/skr1041] 「SHI! I like you ! I like you! I really really like you!」
+
+[SHI] 「Me too! I like you too! 　SAKURA! I am gonna ejaculate!」
+
+[SAKURA/skr1042] 「Come in! Ejaculate! I, I also......come......Ah!」
+
+[SAKURA/skr1043] 「About, about to come! I am coming. Ummm!」
+
+@se
+;;ＣＧ■CG10d
+@fin bg=ev10d se=射精音 v=1
+@bgs f=aegi_skr4
+
+　 Woo ho! Woo ho!
+
+[SAKURA/skr1044] 「Ah!? Ah!Ah! Um, ahhhhhhh!」
+
+[SHI] 「Ahhhh! 　SAKURA!」
+
+[SAKURA/skr1045] (Together......I came with SHI......I came with SHI!)
+
+[SAKURA/skr1046] (I was ejaculated with SHI's sperm! Hey!? Ah! It's so awesome......It continues to come!)
+
+[SAKURA/skr1047] 「SHI, SHI, ......look......look at me, a girl who is fucked to orgasm by SHI......!」
+
+[SAKURA/skr1048] 「All of my things are being looked at......! Look......look at me being fucked to orgasm!)
+
+[SHI] 「SAKURA is so pretty! Very beautiful! You only belong to me! SAKURA only belongs to me!」
+
+[SAKURA/skr1049] 「Um, um, work harder, makes me be SHI's woman......Use SHI's stick to let me be you exclusive girl.」
+
+[SAKURA/skr1050] 「What I said is so embarrassing......But, but! But I, only want to belong to SHI!」
+
+[SHI] 「Ahh! I come! I come! SAKURA, Let us get together forever! Be forever from now on!」
+
+[SAKURA/skr1051] 「Um, um! SHI! I love you! I love you!」
+
+Immersed in love and exhilaration towards each other, SAKURA and SHI hug each other tightly.
+
+@bgs
+@rps
+
+
+

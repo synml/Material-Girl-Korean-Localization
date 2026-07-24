@@ -1,0 +1,13 @@
+
+;;【016_01パン屋.txt】
+;;【016_02バイト服を着ていない.txt】
+
+@huki b=3 id=3
+[Store Manager] 「Welcome, SAKURA! 　I'm so glad you could come!」
+
+@huki b=2 id=3
+[Store Manager] 「 Do you want to start working? 　To work here, you should put on the work uniform firstly.」
+
+;;@move_f f=パン屋 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+

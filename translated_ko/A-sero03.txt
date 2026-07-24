@@ -1,0 +1,29 @@
+;;▼Her buttock or chest will be touched by drunken men during her journey to Happy Street. 
+@bgm_save
+@bgm f=bgm14
+
+@se f=尻触り
+@move_f f=A-cut_siri face=0 in=l t=150
+@fuki b=1
+@move_f f=サクラ@驚き in=r t=150
+
+[취객]「안녕, 아가씨, 엉덩이가 아주 탱탱한걸」
+
+@bs f=サクラ@驚き_頬
+
+[사쿠라]「꺄앗!　야, 뭐 하는 거야……」
+
+[취객]「하하하!　“꺄앗” 하고 소리까지 지르고, 귀엽기는」
+
+@bs
+@c_jump
+@wait time=500
+@huki b=7
+@move_f f=サクラ@怒り_頬 in=r t=300
+
+[사쿠라]「장난해?　정말 어수선하고 지저분한 동네야!」
+
+@move_f f=サクラ@怒り_頬 out=r t=300
+
+@bgm
+@bgm_replay

@@ -1,0 +1,79 @@
+
+;;【012_01堕ちたサクラ.txt】
+
+;;체육관에서 H씬이 발생한다.
+
+;; Discover the dialogue between SUDOU and SAKURA at the shoe-changing box.
+
+@dir dir=down id=32
+
+@fade type=in t=1000 wt=1
+
+@bgm f=Dungeon2
+
+[스도]「사쿠라, 너한테 할 말이 있다」
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[사쿠라/skr0806]「……스도 선생님하고는 할 얘기 없는데요」
+
+@route route=r:2,d wt=1
+
+[스도]「그럼 이 일에 관해서는——」
+
+@route id=32 route=r:1,d:3,r wt=1
+@dir id=32 dir=u wt=1
+@wait t=700
+@bs f=サクラ@悔しい op2=ビックリ
+
+@huki b=1 wt=1
+
+[사쿠라/skr0807]「으으윽!」
+
+　스도는 주머니에서 휴대폰을 꺼내, 다시 한번 사쿠라에게 그 사진을 보여주었다.
+
+[스도]「여기서는 얘기하기 좀 그렇지?　장소를 옮기자고」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[사쿠라/skr0808]（따라가면, 분명 또 강간당할 거야……）
+
+@huki id=32 b=2 wt=1
+
+[스도]「뭘 꾸물대나?　얼른 오지 못해, 사쿠라!」
+
+@huki b=8 wt=1
+
+[사쿠라/skr0809]（하지만……따라가지 않으면……그 사진이 뿌려질 거야……）
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[사쿠라/skr0810]「……어디로 데려갈 셈이죠?」
+
+[스도]「내 집이다. 거기라면 우리끼리 느긋하게 얘기할 수 있겠지」
+
+@bs f=サクラ@悔しい
+
+@huki b=8 wt=1
+
+[사쿠라/skr0811]「윽……아, 알겠……어요……」
+
+@huki id=32 b=3 wt=1
+
+[스도]「크크크크, 이제야 고분고분해졌군. 가지」
+
+@route id=32 route=d:2 wt=1
+@fadeout
+
+　끝없는 굴욕에 사쿠라는 주먹을 움켜쥐었지만, 어쩔 도리 없이 스도가 하자는 대로 따를 수밖에 없었다.
+
+@route route=d:5 wt=0
+@route id=32 route=d:5 wt=0
+@fadeout wt=1
+

@@ -1,0 +1,67 @@
+
+;;【017_03コンビニの店長に話しかける.txt】
+;;【017_06各段階毎のバイト終了.txt】
+
+;; Second stage
+@fade type=in t=1000 wt=1
+
+@huki b=8 id=6
+;;@move_f f=コンビニ店長 face=0 in=l t=300
+[편의점 점장]「사쿠라, 수고했네. 이제 퇴근해도 좋아」
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]「수고하셨습니다」
+
+@huki b=2 id=6
+[편의점 점장]「내가 준비해 준 팬티, 지금 입고 있는 거지?」
+
+@huki b=7
+@bs f=サクラ@羞恥 op2=困惑
+[사쿠라]「네, 네……」
+
+@huki b=8 id=6
+[편의점 점장]「이건 오늘 급료일세. 조금 더 얹어 줬다네」
+
+@huki b=6
+@bs f=サクラ@考え中_頬 op2=汗
+[사쿠라]「가, 감사합니다」
+
+@huki b=2
+[편의점 점장]「그 팬티, 사쿠라가 입으면 분명 잘 어울릴 거라 생각했는데……자네 생각은 어떤가?」
+
+@huki b=6
+@bs f=サクラ@驚き_頬 op2=汗
+[사쿠라]「그게, 뭐랄까요……귀엽다고는 생각해요」
+
+@huki b=8 id=6
+[편의점 점장]「그런가 그런가. 음. 그 팬티는 사쿠라가 입으면 틀림없이 찰떡같이 어울릴 거라 생각하네」
+;;@move_f f=コンビニ店長 face=0 out=l t=300 wt=0
+@move_f f=サクラ@驚き_頬 out=r t=300
+
+@huki b=4 id=6 wt=1
+
+;;@move_f f=コンビニ店長 face=0 in=l t=300 wt=0
+@move_f f=サクラ@哀しみ in=r t=300
+@wait t=300
+
+@bs f=サクラ@悔しい op2=困惑
+@huki b=7
+[사쿠라]（으으으……아랫도리를 계속 쳐다보고 있어……징그러워……）
+
+;; Wearing the underpants prepared by the store manager, stared at by the store manager, SAKURA feels shameful to the greatest extent.
+
+@huki b=6
+@bs f=サクラ@無表情 op2=汗
+[사쿠라]「저, 저기, 볼일 없으시면 저는 이만 가볼게요」
+
+@huki b=7
+@bs f=サクラ@悔しい_頬 op2=困惑
+[사쿠라]（하아, 아무리 월급 때문이라지만……이건 너무 부끄럽고 징그러워……얼른 집에 가자）
+
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+@fade type=out t=1000 wt=1
+
+　점장의 뜨거운 시선을 받으며, 사쿠라는 편의점을 뛰쳐나갔다.
+

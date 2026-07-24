@@ -1,0 +1,7 @@
+@mes_win back=1 pos=1
+
+\CL 준비 중 — 10시 개점.
+
+@mes_win
+
+

@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL Taking classes is also very important! Are there SUDOU's courses on Monday, Wednesday and Friday?
+
+@mes_win
+

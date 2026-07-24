@@ -1,0 +1,8 @@
+@mes_win back=1 pos=1
+
+\CL You can confirm the game prompts by referring to this book.
+
+\CL ※Please view the menu screen to know the meaning of the heart-shaped mark!
+
+@mes_win
+

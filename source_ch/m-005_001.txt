@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL獲得連體泳衣！
+
+@mes_win

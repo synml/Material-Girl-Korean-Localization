@@ -1,0 +1,14 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+@huki b=8
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA]「Before the class, I’d better stay at the classroom.」
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki b=8
+@move_speed spd=3
+@route route=up
+@move_speed spd=4
+@bs
+

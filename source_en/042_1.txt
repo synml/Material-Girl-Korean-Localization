@@ -1,0 +1,131 @@
+@fade type=in t=2000 wt=1
+
+@huki id=101 b=8 wt=1
+@wait t=1000
+@huki id=101 b=1 wt=1
+@dir id=101 dir=d wt=1
+@wait t=500
+
+[MAKIOKA]「Sorry, sorry. Because of experiment, I has forgotten your thing.」
+
+@route id=101 route=l:3,d wt=1
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=2 wt=1
+
+[SAKURA]「Have you completed your experiment?」
+
+[MAKIOKA]「um. I have to pay reward to you.」
+
+　MAKIOKA said and paid reward to SAKURA. 
+
+@huki id=101 b=8 wt=1
+
+[MAKIOKA]「By the way, I give this pill to you. This pill can relieve fatigue and strength.」
+
+@bs f=サクラ@微笑
+
+[SAKURA]「Thanks. Is this your experimental result?」
+
+;; Get reply prop (efficient rare prop) 
+
+[MAKIOKA]「No, this pill is merely this experiment’s by-product.」
+
+[SAKURA]「well.」
+
+[MAKIOKA]「What I have made is this drug.」
+
+　Subsequently, MAKIOKA takes out a pink drug.
+
+@huki id=101 b=8 wt=1
+
+[MAKIOKA]「However, if this drug is effective, I am not clear.」
+
+@bs f=サクラ@驚き
+
+@huki b=2 wt=1
+
+[SAKURA]「What is this drug?」
+
+@huki id=101 b=1 wt=1
+
+[MAKIOKA]「ay!? ah, um. this……how should I say……」
+
+@dir id=101 dir=l wt=1
+@wait t=500
+@dir id=101 dir=r wt=1
+@wait t=500
+@dir id=101 dir=d wt=1
+@wait t=500
+
+　Hearing SAKURA’s question, MAKIOKA became nervous suddenly, and looked around.
+
+@bs f=サクラ@驚き op2=ハテナ
+
+@huki b=2 wt=1
+
+[SAKURA]「? ? ?」
+
+@huki id=101 b=1 wt=1
+
+[MAKIOKA]「By the way, 　SAKURA schoolmate, could you try this drug!?」
+
+[SAKURA]「ay……?」
+
+[MAKIOKA]「 I want to know its effect.」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「However……you must tell me what this drug is.」
+
+[MAKIOKA]「That's all right. I am sure that this drug is not dangerous. However, if you want to know what this drug is……that……e……how should I say……」
+
+[MAKIOKA]「I really don’t know its effect.」
+
+@huki b=8 wt=1
+
+[SAKURA]「……」
+
+[MAKIOKA]「Only after drinking this drug can we know its effect. Don’t worry. It is absolutely not a strange drug.」
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[SAKURA] (What shall I do……) 
+
+[MAKIOKA]「 If you drink this drug and tell me your feeling, I will give you reward.」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「Reward, really?……」
+
+　Hearing the reward, SAKURA was aroused her interest.
+
+@bs f=サクラ@哀しみ op2=困惑
+
+@huki b=8 wt=1
+
+[SAKURA] (However, if……I drink this unknown drug……) 
+
+@huki id=101 b=1 wt=1
+
+[MAKIOKA]「By the way, if you only drink a small quantity, its drug effect will be reduced. Moreover, its drug effect will vanish one hour later.」
+
+[MAKIOKA]「If so, don’t you worry about its side effect?」
+
+@bs f=サクラ@考え中
+
+[SAKURA]「um ～～」
+
+[SAKURA] (What shall I do……?) 
+
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: Don’t drink / Drink
+
+;;○ Don’t drink →009_03飲まないへ
+
+;;○ Drink →009_04飲むへ
+

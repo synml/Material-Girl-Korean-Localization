@@ -1,0 +1,71 @@
+
+;;【010_01体育.txt】
+;;【010_05失敗.txt】
+
+;;背景■暗転
+;;効果■時間経過
+@fade type=out t=1000 wt=1
+@wait t=1000
+@change f=void id=101
+
+@bgm
+
+@move_f f=サクラ@無表情 in=r t=300
+@huki b=8 wt=1
+
+[SAKURA]「um……um……woo woo woo woo……ay……? 　I……what's up……」
+
+@se f=衣擦れの音1
+@route route=right
+@dir dir=down
+@fade type=in t=1000 wt=1
+
+　After recovering her consciousness, SAKURA looked around blankly.
+
+@bs f=サクラ@驚き
+
+@huki b=2 wt=1
+
+[SAKURA] (healthcare room……? 　That……) 
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA]「I remembered……when I run marathon during the PE class……at that moment……」
+
+[SAKURA] (I was out of consciousness……however, who? 　who sent me to the healthcare room? 　TSUKASA……?) 
+
+@bs f=サクラ@驚き_z body_op=z
+
+@se f=愛液1
+@wait t=1500
+
+[SAKURA]「um……um, um ah!? ay……? 　What is……this……?」
+
+　With the sense of closure between her thighs, SAKURA touched that part subconsciously. As a result, her hands were stained with sticky liquid.
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA] (Maybe……) 
+
+@se f=学校チャイム
+　ding-tong ding-tong
+
+@bs f=サクラ@驚き_z body_op=z op2=ビックリ
+
+@huki b=1 wt=1
+[SAKURA] (ah!? It is already so late now. Is next class on?) 
+
+@move_f f=サクラ@驚き_z out=r t=300
+
+　Ring pulls SAKURA back to reality. She runs out of the healthcare room in a hurry.
+
+@se f=Move
+@fadeout
+@wait t=300
+
+;; Free action
+

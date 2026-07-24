@@ -1,0 +1,21 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;【024_04中に入らない.txt】
+
+@move_f f=サクラ@考え中 in=r t=300
+[SAKURA] (woo～um. However, it is too early to go to Host Club now……) 
+
+@huki b=8
+@bs f=サクラ@無表情
+[SAKURA]「Forget it」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;; The Options of “Enter /Don't enter” will appear till SAKURA selects the “Enter”.
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+
+

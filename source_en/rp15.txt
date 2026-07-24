@@ -1,0 +1,49 @@
+
+
+@bgm f=bgm06
+
+;;ＣＧ■CG15
+@bgf bg=ev15 t=1000
+
+[SAKURA/skr1464] (It's so formal......what is this game?)
+
+[Researcher] 「I am going to put this on you」
+
+Then the man put a pair of VR glasses on her, the glasses were just alike a motorcycle.
+
+[SAKURA/skr1465] (I am getting nervous......)
+
+[SAKURA/skr1466] 「Is that dangerous?」
+
+[Researcher] 「Don't be worried. Relax」
+
+[SAKURA/skr1467] 「Ha......」
+
+[Researcher] 「Don't move your body. I am putting this on you」
+
+[SAKURA/skr1468]「Fine......」
+
+;;ＣＧ■CG15a
+@change id=4 num=1
+@bgf bg=ev15a t=500
+
+[Researcher] 「This equipment will provide a imaginable world for you by passing electric current into your brain.」
+
+[SAKURA/skr1469]   ( Is that ok if passing electric current into my brain?)
+
+[SAKURA/skr1470]「Will it hurt my body?」
+
+[Researcher]「We don't receive any passive reaction reports yet. It is safe」
+
+[SAKURA/skr1471] (I am so worried......these equipment looks a little unreliable......it's better to stop him now......)
+
+[SAKURA/skr1472] 「Sorry, sir. I am......」
+
+[Researcher]「Let's begin now」
+
+[SAKURA/skr1473]「What!?」
+
+The researcher pressed the button before SAKURA rejected that.
+
+@rps
+

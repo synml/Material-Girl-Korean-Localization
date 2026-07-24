@@ -1,0 +1,16 @@
+
+;;【010_01体育.txt】
+
+;; When clothes inspection has reached its third stage, such event will be triggered.
+
+;; Accost SUDOU in the playground
+
+@bgm f=bgm01
+
+[SAKURA]「Teacher SUDOU」
+
+;;○ Without a gym suit →010_01着ていない
+
+;;○ With a gym suit →010_02着ている
+
+

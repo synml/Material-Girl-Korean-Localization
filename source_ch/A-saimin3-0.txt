@@ -1,0 +1,121 @@
+
+;;○協助
+;;得到2500塊
+
+@huki id=6 b=1
+
+[超自然研究部部長]「那，那么……你站過去吧」
+
+@bgm
+
+@route route=down wt=1
+@dir dir=up wt=1
+
+;;催眠效果
+;;催眠特寫
+@move_f f=A-cut_saimin1 face=0 in=c t=150 h=1
+@wait t=500
+@se f=催眠行使
+@move_f f=A-cut_saimin2 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin1 face=0 out=c t=150
+@wait t=1000
+@move_f f=A-cut_saimin2 face=0 out=c t=150
+@wait t=150
+
+@mes_win back=1 pos=1
+
+\CL小櫻被催眠了……
+
+@mes_win
+
+@bgm f=bgm12
+@move_speed id=6 spd=6
+@route id=6 route=down wt=1
+
+@se f=床にドサッ
+@move_f f=A-cut_saimin5 face=0 in=c t=150 h=1
+
+[超自然研究部部長]「哈啊哈啊……再也忍不住了！」
+
+@move_speed id=6 spd=4
+
+;;插入小櫻特寫
+@se f=挿入音
+@flash t=300
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin5 face=0 out=c t=150
+
+[小櫻]「嗯嗯……！」
+
+[超自然研究部部長]「唔唔！　一，一如既往地吸得很緊嘛…！　我快要上癮了…！！」
+
+;;抽插
+@se f=ピストン
+
+[小櫻]「嗯！　啊！」
+
+[超自然研究部部長]「好，好棒…！　插進去的話，雞雞會被一片柔軟包裹住，拔出來的話，又像吸盤一樣纏上來！」
+
+;;高速抽插
+@se
+@se f=ピストン_激しい
+
+[小櫻]「嗯啊！　啊啊！」
+
+[超自然研究部部長]「啊啊！　還想再爽一下啊！！　射了！　要射了！！」
+
+[小櫻]「哈啊！　啊！　啊啊！　嗯哈啊！」
+
+[超自然研究部部長]「射了！　我的雞雞插得要吻上子宮了，要把這些種子射進去了！！」
+
+;;射精
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[小櫻]「啊啊啊啊啊啊啊啊！！」
+
+[超自然研究部部長]「唔唔…！　喝吧，讓你的子宮好好喝個夠，然后懷孕吧！」
+
+@move_f f=A-cut_saimin8 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin7 face=0 out=c t=150
+
+[小櫻]「嗯嗯！……哈啊哈啊……射進來好多熱乎乎的……」
+
+;;暗轉
+;;淫亂值上升了3…
+;;在走廊上移動場所吼，自由行動
+
+;;第２階段Ｈ終了
+
+@fadeout t=1000 wt=1
+@move_f f=A-cut_saimin8 face=0 out=l t=150
+@bs
+@wait t=1000
+@se f=学校チャイム
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@悔しい
+
+[小櫻]「……奇怪，我……？」
+
+@huki id=6 b=3
+
+[超自然研究部部長]「一直以來謝謝你的協助。以后有時間再來吧」
+
+@bs f=サクラ@哀しみ
+
+[小櫻]「……唔，嗯…」
+
+@move_f f=サクラ@哀しみ out=r t=300
+@fadeout t=1000 wt=1
+@se
+@bs

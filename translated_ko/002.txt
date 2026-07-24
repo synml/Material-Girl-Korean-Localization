@@ -1,0 +1,310 @@
+
+;;【001_01プロローグ.txt】
+
+@bgm
+
+@change f=女子学生01 id=36 num=0
+@dir dir=left id=36
+
+@huki b=1 wt=1
+@map_scroll dir=up dis=4 spd=6 wt=1
+
+@bgm f=bgm01
+
+@huki b=4 id=18
+@huki b=7 id=36
+[스도]「좋아…… 이제 가 봐!」
+
+@huki b=7 id=36
+@huki b=8 id=18
+
+@change f=女子学生01 id=101 num=2
+@move_speed spd=4 id=101
+@route id=36 route=up:14 wt=0
+@route id=101 route=right:11,up:4 wt=1
+
+@huki b=8 id=101
+@dir dir=left id=101
+
+@huki b=7 id=18
+[스도]「……아아, 넌 검사 안 해도 돼. 빨리 꺼져라」
+
+@move_speed spd=3 id=101
+@huki b=5 id=101
+@route id=101 route=up:16 wt=0
+
+@map_scroll dir=down dis=4 spd=7 wt=1
+
+@move_speed id=102 spd=2
+@change f=男子学生01 id=102 num=3
+@route id=102 route=left:12,up:16 wt=0
+
+@huki b=7
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+[사쿠라/skr0020]（엑!? 스도 선생……!?）
+
+@huki b=8
+@bs f=サクラ@悔しい op2=困惑
+[사쿠라/skr0021]（저 인간한테 걸리면, 분명 온갖 트집을 잡아 댈 거야……）
+
+@change f=女子学生01 id=103 num=0
+@move_speed id=103 spd=5
+@move_f f=サクラ@驚き out=r t=300 wt=0
+@map_scroll dir=up dis=2 spd=5 wt=0
+@route id=103 route=left:11,up:3 wt=1
+
+@huki b=1 id=18
+@huki b=1 id=103
+@c_jump id=103
+
+[스도]「어이!　지금 복장 검사 중이다, 이리 와!」
+
+@move_speed spd=3 id=103
+
+@huki b=7 id=103
+@huki b=4 id=18
+[여학생]「에～……」
+@route route=left:2 id=103
+
+@huki b=4 id=18
+[스도]「……네 치마, 좀 짧은 거 아니냐?」
+
+@huki b=7 id=103
+[여학생]「저, 저기, 선생님…… 엉덩이 만지지 마세요……」
+
+@huki b=8 id=18 wt=1
+@huki b=4 id=18
+[스도]「크크크…… 움직이지 마라, 치마 길이를 재 주는 중이니까」
+
+@huki b=7 id=103
+[여학생]「으으……」
+
+@huki b=7 id=103
+@huki b=4 id=18 wt=1
+
+@huki b=5 id=103
+@route route=up:16 id=103 wt=0
+@map_scroll dir=down dis=2 spd=5 wt=1
+
+;; Being a PE teacher and a life-guide teacher, SUDOU is inspecting our appearance.
+
+@huki b=7
+@move_f f=サクラ@哀しみ op2=困惑 in=r t=300
+[사쿠라/skr0022]（아무리 생활지도 교사라지만, 스도 저건 해도 너무하잖아……）
+@move_f f=サクラ@哀しみ out=r t=300
+
+@map_scroll dir=up dis=2 spd=5 wt=0
+
+@change f=女子学生01 id=104 num=3
+@move_speed spd=6 id=104
+@route id=104 route=right:11,up:3 wt=1
+
+@huki b=4 id=18
+@huki b=1 id=104
+@c_jump id=104
+
+[스도]「음음～, 네 치마도 좀 짧은 것 같은데～?」
+
+@huki b=7 id=104
+@wait t=1200
+
+@move_speed spd=2 id=104
+@dir dir=left id=104
+
+@huki b=7
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라/skr0023]（아～아, 저 애, 걸렸네…… 아무래도 스도 취향에 제대로 맞았나 봐……）
+
+@huki b=7 id=104
+@huki b=4 id=18
+
+@huki b=6
+@bs f=サクラ@哀しみ op2=困惑
+[사쿠라/skr0024]（하지만 저런 짓은…… 명백한 성희롱이야……）
+
+;; Inspection of appearance is only his excuse. SUDOU must have viewed all under the girl student’s skirt clearly.
+
+@huki b=7 id=104
+@huki b=4 id=18
+
+@huki b=7
+@bs f=サクラ@悔しい
+[사쿠라/skr0025]（불쌍해라…… 쟤 울기 직전이잖아……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@change f=男子学生01 id=105 num=2
+@route id=105 route=right:13,up:17 wt=0
+
+;;@huki b=7 id=104
+;;@huki b=4 id=18
+;; Because of his flagrant sexual harassment, that girl student who has been caught by SUDOU blushed and held her schoolbag tightly.
+
+@huki b=7 id=104
+@huki b=8 id=18 wt=1
+
+@huki b=7 id=104
+@huki b=4 id=18
+[스도]「좋아. 치마 길이는 문제없군. 가 봐라」
+
+@move_speed spd=2 id=104
+
+@huki b=7
+
+@huki b=7 id=104
+@route id=104 route=up:16 wt=0
+
+@change f=男子学生01 id=107 num=0
+@change f=女子学生01 id=108 num=1
+@dir id=107 dir=right
+@dir id=108 dir=left
+
+@map_scroll dir=down dis=2 spd=5 wt=1
+
+@huki b=7
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라/skr0026]（스도한테 들키면 큰일 나…… 어떻게든…… 눈에 안 띄게 지나가야 해……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@dir dir=down
+@huki b=8
+@wait t=600
+
+@huki b=2 id=107
+@huki b=7 id=108
+@wait t=600
+
+@huki b=9
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라/skr0027]（저 남자애들 무리에 섞이면 안 들키겠지……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@huki b=8
+@huki b=1 id=108
+@huki b=8 id=107
+@c_jump id=108
+@wait t=500
+@mpve_speed spd=4
+
+@dir dir=down id=107
+@route id=108 route=down
+@invisible id=108 type=on
+
+@wait t=500
+@huki b=6 id=107
+@wait t=1200
+
+@huki b=8 id=107
+@dir dir=up id=107
+
+@huki b=1
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라/skr0028]（좋아, 가자）
+@move_f f=サクラ@無表情 out=r t=300
+
+@route_point x=20 y=32 dir=d wt=0
+
+@change f=男子学生01 id=106 num=3
+@route id=106 route=left:11,up:16 wt=0
+
+@move_speed spd=4 id=107
+
+@route id=107 route=up:6
+
+@route id=107 route=up:16 wt=0
+@huki b=8 id=18
+@route route=up:5
+
+@huki b=1 id=18
+@huki b=1
+@c_jump
+
+;; To keep away from SUDOU, SAKURA hides herself among those strange boy students, and walks with their same paces.
+
+[스도]「기다려」
+
+@move_f f=サクラ@驚き_z op2=ビックリ_z body_op=z in=c t=300
+[사쿠라/skr0029]「으으윽!」
+
+@huki b=7
+@bs f=サクラ@怒り_z body_op=z op2=困惑_z
+[사쿠라/skr0030]（조금만 더 가면 됐는데……!）
+@move_f f=サクラ@@怒り_z out=c t=300
+
+@huki b=7
+@wait t=1200
+
+@move_speed spd=3
+@route route=left
+
+@huki b=8
+@move_f f=サクラ@哀しみ in=r t=300
+[사쿠라/skr0031]「……안녕하세요. 스도 선생님」
+@move_f f=サクラ@哀しみ out=r t=300
+
+;; Start Fighting  Enter Options
+
+@huki b=4 id=18
+[스도]「크크, 이리 와 봐라, 네 몸가짐을 검사해 주지」
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라/skr0032]「……제 복장은 규정대로인데요」
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=4
+
+@flash t=300 wt=0
+@qk
+
+@huki b=4 id=18
+
+;;@move_f f=須東 in=l t=300 wt=0
+@move_f f=サクラ@悔しい in=r t=300
+
+[스도]「말대꾸까지 하시겠다? 설마 뭐 숨기는 거라도 있나?」
+
+@se f=衣擦れの音1
+@huki b=4 id=18
+@huki b=1
+
+@bs f=サクラ@驚き_頬 op2=ビックリ t=300
+[사쿠라/skr0036]「아……」
+;;@move_f f=須東 out=l t=300 wt=0
+@move_f f=サクラ@驚き_頬 out=r t=300
+
+@bgm f=bgm11
+
+;;ＣＧ■CG01
+@se f=衣擦れの音1
+@ev f=ev01 opacity=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=0 t=1 wt=1
+
+@flash t=500 wt=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250
+@qk
+
+[사쿠라/skr0037]「무, 무슨 짓이에요!?」
+
+　뒤에서 갑자기 가슴을 움켜잡혀, 나는 소스라치게 놀랐다.
+
+[스도]「응응?　방금 움찔했겠다?　여기 뭘 숨기고 있는 거 아니냐?」
+
+@se f=衣擦れの音1
+@move f=ev01 x=-170 y=115 w=200 h=200 opa=255 t=250
+
+[사쿠라/skr0038]「그만해 주세요」
+
+[사쿠라/skr0039]（이 인간…… 내 가슴을 만지고 있어…… 소름 끼쳐……!）
+
+[사쿠라/skr0040]（학교 정문 앞에서 이런 짓을 하다니…… 대체 무슨 생각이야!?）
+
+[사쿠라/skr0041]（소란 피우면 안 돼…… 당황하지 말고…… 침착하자……）
+
+@rps
+
+ 
+
+;;勝利　→001_02勝利へ
+
+;;敗北　→001_03敗北へ
+
+

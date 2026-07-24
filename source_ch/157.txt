@@ -1,0 +1,59 @@
+
+;;【024_08好感度未達成.txt】
+
+@dir dir=down id=6
+@dir dir=down id=5
+@dir dir=down id=4
+
+@dot_move id=7 x=6 y=8 dir=up
+@invisible id=7 type=off
+
+@fade type=in t=1000 wt=1
+
+@huki b=8 id=7
+[老板]「小櫻小姐……時間到了」
+
+@move_f f=サクラ@驚き in=r t=300
+
+@huki b=2
+[小櫻]「誒？　已經，到了嗎……？　呼唔唔唔。我玩得很開心」
+
+@bs f=サクラ@微笑
+
+@fade type=in t=1000 wt=1
+
+@dot_move x=6 y=10 dir=up
+@dot_move x=5 y=8 id=4 dir=down
+@dot_move x=6 y=8 id=5 dir=down
+@dot_move x=7 y=8 id=6 dir=down
+@dot_move x=5 y=10 id=7 dir=right
+@wait t=1200
+
+@fade type=out t=1000 wt=1
+
+@huki b=8 id=7
+[老板]「非常感謝您的厚愛」
+
+@huki b=8
+[小櫻]「那么，再見……」
+
+@huki b=8 id=7
+[老板]「請您稍等。小櫻小姐」
+
+@huki b=8 id=7 id=4
+@huki b=8 id=7 id=5
+@huki b=8 id=7 id=6
+@huki b=8 id=7 id=7 wt=1
+
+@bs f=サクラ@笑み
+[小櫻]（大家一起目送我……）
+
+　對著店外排成一列的牛郎們揮了揮手，小櫻邁開了步子。
+
+[小櫻]（雖然，用了很多錢。但是，挺有趣的）
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1
+
+;;自由行動
+

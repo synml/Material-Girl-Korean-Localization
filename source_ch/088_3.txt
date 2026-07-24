@@ -1,0 +1,42 @@
+
+@se f=衣擦れの音1
+@wait t=1000
+
+@fadein
+
+;;向更衣室移動，無法走出去。
+
+;;在更衣室換上兔女郎裝
+
+@move_f f=サクラ@羞恥_z body_op=z in=r t=300
+
+@huki b=8 wt=1
+
+[小櫻]（太，太羞恥了……）
+
+　看著鏡中穿著兔女郎裝的自己，小櫻臉都紅了。
+
+@dir dir=r wt=1
+@wait t=800
+@dir dir=l wt=1
+@wait t=800
+@dir dir=d wt=1
+@wait t=1000
+@huki b=8 wt=1
+
+@bs f=サクラ@悔しい_z body_op=z
+
+[小櫻]（但是，既然已經決定了要做就要努力！）
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;;@route route=d,r:3,d wt=0
+@fadeout
+
+;;[小櫻]「那么待機室在……這邊嗎……」
+
+@se f=Move
+@wait t=2000
+
+
+

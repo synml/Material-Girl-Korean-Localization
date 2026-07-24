@@ -1,0 +1,152 @@
+
+;;Phase Ⅱ
+
+@bgm f=bgm11
+;;ＣＧ■CG01
+
+@ev f=ev01 opacity=0
+@flash t=500 wt=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250 wt=1
+
+[SUDOU] 「Let me have a good check-up today.」
+
+[SAKURA/skr0072] 「......I didn't break any school rules」
+
+[SAKURA/skr0073] (He's going to do that disgusting thing!? I won't let you get away with that!)
+
+[SUDOU] 「Hum, is there any violation? I'll check it before I make a decision. Be honest with me.」
+
+@se f=衣擦れの音1
+@move f=ev01 x=-170 y=115 w=200 h=200 opa=255 t=250 wt=1
+@qk
+
+[SAKURA/skr0074] 「Ah......Umm! Ummm」
+
+@se f=衣擦れの音1
+@qk
+
+SUDOU gently rubbed SAKURA's breasts with his hands.
+
+[SAKURA/skr0075] (Obviously this kind of thing...... It's not allowed......!)
+
+[SUDOU] 「Well, first of all, I must check if your school uniform is out of shape.」	
+
+@se f=衣擦れの音1
+@qk
+
+[SAKURA/skr0076] 「Coohoo......Ahummmhoo......」
+
+[SAKURA/skr0077] (This way of touching is not checking at all)
+
+[SAKURA/skr0078] (No, I can't respond......Calm down......)
+
+[SAKURA/skr0079] (Obviously I can't respond......)
+
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250 wt=1
+
+[SUDOU] 「Ummm~? What's up？」
+
+SUDOU asked gently in her ear, just like enjoying SAKURA's response.
+
+[SAKURA/skr0080] 「No, nothing......」
+
+[SAKURA/skr0081] (I really want to hit SUDOU...... right away! But, but......)
+
+[SAKURA/skr0082] (That would......give him the opportunity to do that......)
+
+[SAKURA/skr0083] (I have to calm down......so as to keep him from having more chances......)
+
+[SAKURA/skr0084] 「I didn't break any school rules......Please stop.」
+
+@move f=ev01 x=0 y=0 w=100 h=100 opa=255 t=250 wt=1
+
+[SUDOU] 「Ummm? Is the skirt a little short?」
+
+[SAKURA/skr0085] 「No, it is not.」
+
+[SUDOU] 「No, is short. Yeah. It's short!」
+
+[SAKURA/skr0086] 「Ah!? What are you going to do......!?」
+
+;;ＣＧ■CG01a
+@se f=衣擦れの音1
+@bgf bg=ev01a
+
+[SAKURA/skr0087] (He, he turns up my skirt !? What the hell is he thinking!?)
+
+@move f=ev01a x=256 y=-192 w=150 h=150 opa=255 t=250 wt=1
+
+SAKURA's plump thighs and cute panties came out.
+
+[SAKURA/skr0088] (I, I have been seen......The others are watching......! All the students in the class are there!)
+
+@move f=ev01a x=0 y=0 w=100 h=100 opa=255 t=250 wt=1
+
+[SAKURA/skr0089] 「Please, please don't do this......!」
+
+;;ＣＧ■CG01
+@bgf bg=ev01
+@qk
+
+[SUDOU] 「Ah! You dare to resist.」
+
+[SAKURA/skr0090] (Oh, crap......Just now I can't help to......)
+
+SAKURA flicked SUDOU and intended to leave——
+
+Then SUDOU grabbed the hand on her chest and grasped them hard.
+
+@se f=締め付ける
+@move f=ev01 x=-170 y=115 w=200 h=200 opa=255 t=250 wt=1
+@qk
+
+[SAKURA/skr0091] 「Coo Oh!? Hmmmm......Aha! Ummmm!」
+
+[SAKURA/skr0092] (Well, it hurts. Don't be so rude...... Scratch my chest!)
+
+[SUDOU] 「Did you hide something in the skirt? Ummm?」
+
+@move f=ev01 x=-512 y=384 w=200 h=200 opa=255 t=250
+
+[SAKURA/skr0093] 「Huh, huh, ummm......I, I have not hidden anything.」
+
+@move f=ev01 x=0 y=0 w=100 h=100 opa=255 t=250 wt=1
+
+[SUDOU] 「Let me check it again.」
+
+@qk
+
+[SAKURA/skr0094] 「No, no......!」
+
+@qk
+
+[SUDOU] 「Hey, don't move!」
+
+;;ＣＧ■CG01a
+@se f=衣擦れの音1
+@bgf bg=ev01a
+@move f=ev01a x=256 y=-192 w=150 h=150 opa=255 t=250 wt=1
+@qk
+
+[SAKURA/skr0095] (Aha......You, you are way out of line......!)
+
+[Male Students] 「Oh oh!」
+
+[SAKURA/skr0096] (More and more people......I don't want to be seen......Somebody help me!)
+
+Although SAKURA looked around for help, the boys around her were captivated by SAKURA's underwear.
+
+[SAKURA/skr0097] (No, don't look at me......! That's embarrassing...... I, I can't help it!)
+
+@move f=ev01a x=0 y=0 w=100 h=100 opa=255 t=250 wt=1
+
+[SAKURA/skr0098] 「Mr. SUDOU......! Please stop!」
+
+[Female Students] 「Is that a little too much? Mr. SUDOU」
+
+There was a faint opposition from the crowd among the girls.
+
+@rps
+
+
+

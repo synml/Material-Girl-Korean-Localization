@@ -1,0 +1,26 @@
+
+;;【024_15ホストＨ(汎用).txt】
+
+;; Common for No. 2 starrings
+
+@bgm f=bgm05
+
+;;ＣＧ■CG20b
+@bgf bg=ev20b t=1000
+@se f=ピストン_激しい l=1
+@bgs f=aegi_skr4
+
+[SAKURA/skr2406]「Ahh! Whir! Eh, are you ejaculating? Are you?」
+
+[KURODA]「So good! Your pussy, Master SAKURA! Ummmm! I cannot take it more!」
+
+@se
+@bgs
+;;ＣＧ■CG20d
+@fin bg=ev20d se=射精音
+
+[SAKURA/skr2407]「Ah, hum, whir, whir, ahhh, I’m ejaculating♪ Ahh, so much sperms♪ Huh, whir!」
+
+[KURODA]「Huh, ah, huh, ah......Next time......We will have orgasms at the same time for the next time......Master SAKURA」
+
+@rps

@@ -1,0 +1,7 @@
+
+;;○戦闘開始前（レベル10）
+
+@huki b=8 id=18
+
+[SUDOU]「Return your classroom quickly」
+

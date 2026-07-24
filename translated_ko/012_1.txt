@@ -1,0 +1,119 @@
+
+;;【002_04司の家のピンポンを鳴らす.txt】
+
+@chage f=司 id=101 num=0
+@chage f=司_母 id=102 num=0
+
+@bgm_replay
+@fade type=in t=1000 wt=1
+
+@huki b=3 id=102
+[츠카사의 엄마]「사쿠라가 도와준 덕분에 이렇게 빨리 정리했구나. 고맙다」
+
+@huki b=8 wt=1
+@move_f f=サクラ@考え中 in=r t=300
+
+[사쿠라]「아니에요, 오히려 제가……늘 밥을 챙겨주셔서 감사해요. 그럼, 슬슬 가볼게요」
+
+@huki b=3 id=102
+[츠카사의 엄마]「잘 자렴. 내일도 꼭 오려무나」
+
+@huki b=3
+@bs f=サクラ@微笑 op2=音符
+[사쿠라]「네. 정말 감사합니다」
+@move_f f=サクラ@微笑 out=r t=300
+
+@huki b=8 id=101 wt=1
+
+@huki b=1 id=101
+
+;;@move_f f=司 in=l t=300
+@move_f f=サクラ@無表情 in=r t=300
+[츠카사]「사쿠라, 사쿠라!」
+
+@huki b=2
+@bs f=サクラ@微笑 op2=ハテナ
+[사쿠라]「츠카사?　무슨 일이야?」
+
+@huki b=8 id=101
+[츠카사]「저, 저기, 내…… 내일, 같이 학교 갈래?」
+
+@huki b=7
+@bs f=サクラ@考え中 op2=困惑
+[사쿠라]（난 아침잠이 많단 말이지……맨날 지각 직전에 겨우 교문을 통과하는데……）
+
+@bs f=サクラ@哀しみ op2=困惑
+[사쿠라]（나랑 같이 등교하다간 츠카사한테 민폐가 되겠지）
+
+@huki b=6
+@bs f=サクラ@悔しい
+[사쿠라]（츠카사까지 나 때문에 지각하게 만들면, 아주머니한테도 좀 죄송하고……）
+
+@bs f=サクラ@考え中
+[사쿠라]（엄마가 아직 집에서 매일 깨워줬다면, 츠카사랑 같이 등교할 수도 있었을 텐데……）
+
+@huki b=6
+@bs f=サクラ@哀しみ op2=汗
+[사쿠라]（하지만 지금은, 매일 아침이 그야말로 전쟁이니까）
+
+@bs f=サクラ@悔しい
+[사쿠라]（평소에도 늘 츠카사한테 신세만 지는데, 더 이상 귀찮게 하고 싶진 않아）
+
+@bs f=サクラ@哀しみ
+[사쿠라]「미안해, 츠카사. 난 아침엔 혼자 가는 게 좋아」
+
+@huki b=7 id=101
+[츠카사]「그, 그렇구나……」
+
+@huki b=2
+@bs f=サクラ@哀しみ op2=ハテナ
+[사쿠라]（츠카사, 왜 또 풀이 죽은 거지?）
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[사쿠라]（그렇게까지 나랑 같이 학교에 가고 싶은 건가?）
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]（그럴 리가 없잖아. 나랑 같이 등교해봤자 재미도 없을 텐데……）
+
+@bs f=サクラ@無表情
+[사쿠라]（풀 죽어 보이는 것도 내 착각이겠지）
+
+@huki b=8
+@bs f=サクラ@微笑
+[사쿠라]「잘 자, 츠카사」
+;;@move_f f=司 out=l t=300
+@move_f f=サクラ@微笑 out=r t=300
+
+@move_speed spd=3
+@fade type=out t=1000 wt=0
+@route route=down:3
+@bgm
+@se f=Move1
+@wait t=1200
+@c_jump y=-3
+@invisible type=on
+@fade type=in t=1000 wt=1
+
+;; And then, SAKURA goes home.
+
+@huki b=6 id=102
+@huki b=7 id=101
+@dir dir=left id=102
+
+;;@move_f f=司 in=l t=300
+[츠카사]「하아아아아아」
+;;@move_f f=司 out=l t=300
+
+;;Gazing at her receding figure, TSUKASA alone is sunk in deep sorrow.
+
+@fade type=out t=1000 wt=1
+@move_speed spd=4
+@invisible type=off
+@wait t=1200
+
+@bgm
+
+;; ※After that, through my dinner in TSUKASA’s home, I am able to obtain『TSUKASA’s ・ favorablity ＋１』
+

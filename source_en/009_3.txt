@@ -1,0 +1,12 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@move_f f=パン屋 face=0 in=r t=300
+@huki b=8 id=3
+[Store Manager] 「When you want to work here, you may wear this uniform.」
+
+@huki b=3 id=3
+[Store Manager] 「 I really hope that you are able to work here each day.」
+@move_f f=パン屋 face=0 out=r t=300
+
+

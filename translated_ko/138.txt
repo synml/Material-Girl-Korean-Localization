@@ -1,0 +1,20 @@
+
+;;【022_04新婚サラリーマン本番.txt】
+
+;; SAKURA dialogues with the newly-married staff.
+
+;;@bgm f=bgm02
+
+　사쿠라는 억지로 남자의 팔짱을 끼고, 그를 잡아끌며 호텔로 향했다.
+
+@move_f f=サクラ@笑み in=r t=300
+
+[사쿠라/skr2055]「후후, 이것 봐요, 아저씨도 그럴 마음 있으면서♪」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@dot_move x=1 y=4 dir=up id=3
+@change f=サラリーマン num=0 id=3
+@fade type=in t=1000 wt=1
+
+

@@ -1,0 +1,27 @@
+
+;;【017_08覗き段階Ｈ（汎用）.txt】
+
+;;第二阶段
+
+@bgm f=bgm06
+
+;;ＣＧ■CG12a
+@bgf bg=ev12a t=1000
+
+[Shopkeeper]「No matter see how many times, what a nice nude SAKURA is!」
+
+[SAKURA/skr1249]「Shopkeeper......he likes striped underwear......always striped .....」
+
+[Shopkeeper](Hehehe, SAKURA is wearing striped panty)
+
+;;ＣＧ■CG12b
+@bgf bg=ev12b t=500
+
+[SAKURA/skr1249]「Um......um......huh......」
+
+[Shopkeeper](Ah ah,SAKURA is wearing my choosen panty!)
+
+[Shopkeeper]「with this panty,come on.SAKURA ♪」
+
+@rps
+

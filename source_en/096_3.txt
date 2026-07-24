@@ -1,0 +1,11 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_06働く.txt】
+;; Phase Ⅲ
+
+;; Waiting Room
+@huki id=5 b=3
+[Frivolous Man２]「Come on! 　Drink it down at a stretch to widen the gap!」
+

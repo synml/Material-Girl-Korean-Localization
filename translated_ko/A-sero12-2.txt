@@ -1,0 +1,69 @@
+;;Branch: erotic event
+
+@bgm_save
+@bgm f=bgm14
+
+@move_f f=black face=0 in=c t=150
+@fadein t=1000 wt=1
+
+[남자]「어라, 여기서 자는 사람이 있네. 정말 귀여운 애잖아……」
+
+@move_f f=A-cut_sev06-2 face=0 in=c t=150
+
+[남자]「진짜 자는 건가?　치마 속 좀 볼까……우와, 흥분되는걸!」
+
+@move_f f=A-cut_mune face=0 in=c t=150 h=1
+@move_f f=A-cut_sev06-2 face=0 out=c t=150
+
+[남자]「가슴 좀 만져도 괜찮겠지……엄청 부드러워!」
+
+@move_f f=A-cut_mune face=0 out=c t=150
+
+[남자]「팬티를 옆으로 젖혀도……안 깨어나겠지?　그럼 살짝……」
+
+@se f=挿入音
+
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+
+[남자]「살짝……살짝만 넣었다 뺐다……아아, 이게 여자애 보지구나……」
+
+@se f=ピストン_高速
+
+[남자]「굉장해……미끈미끈하고……우와, 빨려 들어갈 것 같아……」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[사쿠라]「으으응……!」
+
+@move_f f=A-cut_saimin6 face=0 out=c t=150
+
+[남자]「하아 하아……너무 기분 좋아……」
+
+[사쿠라]「……으으읏……」
+
+@move_f f=A-cut_saimin7 face=0 out=c t=150
+@se f=Run
+
+[남자]「이런!　튀어야겠다!」
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=2000
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@羞恥_頬 op2=赤面 in=r t=300
+
+[사쿠라]「으응……왠지……야한 꿈을 꾼 것 같아. 싫다……아래가 젖었잖아……」
+
+@move_f f=サクラ@羞恥_頬 out=r t=300
+
+@bgm
+@bgm_replay
+

@@ -1,0 +1,4 @@
+
+@huki b=8 wt=1
+@fade type=out t=1000 wt=1
+

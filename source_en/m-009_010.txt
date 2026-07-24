@@ -1,0 +1,12 @@
+@mes_win back=1 pos=1
+
+\CL ～Collection of props from the Department of Science～
+
+\CL 『Musk essence』\nGo to find a dance venue on the left roof
+
+\CL 『Wormwood』\nGo to find in the flower bed on the right entrance to the school
+
+\CL 『Nutmeg powder』\nGo to find in SAKURA's kitchen
+
+@mes_win
+

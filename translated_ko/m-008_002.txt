@@ -1,0 +1,6 @@
+
+@mes_win back=1 pos=1
+\CL ～Ｂ반～
+
+@mes_win
+

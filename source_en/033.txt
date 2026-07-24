@@ -1,0 +1,184 @@
+
+;;【006_01イジメられる司２.txt】
+
+;; SAKURA discovered TSUKASA tangled by HOOLIGANS.
+
+@bgm f=bgm04
+
+@huki b=5 id=10 wt=1
+@huki b=1 id=10
+[HOOLIGAN１]「ah ah!? Hand over your money at once!」
+
+@huki b=7 id=9
+
+@huki b=2 id=11
+[HOOLIGAN２]「If you don’t want to be beaten,　hand over your money at once!」
+
+@huki b=6 id=9
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@怒り
+[SAKURA] (Those guys start again……) 
+@move_f f=サクラ@怒り out=l t=300
+
+@route route=right:3
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@huki b=1 id=9
+@huki b=1 id=10
+@huki b=1 id=11
+@huki b=8 id=12
+
+@bs f=サクラ@怒り
+[SAKURA]「You’d better not overdo!」
+@move_f f=サクラ@怒り out=l t=300
+
+@huki b=8 id=9
+@huki b=5 id=10
+@huki b=8 id=11
+
+@dir dir=left id=9
+@dir dir=left id=10
+@dir dir=left id=11
+
+[HOOLIGAN１]「ah ah!?」
+
+@c_jump id=10 wt=0
+@c_jump id=11 wt=0
+@huki b=1 id=10 wt=0
+@huki b=1 id=11 wt=1
+
+@huki b=7 id=10
+@fb id=10 dir=back
+[HOOLIGAN１]「You, you bitch……!」
+
+@huki b=6 id=11 wt=1
+@huki b=7 id=11
+[HOOLIGAN２]「It's you again! 　Bastard!」
+
+@huki b=1 id=9
+[TSUKASA]「SAKURA……!」
+
+@huki b=1 id=10
+[HOOLIGAN１]「Today will not be the same as before!」
+
+@dir dir=right id=10
+@dir dir=right id=11
+
+@huki b=8 wt=1 id=10
+;; Seeing SAKURA, HOOLIGANS feel timid, and tip another one the wink.
+
+@huki b=1 id=10
+[HOOLIGAN１]「SATAKE, we depend on you!」
+
+@dir dir=left id=10
+@dir dir=left id=11
+
+@huki b=8 id=12 wt=1
+@route route=down,left:5 id=12
+
+@huki b=8 id=12 wt=1
+
+@dir dir=right id=12
+
+@huki b=7 id=12
+[SATAKE]「chee! 　Were you……defeated by a girl?」
+
+@huki b=7 id=11
+[HOOLIGAN２]「Yes.」
+
+@huki b=8 id=12
+[SATAKE]「Really shameful」
+
+@huki b=6 id=10
+[HOOLIGAN１]「However, she really fights well.」
+
+@dir dir=left id=12
+
+@huki b=8 id=12
+[SATAKE]「chee! 　Let me teach her a lesson!」
+
+@huki b=7 id=10
+[HOOLIGAN１]「woo woo! 　 I, I see!」
+
+@huki b=1 id=10
+[HOOLIGAN１]「Come on, bitch!」
+
+@move_speed spd=6 id=10
+@move_speed spd=6 id=11
+@route route=left:4,up,left id=10 wt=0
+@route route=left:5,up id=11
+
+@dir dir=left id=11 wt=0
+
+@anime id=10 num=302 wt=0
+@qk
+
+@huki b=6 id=10
+@c_jump id=10 x=-4 wt=1
+
+@se f=Blow6
+@change num=1 id=10
+@dir dir=down id=10
+@qk
+
+@wait t=1200
+
+@huki b=7 id=10
+@huki b=6 id=11 wt=1
+
+@move_f f=サクラ@考え中_z body_op=z in=c t=300
+@huki b=8 wt=1
+@move_f f=サクラ@考え中_z out=c t=300
+
+@huki b=8
+@huki b=7 id=11 wt=1
+
+@move_speed spd=6
+@route route=right
+
+@huki b=1 id=11
+@anime id=11 num=303 wt=0
+
+@move_speed spd=4 id=11
+
+@change num=1 id=11
+@dir dir=down id=11
+@dir_fix type=on id=11
+@route route=up id=11
+@dir_fix type=off id=11
+
+@wait t=1200
+;; ka-cha! 　pa-ta! 　cling-clang! 
+
+@huki b=7 id=11
+[HOOLIGAN２]「woo woo ……woo woo woo woo……」
+
+;; As before, SAKURA knocked down the HOOLIGANS .
+
+@huki b=7 id=12 wt=1
+
+@huki b=8 id=12
+[SATAKE]「hey hey. Shameful. Really shameful…………」
+
+@huki b=1 id=12
+[SATAKE]「No way. Let me play with you! 　oh!!!!」
+
+@move_speed spd=5 id=12
+@route route=left:3 id=12
+
+@move_speed spd=3 id=12
+@move_speed spd=3 id=11
+@move_speed spd=3 id=10
+
+@bgm f=bgm14 pitch=130
+
+;;○战斗：vs不良头头
+
+;;○勝利　→006_02勝利へ
+
+;;○敗北　→006_03敗北へ
+

@@ -1,0 +1,36 @@
+
+;;【021_01売春①.txt】
+
+@wait t=1200
+
+@dir dir=down id=59
+@dir dir=down
+@invisible type=on
+
+@fade type=in t=1000 wt=1
+
+@se f=Open1
+@dir dir=left id=59
+@dir dir=right id=59
+@dir dir=up id=59
+@invisible type=off
+
+@mpve_speed spd=3
+@route route=down wt=1
+@mpve_speed spd=4
+
+@dir dir=up
+@wait t=250
+
+@dir dir=right id=59
+@dir dir=left id=59
+@dir dir=down id=59
+@se f=Close1
+
+@through type=off
+@mpve_speed spd=3
+@route route=down wt=1
+@mpve_speed spd=4
+
+;;※自由行動
+

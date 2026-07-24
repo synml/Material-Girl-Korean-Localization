@@ -1,0 +1,36 @@
+
+;;【002_05次の日.txt】
+
+;; Effect ■ time change
+@bs
+@move_f f=サクラ@考え中 body=パジャマ in=r t=100
+@fade type=in t=1000 wt=1
+
+[사쿠라]「……오늘은 전기요금을 내야 하는 날이야」
+
+@bgm_save
+@bgm
+
+@fade type=out t=1000 wt=1
+@bs
+
+@se f=Coin
+@mes_win back=1 pos=1
+\CL 15,000엔을 지불했다……
+@mes_win back=0 pos=2
+
+@dot_move x=19 y=4
+@bgm_playe
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]「알바하길 잘했어. 어떻게든 전기요금은 마련했네」
+
+@bs f=サクラ@哀しみ
+[사쿠라]「그래도, 닷새 뒤엔 집세도 모아놔야 하는데……」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@fade type=out t=1000 wt=1
+;; Prologue ends
+

@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL Being in one's own room (seated on a chair) means the freedom\nto spend time reading books or simply kill the time
+
+@mes_win
+

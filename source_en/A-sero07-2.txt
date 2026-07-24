@@ -1,0 +1,8 @@
+;;▼Undressing: You can get money and talk to him if you undress in front of him. 
+;;　　　　Undressing ways and place can be determined through options, which will determine the amount of money and response. 
+
+[Man]「Sorry, I have been satisfied today……」
+
+[Man]「You can come here tomorrow if you want pocket money」
+
+

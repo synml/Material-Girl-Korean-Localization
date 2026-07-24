@@ -1,0 +1,40 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_06働く.txt】
+;; Phase Ⅱ
+
+;; Waiting Room
+@bgm f=bgm01
+@fade type=in t=1000 wt=1
+
+@huki id=3 b=3 wt=1
+
+[Boss]「um hoo hoo ♪ the number one of the store, ♪ you have been skilled at this work thoroughly」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr1334]「Number one, why did you say that……as long as my guests are happy, I feel satisfied……」
+
+@bs f=サクラ@羞恥
+
+[SAKURA/skr1335]「Unconsciously I want to work hard……」
+
+@huki id=3 b=3 wt=1
+
+[Boss]「I have confidence in you. Go! Go to make money today」
+
+@bs f=サクラ@笑み
+
+[SAKURA/skr1336]「I am going now」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@se f=Move
+@fadeout
+
+　SAKURA nodded her head to the boss, and then moved towards the store with confident paces.
+

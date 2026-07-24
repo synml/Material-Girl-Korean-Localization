@@ -1,0 +1,13 @@
+
+;;銆?07_01銈ゃ偢銉°倝銈屻倠鍙革紦.txt銆?
+;;銆?07_03鏁楀寳.txt銆?
+
+@c_jump id=12 x=2
+
+@dir dir=left id=12 wt=0
+@dir dir=right
+
+@change num=0
+
+@fade type=in t=1000 wt=1
+

@@ -1,0 +1,10 @@
+
+;;銆?14_01鍛婄櫧銉诲徃.txt銆?
+
+@fade type=out t=1000 wt=1
+
+@dot_move x=21 y=9 dir=up
+@dot_move x=20 y=9 dir=up id=17
+@dot_move x=21 y=7 dir=down id=15
+@wait t=1200
+

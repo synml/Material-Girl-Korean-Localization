@@ -1,0 +1,25 @@
+
+;;【003_03服装チェック段階Ｈ（汎用）.txt】
+
+;;Phase Ⅵ
+
+@bgm f=bgm04
+
+;;ＣＧ■CG01d
+@bgf bg=ev01d t=1000
+@bgs f=aegi_skr4
+@se f=手マン l=1
+
+[SAKURA/skr0266] 「There, there......Ahh! No! I can't make it!」
+
+[SUDOU] 「I see, right here? Come on, scream it out」
+
+[SAKURA/skr0267] (Just under his gaze......The sound, the sound and the semen flowed out of control......)
+
+[SAKURA/skr0268] 「Ah! Ahh! Ahhhh! Ahh Hmm Ahhhhhh!」
+
+@se
+@bgs
+@rps
+
+

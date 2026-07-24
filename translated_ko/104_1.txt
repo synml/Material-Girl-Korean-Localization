@@ -1,0 +1,16 @@
+
+;;【020_02試遊しない.txt】
+
+@move_f f=サクラ@無表情 in=r t=300
+[사쿠라]（…………오늘은, 관두자）
+
+@huki b=8
+@bs f=サクラ@哀しみ
+[사쿠라]「죄송해요. 오늘은 시간이 없어서……」
+
+[연구원]「그런가요……체험해 볼 마음이 생기면 다시 말씀해 주세요」
+@move_f f=サクラ@哀しみ out=r t=300
+
+
+;; As long as SAKURA dialogues with this man, the above options will appear.
+

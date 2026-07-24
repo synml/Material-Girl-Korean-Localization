@@ -1,0 +1,30 @@
+
+;;【003_03服装チェック段階Ｈ（汎用）.txt】
+
+@bgm f=bgm11
+
+;;Phase I
+
+;;ＣＧ■CG01
+@se f=衣擦れの音1
+@bgf bg=ev01
+@qk
+
+[SUDOU] 「Stand properly, don't move!」
+
+@flash t=500 wt=0
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250 wt=1
+
+[SAKURA/skr0252] 「Coo......! You're so outrageous, Mr. SUDOU」
+
+@se f=衣擦れの音1
+@move f=ev01 x=-170 y=115 w=200 h=200 opa=255 t=250 wt=1
+@qk
+
+[SUDOU] 「Hum, blame it on your resistance, SAKURA. Be honest with the costume check.」
+
+@move f=ev01 x=-256 y=192 w=150 h=150 opa=255 t=250 wt=1
+[SAKURA/skr0253] 「Ah......Coo......Ummm」
+
+@bgm
+@rps

@@ -1,0 +1,45 @@
+
+;;【001_01プロローグ.txt】
+;;【001_03敗北.txt】
+
+@bgm f=bgm01
+
+@huki b=7
+@huki b=8 id=18
+@wait t=1200
+
+@mes_win back=1 pos=1
+@se f=衣擦れの音1
+　Regardless of one moment, SUDOU in aftertaste lets her go finally.
+@mes_win back=0 pos=2
+
+@huki b=8 id=18
+[SUDOU]「……you can go now.」
+
+@move_speed spd=2
+@huki b=7
+@route route=left:2 wt=0 id=18
+@route route=up:2
+
+@dir dir=right id=18
+
+@move_speed spd=4
+@huki b=7
+@move_f f=サクラ@悔しい_頬 op2=困惑 in=r t=300
+[SAKURA/skr0071] (I never want to be caught by him again……) 
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+
+@fade type=out t=1000 wt=0
+
+@route route=up:4
+
+
+@mes_win back=1 pos=1
+;; With such determination, SAKURA moves into the teaching building.
+@mes_win back=0 pos=2
+
+@bgm
+@move_speed spd=4
+
+

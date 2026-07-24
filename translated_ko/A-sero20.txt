@@ -1,0 +1,45 @@
+;;▼Teenager's mischief series (in a park at noon, a teenager will unveil the heroine's skirt)
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]「공원에서 좀 쉬었다 가자」
+
+[소년들]「자, 누가 갈래?　가위바위보로 정하자!　뭐야, 나잖아~」
+
+@bs f=サクラ@哀しみ
+
+[사쿠라]「애들이 놀고 있네, 그럼 반대쪽으로 가야겠다……」
+
+@route route=r:4 id=101
+@dir dir=u id=101
+@dir dir=r id=102
+
+@bgm_save
+@bgm f=bgm15
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sitagi face=0 in=l t=150
+@bs f=サクラ@驚き_頬 op2=ビックリ
+
+[사쿠라]「꺄아아앗!?」
+
+[소년]「헤헤, 성공이다!　팬티 완전히 다 봤어!」
+
+@route route=l:4 id=101
+@dir dir=r id=101
+
+@move_f f=A-cut_sitagi face=0 out=l t=150
+@bs f=サクラ@怒り_頬 op2=拒否
+
+[사쿠라]「야!　남의 치마 들추는 건 범죄거든!」
+
+[소년]「에～?　내가 이렇게 귀여운데, 봐주면 안 돼?」
+
+@bs f=サクラ@考え中 op2=困惑
+
+[사쿠라]「그건 네가 할 소리가 아니잖아!　정말……」
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@bgm
+@bgm_replay

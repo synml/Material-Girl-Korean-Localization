@@ -1,0 +1,14 @@
+
+;;【021_01売春①.txt】
+
+;; When the lascivious degree is above 40, the plot will be triggered in the morning of next day.
+
+@move_f f=サクラ@考え中 in=r t=300
+[사쿠라]「음——, 남자들은 대부분 화려한 여자를 더 좋아하는 것 같단 말이지……」
+
+@bs f=サクラ@無表情
+[사쿠라]「한 번에 12,000엔이라……」
+
+@bs f=サクラ@考え中
+[사쿠라]「어쩌지, 모처럼의 기회니까 한번 해볼까」
+

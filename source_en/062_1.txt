@@ -1,0 +1,6 @@
+
+;;【014_01告白・司.txt】
+
+@huki b=2 id=15
+[TSUKASA's Mother]「SAKURA, go home after dinner?」
+

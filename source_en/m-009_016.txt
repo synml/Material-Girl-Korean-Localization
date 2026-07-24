@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL There seems to be a very expensive clothing store worth hundreds of thousands yuan in the shopping street.\nI will take a look there if I save enough money
+@mes_win
+

@@ -1,0 +1,21 @@
+
+;;【002_05次の日.txt】
+
+;;效果■時間變動
+
+@huki b=8 wt=1
+
+@huki b=6
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[小櫻]「……穿成這樣出去未免太丟臉了」
+
+@bs f=サクラ@哀しみ
+[小櫻]「還是換上能穿出去的衣服吧……」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+
+;;序章結束
+

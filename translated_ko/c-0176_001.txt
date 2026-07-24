@@ -1,0 +1,8 @@
+
+
+@mes_win back=1 pos=1
+
+\CL \V[112]엔을 손에 넣었다!
+
+@mes_win
+

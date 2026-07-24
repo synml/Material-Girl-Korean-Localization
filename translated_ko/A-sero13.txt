@@ -1,0 +1,97 @@
+;;▼Suspicious character: In specific periods, some pedestrains will make sexual harassment on the street. 
+;;　　　　　If the carnality is high, it will be taken to a place under shade to trigger a sexual intercourse. 
+
+
+[남자]「후후, 그 터질 듯한 가슴, 날 유혹하는 거지?」
+
+@move_f f=サクラ@怒り in=r t=300
+
+[사쿠라]「무슨 소리야?　짜증 나, 따라오지 마!」
+
+[남자]「그렇게 차갑게 굴지 말라고. 좋은 데 데려가줄까?」
+
+@bs f=サクラ@怒り_頬_z body_op=z
+
+[사쿠라]「내 몸에 손대지 마!　싫어, 놔줘!」
+
+[남자]「나랑 해본 여자들은 다 울고불고 소리 지르면서 좋아했다고. 너도 한번 해보고 싶지 않아?」
+
+;;Conditional branch
+@if eval=v(32)>=50 ok=jump:*hev02 bad=jump:*hev01
+
+;;Branch: no erotic event
+*hev01
+
+@se f=壁当たり
+@fb dir=back
+
+@move_f f=サクラ@怒り_頬 out=r t=100
+
+[사쿠라]「역겨운 소리 하지 마!　저리 가!」
+
+[남자]「쳇, 순진한 척은, 딱 봐도 음란한 년이면서」
+
+@dir dir=down
+@move_f f=サクラ@考え中 in=r t=300
+
+[사쿠라]「뭐 하자는 거야, 정말……」
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@end
+
+;;Branch: an erotic event is triggered
+*hev02
+
+@bgm_save
+@bgm f=bgm14
+
+@bs f=サクラ@哀しみ_頬_z body_op=z
+
+[사쿠라]「그, 그런 짓……내가 왜……」
+
+@move_f f=black face=0 in=c t=150
+
+[남자]「자, 저쪽으로 가자. 내가 기분 좋게 해줄 테니까」
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-3 face=0 in=c t=150 h=1
+
+[사쿠라]「꺄, 말도 안 돼……이런 데서……앗, 싫어……」
+
+@move_f f=A-cut_sev06-3 face=0 out=c t=150
+
+@se f=挿入音
+@move_f f=A-cut_sev05-1 face=0 in=c t=150
+
+[사쿠라]「갑자기 넣어버리다니…아아아앙!」
+
+@se f=ピストン_高速
+
+[남자]「뭘 새삼. 이미 흠뻑 젖었잖아. 사실 내 몸이 마음에 든 거 아니야?」
+
+[사쿠라]「아니거든, 헛소리하지 마!　앗, 안 돼……너무 격렬해………아아아아아앙!」
+
+[남자]「진짜 쇼는 이제부터라고!　자, 자, 자!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev05-2 face=0
+
+[사쿠라]「꺄앗, 앗, 싫어, 소리가 나와버려!　아하아앙…아앙……아아아아앙!!」
+
+[사쿠라]「아아앙……뜨거운 액체가 흘러넘치고 있어……」
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+
+@bgm
+@bgm_replay
+
+@fadein t=1000 wt=1

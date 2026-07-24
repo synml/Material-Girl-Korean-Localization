@@ -1,0 +1,20 @@
+
+
+;;ＣＧ■CG15
+@bgf bg=ev15 t=1000
+
+[Researcher] 「Don't move your body. I am putting this on you」
+
+[SAKURA/skr1468]「Fine......」
+
+;;ＣＧ■CG15a
+@change id=4 num=1
+@bgf bg=ev15a t=500
+
+[Researcher]「Let's begin now」
+
+[SAKURA/skr1473]「What!?」
+
+@rps
+
+

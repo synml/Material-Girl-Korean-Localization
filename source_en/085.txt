@@ -1,0 +1,42 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+
+;;
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA] (Let me listen to what he say……)
+
+@bs f=サクラ@哀しみ
+
+@dir dir=l wt=1
+@wait t=1000
+
+[SAKURA]「What shall I do in work……?」
+
+@huki id=18 b=1 wt=1
+
+[Man]「oh!　You seem to be interested in it. Follow me. The boss will tell you what you do」
+
+@bs f=サクラ@無表情
+
+[SAKURA]「…… I see」
+
+@route id=18 route=l wt=0
+@route route=l wt=1
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[SAKURA] (Once things are in a bad way, I will escape……) 
+
+@move_f f=サクラ@無表情 out=r t=300
+
+
+
+@se f=Move
+@fadeout
+@dot_move map=30 dir=up x=4 y=11
+

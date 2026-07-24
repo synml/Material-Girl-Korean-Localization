@@ -1,0 +1,41 @@
+
+;;【020_05ステージクリア.txt】
+
+;; Free action outside the building.
+
+@fade type=in t=1000 wt=1
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8 wt=1
+
+[사쿠라]「으……아아……으으으……」
+
+@huki id=3 b=8
+[연구원]「오늘은, 어땠습니까?」
+
+@bs f=サクラ@羞恥 op2=赤面
+[사쿠라/skr1686]「구, 굉장했어요……아……」
+
+;; SAKURA nodded and blushed.
+
+@huki id=3 b=8
+[연구원]「그렇습니까……하지만, 아직 개선의 여지가 있다고 봅니다」
+
+[연구원]「앞으로도 도와주신다면 좋겠습니다만……」
+
+@bs f=サクラ@羞恥
+[사쿠라/skr1687]「아……네……아, 알겠어요……제가 도움이 된다면……」
+
+[연구원]「그렇습니까. 그럼, 다시 오시길 기다리고 있겠습니다」
+
+@bs f=サクラ@悔しい_頬
+[사쿠라/skr1688]「네, 네……」
+
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+@se f=Move
+@fadeout
+
+;; SAKURA’s mutter becomes lower and lower.
+

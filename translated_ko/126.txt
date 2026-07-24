@@ -1,0 +1,13 @@
+
+;;【021_04サラリーマンフェラ.txt】
+
+;; SAKURA dialogued with the staff in front of company.
+
+@bgm f=bgm03
+
+@huki id=101 b=8 wt=1
+[직원]「나, 나는 두 번 다시……아내를 배신하지 않을 겁니다……」
+
+　그렇게 말한 남자는, 도망치듯 허둥지둥 사쿠라의 곁을 지나쳐 갔다.
+
+

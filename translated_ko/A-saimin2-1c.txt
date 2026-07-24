@@ -1,0 +1,24 @@
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+[사쿠라]「……나도 대화란 걸 해보고 싶은데……하지만 강령당하는 쪽인 나로선 무리겠지」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+;;SAKURA stops after walking several steps
+@route route=down wt=1
+
+@se f=指挿入
+@move_f f=サクラ@悔しい_頬 in=r t=300
+
+[사쿠라]「……?　왠지, 속옷이 축축해서 기분 나빠……」
+
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+;;暗转
+
+@mes_win back=1 pos=1
+
+\CL 사쿠라는 정액이 스며든 속옷을 손에 넣었다…
+
+@mes_win

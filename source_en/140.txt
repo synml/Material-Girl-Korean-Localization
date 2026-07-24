@@ -1,0 +1,102 @@
+
+;;【023_01高額エロバイト.txt】
+
+;; When the lascivious degree is above 50, SAKURA dialogues with the teenager in front of deluxe mansion.
+
+@bgm f=bgm01
+
+@fadeout
+@dot_move dir=up x=10 y=13
+@dir id=15 dir=d wt=1
+@fadein
+@huki id=15 b=8 wt=1
+
+[Teenager]「hoo～～um」
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA] (This boy has kept his eyes upon me just now……) 
+
+@bs f=サクラ@微笑
+
+[SAKURA]「……What is the matter?」
+
+[Teenager]「Elder sister, do you want money?」
+
+@bs f=サクラ@驚き
+
+@huki b=2 wt=1
+
+[SAKURA]「ay? 　Money? 　ho ho, if I say I don't need money, it is certain to deceive him.」
+
+@bs f=サクラ@微笑
+
+[SAKURA]「However, I hasn’t come down to beg for money to a boy.」
+
+@huki id=15 b=5 wt=1
+
+[Teenager]「hum! 　Unexpectedly, you treat him as a child. Forget it, that's all right.」
+
+[Teenager]「In one day, if you can swear to obey my order, I will pay you 500,000 yen.」
+
+@bs f=サクラ@驚き_z body_op=z op2=ビックリ
+
+@huki b=1 wt=1
+
+[SAKURA]「ay……!?」
+
+@bs f=サクラ@哀しみ_z body_op=z op2=汗
+
+[SAKURA] (500,000 yen ……!? I should not be so serious……this boy has so much money impossibly.) 
+
+@route route=d wt=1
+@wait t=250
+@dir dir=u wt=1
+
+@bs f=サクラ@笑み
+
+[SAKURA]「ho ho, I’m gonna go now. Don’t make such joke with an adult.」
+
+@huki id=15 b=8 wt=1
+
+[Teenager]「It seems that you don’t believe me……no way. Look」
+
+@bs f=サクラ@無表情
+
+　The teenager takes out an envelope out of his pocket, and then the money out of the envelope.
+
+[Teenager]「My pocket money per month is 500,000 yen. And then, I am going to pay it to you.」
+
+@huki id=15 b=8 wt=1
+
+[Teenager]「However, if you are not short of money, I may look for other elder sister.」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@huki b=1 wt=1
+
+[SAKURA] (Could I really get 500,000 yen? 　However, he said absolute obedience……) 
+
+@bs f=サクラ@哀しみ_z body_op=z op2=困惑
+
+@huki b=8 wt=1
+
+[SAKURA] (This boy looks specially arrogant……who know what his orders are……) 
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[SAKURA] (However, 500,000 yen……what shall I do?) 
+
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: Reject / Receive
+
+;;○Reject →023_02止めておく
+
+;;○Receive →023_03お金が欲しい
+
+

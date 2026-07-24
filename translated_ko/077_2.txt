@@ -1,0 +1,15 @@
+
+;;【017_02着替え終了後.txt】
+;; Mini-game: Place commodities
+
+;; Mini-game ends
+
+[편의점 점장]「음, 미안하게 됐네, 사쿠라……오늘 풀타임으로 일하게 해버려서……」
+
+[편의점 점장]「괜찮다면 내일 다시 올 때는, 자네 근무 시간을 \C[2]17:00\C[0] 전으로 조정해 둘 테니, 그 시간에 맞춰 일을 시작해 줬으면 하네」
+
+;; Bowing to the store manager, SAKURA took the salary and then left the convenience store happily. 
+
+;; Free action
+
+

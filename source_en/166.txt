@@ -1,0 +1,98 @@
+
+;;【024_14オーナーＨ後.txt】
+;;【025_02話を聞かない.txt】
+
+;;【025_03話を聞く.txt】
+
+@bgm f=Dungeon3
+
+@move_f f=サクラ@考え中 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA] (What does the boss want to tell me?) 
+
+@bs f=サクラ@無表情
+
+[SAKURA]「Please tell me now.」
+
+@huki id=6 b=8 wt=1
+
+[Boss]「I see」
+
+　The boss nodded his head to SAKURA, took a deep breath, and then said.
+
+@wait t=1000
+
+[Boss]「Miss SAKURA, I want to transfer this Host Club to you.」
+
+@bs f=サクラ@驚き op2=ビックリ
+
+@huki b=1 wt=1
+
+[SAKURA]「ay……!?」
+
+[Boss]「I……and all the hosts in this store hope that you are able to be the boss of this store.」
+
+@bs f=サクラ@驚き op2=汗
+
+@huki b=8 wt=1
+
+[SAKURA]「Wait, wait a moment……transfer this store to me, this……」
+
+@bs f=サクラ@哀しみ op2=困惑
+
+[SAKURA]「I am only a student……without any experience in managing the store. I can’t do it well.」
+
+@bs f=サクラ@無表情
+
+@huki id=6 b=8 wt=1
+
+[Boss]「The store is still managed by me as before.」
+
+[Boss]「We hope that Miss SAKURA is able to be our master.」
+
+[Boss]「Working for Miss SAKURA, it is our wish.」
+
+@wait t=500
+
+[Boss]「You……have the enchanted temperament of queen.」
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[SAKURA] (To be this store’s boss, all the hosts work for me……) 
+
+[SAKURA] (Although it is very interesting……) 
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA]「Boss, do you……think it is very good?」
+
+[Boss]「um um, as long as we are able to work for you」
+
+@bgm f=Airship
+@dir dir=d wt=1
+@huki b=8 wt=1
+@wait t=1000
+@dir dir=u wt=1
+@wait t=1000
+
+@bs f=サクラ@微笑
+
+
+[SAKURA]「…… I got it. I receive your proposal.」
+
+@huki id=6 b=1 wt=1
+
+[Boss]「Thank you very much! 　Miss SAKURA! 　Please follow me.」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+　The boss held SAKURA’s hands, and walked towards a special room of this store.
+
+@se f=Move
+@fadeout

@@ -1,0 +1,24 @@
+
+;;Phase III
+
+@bgm f=bgm05
+
+;;ＣＧ■CG11c
+@bgf bg=ev11c t=1000
+
+[SAKURA/skr1189] (Ah! Ah! Ah ah! the pennis is shaking......)
+
+[Manager] 「Woo ah ah ah ah!」
+
+;;ＣＧ■CG11d
+@fin bg=ev11d se=射精音
+
+[SAKURA/skr1190] 「Haha, huh ah...ah ah ah...ah uh,uh, very ... thanks......ah」
+
+[SAKURA/skr1191] (Ass......was covered with sperm .....uh.)
+
+[SAKURA/skr1192] (If continue......the guests will certainly notice.)
+
+
+@rps
+

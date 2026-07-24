@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL It takes courage to（\I[320]\I[322]）change the hair color……
+@mes_win
+

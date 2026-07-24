@@ -1,0 +1,92 @@
+;;▼Convenience store: A man stands in the counter of adult magazines in the convenience store. A sexual harassment will occur by standing next to him. 
+;;　　　　　　An erotic event will be triggered if the carnality is high at night. 
+
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]「뭔가 쓸 만한 잡지가 있으려나」
+
+@bs f=サクラ@微笑
+
+[사쿠라]「아, 이거 괜찮아 보이는데」
+
+@huki b=2
+@bs f=サクラ@無表情
+
+[사쿠라]（……어라?　옆에 있는 사람이 아까보다 더 가까이 붙은 것 같은데……）
+
+@bgm_save
+@bgm f=bgm14
+
+@se f=服を脱ぐ音3
+@bs f=サクラ@驚き_頬 op2=ビックリ
+@move_f f=A-cut_sitagi face=0 in=l t=150
+
+[사쿠라]（어?　손이 내 엉덩이에……설마 치한!?）
+
+@bs f=サクラ@悔しい_頬 op2=赤面
+
+[사쿠라]（편의점 안에서 성추행이라니……앗, 싫어……손이 치마 속으로 들어와……）
+
+;;Conditional branch
+@if eval=v(32)>=25 ok=jump:*cev02 bad=jump:*cev01
+
+;;Branch: no erotic event
+*cev01
+
+@fb dir=back
+@move_f f=A-cut_sitagi face=0 out=l t=150
+@move_f f=サクラ@驚き_頬 out=r t=100
+
+[사쿠라]（……아, 나 진짜 바보네, 그냥 멀리 떨어지면 되잖아!）
+
+@dir dir=down
+@move_f f=サクラ@考え中 in=r t=300
+
+[사쿠라]（정말이지, 좀 봐줘라）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+@bgm
+@bgm_replay
+
+@end
+
+;;Branch: an erotic event is triggered
+*cev02
+
+@move_f f=black face=0 in=c t=150
+
+[남자]「엉덩이를 그렇게 쳐들고, 꼭 유혹하는 것 같은데……혹시 잔뜩 “쌓인” 거 아니야?」
+
+[사쿠라]「아, 아니……거든……」
+
+[남자]「후후, 그럼 내가 그 욕구를 채워주지, “그 물건”을 네 거기에 쑤셔 넣어서 말이야!」
+
+@se f=挿入音
+@move_f f=A-cut_sev07-3 face=0 in=c t=150
+
+[사쿠라]「꺄앗, 어째서 이런……아아아앙!　편의점 안에서……아아아아아앙!」
+
+@se f=ピストン_高速
+
+[사쿠라]「안 돼!　꺄아아앙!　밖에서 여기가 훤히 다 보이는데!!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev07-4 face=0
+
+[사쿠라]「아아아앙!　하앗, 안 돼, 나……가버려!　아아아앙……아아아앙!」
+[사쿠라]「아아앙……하아앙……안에……뜨거운 게 가득 차서……아아아앙……」
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+
+@bgm
+@bgm_replay
+

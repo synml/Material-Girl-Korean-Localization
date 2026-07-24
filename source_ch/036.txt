@@ -1,0 +1,139 @@
+
+;;【007_01イジメられる司３.txt】
+
+;;『被欺負的司２』獲勝。發現了被不良少年糾纏著的司。
+
+@bgm
+
+@huki b=7 id=9
+@c_jump id=10 wt=0
+@huki b=1 id=10
+@huki b=5 id=11
+@huki b=8 id=12
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bgm f=bgm04
+
+@bs f=サクラ@怒り
+[小櫻]（又是那幫家伙……）
+
+;;　小櫻親眼看見司被不良少年們帶走了。
+
+@huki b=8
+@bs f=サクラ@考え中
+[小櫻]（今天，一定要擺平他們！）
+
+@huki b=1
+@bs f=サクラ@怒り
+[小櫻]（必須揍到他們再也不敢接近司！　讓他們發毒誓再也不找司的茬！）
+@move_f f=サクラ@怒り out=l t=300
+
+@move_speed spd=3
+@route route=right:4
+@move_speed spd=4
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@huki b=1 id=9
+@huki b=1 id=10
+@huki b=1 id=11
+@huki b=8 id=12
+
+@huki b=1
+@bs f=サクラ@怒り
+[小櫻]「給我站住！」
+@move_f f=サクラ@怒り out=l t=300
+
+@dir dir=left id=9
+@dir dir=left id=10
+@dir dir=left id=11
+@dir dir=left id=12
+
+@huki b=8 id=9
+@huki b=8 id=10
+@huki b=8 id=11
+@huki b=8 id=12
+[司]「小、小櫻……」
+
+@move_speed spd=4 id=12
+@route route=down,left:5 id=12
+
+@huki b=8 id=12 wt=1
+
+@huki b=1 id=12
+[佐竹]「喲，等你很久了啊。我就知道，抓住這家伙的話你一定會來的。」
+
+@se f=Sword5 pitch=130
+@huki b=1 id=9
+@huki b=1
+@huki b=8 id=12 wt=1
+
+;;　上次被小瑩打敗的佐竹、眼神中迸發著一股邪氣。
+
+@huki b=8 id=12
+[佐竹]「被女眷打敗的話、老子的面子可掛不住啊。嘿嘿嘿，不管用什么手段老子都要把你打趴下！」
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[小櫻]「居然還用刀……卑鄙小人……」
+@move_f f=サクラ@無表情 out=l t=300
+
+@huki b=5 id=12 wt=1
+
+@huki b=1 id=12
+[佐竹]「少放屁！」
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@怒り
+[小櫻]（區區小刀根本不能奈我何……）
+@move_f f=サクラ@怒り out=l t=300
+
+@huki b=1 id=12
+@c_jump id=10 wt=0
+@c_jump id=11
+
+[佐竹]「喂！　給我包圍她！」
+
+@move_speed spd=6 id=10
+@move_speed spd=6 id=11
+
+@route route=left:6 id=11 wt=0
+@route route=up:2,left:4 id=10
+
+@dir dir=down id=10 wt=0
+@dir dir=up id=11
+
+;;　在佐竹的命令下，不良們把小櫻團團圍住。
+
+@move_f f=サクラ@無表情 in=l t=300
+@huki b=8 wt=1
+
+@huki b=1
+@bs f=サクラ@怒り
+;;[小櫻]「我絕對不會輸給你這種卑鄙小人！」
+[小櫻]「我絕對不會輸給你這種卑鄙小人！」
+
+@huki b=1
+@bs f=サクラ@考え中
+[小櫻]（今天，一定要擺平他們！）
+@move_f f=サクラ@考え中 out=l t=300
+
+;;@huki b=1
+;;@bs f=サクラ@怒り
+;;[小櫻]「一決雌雄吧！」
+;;@move_f f=サクラ@怒り out=l t=300
+
+;;○戰斗：vs不良頭頭（持刀）＋不良集團
+
+@bgm f=bgm14 pitch=130
+;;勝利　→008_02勝利へ
+
+;;敗北　→008_03敗北へ
+

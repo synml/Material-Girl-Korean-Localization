@@ -1,0 +1,22 @@
+
+;;【020_03試遊する.txt】
+
+@bgm f=bgm01
+@move_f f=サクラ@微笑 in=r t=300
+
+[사쿠라]（모처럼 기회가 생겼으니, 오늘도 한번 해볼까）
+
+@huki b=8 wt=1
+
+[사쿠라]「그럼……조금만 해볼게요」
+
+@huki id=29 b=1 wt=1
+[연구원]「오오, 정말 감사합니다. 그럼, 이쪽으로 와주세요」
+
+[사쿠라/skr1461]「네」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@fade type=out t=1000 wt=1
+;; SAKURA follows that man to enter the building.
+

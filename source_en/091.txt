@@ -1,0 +1,49 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_06働く.txt】
+;; Phase Ⅱ
+
+;; Waiting Room
+@huki id=3 b=3 wt=1
+
+[Boss]「During your first fever time, you have won good evaluation.」
+
+[Boss]「um hoo hoo ♪ I haven’t seen the girl who is able to earn so much like you for a long time. Here you are. This is today's salary.」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA/skr1330]「Thank you very much」
+
+@huki id=3 b=3 wt=1
+
+[Boss]「Is it very interesting to please men?」
+
+@bs f=サクラ@無表情
+
+[SAKURA/skr1331]「This……」
+
+@bs f=サクラ@羞恥_z body_op=z
+
+@huki b=8 wt=1
+
+[SAKURA/skr1332] (Yeah, you are right. When I saw the guests’ immersed expression……I indeed feel excited somewhat……) 
+
+@huki id=3 b=4 wt=1
+
+[Boss]「um hoo hoo ♪ you really fit this work well」
+
+[Boss]「From now on, if you please more men, you are able to make a lot of money ♪」
+
+@bs f=サクラ@微笑
+
+[SAKURA/skr1333]「OK」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+@se f=Move
+@fadeout
+
+　SAKURA nodded her head after hearing boss’s words, and then began to change clothes.
+

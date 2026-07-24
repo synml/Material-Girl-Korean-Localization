@@ -1,0 +1,64 @@
+
+;;【007_01イジメられる司３.txt】
+;;【008_02成功.txt】
+
+@dot_move id=101 x=25 y=10 dir=right
+@change f=女教師 id=101
+
+@fade type=in t=1000 wt=1
+
+@bgm f=bgm03
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[小櫻]「呼……」
+
+　沒被小櫻發現并順利逃出的小櫻松了一口氣。
+
+@bs f=サクラ@考え中
+
+@route route=d wt=1
+@wait t=500
+
+[小櫻]「得趕緊去找其他老師。」
+
+@bs f=サクラ@悔しい
+[小櫻]（絕對不能讓須東老師逞心如意！）
+
+@route id=101 route=r:7 wt=0
+@route route=l:9 wt=1
+@bs f=サクラ@無表情
+
+@huki b=1 wt=1
+
+[小櫻]「老師，打擾一下可以嗎？」
+
+@huki id=101 b=2 wt=1
+
+[女教師]「誒？　有什么事嗎？」
+
+@bs f=サクラ@哀しみ
+
+[小櫻]「其實……」
+
+@fadeout wt=1
+
+　小櫻像女教師說明了事情的原委。
+
+@fadein wt=1
+@huki id=101 b=1 wt=1
+
+[女老師]「須東老師真是的，他在想什么呢！」
+
+@bs f=サクラ@無表情
+
+@move_speed id=101 spd=4
+@route id=101 route=r:7 wt=0
+@route route=r:7 wt=0
+@fadeout wt=1
+@route  route=r wt=1
+
+　說罷，小櫻和女教師便一同前往保健室。
+
+

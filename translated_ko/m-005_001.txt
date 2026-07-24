@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL 원피스 수영복을 손에 넣었다!
+
+@mes_win

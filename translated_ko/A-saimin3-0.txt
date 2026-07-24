@@ -1,0 +1,121 @@
+
+;;○ help
+;;Get 2,500 yen 
+
+@huki id=6 b=1
+
+[초자연연구부 부장]「그, 그럼……저쪽에 가서 서 봐」
+
+@bgm
+
+@route route=down wt=1
+@dir dir=up wt=1
+
+;;Hypnosis effect
+;;Hypnosis close-up
+@move_f f=A-cut_saimin1 face=0 in=c t=150 h=1
+@wait t=500
+@se f=催眠行使
+@move_f f=A-cut_saimin2 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin1 face=0 out=c t=150
+@wait t=1000
+@move_f f=A-cut_saimin2 face=0 out=c t=150
+@wait t=150
+
+@mes_win back=1 pos=1
+
+\CL 사쿠라는 최면에 걸렸다……
+
+@mes_win
+
+@bgm f=bgm12
+@move_speed id=6 spd=6
+@route id=6 route=down wt=1
+
+@se f=床にドサッ
+@move_f f=A-cut_saimin5 face=0 in=c t=150 h=1
+
+[초자연연구부 부장]「하아 하아……더는 못 참겠어!」
+
+@move_speed id=6 spd=4
+
+;;Close-up of inserting his penis into SAKURA's body
+@se f=挿入音
+@flash t=300
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin5 face=0 out=c t=150
+
+[사쿠라]「으응……!」
+
+[초자연연구부 부장]「으윽!　여, 여전히 꽉 조여주는걸…!　이거 중독되겠어…!!」
+
+;;Take out and insert
+@se f=ピストン
+
+[사쿠라]「응!　앗!」
+
+[초자연연구부 부장]「끝, 끝내줘…!　박아 넣으면 자지가 온통 부드러움에 폭 감싸이고, 빼면 빨판처럼 휘감겨 온다고!」
+
+;;Take out and insert rapidly
+@se
+@se f=ピストン_激しい
+
+[사쿠라]「응앗!　아앙!」
+
+[초자연연구부 부장]「아아!　조금 더 즐기고 싶은데!!　싼다!　이제 싼다!!」
+
+[사쿠라]「하앗!　앗!　아앙!　응하앗!」
+
+[초자연연구부 부장]「싼다!　내 자지가 자궁에 입 맞출 만큼 깊이 박혔어, 이 씨앗을 전부 쏟아붓는다!!」
+
+;;Ejaculation
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[사쿠라]「아아아아아아아앙!!」
+
+[초자연연구부 부장]「으윽…!　마셔라, 네 자궁이 실컷 들이켜게 해서, 그대로 임신해버려!」
+
+@move_f f=A-cut_saimin8 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin7 face=0 out=c t=150
+
+[사쿠라]「으응!……하아 하아……뜨거운 게 잔뜩 쏟아져 들어와……」
+
+;;Change scene with lights out
+;;The carnality increases by 3…
+;;Yell and move freely on the corridor
+
+;;End of Stage 2 H
+
+@fadeout t=1000 wt=1
+@move_f f=A-cut_saimin8 face=0 out=l t=150
+@bs
+@wait t=1000
+@se f=学校チャイム
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@悔しい
+
+[사쿠라]「……이상하네, 나……?」
+
+@huki id=6 b=3
+
+[초자연연구부 부장]「그동안 협력해줘서 고마워. 다음에도 시간 되면 또 와줘」
+
+@bs f=サクラ@哀しみ
+
+[사쿠라]「……으, 응…」
+
+@move_f f=サクラ@哀しみ out=r t=300
+@fadeout t=1000 wt=1
+@se
+@bs

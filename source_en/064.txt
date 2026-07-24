@@ -1,0 +1,73 @@
+
+;;【014_01告白・司.txt】
+;;【014_02付き合う.txt】
+
+@bgm f=Dungeon3
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA] (……TSUKASA is my childhood sweetheart.) 
+
+@bs f=サクラ@微笑
+
+[SAKURA] (He is also the person who understands me the best.……) 
+
+@bs f=サクラ@無表情
+
+[SAKURA] (So far, I never have cared about the opinions from the people around me……) 
+
+[SAKURA] (However, if TSUKASA leave me……) 
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA] (ay?　As long as TSUKASA will leave me……I will feel heart-broken.) 
+
+[SAKURA] (Although it is an inevitable thing for me to fall in love with TSUKASA……) 
+
+[SAKURA] (If TSUKASA leaves me……don't ……I want to accompany TSUKASA…… I also want to stay with TSUKASA……) 
+
+@bs f=サクラ@考え中
+
+@huki b=8 wt=1
+
+[SAKURA] (Is……this……love? 　Although I don’t understand it really……) 
+
+[SAKURA] (However, I, indeed, am move somewhat……) 
+
+@huki id=4 b=8 wt=1
+
+[TSUKASA]「SAKURA……do you……agree?」
+
+　Because SAKURA is lost in thought without a response, TSUKASA feels upset.
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA]「No. I don’t disagree……although I am not very clear now……」
+
+[SAKURA]「However, when I know that TSUKASA loves me ……I feel pleasant very much.」
+
+@huki id=4 b=1 wt=1
+
+[TSUKASA]「SAKURA!」
+
+@bs f=サクラ@微笑_z body_op=z
+
+[SAKURA]「I want to be TSUKASA’s girlfriend!」
+
+[TSUKASA]「Thanks, SAKURA!」
+
+@bs f=サクラ@笑み_z body_op=z
+
+@huki b=8 wt=1
+
+[SAKURA] (hee hee, TSUKASA looks very happy. Seeing his delighted look, I am also very happy.) 
+
+@move_f f=サクラ@笑み out=r t=300
+
+　Hence, childhood sweethearts are upgraded into lovers.
+
+;;015_01エンド・司へ。
+

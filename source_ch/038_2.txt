@@ -1,0 +1,7 @@
+
+;;【007_01イジメられる司３.txt】
+;;【007_03敗北.txt】
+
+@change num=0
+@move_speed spd=4
+

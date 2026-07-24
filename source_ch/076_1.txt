@@ -1,0 +1,21 @@
+
+;;【017_02著替え終了後.txt】
+
+@dot_move id=101 x=5 y=6 dir=left
+@dot_move id=102 x=6 y=6 dir=left
+
+@change f=男子学生01 id=101 num=0
+@change f=男子学生01 id=102 num=2
+
+@fade type=in t=1000 wt=1
+
+@huki b=8 id=101
+@huki b=8 id=102
+
+@huki b=8 wt=1
+
+@fade type=out t=1000 wt=1
+;;迷你游戲：擺放商品
+
+@invisible id=101 type=on
+@invisible id=102 type=on

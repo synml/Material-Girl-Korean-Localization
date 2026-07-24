@@ -1,0 +1,19 @@
+
+;;【016_01パン屋.txt】
+;;【016_04バイトしない.txt】
+
+;;@move_f f=パン屋 in=r t=300 wt=0
+@move_f f=サクラ@哀しみ in=l t=300
+
+@huki b=8 id=3
+[Store Manager] 「well. Although I feel very regretful, I have no way.」
+
+@huki b=1 id=3
+@bs f=サクラ@無表情
+[Store Manager] 「To work here, you should put on the work uniform to work in the store.」
+
+;;@move_f f=パン屋 out=r t=300 wt=0
+@move_f f=サクラ@無表情 out=l t=300
+
+@fade type=out t=1000 wt=1
+

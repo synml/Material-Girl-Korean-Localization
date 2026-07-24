@@ -1,0 +1,25 @@
+
+;;【003_03服装チェック段階Ｈ（汎用）.txt】
+
+;;Phase Ⅳ
+
+@bgm f=bgm04
+
+;;ＣＧ■CG01b
+@bgf bg=ev01b t=1000
+@bgs f=aegi_skr1
+
+[SAKURA/skr0260] 「Coo!? Hooah......Ummmm, hahoo」
+
+[SUDOU] 「No resistance, SAKURA?」
+
+[SAKURA/skr0261] 「This is for...... Hurry up and make the check over......Please come to an end soon......Oh, hmm...... Hurry up!」
+
+[SUDOU] 「Don't be so hasty. Take it easy. You are a student with special problems. So we need to check it carefully.」
+
+[SAKURA/skr0262] 「How could it be like this?...... Oh! Ummah! Aha!? Ahhaahumm!」
+
+@bgs
+@rps
+
+

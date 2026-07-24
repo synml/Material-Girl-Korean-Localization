@@ -1,0 +1,66 @@
+
+;;【007_01イジメられる司３.txt】
+;;【008_01身体測定.txt】
+
+;; Seven days after the game started (sleeping on the bed seven times), trigger through the dialogue with PE teacher in the healthcare room.
+
+;; After condition is met, PE teacher will appear in the healthcare room.
+
+@fade type=in t=1000
+
+@bgm f=bgm01
+
+[SUDOU]「The teacher in charge of healthcare room rests because of illness today. Therefore, I am responsible for inspection today.」
+
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+
+@huki b=1 wt=1
+
+[SAKURA] (Will he want the sexual harassment!?) 
+
+@bs f=サクラ@悔しい
+
+[SUDOU]「The boy students measure by yourselves. The girl students are measured by me!」
+
+@huki id=101 b=1 wt=1
+
+[Girl Student 1]「The girl students shall be inspected by a female teacher!」
+
+@huki id=102 b=1 wt=1
+
+[Girl Student２]「Yes. If the girl students are measured by teacher SUDOU, it is too strange!」
+
+@huki id=3 b=8 wt=1
+@dir id=3 dir=l wt=1
+@wait t=500
+@dir id=3 dir=d wt=1
+@wait t=500
+
+[SUDOU]「Was who grumbling just now? 　Say it again.」
+
+@huki id=101 b=6
+@huki id=102 b=6
+@huki id=103 b=6
+@huki id=104 b=6 wt=1
+
+　SUDOU looks around, and all the girl students no longer speak.
+
+@bs f=サクラ@怒り op2=拒否
+
+@huki b=8 wt=1
+
+[SAKURA] (Such thing can’t be forgiven……) 
+
+;; SUDOU absolutely wants to perform sexual harassment.
+
+@bs f=サクラ@悔しい
+
+[SAKURA] (It is sure that teacher SUDOU abuses power. I have to go out to tell other teachers……) 
+
+;; SAKURA decides to escape from the clinic slinkingly.
+
+@move_f f=サクラ@悔しい out=r t=300
+@fade type=out t=1000 wt=1
+
+;; ○Mini-game: Secret escape
+

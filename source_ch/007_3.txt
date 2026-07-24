@@ -1,0 +1,94 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@if eval=v(102)<2 ok=jump:*branchA000 bad=jump:*branchB000
+;;-------------------------------------
+*branchA000
+
+@dir dir=left
+
+@jump target=*branchB000
+;;-------------------------------------
+*branchB000
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+@huki b=8
+@mes_win back=1 pos=1
+\CL『招募打工者！　一小時1000日元！』
+
+\CL『打工時段任您選擇！』
+@mes_win back=0 pos=2
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*branchA001 bad=jump:*branchB001
+;;-------------------------------------
+;;　選擇右側時
+*branchA001
+
+@route route=right
+@dir dir=up
+
+@jump target=*branchEND001
+;;-------------------------------------
+*branchB001
+@if eval=v(101)==2 ok=jump:*branchA002 bad=jump:*branchB002
+;;-------------------------------------
+;;　選擇右側時
+*branchA002
+
+@route route=down,right:2
+@dir dir=up
+
+@jump target=*branchEND001
+;;-------------------------------------
+;;　選擇右側時
+*branchB002
+
+@dir dir=up
+
+
+@jump target=*branchEND001
+;;-------------------------------------
+*branchEND001
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8
+@move_f f=サクラ@無表情 in=r t=300
+[小櫻]「面包店啊……」
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8
+@map_scroll dir=up dis=2 spd=2
+
+@move_f f=サクラ@考え中 in=r t=300
+[小櫻]（很可愛的一家店嘛。）
+@move_f f=サクラ@考え中 out=r t=300
+
+@map_scroll dir=down dis=2 spd=5
+
+@move_speed spd=3
+
+@huki b=8 wt=1
+@move_f f=サクラ@哀しみ in=r t=300
+[小櫻]（比起其他的店、只有這家面包店工資給的這么高……）
+
+@huki b=2
+@bs f=サクラ@考え中 op2=ハテナ
+[小櫻]（為什么呢？）
+
+@huki b=8 wt=1
+@bs f=サクラ@無表情
+[小櫻]「總之先去問問看吧」
+@move_f f=サクラ@無表情 out=r t=300
+
+@move_speed spd=2
+@fade type=out t=1000 wt=0
+@@route route=up wt=1
+@se f=Move1
+@move_speed spd=4
+
+

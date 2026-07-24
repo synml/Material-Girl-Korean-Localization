@@ -1,0 +1,22 @@
+
+;;銆?06_01銈ゃ偢銉°倝銈屻倠鍙革紥.txt銆?
+;;銆?06_03鏁楀寳.txt銆?
+
+@c_jump id=12 y=1 x=-7 wt=0
+@c_jump id=10 y=-1 x=-8 wt=0
+@c_jump id=11 y=-2 x=-5
+
+@dir dir=left id=9 wt=0
+@dir dir=left id=12 wt=0
+@dir dir=down id=10 wt=0
+@dir dir=down id=11 wt=0
+@dir dir=right
+
+@change num=1 id=10
+@change num=1 id=11
+@change num=0
+
+@fade type=in t=1000 wt=1
+
+@bgm f=bgm14 pitch=130
+

@@ -1,0 +1,9 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+@huki id=12 b=8
+[Girl Student１]「SUDOU, he deserves ten thousand deaths……」
+
+@huki id=11 b=6
+[Girl Student２] (You disgust him to a great extent……)
+

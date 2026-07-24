@@ -1,0 +1,688 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+@bgm f=bgm02
+
+@huki b=2
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch001 bad=jump:*left_branch001
+;;-------------------------------------
+;;　右の時
+*right_branch001
+
+@map_scroll dir=right dis=5 spd=4
+
+@jump target=*dir_branch001
+;;-------------------------------------
+;;　左の時
+*left_branch001
+
+@map_scroll dir=left dis=4 spd=4
+
+@jump target=*dir_branch001
+;;-------------------------------------
+*dir_branch001
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@move_f f=サクラ@考え中 in=r t=300
+@wait t=1200
+
+@huki b=2
+@bs f=サクラ@無表情 op2=ハテナ
+[小櫻]（那個是……朝彥……？　在那里干什么呢？）
+@move_f f=サクラ@無表情 out=r t=300
+
+@huki b=8
+@wait t=1200
+
+@huki b=1
+@c_jump
+
+@move_f f=サクラ@驚き op2=ビックリ in=r t=300
+[小櫻]（啊！？　那個女孩子也在……難不成……這是告白現場？）
+
+@huki b=8
+
+@bs f=サクラ@考え中
+[小櫻]（的確朝彥那家伙長得挺帥的……而且、家里還挺有錢……）
+
+@huki b=8
+@bs f=サクラ@悔しい
+[小櫻]（每天都會在電視上看到朝彥家公司的廣告、再加上他還很聰明。不過……）
+
+@huki b=7
+@bs f=サクラ@考え中 op2=困惑
+[小櫻3]（畢竟是那個朝彥啊……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@move_speed spd=2 id=31
+@route route=left id=31
+@move_speed spd=3 id=31
+
+@huki b=8 id=31
+[女學生]「那、那個朝彥學長……！」
+
+@huki b=4 id=31
+
+@huki b=2 id=30
+@wait t=1200
+
+@huki b=2 id=30
+@dir dir=right id=30
+;;@move_f f=朝彥 in=l t=300
+[朝彥]「找我有什么事嗎？」
+
+@huki b=1 id=31
+[女學生]「我、我喜歡你！　請和我交往吧！」
+;;@move_f f=朝彥 out=l t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch002 bad=jump:*left_branch002
+;;-------------------------------------
+;;　選擇右側時
+*right_branch002
+
+@map_scroll dir=left dis=5 spd=6
+
+@jump target=*dir_branch002
+;;-------------------------------------
+;;　選擇左側時
+*left_branch002
+
+@map_scroll dir=right dis=4 spd=6
+
+@jump target=*dir_branch002
+;;-------------------------------------
+*dir_branch002
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[小櫻]（果然是告白現場。我是不是該先找個地方躲一下……）
+@move_f f=サクラ@考え中 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch003 bad=jump:*left_branch003
+;;-------------------------------------
+;;　選擇右側時
+*right_branch003
+
+@route route=left,up:2
+@rpute route=left
+@route_point x=36 y=8 dir=r
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=right dis=6 spd=5
+
+@jump target=*dir_branch003
+;;-------------------------------------
+;;　選擇左側時
+*left_branch003
+
+@route route=right
+@route_point x=51 y=8 dir=l
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=left dis=5 spd=5
+
+@jump target=*dir_branch003
+;;-------------------------------------
+*dir_branch003
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8 id=30
+@wait t=1200
+
+;;move_f f=朝彥 in=l t=300
+[朝彥]「謝謝你。你能喜歡上我、我很高興」
+;;move_f f=朝彥 out=l t=300
+
+@huki b=8
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[小櫻]（真虧你把這種場景當作日常一樣啊、還笑得這么爽朗啊喂……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=4 id=31
+[女學生]「也、也就是說……」
+
+;;　突如其來的接受告白、讓那個女生差點感動的哭出來了。
+
+@huki b=8 id=30
+@wait t=1200
+
+;;move_f f=朝彥 in=l t=300
+[朝彥]「首先，\C[2]\{你能把這條吊帶襪\}\C[0]穿上試試看嗎」
+;;move_f f=朝彥 out=l t=300
+
+@huki b=8 id=31
+@wait t=1200
+
+@huki b=2 id=31
+[女學生]「誒……？」
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[小櫻]（果然不出我所料。朝彥他、有這個癖好啊……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8 id=30
+@wait t=1200
+
+@huki b=9 id=30
+;;move_f f=朝彥 in=l t=300
+[朝彥]「讓我看看……還是這款\{吊帶襪\}比較符合你的風格」
+;;move_f f=朝彥 out=l t=300
+
+@huki b=6
+@move_f f=サクラ@考え中 op2=困惑 in=r t=300
+[小櫻]（真是的、這家伙都里到底踹了多少條吊帶襪啊。難以置信……）
+@move_f f=サクラ@考え中 out=r t=300
+
+@route id=30 route=right
+
+@se f=衣擦れの音1
+@huki b=8 wt=1 id=30
+
+@huki b=6 id=31 wt=1
+
+@huki b=2 id=31
+[女生徒]「誒？　誒？　那個……朝彥學長……？」
+
+@route id=30 route=left
+
+@dir dir=right id=30
+@huki b=8 id=30 wt=1
+
+;;move_f f=朝彥 in=l t=300
+[朝彥]「我啊、特別喜歡穿\{吊帶襪\}的女性。所以――」
+
+@huki b=2 id=30
+[朝彥]「你要是喜歡我的話，就為我穿上\{吊帶襪\}吧？」
+;;move_f f=朝彥 out=l t=300
+
+@huki b=8 id=31
+[女學生]「…………」
+
+@huki b=7 id=31
+@wait t=1200
+
+@huki b=8 id=31
+[女學生]「……我、我知道了……」
+
+@huki b=1
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch005 bad=jump:*left_branch005
+;;-------------------------------------
+;;　選擇右側時
+*right_branch005
+
+@map_scroll dir=left dis=6 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch005
+;;-------------------------------------
+;;　選擇左側時
+*left_branch005
+
+@map_scroll dir=right dis=5 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch005
+;;-------------------------------------
+*dir_branch005
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=6
+@wait t=1200
+
+@move_f f=サクラ@驚き op2=汗 in=r t=300
+[小櫻]（哇啊啊！？　厲害了……大多數的女孩子、在當他說讓她們穿吊帶襪的時候都回絕了）
+
+@bs f=サクラ@考え中 op2=汗
+[小櫻]（這孩子、真敢拼啊。好厲害……不過、這也證明她有多喜歡朝彥……）
+
+@bs f=サクラ@悔しい
+[小櫻]（要是我的話……當我真心喜歡一個人的時候、我會不會也對他做到言聽計從呢？）
+
+@bs f=サクラ@考え中 op2=汗
+[小櫻]（雖然我……想象不出來那樣的自己……）
+@move_f f=サクラ@考え中 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch006 bad=jump:*left_branch006
+;;-------------------------------------
+;;　選擇右側時
+*right_branch006
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=right dis=6 spd=5
+
+@jump target=*dir_branch006
+;;-------------------------------------
+;;　選擇左側時
+*left_branch006
+
+@map_scroll dir=down dis=2 spd=5
+@map_scroll dir=left dis=5 spd=5
+
+@jump target=*dir_branch006
+;;-------------------------------------
+*dir_branch006
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=1 id=31
+[女學生]「稍、稍等一下」
+
+@move_speed spd=5 id=31
+@fade type=out t=1000 wt=0
+@route route=right:7 id=31
+@se f=Move1
+@wait t=2000
+@c_jump id=31 x=-7
+@dir id=31 dir=left
+@fade type=in t=1000 wt=1
+
+;;　跑到空教室的女學生、沒多久就換好吊帶襪走了出來。
+
+@huki b=8 id=31
+@wait t=1200
+
+@huki b=1 id=31
+[女學生]「這、這樣就可以了嗎？」
+
+@huki b=1 id=30 wt=1
+@move_speed spd=7 id=30
+
+@route route=right id=30
+
+@huki b=4 id=30
+@c_jump id=30
+;;@move_f f=朝彥 in=l t=300
+[朝彥]「哦哦！　簡直完美！」
+;;@move_f f=朝彥 out=l t=300
+
+@huki b=1 id=31
+@wait t=1200
+
+@huki b=11 id=31
+[女學生]「啊、嗯嗯。謝謝您朝彥學長…………」
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[小櫻]（那孩子一臉高興的樣子呢。不過、這還不算完哦……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@bgm
+
+@huki b=8 id=30
+;;@move_f f=朝彥 in=l t=300
+[朝彥]「那么……」
+;;@move_f f=朝彥 out=l t=300
+
+@huki b=8 id=30 wt=1
+
+@huki b=2 id=30
+;;@move_f f=朝彥 in=l t=300
+[朝彥]「可否允許我\C[2]\{\{品嘗\}\}\C[0]一下呢？」
+;;@move_f f=朝彥 out=l t=300
+
+@huki b=2 id=31
+[女學生]「誒……？　品、品嘗……嗎？」
+
+@bgm f=bgm12
+
+@huki b=8 id=30 wt=1
+
+@huki b=4 id=30
+;;@move_f f=朝彥 in=l t=300
+[朝彥]「――沒錯，\C[2]\{\{品嘗\}\}\C[0]哦」
+;;@move_f f=朝彥 out=l t=300
+
+@huki b=8 id=30 wt=1
+
+@huki b=4 id=30
+;;@move_f f=朝彥 out=l t=300
+[朝彥]「\C[2]\{\{這有必要品嘗一下味道呢\}\}\C[0]」
+;;@move_f f=朝彥 out=l t=300
+
+;;　朝彥毫不猶豫的低下了頭、伸出舌頭舔向被吊帶襪包裹著的女生的大腿。
+
+@huki b=4 id=30
+@huki b=7 id=31 wt=1
+
+@bgm
+
+@huki b=8 id=31
+[女學生]「咿……」
+
+
+@dir_fix id=30 type=on
+@walk_anime id=30 type=off
+@move_speed spd=6 id=30
+
+@huki b=1 id=30
+@huki b=1 id=31
+
+@move_speed spd=6 id=31
+
+@se f=Thunder6
+@flash t=500 wt=0
+@anime num=302 id=30 wt=0
+@route id=30 route=left
+@qk
+
+@huki b=7 id=31
+@route route=right:11,up:4 id=31
+@invisible type=on id=31
+
+@huki b=6
+[女學生]「不要啊啊啊！？　變態～～！！！」
+
+@move_speed spd=4 id=30
+@dir_fix id=30 type=off
+@walk_anime id=30 type=on
+
+@huki b=2 id=30
+
+@fade type=out t=1500
+@wait t=1200
+@fade type=in t=1000
+
+@bgm f=bgm02
+
+@huki b=6
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[小櫻]（果然不行啊……也是呢。讓男生舔吊帶襪什么的……想想都覺得惡心）
+@move_f f=サクラ@考え中 out=r t=300
+
+;;@mpve_speed spd=5 id=31
+;;@route id=31 route=right:2
+
+;;@dir dir=left id=31
+
+;;@huki b=7 id=31
+;;@wait t=1200
+
+;;@huki b=1 id=31
+;;[女學生]「離我遠點！　變態！！！」
+
+;;　剛才還被感動到晶瑩剔透的女生的雙眼、浮現出了強烈的厭惡、女學生沖向朝彥一頓拳打腳踢。
+
+;;@route id=31 route=right:3
+;;@dir dir=left id=31
+
+;;@huki b=1 id=31
+;;@c_jump id=31
+;;[女學生]「惡心死了！　渣男！　什么嘛、你個變態！」
+
+;;@fade type=out t=1000 wt=0
+;;@route id=31 route=right:6 wt=1
+;;@se f=Move1
+;;@wait t=2000
+;;@invisible id=31 type=on
+;;@fade type=in t=1000 wt=1
+
+;;　朝著朝彥投去宛如看垃圾一樣的眼神之后、女生就這么穿著吊帶襪頭也不回地離開了這里。
+
+@huki b=8 id=30
+@wait t=1200
+
+@huki b=7 id=30
+;;@move_f f=朝彥 in=l t=300
+[朝彥]「哈啊……為什么、大家、都不明白\{吊帶襪\}所體現的美感呢」
+;;@move_f f=朝彥 out=l t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch007 bad=jump:*left_branch007
+;;-------------------------------------
+;;　選擇右側時
+*right_branch007
+
+@map_scroll dir=left dis=6 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch007
+;;-------------------------------------
+;;　選擇左側時
+*left_branch007
+
+@map_scroll dir=right dis=5 spd=6
+@map_scroll dir=up dis=2 spd=6
+
+@jump target=*dir_branch007
+;;-------------------------------------
+*dir_branch007
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=6
+@wait t=1200
+
+@move_f f=サクラ@考え中 op2=困惑 in=r t=300
+[小櫻]（這家伙、真是不長記性……嘛、反正又和我沒關系管他干嘛呢……）
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[小櫻]（不過、真是有夠浪費的。正常點的話明明會很受歡迎的……）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8
+@wait t=1200
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch008 bad=jump:*left_branch008
+;;-------------------------------------
+;;　選擇右側時
+*right_branch008
+
+@route route=down:2
+@dir dir=right
+
+@jump target=*dir_branch008
+;;-------------------------------------
+;;　選擇左側時
+*left_branch008
+
+@route route=down
+@dir dir=left
+
+@jump target=*dir_branch008
+;;-------------------------------------
+*dir_branch008
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=8
+@wait t=600
+@move_f f=サクラ@考え中 in=r t=300
+@wait t=600
+
+@huki b=8
+@bs f=サクラ@無表情
+[小櫻]（已經沒有藏著的必要了。走吧）
+@move_f f=サクラ@無表情 out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch009 bad=jump:*left_branch009
+;;-------------------------------------
+;;　選擇右側時
+*right_branch009
+
+@route route=right:4,up:2
+
+@jump target=*dir_branch009
+;;-------------------------------------
+;;　選擇左側時
+*left_branch009
+
+@route route=left:10
+
+@jump target=*dir_branch009
+;;-------------------------------------
+*dir_branch009
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki id=30 b=8
+@dir dir=up id=30
+
+@huki b=1
+@c_jump wt=0
+
+;;@move_f f=朝彥 in=l t=300
+[朝彥]「哦呀？　小櫻」
+;;@move_f f=朝彥 out=l t=300
+
+@huki b=7 wt=1
+@dir dir=down
+
+@move_speed spd=3 id=30
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch009 bad=jump:*left_branch009
+;;-------------------------------------
+;;　選擇右側時
+*right_branch009
+
+@route route=left:2,up id=30
+
+@jump target=*dir_branch009
+;;-------------------------------------
+;;　選擇左側時
+*left_branch009
+
+@route route=left id=30
+@dir dir=up id=30
+
+@jump target=*dir_branch009
+;;-------------------------------------
+*dir_branch009
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;;@move_f f=朝彥 in=l t=300
+[朝彥]「你這雙玉腿、還是和往常一樣光鮮亮麗呢」
+
+[朝彥]「小櫻、你一定很適合穿這副\{吊帶襪\}」
+;;@move_f f=朝彥 out=l t=300
+
+@route route=up id=30
+
+@se f=衣擦れの音1
+@huki b=8 id=30 wt=1
+
+@huki b=6
+@fb id=30 dir=back wt=1
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL得到吊帶襪！
+@mes_win back=0 pos=2
+
+@huki b=7
+;;@move_f f=朝彥 in=l t=300 wt=0
+@move_f f=サクラ@驚き op2=困惑 in=r t=300
+@wait t=1200
+
+@bs f=サクラ@哀しみ op2=困惑
+[小櫻]「那個……我說、你突然把這東西塞給我讓我很難辦啊……」
+@move_f f=サクラ@哀しみ out=c t=300
+
+@huki b=8 id=30
+
+@ev f=サクラ@制服_全体 opacity=0
+@move f=サクラ@制服_全体 opa=0 x=0 y=500 h=60 w=60 t=100 wt=1
+@wait t=100
+@move f=サクラ@制服_全体 opa=255 x=0 y=400 h=60 w=60 t=400 wt=1
+@wait t=500
+@move f=サクラ@制服_全体 opa=255 x=0 y=150 h=100 w=100 t=2000 wt=1
+
+@huki b=4 id=30
+[朝彥]「你絕對是那種、適合穿\{吊帶襪\}的女生。我的眼光絕對沒有錯」
+
+@move f=サクラ@制服_全体 opa=0 x=0 y=150 h=100 w=100 t=1000 wt=1
+@ev
+
+@huki b=6
+@move_f f=サクラ@悔しい op2=汗 in=r t=300
+[小櫻]（這家伙、完全不聽別人說話……）
+
+@huki b=8 id=30
+[朝彥]「希望有一天、你能穿著這個站在我的面前」
+
+@huki b=4 id=30
+[朝彥]「屆時、請務必讓我\C[2]\{\{品嘗\C[0]\}\}一下哦」
+
+;;@move_f f=朝彥 out=l t=300 wt=0
+@move_f f=サクラ@悔しい out=r t=300
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*right_branch010 bad=jump:*left_branch010
+;;-------------------------------------
+;;　選擇右側時
+*right_branch010
+
+@dir dir=up
+
+@jump target=*dir_branch010
+;;-------------------------------------
+;;　選擇左側時
+*left_branch010
+
+@route route=left,up
+
+@jump target=*dir_branch010
+;;-------------------------------------
+*dir_branch010
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@huki b=7 wt=1
+
+@move_f f=サクラ@悔しい op2=困惑 in=r t=300
+[小櫻]（惡心死了……怎么可能讓你舔啊……哈啊啊啊。真是的……這家伙腦袋進水了吧）
+@move_f f=サクラ@悔しい out=r t=300
+
+@huki b=8 wt=1
+@huki b=9
+@move_f f=サクラ@微笑 op2=電球 in=r t=300
+[小櫻]（啊、不過、這個……賣出去的話應該會賺到錢的吧？）
+@move_f f=サクラ@微笑 out=r t=300
+
+;;　雖然小櫻無意為朝彥穿上這條吊帶襪――
+
+@se f=Open1
+@dir id=2 dir=left
+@dir id=2 dir=right
+@dir id=2 dir=up
+@fade type=out t=1000
+
+@bgm
+@mes_win back=1 pos=1
+　但想到好不容易白拿到一樣東西、她萌生了賣掉吊襪帶換錢的想法。
+@mes_win back=0 pos=2
+
+;;轉移到自由行動。
+;;@invisible type=on
+@move_speed spd=4
+@se f=Move1
+@bs
+
+
+

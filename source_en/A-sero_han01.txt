@@ -1,0 +1,10 @@
+
+;;【Common dialogue】
+
+@move_f f=サクラ@哀しみ_頬 in=r t=300
+
+[SAKURA]「…………leave him alone」
+
+@move_f f=サクラ@哀しみ_頬 out=r t=300
+
+

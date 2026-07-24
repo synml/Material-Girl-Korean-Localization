@@ -1,0 +1,25 @@
+
+;;【017_02着替え終了後.txt】
+;; Mini-game: Place commodities
+
+;; See the convenience store’s “Job Wanted” advertisement, and then accost the store manager.
+
+@move_f f=サクラ@哀しみ in=r t=300
+[SAKURA]「That……I come here for work.」
+
+[Convenience Store's Manager]「um? 　hoo hoo. Pretty good.」
+
+@bs f=サクラ@無表情 op2=ハテナ
+[SAKURA]「ay? 　What do you mean?」
+
+[Convenience Store's Manager]「um……however, it is not work time now…… I'm really very sorry. Could you please come here tomorrow.」
+
+[Convenience Store's Manager]「The work time is before \C[2] 17:00 \C[0]. I hope that you are able to come here next time.」
+
+@bs f=サクラ@無表情
+[SAKURA]「…… I know.」
+
+@bs f=サクラ@考え中
+[SAKURA] (……although I feel regretful, I will look for other job.) 
+
+@move_f f=サクラ@考え中 out=r t=300

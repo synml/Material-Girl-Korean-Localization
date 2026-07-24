@@ -1,0 +1,18 @@
+
+;;【022_03クラスメート本番.txt】
+
+;; SAKURA dialogues with the schoolmate in the classroom.
+
+@bgm f=bgm02
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA/skr1981]「um……MAEDA, you lay down to bed.」
+
+@move_f f=サクラ@微笑 out=r t=300
+[MAEDA]「I, I know……」
+
+@dot_move x=1 y=4 dir=up id=3
+@change f=前田 num=0 id=3
+
+@fade type=in t=1000 wt=1
+

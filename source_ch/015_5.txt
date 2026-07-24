@@ -1,0 +1,65 @@
+
+;;○戦闘開始前（レベル10）
+
+@through type=on
+@speed spd=3
+
+@fade type=out t=2000 wt=0
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@if eval=v(101)==1 ok=jump:*is_up bad=jump:*no_up
+;;-------------------------------------
+;;　選擇上方時
+*is_up
+
+@route route=up wt=1
+@dir dir=right wt=1
+
+@jump target=*end
+;;-------------------------------------
+*no_up
+
+@if eval=v(101)==2 ok=jump:*is_down bad=jump:*no_down
+;;-------------------------------------
+;;　選擇下方時
+*is_down
+
+@route route=down wt=1
+@dir dir=right wt=1
+
+@jump target=*end
+;;-------------------------------------
+*no_down
+
+@if eval=v(101)==100 ok=jump:*is_skip bad=jump:*no_skip
+;;-------------------------------------
+;;　禁止行動的情況
+*is_skip
+@jump target=*end
+;;-------------------------------------
+*no_skip
+
+;;-------------------------------------
+;;　選擇左側時
+
+@route route=down,right,up wt=1
+@dir dir=right wt=1
+
+;;-------------------------------------
+
+;;================
+*end
+;;================
+
+;;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@through type=off
+@speed spd=4
+
+@bgm_save
+@bgm
+
+@se f=学校チャイム
+@wait t=3000 wt=1
+

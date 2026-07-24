@@ -1,0 +1,53 @@
+
+@dot_move id=101 x=9 y=10 dir=down
+@dot_move id=102 x=9 y=12 dir=up
+@dot_move id=103 x=12 y=9 dir=left
+@dot_move id=104 x=10 y=14 dir=up
+
+@change id=101 f=須東
+@change id=102 f=司_体操服
+@change id=103 f=男子学生01_体操服
+@change id=104 f=女子学生01_体操服
+
+@invisible id=5 type=on
+
+@fade type=in t=1000 wt=1
+
+@huki b=2 id=101
+[須東]「你們，都認真跳完箱子了嗎？」
+
+@huki b=6 id=103
+[男子學生１]「是……須東老師。」
+
+@huki b=7
+@move_f f=サクラ@哀しみ_頬 in=r t=300
+[小櫻/skr0804]（大家的視線都……）
+
+　像是知道他們兩人之間發生了什么一樣，班級里所有人的視線都投向了小櫻。
+
+@huki b=8 id=101
+[須東]「好。今天的課就到這里。解散。」
+
+@route route=right:15,down:100 id=101 wt=0
+@wait t=500
+
+@move_speed spd=5 id=102
+
+@route route=up:2 id=102
+@huki b=8 wt=1 id=102
+
+@huki b=2 id=102
+[司]「小櫻，你沒事吧？」
+
+　司一臉擔心的聞著小櫻的安否――
+
+@huki b=7
+@bs f=サクラ@悔しい_頬
+[小櫻/skr0805]「沒事……什么都沒發生啦。」
+
+@fade type=out t=1000 wt=1
+　小櫻有氣無力的微笑著回答了司的疑問，邁著沉重的步伐離開了體育館。
+
+@move_f f=サクラ@悔しい_頬 out=r t=300
+@bs
+

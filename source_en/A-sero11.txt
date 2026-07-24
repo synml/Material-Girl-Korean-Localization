@@ -1,0 +1,98 @@
+;;▼Tool room: When going to the tool room of the gymnasium, a sexual harassment will be triggered by relevant clothes and weeks. 
+;;　　　　　A sexual intercourse will be triggered if the carnality is high. 
+
+@huki b=2
+@move_f f=サクラ@無表情 in=r t=300
+
+[SAKURA]「Gee, who is there? 」
+
+[Man]「What are you doing here? You want to devote your love to me who is an unlucky guy?」
+
+@bs f=サクラ@哀しみ op2=汗
+
+[SAKURA]「What nonsense are you talking about…… I will not do that……」
+
+[Man]「I mean you want to do something comfortable? You will like it since you come here?」
+
+@bs f=サクラ@怒り op2=拒否
+
+[SAKURA]「Stop it! I am leaving……」
+
+[Man]「Don't say that, let's enjoy it. I will "treat" you very well. 」
+
+@bs f=サクラ@怒り_頬
+
+[SAKURA]「No. Don't touch me, you idiot! What treat……!」
+
+@if eval=v(32)>=25 ok=jump:*yev02 bad=jump:*yev01
+
+*yev01
+
+;;Branch: No sexual intercourse
+
+[Man]「What……You look down upon me as well……shit……」
+
+@dir dir=down
+@bs f=サクラ@怒り
+
+[SAKURA]「Damn……I shouldn't be here…」
+
+@move_f f=サクラ@ out=r t=300
+
+@end
+
+;;Branch: an sexual intercourse occurs
+*yev02
+
+@bgm_save
+@bgm f=bgm14
+
+@move_f f=black face=0 in=c t=150
+
+[Man]「You can say it if you want. Look, you are sweating. 」
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-3 face=0 in=c t=150 h=1
+
+[SAKURA]「Wait……I won't have sex in a place like this!」
+
+[Man]「Can we do it elsewhere?」
+
+@se f=服を脱ぐ音3
+@move_f f=A-cut_sev06-4 face=0 in=c t=150
+
+[SAKURA]「I don't men that……Ah, you idiot, ah, my dress is removed……Ah, ah……you insert your penis……」
+
+[Man]「Let me show you it's a perfect place to have sex!」
+
+@se f=挿入音
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+
+[SAKURA]「Ah ah ah ah! No, don't do that……Ah ah ah ah, ah ah ah ah!」
+
+@se f=ピストン_高速
+
+[Man]「Look, you said you don't want it, but you are so cooperative!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[SAKURA]「Oh, no……That's because……Ah, ah ah ah……Ah ah……Ah ah ah ah ah!」
+
+@move_f f=A-cut_saimin8 face=0 in=c t=150 h=1
+
+[SAKURA]（Ah ah ah……sperm……Ha ah ha ah……Ha ah ah……I am contaminated……）
+
+@fadeout t=1000 wt=1
+@bs
+@wait t=1000
+
+@bgm
+@bgm_replay
+

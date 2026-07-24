@@ -1,0 +1,65 @@
+
+;;【002_01二階の廊下に行く.txt】
+
+;;----------------------------------------------------------------------------------
+
+@huki b=1 id=9
+[Boy Student１]「If I have time after school, I am gonna buy it!」
+
+@huki b=1 id=8
+[Boy Student２]「oh! 　Really!? It's deal!」
+
+;;----------------------------------------------------------------------------------
+;;
+;;@huki id=9 b=2
+;; [Boy Student１]「Do you know that the deluxe edition of \C[2]『Legend of Huayin Lascivious Warrior～War of Gorgeous Female General～』\C[0] has been distributed.」
+;;
+;;@huki id=8 b=8
+;;[Boy Student２]「No, I don't know……」
+;;
+;;@huki id=9 b=1
+;;@c_jump id=9 wt=1
+;;[Boy Student１]「hum～! 　You are out～」
+;;
+;;@c_jump id=9
+;;@huki b=6 id=8 wt=1
+;;
+;;@huki b=1 id=9
+;;[Boy Student１]「If I have time after school, I am gonna look round the store!」
+;;
+;;@huki b=1 id=8
+;;[Boy Student２]「oh! 　Really!? It's deal!」
+;;
+;;;;----------------------------------------------------------------------------------
+;;
+;;@huki id=9 b=2
+;;[Boy Student１]「Do you know \C[2]『? ? ? 』\C[0] if it has been distributed?」
+;;
+;;@huki id=8 b=8
+;;[Boy Student２]「ah ah, I have bought it!」
+;;
+;;@huki id=9 b=1
+;;@c_jump id=9 wt=1
+;;[Boy Student１]「Really! 　You are great!!」
+;;
+;;@c_jump id=9
+;;@huki b=3 id=8 wt=1
+;;
+;;@huki b=1 id=8
+;;[Boy Student２]「Let’s buy it after school together!」
+;;
+;;@huki b=1 id=9
+;;[Boy Student１]「oh! 　Really!? It's deal!」
+;;
+;;;;----------------------------------------------------------------------------------
+;;
+;;@dir_fix id=8 type=off
+;;@dir dir=left id=8
+;;
+;;@huki id=6 b=8
+;;[Boy Student２]「You have been listening to us……are you very idle……?」
+;;
+;;@dir dir=right id=8
+;;@dir_fix id=8 type=on
+;;
+;;;;----------------------------------------------------------------------------------

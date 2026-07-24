@@ -1,0 +1,96 @@
+
+;;【011_03著ている.txt】
+
+@dir dir=down id=5
+@fade type=in t=1000 wt=1
+
+@bgm f=bgm01
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki id=5 b=1 wt=1
+
+[須東]「好，全員到齊了吧。我們開始上課！」
+
+@huki id=103 b=2 wt=1
+
+[男子學生１]「老師，今天我們做什么啊？」
+
+[須東]「你們的話，就跳箱子吧。」
+
+@huki id=104 b=2 wt=1
+
+[女子學生１]「誒？　光跳箱子嗎？」
+
+[須東]「沒錯。有什么意見嗎？」
+
+[女子學生２]「不、沒、沒什么……」
+
+@huki id=5 b=8 wt=1
+
+[須東]「那就別廢話，趕緊把箱子落好！」
+
+[男子學生２]「明、明白了。」
+
+@dir dir=down
+@route id=101 route=d:9 wt=0
+@route id=102 route=d:2 wt=0
+@route id=103 route=d:9 wt=0
+@route id=104 route=d:9 wt=0
+@route id=105 route=d:9 wt=0
+
+@huki b=8 wt=1
+
+[小櫻]（我也去幫幫忙吧。）
+
+@dir dir=up
+[須東]「等等、小櫻。你要上些特別的課程。跟我過來。」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@route id=5 route=d wt=1
+
+[小櫻]「誒……？」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@huki id=102 b=8 wt=1
+@dir id=102 dir=u wt=1
+
+[司]「小櫻……」
+
+@huki id=5 b=1
+@c_jump id=5 wt=1
+@wait t=600
+
+[須東]「你想干嘛？趕緊去給我準備箱子！」
+
+@dir id=102 dir=u wt=1
+
+[司]「知、知道了……」
+
+@route id=102 route=d:7 wt=0
+
+@huki id=102 b=6 wt=1
+
+　被須東大吼之后，司擔心的注視著小櫻，無奈的回到學生之中準備體育用具去了。
+
+@dir id=5 dir=d wt=1
+
+[須東]「跟我過來。」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@route id=5 route=l:10,u:3 wt=0
+@route route=u,l:10,u:3 wt=0
+@wait t=300
+@fadeout wt=0 t=2000
+
+[小櫻]（為什么只叫我……？）
+
+
+
+　一邊懷揣著對須東圖謀的不安，小櫻迫不得已的走在了須東的身后。
+
+@wait t=2000
+

@@ -1,0 +1,76 @@
+
+;;【002_04司の家のピンポンを鳴らす.txt】
+
+;;　小櫻來到了司家門前，按響了門鈴。
+
+@se f=玄関チャイムの音
+@wait t=1200
+
+@dir dir=up
+
+@huki b=8 wt=1
+
+
+@se f=Open1
+@wait t=500
+
+@change f=司 id=101
+;;@route route=down id=101
+
+@huki b=8 id=101 wt=1
+;;@move_f f=司 in=l t=300
+[司]「歡迎光臨、小櫻。一直在等你哦」
+;;@move_f f=司 out=l t=300
+
+@dir dir=up id=101
+@wait t=250
+
+@se f=Move1
+@change f=void id=101
+
+;;@route route=left id=101
+;;@dir dir=down id=101
+
+;;@change f=司_母 id=102
+;;@route route=down id=102
+
+;;@huki b=8 id=102
+;;[司的母親]「你來啦、小櫻」
+
+;;@huki b=8
+;;@move_f f=サクラ@哀しみ in=r t=300
+;;[小櫻]「阿姨、最近一直來您這吃飯、給您添麻煩了……」
+
+;;@huki b=3 id=102
+;;[司的母親]「鄰里之間就別那么客氣啦。我可是一直把小櫻、當成女兒一樣看待呢」
+
+;;@huki b=8
+;;@bs f=サクラ@無表情
+;;[小櫻]（阿姨她、還是一如既往的溫柔呢。每次和阿姨聊天、心里都暖暖的）
+;;@move_f f=サクラ@無表情 out=r t=300
+
+;;@huki b=8 wt=1
+
+;;@move_f f=司 in=l t=300 wt=0
+;;@move_f f=サクラ@微笑 in=r t=300
+;;[小櫻]（司溫柔的性格、也是從阿姨那里繼承來的吧）
+;;@move_f f=司 out=l t=300 wt=0
+;;@move_f f=サクラ@微笑 out=r t=300
+
+;;@huki b=3 id=102
+;;[司的母親]「來、請進請進。別客氣」
+
+;;@move_f f=サクラ@微笑 in=r t=300
+;;[小櫻]「打擾了」
+;;@move_f f=サクラ@微笑 out=r t=300
+
+
+@move_speed spd=2
+@fade type=out t=1000 wt=0
+@route route=up
+@move_speed spd=3
+
+@bgm
+@se f=Move1
+
+

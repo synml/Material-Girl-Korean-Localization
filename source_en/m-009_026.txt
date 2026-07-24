@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL It is embarrassing to go to a hotel alone. Would it be better to ask someone to go together?\n\I[320]\I[320]\I[320]
+
+@mes_win
+

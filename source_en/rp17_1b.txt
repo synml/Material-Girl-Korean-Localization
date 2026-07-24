@@ -1,0 +1,29 @@
+
+;;【021_05売春①フェラ汎用.txt】
+
+;;Common for old men
+
+@bgm f=bgm05
+
+;;ＣＧ■CG17c
+@bgf bg=ev17c t=1000
+@bgs f=fera_skr3
+
+[Middle aged man]「Hum! Hum! Hum! I’m getting there!」
+
+[SAKURA/skr1883]「Ok, you can ejaculate ♪ Um! Whish!」
+
+[Middle aged man]「Ah! my ejaculate!」
+
+@bgs
+;;ＣＧ■CG17d
+@fin bg=ev17d se=射精音
+
+[SAKURA/skr1884]「Whish......Codoon! Whish! Ah, I’m ejaculating......」
+
+;;ＣＧ■CG17e
+@bgf bg=ev17e t=500
+
+[Middle aged man]「Ah, ah, ah, would you please......Um」
+
+@rps

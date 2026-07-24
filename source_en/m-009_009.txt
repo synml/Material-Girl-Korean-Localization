@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL ASAHIKO may have a change in reaction when wearing stockings.
+
+@mes_win
+

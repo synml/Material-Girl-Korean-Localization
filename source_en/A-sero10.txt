@@ -1,0 +1,64 @@
+;;Prostitution
+@bgm_save
+@bgm f=bgm14
+
+[Man]「Hey, this is a men's room. Or are you on purpose? 」
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA]「I am not on purpose……」
+
+[Man]「Hey hey……I can "comfort" you if you feel lonely?」
+
+@bs f=サクラ@悔しい
+
+[SAKURA]「I don't feel lonely.  My pocket is empty……」
+
+[Man]「What? I see……Here you are, is it enough?」
+
+@se f=Coin
+;; Money increases
+@gold val=5000
+@mes_win back=1 pos=1
+
+\CL gets 5,000 yen……
+@mes_win
+
+@bs f=サクラ@驚き
+
+[SAKURA]「Not bad……Ah, wait, we do it now?」
+
+@move_f f=black face=0 in=c t=150
+
+[Man]「You've got the money, so stop complaining. 」
+
+@se f=挿入音
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+
+[SAKURA]「This……Ah, oooooo!　Ah, be more gentle……」
+
+@se f=ピストン_高速
+
+[Man]「Ha! Do not ask for so many requirements, and you are a prostitute! 」
+
+[SAKURA]「Ah ha ah ah! No. It's so fierce……Ah ah ah ah ah!」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[SAKURA]「I can't……I……Ah ah……Ah ah……Ah ah ah ah ah ah ah」
+
+@fadeout t=1000 wt=1
+@bs
+
+[Man]「Hehe……You can come to me if you want money next time」
+
+@bgm
+@bgm_replay
+

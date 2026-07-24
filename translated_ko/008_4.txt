@@ -1,0 +1,18 @@
+
+;;【002_03パン屋のバイトチラシを見る.txt】
+
+@huki b=8
+@move_f f=サクラ@考え中 in=l t=300
+[사쿠라]「어차피 이미 입어 버렸으니……」
+
+@huki b=8
+@bs f=サクラ@無表情
+[사쿠라]「돌아가는 길에, 점장님한테 한번 보여 주기나 하자」
+@move_f f=サクラ@無表情 out=l t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+
+
+

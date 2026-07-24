@@ -1,0 +1,28 @@
+
+;;【002_02教室に入る.txt】
+@fade type=in t=2000 wt=1
+
+@move_f f=サクラ@考え中 in=l t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@哀しみ 
+[小櫻]「得趕快找個工作……」
+
+@bs f=サクラ@考え中
+@huki b=8 wt=1
+
+@bs f=サクラ@無表情
+[小櫻「……總之先去商業街看看吧」
+
+@bs f=サクラ@悔しい
+[小櫻]（要是能找到個來錢快的工作就好了）
+@move_f f=サクラ@悔しい out=l t=300
+
+@fade type=out t=2000 wt=1
+
+@through type=on id=5
+@through type=off
+@bs
+@wait t=1200
+
+;;放學后的自由行動

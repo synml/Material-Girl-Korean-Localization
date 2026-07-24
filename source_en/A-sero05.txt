@@ -1,0 +1,63 @@
+;;▼A woman will be drunken after overdrinking and she will be unable to go home. As a result, the woman will be raped in the lane. 
+;;　The woman will wake up in the lane next morning. 
+
+@bgm_save
+@bgm f=bgm14
+
+@move_f f=black face=0 in=c t=500
+
+[SAKURA「Why the world is so shaky……it is falling～」
+
+[Man]「Dear me, are you all right? Come on, you can go there to avoid knocking down others」
+
+[SAKURA]「Uncle, who are you~?」
+
+[Man]「I am a doctor. Let me check your problem.」
+
+@se f=服を脱ぐ音3
+@wait t=300
+@se f=尻触り
+@move_f f=A-cut_mune face=0 in=c t=150 h=1
+
+[SAKURA]「Ah, wait……You cannot touch……Ah！！　I hate you，no……」
+
+[Man]「Don't move！　I will give you an injection now！」
+
+@se f=挿入音
+@move_f f=A-cut_sev05-1 face=0 in=c t=150
+
+[SAKURA]「No！You insert your penis……Ah ah ah ah ah！！」
+
+@se f=ピストン_高速
+
+[SAKURA]「Ah, ah ah……I am so weak……but my body is so sensitive now……！」
+
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_sev05-2 face=0
+
+[SAKURA]「Ah, ah ah！　I am so weak, I have……Ah ah ah……Ah ah ah ah ah ah！」
+
+@fadeout t=1000 wt=1
+@bs
+
+@bgm
+@bgm_replay
+
+@wait t=2000
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+
+[SAKURA]「Oooo……My head aches…what?　Where is it?」
+
+@bs f=サクラ@悔しい
+
+[SAKURA]「……Oh god, I forgot what happened yesterday, and my body is so sticky……That's too awful」
+
+@move_f f=サクラ@悔しい out=r t=300

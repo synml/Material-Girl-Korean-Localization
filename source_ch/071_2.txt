@@ -1,0 +1,8 @@
+
+;;【016_06パン屋段階Ｈ.txt】
+
+@fade type=out t=1000 wt=1
+@invisible type=on id=101
+@invisible type=on id=102
+@invisible type=on id=103
+

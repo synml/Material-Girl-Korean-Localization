@@ -1,0 +1,17 @@
+
+;;【011_01体育館.txt】
+
+;; When clothes inspection has reached its fourth stage, such event will be triggered.
+
+;; She was raped in faint.
+
+;; Dialogue with SUDOU in the playground
+
+@bgm f=bgm01
+
+[SAKURA]「Teacher SUDOU……」
+
+ ;; Without a gym suit →011_02着ていない
+
+;; With a gym suit→011_03着ている
+

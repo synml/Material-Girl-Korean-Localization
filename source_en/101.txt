@@ -1,0 +1,37 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_05敗北.txt】
+
+@bgm f=bgm03
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA]「woo……woo woo woo……」
+
+@huki id=4 b=8 wt=1
+
+[Frivolous Man１]「woo poo……did I win?」
+
+[SAKURA]「woo woo woo woo……」
+
+@move_f f=サクラ@哀しみ out=r t=300
+@qk
+@se f=Earth3
+@fadeout
+
+　Because of drinking too much, SAKURA suddenly bent over the table. 
+
+[Frivolous Man２]「So, I will check it out.」
+
+[Frivolous Man１]「 Please. SAKURA, let us go～」
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+[SAKURA]「woo woo ……um……woo woo woo」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+　Men left Izakaya, with the fallen SAKURA.
+

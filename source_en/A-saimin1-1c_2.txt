@@ -1,0 +1,27 @@
+@wait t=1000
+@se f=学校チャイム
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@悔しい
+
+[SAKURA]「……Er……？」
+
+@huki id=6 b=8
+
+[Head of Supernature Research Department]「Ar, you wake up. The experiment is over」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「……Oh，er…」
+
+@huki id=6 b=4
+
+[Head of Supernature Research Department]「Don't forget to help me when you have interest in it」
+
+@move_f f=サクラ@哀しみ out=r t=300
+@fadeout t=1000 wt=1
+@se
+@bs

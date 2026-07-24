@@ -1,0 +1,50 @@
+
+@se f=Open1
+@wait t=500
+
+@fade type=in t=1000 wt=1
+
+@huki id=101 b=1 wt=1
+
+[여교사]「스도 선생님!」
+
+@huki id=3 b=1 wt=1
+
+[스도]「윽!?」
+
+[여교사]「여학생들 신체검사는 제가 맡을게요. 스도 선생님은 남학생 쪽을 부탁드려요」
+
+@huki id=3 b=8 wt=1
+
+[스도]「……아, 알았소」
+
+　잔뜩 아쉬운 얼굴로, 스도는 하는 수 없이 남자 검사실로 향했다.
+
+@move_speed spd=3
+@route id=102 route=r,d:2 wt=1
+
+@route id=3 route=d,l wt=0
+@route id=103 route=l,d wt=0
+@route route=u wt=1
+@wait t=2000
+@move_speed spd=4
+
+[여학생]「선생님을 불러온 거, 사쿠라지? 고마워. 이거, 너한테 줄게」
+
+@huki b=2 wt=1
+
+[사쿠라]（휴대폰 줄……?　모처럼의 호의니까 받아두자）
+
+@bs f=サクラ@無表情 op2=赤面
+
+[사쿠라]「……그냥 내가 할 수 있는 일을 했을 뿐이야」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+　여학생들이 사쿠라를 둘러싸고 고맙다는 인사를 건넸다. 조금 쑥스러웠지만, 사쿠라는 그대로 신체검사를 계속 받았다.
+
+;; Got『invisible mobile phone chain』.
+
+;; Free action
+
+

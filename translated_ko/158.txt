@@ -1,0 +1,36 @@
+
+;;【024_09好感度達成.txt】
+
+@dir dir=down id=6
+@dir dir=down id=5
+@dir dir=down id=4
+
+@dot_move id=7 x=6 y=8 dir=up
+@invisible id=7 type=off
+@fade type=in t=1000 wt=1
+
+@huki b=2 id=7
+[사장님]「사쿠라 님, 오늘 밤 보내실 방을 준비해 드릴까요?」
+
+@huki b=8
+@move_f f=サクラ@微笑 in=r t=300
+[사쿠라]（이건……）
+
+@huki b=2 id=7
+[사장님]「어떠십니까?　가장 마음에 드는 사람이 누구인지 말씀해 주십시오」
+
+@huki b=8
+@bs f=サクラ@考え中
+[사쿠라]（가장 마음에 드는 사람이라……）
+
+@move_f f=サクラ@考え中 out=r t=300
+
+;; ○Options: NO１/ NO２/ NO３/ Boss
+
+;; When the hosts’ favorabilities have reached MA, and SEX times have exceeded 100 times, you are able to select the boss.
+;;NO１　→024_10ナンバー１Ｈ
+;;NO２　→024_11ナンバー２Ｈ
+;;NO３　→024_12ナンバー３Ｈ
+;;Boss　→024_13オーナーＨ
+
+

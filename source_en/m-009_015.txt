@@ -1,0 +1,6 @@
+@mes_win back=1 pos=1
+
+\CL The convenience store seems to be recruiting employees?\nI happened to see a post near the park
+
+@mes_win
+

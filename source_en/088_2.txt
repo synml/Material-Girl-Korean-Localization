@@ -1,0 +1,45 @@
+
+@fade type=in =1000 wt=1
+@huki id=3 b=3 wt=q
+
+[Boss]「oh, you have come.」
+
+@move_f f=サクラ@微笑 in=r t=300
+
+@dir dir=l wt=1
+
+[SAKURA]「Please advise today.」
+
+@huki id=3 b=3 wt=q
+
+[Boss]「um hoo hoo ♪ I have quick eyes. Really high-quality breasts」
+
+[Boss]「Envious and jealous ♪」
+
+@bs f=サクラ@微笑 op2=汗
+
+@huki b=6 wt=1
+
+[SAKURA] ( ha ha……I feel so strange……) 
+
+@bs f=サクラ@羞恥 op2=赤面
+
+[SAKURA] (Without dirty expression, the boss stared at the breasts enviously……) 
+
+@huki id=3 b=4 wt=1
+
+[Boss]「OK, earn money quickly ♪」
+
+[Boss]「As long as you have such breasts, any guests are able to be fixed ♪」
+
+@bs f=サクラ@無表情
+
+@huki b=8 wt=1
+
+[SAKURA]「I, I am going now」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout
+　Under the boss’s encouragement, SAKURA entered the store via Waiting Room.
+

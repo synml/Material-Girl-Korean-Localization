@@ -1,0 +1,25 @@
+
+;; Move to the front of mansion. Restore free action
+
+;;【024_02発生条件未達成.txt】
+
+@bgm f=Dungeon3
+@move_f f=サクラ@無表情 in=r t=300
+
+[사쿠라]（이런 곳은 가난한 나랑은 상관없는 곳이지……）
+
+[사쿠라]（1,500,000엔 정도 있으면 한번 놀아볼 수도 있겠지만……）
+
+@bs f=サクラ@哀しみ
+
+@route route=d wt=1
+
+[사쿠라]「하아아아. 여기 서 있어 봤자 소용없지. 가자」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+
+

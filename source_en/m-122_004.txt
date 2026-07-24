@@ -1,0 +1,8 @@
+
+@mes_win back=1 pos=1
+
+\CL Accepted the interview from the bakery (?) and ate dinner in his childhood friend's home.
+
+@mes_win
+
+

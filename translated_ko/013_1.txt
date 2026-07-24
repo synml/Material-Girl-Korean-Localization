@@ -1,0 +1,21 @@
+
+;;【002_05次の日.txt】
+
+;; Effect ■ time change
+
+@huki b=8 wt=1
+
+@huki b=6
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[사쿠라]「……이런 차림으로 밖에 나가는 건 너무 창피해」
+
+@bs f=サクラ@哀しみ
+[사쿠라]「밖에 입고 나갈 만한 옷으로 갈아입자……」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@move_speed spd=3
+@fb dir=back
+@move_speed spd=4
+
+;; Prologue ends
+

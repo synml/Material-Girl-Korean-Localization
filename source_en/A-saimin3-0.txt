@@ -1,0 +1,121 @@
+
+;;○ help
+;;Get 2,500 yen 
+
+@huki id=6 b=1
+
+[Head of Supernature Research Department]「Okay……you can stand there」
+
+@bgm
+
+@route route=down wt=1
+@dir dir=up wt=1
+
+;;Hypnosis effect
+;;Hypnosis close-up
+@move_f f=A-cut_saimin1 face=0 in=c t=150 h=1
+@wait t=500
+@se f=催眠行使
+@move_f f=A-cut_saimin2 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin1 face=0 out=c t=150
+@wait t=1000
+@move_f f=A-cut_saimin2 face=0 out=c t=150
+@wait t=150
+
+@mes_win back=1 pos=1
+
+\CL SAKURA is hypnotized……
+
+@mes_win
+
+@bgm f=bgm12
+@move_speed id=6 spd=6
+@route id=6 route=down wt=1
+
+@se f=床にドサッ
+@move_f f=A-cut_saimin5 face=0 in=c t=150 h=1
+
+[Head of Supernature Research Department]「Ha ah Ha ah……I can't control it any longer!」
+
+@move_speed id=6 spd=4
+
+;;Close-up of inserting his penis into SAKURA's body
+@se f=挿入音
+@flash t=300
+@move_f f=A-cut_saimin6 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin5 face=0 out=c t=150
+
+[SAKURA]「Er……！」
+
+[Head of Supernature Research Department]「Oooo！It's so tight as usual…！I am addicted to it…！！」
+
+;;Take out and insert
+@se f=ピストン
+
+[SAKURA]「Er！　Ah！」
+
+[Head of Supernature Research Department]「So great…！　My penis is surrounded by softness after inserting it into her pussy. And it is like a sucking disc after taking it out!」
+
+;;Take out and insert rapidly
+@se
+@se f=ピストン_激しい
+
+[SAKURA]「Er！　Ah！」
+
+[Head of Supernature Research Department]「Ah！　I want more！！　Eject！　I am going to eject it！！」
+
+[SAKURA]「Ha！　Ah！　Ah ah！　Ha ah！」
+
+[Head of Supernature Research Department]「I eject it！My penis is in your womb to eject my seeds！！」
+
+;;Ejaculation
+@se
+@bgs
+@bgv
+@flash t=300 wt=1
+@flash t=300 wt=1
+@flash t=1000
+@se f=射精音
+@bs f=A-cut_saimin7 face=0 h=1
+
+[SAKURA]「Ah ah ah ah ah ah！」
+
+[Head of Supernature Research Department]「Oo…！Drink it, let your womb drink enough to get pregnant!」
+
+@move_f f=A-cut_saimin8 face=0 in=c t=150 h=1
+@move_f f=A-cut_saimin7 face=0 out=c t=150
+
+[SAKURA]「Er！……Ha ah ha ah……you eject so much hot……」
+
+;;Change scene with lights out
+;;The carnality increases by 3…
+;;Yell and move freely on the corridor
+
+;;End of Stage 2 H
+
+@fadeout t=1000 wt=1
+@move_f f=A-cut_saimin8 face=0 out=l t=150
+@bs
+@wait t=1000
+@se f=学校チャイム
+@fadein t=1000 wt=1
+
+@move_f f=サクラ@考え中 in=r t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@悔しい
+
+[SAKURA]「……It's strange, I……？」
+
+@huki id=6 b=3
+
+[Head of Supernature Research Department]「Thank you for you assistance all the time. You can come here when you are available」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「……O，er…」
+
+@move_f f=サクラ@哀しみ out=r t=300
+@fadeout t=1000 wt=1
+@se
+@bs

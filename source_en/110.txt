@@ -1,0 +1,125 @@
+
+;;【020_05ステージクリア.txt】
+
+Third pass
+
+;;@bgm f=Battle5
+
+@huki id=3 b=3 wt=1
+
+[Researcher]「oh, you are so great. You have completed all the passes.」
+
+[Researcher]「The problem of game, you have mentioned last time, is that Zombies become stronger」
+
+@dir dir=r wt=1
+@wait t=1000
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[SAKURA/skr1495]「Yes. All the Zombies have the same appearances, which easily make the players feel tired.」
+
+@bs f=サクラ@笑み op2=音符
+
+@huki b=1 wt=1
+
+[SAKURA/skr1496]「ah, however, last BOSS fight, different from general Zombies, is really interesting.」
+
+@huki id=3 b=2 wt=1
+
+[Researcher]「Last BOSS……?」
+
+@bs f=サクラ@笑み
+
+[SAKURA/skr1497]「Yeah. It is the last pass. Therefore, is that BOSS?」
+
+@dir id=3 dir=r wt=1
+@huki id=3 b=8 wt=1
+@dir id=3 dir=l wt=1
+@wait t=1000
+
+[Researcher]「Wait……Zombies’ BOSS, I haven’t install it.」
+
+@bgm f=Dungeon2
+
+@bs f=サクラ@驚き op2=ビックリ
+
+@huki b=2 wt=1
+
+[SAKURA/skr1498]「ay……? 　That……」
+
+@bs f=サクラ@驚き op2=汗
+
+[SAKURA/skr1499] (With whom on earth have I fought……?) 
+
+@huki id=3 b=1 wt=1
+
+[Researcher]「Maybe……woo……maybe!」
+
+@move_speed id=3 spd=6
+@route id=3 route=r:3,u:2,l:2 wt=1
+@dir id=3 dir=u wt=1
+@wait t=1000
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1500]「That, that, is there any problem?」
+
+　SAKURA worriedly watched the man who is operating the computer disturbingly.
+
+@wait t=1000
+@huki id=3 b=1 wt=1
+
+[Researcher]「wa ah ah ah ah ah ah ah ah ah ah!」
+
+@move_speed id=3 spd=6
+@route id=3 route=l:4 wt=1
+
+@bs f=サクラ@驚き
+
+[SAKURA/skr1501]「!?」
+
+[Researcher]「How……how……could the data vanish……」
+
+@bs f=サクラ@驚き op2=ビックリ
+
+@huki b=1 wt=1
+
+[SAKURA/skr1502]「ay ay!? have you backed up the data up……?」
+
+@huki id=3 b=8 wt=1
+
+[Researcher]「ha ha ……ha ha ha ……No, I haven’t……」
+
+@dir id=3 dir=d wt=1
+
+[Researcher]「This game is made by the disc programmed by a so-called demon program……」
+
+[Researcher]「 Even the program itself has vanished……ha ha……hey, I no longer find out this program……」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA/skr1503]「……」
+
+@huki id=3 b=8 wt=1
+
+　That man looked at the sky blankly and laughed weakly.
+
+[Researcher]「Salary……over there……you take it yourself……」
+
+@bs f=サクラ@無表情
+
+[SAKURA/skr1504]「……OK. So, I'm gonna go now……」
+
+[Researcher]「hoo hoo……ha ha……vanished……vanished……」
+
+@bs f=サクラ@哀しみ op2=汗
+
+[SAKURA/skr1505] (Maybe……This experiment is possibly dangerous……) 
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+@se f=Move
+@fadeout
+
+　Watching  the smiling man, SAKURA shuddered and then left the building quickly.
+

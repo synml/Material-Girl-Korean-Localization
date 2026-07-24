@@ -1,0 +1,5 @@
+@mes_win back=1 pos=1
+
+\CL 오늘 영업 종료.
+
+@mes_win

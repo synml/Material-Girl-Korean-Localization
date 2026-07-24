@@ -1,0 +1,18 @@
+
+;;【022_03クラスメート本番.txt】
+
+;;跟教室里的同學對話。
+
+@bgm f=bgm02
+@move_f f=サクラ@微笑 in=r t=300
+
+[小櫻/skr1981]「嗯……前田君，你躺到床上去吧」
+
+@move_f f=サクラ@微笑 out=r t=300
+[前田]「我，我知道了……」
+
+@dot_move x=1 y=4 dir=up id=3
+@change f=前田 num=0 id=3
+
+@fade type=in t=1000 wt=1
+

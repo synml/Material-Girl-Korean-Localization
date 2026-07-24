@@ -1,0 +1,25 @@
+
+;;【021_03男子生徒フェラ.txt】
+
+;; SAKURA dialogues with the school’s boy student (underclassman).
+
+@move_f f=サクラ@微笑 in=r t=300
+[사쿠라]「저기, 안녕?」
+
+@huki id=33 b=2 wt=1
+[남학생]「아, 안녕하세요, 무슨 일이세요?」
+
+@bs f=サクラ@笑み_z body_op=z op2=音符
+
+@huki b=4 wt=1
+[사쿠라]「또, 입으로 해줄까?」
+
+@huki id=33 b=1 wt=1
+[남학생]「저, 정말 괜찮아요!?」
+
+@bs f=サクラ@笑み
+[사쿠라]「후후, 자, 가자」
+
+@move_f f=サクラ@笑み out=r t=300
+
+@fade type=out t=1000 wt=1

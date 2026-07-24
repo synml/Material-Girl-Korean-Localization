@@ -1,0 +1,7 @@
+
+@mes_win back=1 pos=1
+
+\CL ～보건실～
+
+@mes_win
+

@@ -1,0 +1,13 @@
+
+;;【021_03男子生徒フェラ.txt】
+
+;;與學校的男學生（低年級生）對話。
+
+@se f=Open1
+　牽著男學生的手，走進了保健室。
+
+@dot_move x=14 y=5 id=101 dir=down
+@change f=学生01 id=101 num=0
+
+@fade type=in t=1000 wt=1
+

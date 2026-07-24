@@ -1,0 +1,26 @@
+
+;;【018_01おっぱいパブ.txt】
+;;【018_03話を聞く.txt】
+;;【018_04店の受付に話しかける.txt】
+;;【018_06働く.txt】
+;; Waiting Room
+
+@bgm f=bgm05
+
+[Boss]「Here you are. This is today’s salary ♪」
+
+@move_f f=サクラ@羞恥 op2=赤面 in=r t=300
+[SAKURA]「Thank you very much」
+
+@huki id=3 b=3
+[Boss]「You are welcomed to work here ♪」
+
+@bs f=サクラ@羞恥
+[SAKURA] (Although I feel very shameful……I will continue to work here) 
+@move_f f=サクラ@羞恥 out=r t=300
+
+@se f=Move
+@fadeout
+
+　Immersing herself into high salary charm, SAKURA changed her clothes.
+

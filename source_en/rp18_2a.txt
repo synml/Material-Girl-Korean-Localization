@@ -1,0 +1,327 @@
+
+;; Only for retrospect
+@if eval=s(11)==1 bad=jump:*rp_skip
+@select s1=Virgin　root/*rp_virgin s2=Non　virgin　root/*rp_no_virgin
+*rp_virgin
+@switches id=12 val=1
+*rp_no_virgin
+*rp_skip
+
+;; Reading the image in advance
+@fadeout
+@pl f=S_ev18b v=1
+@wait = 100
+@pl_end
+@wait = 100
+@fadein
+
+@bgm f=bgm06
+
+;;ＣＧ■CG18
+@bgf bg=ev18 t=1000
+
+[SAKURA/skr1982]「Your penis is changing so big. You are so amorous, MAEDA♪」
+
+[MAEDA]「But......」
+
+[SAKURA/skr1983]「Ahh, the message about my prostitution......has been known by so many people?」
+
+[MAEDA]「But......No one believes it......」
+
+[SAKURA/skr1984]「Then, why do you come to ask me about it?」
+
+[MAEDA]「That, that is because......I have always been keen on you since very long ago......」
+
+[SAKURA/skr1985]「Eh......well......」
+
+[MAEDA]「I know a girl so cute like you......will not always be together with me......」
+
+[MAEDA]「But, what if the rumor is true......」
+
+[SAKURA/skr1986]「Do you think that you can make love with me as long as you pay me money?」
+
+[MAEDA]「Hum, hum」
+
+[SAKURA/skr1987]「I see......Hey-hey, you are so cute♪」
+
+[MAEDA]「SAKURA......I......I, I......」
+
+[SAKURA/skr1988]「Hum......I’m going to play with your penis.」
+
+[SAKURA/skr1989]「I’m going to holding your penis into my body♪」
+
+　Giving a gentle smile while looking at MAEDA by lowering her head, SAKURA sat down by aiming her pussy at the penis.
+
+@se f=挿入音
+;;ＣＧ■CG18a
+@bgf bg=ev18a t=500 v=1
+@bgs f=aegi_skr2
+
+;; Recall of SAKURA as a virgin
+@if eval=s(11)==1 bad=jump:*rp_skip2
+@if eval=s(12)==1 ok=jump:*branchA001 bad=jump:*branchB001
+*rp_skip2
+
+@if eval=s(61)==0 ok=jump:*branchA001 bad=jump:*branchB001
+;;==================================================================================
+*branchA001
+
+;; Following is the text if SAKURA is considered as a virgin.
+
+[SAKURA/skr1990]「Uh-huh......Umm......Ahh......Ahh, ahh, uh-huh, hum!」
+
+[MAEDA]「Ahhh......I’m in your body, SAKURA......」
+
+[SAKURA/skr1991]「Hey-hey, I want to tell you something, MAEDA.」
+
+[MAEDA]「What, SAKURA......?」
+
+[SAKURA/skr1992]「It is my first time for making love today!」
+
+[MAEDA]「Eh!?」
+
+[SAKURA/skr1993]「Although I had oral sex before......It is the first time for me to make a real love!」
+
+[MAEDA]「Ahhh......」
+
+　Seeing the trace of bleeding at the pussy of SAKURA, MAEDA breathed out with appreciation.
+
+[SAKURA/skr1994]「Ahh, whir, you are my first boy, MAEDA♪ Hey-hey, how do you think about it? Are you excited?」
+
+[MAEDA]「Yes, I’m excited! I’m so excited, SAKURA!」
+
+;; Above is the text if SAKURA is considered as a virgin. 
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchB001
+
+;; Following is the text if SAKURA is not considered as a virgin.
+
+[SAKURA/skr1995]「Look at me, MAEDA......Ahh, your big penis inserts into my pussy.」
+
+[MAEDA]「So, so good......」
+
+[SAKURA/skr1996]「MAEDA, ahh, ahh, is it the first time for you to make love?」
+
+[MAEDA]「Yes, it is......」
+
+[SAKURA/skr1997]「Hey-hey♪ So, I make you a real man?」
+
+[SAKURA/skr1998]「Ahh, I’m excited when thinking of it!」
+
+[MAEDA]「Oh, so am I......I have always been excited, SAKURA」
+
+[SAKURA/skr1999]「Ahh, hum, ahh......Then please enjoy it♪」
+
+[MAEDA]「OK, good, SAKURA!」
+
+;; Above is the text if SAKURA is not considered as a virgin.
+
+@jump target=*branchEND001
+;;==================================================================================
+*branchEND001
+
+;; Following is the text for common.
+
+@se f=ピストン l=1
+@bgs f=aegi_skr3
+
+SAKURA had a lewd smile on her face when seeing MAEDA in excitement. She started to slowly twist her thin waist.
+
+[SAKURA/skr2000]「Ah......Um......Ahh, whir......Ahh, ahh! Ahhh!」
+
+[SAKURA/skr2001](Making money by making love with classmate......It is so exciting......)
+
+[SAKURA/skr2002](What if MAEDA tells his friends about it......I......ahh, will be disdained by others.)
+
+[SAKURA/skr2003](What if TSUKASA knows that I’m prostituting......)
+
+[SAKURA/skr2004](TSUKASA may not believe it......But......Ahh, ahhh! I’m getting more excited!)
+
+[MAEDA]「Great, SAKURA! SAKURA!」
+
+[SAKURA/skr2005]「Ah, hum, ahh......The big penis is......Ahh, ah, so great!」
+
+[SAKURA/skr2006]「Hum! Uh-huh! Ahh, thrust in my pussy......Yes, just do it!」
+
+@se
+
+[SAKURA/skr2007]「Hey, MAEDA......Ah, umm......Ahhhh」
+
+[MAEDA]「SAKURA......? What’s wrong?」
+
+　Seeing that SAKURA stopped twisting, MAEDA looked upward out of breath.
+
+[SAKURA/skr2008]「Please do not tell others about making love with me! Or, I have no idea if a lot of people know it.」
+
+[SAKURA/skr2009](TSUKASA......Ahh, if it is possible......I wish that he will never know that I’m prostituting......)
+
+[MAEDA]「Sure......I, I will never tell anyone.」
+
+[SAKURA/skr2010]「Then, thanks......Ahhh, ah, ahh, then next......you do it, MAEDA.」
+
+[MAEDA]「Eh......? I, I do it......?」
+
+[SAKURA/skr2011]「Hum......I want to be fucked by your big penis」
+
+　Putting the big penis into the deep of the pussy, SAKURA said to MAEDA coquettishly with her charming voice. 
+
+[MAEDA]「Oh, I see......Hum......I’m coming!」
+
+[SAKURA/skr2012]「Yes......Ah, ahhh, thrust me upward, just do it......」
+
+@se f=ピストン_激しい l=1
+
+[MAEDA]「Hum! Hum! Hum!」
+
+;;ＣＧ■CG18b
+;;@bgf bg=ev18b t=500 v=1
+
+@flash t=500
+@ev_anime f=S_ev18b sx=8 sy=2 fps=3 v=1
+
+@bgs f=aegi_skr4
+
+　Pooh! Poop! Poopp!
+
+[SAKURA/skr2013]「Ah!? Ahh! Ahh! Ahhhhhh!」
+
+[MAEDA]「Ahh......Your bubby......」
+
+　The bubby of SAKURA kept shaking as balls with the thrusting of the penis.
+
+[SAKURA/skr2014]「So, so great! Ahh, uh-huh! Good......Ahhh!」
+
+[MAEDA]「SAKURA! SAKURA!」
+
+[SAKURA/skr2015]「Ahh! Ahh! Hum! Ahh! Eh! Ehhhh!」
+
+[MAEDA]「Ahh, your pussy is getting tighter......Um! Ahhhh!」
+
+[SAKURA/skr2016]「No......Not, yet......Do not ejaculate now, MAEDA!」
+
+[MAEDA]「But......」
+
+[SAKURA/skr2017]「Ahh, uh-huh......Please......Ahhh, I want to have orgasms together with you......」
+
+[MAEDA]「SAKURA, do you want to have orgasms together with me?」
+
+[SAKURA/skr2018]「Yes......Ahh, ahh, I want to have orgasms together with you......Ah♪」
+
+　Winking with her bright and intelligent big eyes, SAKURA said to MAEDA coquettishly again.
+
+[MAEDA]「I, I am trying my best to hold it......SAKURA!」
+
+[SAKURA/skr2019](Whir♪ Ahh, whir♪ You are so cute, the struggling MAEDA♪)
+
+[SAKURA/skr2020](He is trying his best to not to ejaculate......Ahh, how cute his expression is......)
+
+[SAKURA/skr2021](I want to make him ejaculate more♪ I want all his sperms in the penis......Ahh♪)
+
+[SAKURA/skr2022]「Humm! Humm! Ah! Ahh! Hummm! Whir! Ahhhhh!」
+
+[MAEDA]「So, so fierce......!?」
+
+[SAKURA/skr2023]「Are you going to ejaculating? Are you? Are you going to ejaculating by yourself?」
+
+[MAEDA]「I, I want......to have orgasm together with SAKURA!」
+
+[SAKURA/skr2024]「♪Come on♪ Come on♪ Hold on please......I, I’m almost......getting there......」
+
+[MAEDA]「Ahh! Ah! Ahh! Whir!」
+
+[SAKURA/skr2025](Ah!? Eh! You are taking your effort to not ejaculate♪)
+
+[SAKURA/skr2026](♪You are so cute♪ Your penis is so big and straight......You are so so cute♪)
+
+[MAEDA]「SAKURA......Ah!」
+
+[SAKURA/skr2027]「Hum!? ......Ahhh! Ahh! Your penis is in the deep of my pussy......Ahh......Ahh!」
+
+[MAEDA]「I’m ejaculating......I cannot help ejaculating......SAKURA!」
+
+[SAKURA/skr2028]「OK......I, I’m having an orgasm......too! I’m getting there.」
+
+[MAEDA]「I have orgasm together with SAKURA......together!」
+
+[SAKURA/skr2029]「Hum, hum. Together......Ah......Ahh! Eh! Ahh, let’s have organms together♪ Hum! Humm!」
+
+[SAKURA/skr2030]「Once more......Thrust in my body again......One more again will bring me there......Ah!」
+
+[MAEDA]「SAKURA! SAKURA! Ahh!」
+
+　Poop! Poopppppp!
+
+[SAKURA/skr2031]「Ahhh! I’m getting there! I’m having an orgasm! Ahhhhhh!」
+
+@bgs
+@se
+;;ＣＧ■CG18c
+@fin bg=ev18c se=射精音 v=1
+
+　Chirps! Chirps!
+
+[MAEDA]「Ahh!? Sorry, SAKURA......I’m sorry I ejaculated in your pussy......!」
+
+@bgs f=aegi_skr3
+
+[SAKURA/skr2032]「Ahh, never mind! You can ejaculate into my pussy♪」
+
+[SAKURA/skr2033]「More......I want all! I want to fill in my pussy with all your sperms♪」
+
+SAKURA kept pressing the penis with her pussy as if to bleed out all the sperms of MAEDA.
+[MAEDA]「Ahh! Ahh! I’m having another orgasm......!」
+
+@fin se=射精音
+
+　Chirps! Chirps!
+
+[SAKURA/skr2034]「Here they are♪ You are so great to ejaculate so many sperms......Ah!」
+
+[SAKURA/skr2035]「I can feel that your sperms are ejaculating......Ahhh! My pussy is full of your sperms......Ah」
+
+@bgs f=aegi_skr4
+
+[SAKURA/skr2036]「Hum! Ahh, I’m going to have another orgasm......I seem to have another orgasm♪」
+
+[SAKURA/skr2037]「Look at me......MAEDA......Ah......Ahh, ahhh, ahhh, look at me......I want you to look at me in orgasm ♪」
+
+[MAEDA]「Hum, humm......I’m looking at you. I’m always looking at you in orgasm!」
+
+　MAEDA stared at the crazy SAKURA who was going to have an orgasm with fiery expressions in his eyes while ejaculated sperms.
+
+[SAKURA/skr2038](He is looking at me......Ah! He is looking at me......with his bright eyes......Ahhh!)
+
+[SAKURA/skr2039](He is looking at me almost in orgasm♪ I’m getting there, Ahhhhhh♪)
+
+[SAKURA/skr2040]「Ahh! Ahh! I’m getting there! I’m having an orgasm! Ahhhhhhh!」
+
+[MAEDA]「SAKURA......Ah!」
+
+[SAKURA/skr2041]「Uh-huh! You ejaculated......! But you inserted into my pussy when I had an orgasm......You, you are playing with me♪」
+
+[SAKURA/skr2042]「Ahhhh! Ahhhhh!」
+
+[MAEDA]「Ahh, ah, ahh, ah, ahh!」
+
+[SAKURA/skr2043]「Uh-huh......Ahh......Ahh, hum, ahh, ahhhhhh」
+
+　At the end of the last wave of orgasm, both of them breathed out deeply, and slowly stopped their movements.
+
+;;ＣＧ■CG18d
+@bgf bg=ev18d t=500 v=1
+@bgs f=aegi_skr1
+
+[SAKURA/skr2044]「Hum, hey-hey......Uh-huh......So good♪ It’s so cool......♪」
+
+[MAEDA]「It is also my first time to make love......I’m so happy that I’m making love with SAKURA......」
+
+[SAKURA/skr2045]「Ahh♪ Hum♪ Ahh♪ Agree......Hey-hey-hey♪ You make love for the first time together with me♪, MAEDA.」
+
+[SAKURA/skr2046]「I’m so happy♪ MAEDA♪ Ah, whir, ahh, ahh......Ahhhh」
+
+　SAKURA lied on her large bed after breathing out with satisfaction. 
+
+@bgs
+@rps

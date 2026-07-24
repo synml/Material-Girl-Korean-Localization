@@ -1,0 +1,45 @@
+
+;;【001_01プロローグ.txt】
+;;【001_03敗北.txt】
+
+@bgm f=bgm01
+
+@huki b=7
+@huki b=8 id=18
+@wait t=1200
+
+@mes_win back=1 pos=1
+@se f=衣擦れの音1
+　雖然只有一瞬間、一臉意猶未盡的須東、終于把他的手放開了。
+@mes_win back=0 pos=2
+
+@huki b=8 id=18
+[須東]「你可以走了」
+
+@move_speed spd=2
+@huki b=7
+@route route=left:2 wt=0 id=18
+@route route=up:2
+
+@dir dir=right id=18
+
+@move_speed spd=4
+@huki b=7
+@move_f f=サクラ@悔しい_頬 op2=困惑 in=r t=300
+[小櫻/skr0071]（我再也不要被他抓到了……）
+@move_f f=サクラ@悔しい_頬 out=r t=300
+
+
+@fade type=out t=1000 wt=0
+
+@route route=up:4
+
+
+@mes_win back=1 pos=1
+;;　帶著這份決心、小櫻走進了教學樓。
+@mes_win back=0 pos=2
+
+@bgm
+@move_speed spd=4
+
+

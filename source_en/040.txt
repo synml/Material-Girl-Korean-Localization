@@ -1,0 +1,64 @@
+
+;;【007_01イジメられる司３.txt】
+;;【008_02成功.txt】
+
+@dot_move id=101 x=25 y=10 dir=right
+@change f=女教師 id=101
+
+@fade type=in t=1000 wt=1
+
+@bgm f=bgm03
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA]「hoo……」
+
+　Without being discovered by SUDOU, SAKURA felt relieved.
+
+@bs f=サクラ@考え中
+
+@route route=d wt=1
+@wait t=500
+
+[SAKURA]「I have to find other teacher.」
+
+@bs f=サクラ@悔しい
+[SAKURA] (Be sure to stop teacher SUDOU’s action!) 
+
+@route id=101 route=r:7 wt=0
+@route route=l:9 wt=1
+@bs f=サクラ@無表情
+
+@huki b=1 wt=1
+
+[SAKURA]「Teacher, excuse me?」
+
+@huki id=101 b=2 wt=1
+
+[Female Teacher]「ay? 　What is the matter?」
+
+@bs f=サクラ@哀しみ
+
+[SAKURA]「In truth……」
+
+@fadeout wt=1
+
+　SAKURA told the whole story to the female teacher.
+
+@fadein wt=1
+@huki id=101 b=1 wt=1
+
+[Female Teacher]「Teacher SUDOU, what does he want to do?」
+
+@bs f=サクラ@無表情
+
+@move_speed id=101 spd=4
+@route id=101 route=r:7 wt=0
+@route route=r:7 wt=0
+@fadeout wt=1
+@route  route=r wt=1
+
+　And then, SAKURA and the female teacher moved toward the healthcare room.
+
+

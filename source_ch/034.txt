@@ -1,0 +1,198 @@
+
+;;【006_01イジメられる司２.txt】
+;;【006_02勝利.txt】
+
+@bgm f=bgm04
+
+@c_jump id=101 x=-3
+@dir dir=down id=101
+
+
+@huki b=1 id=12
+@move_speed spd=7 id=12
+@anime id=12 num=304 wt=0
+@wait t=250
+@dir dir=down id=12
+@change num=1 id=12
+@dir_fix id=12 type=on
+@route route=right:5 id=12
+@dir_fix id=12 type=off
+
+@huki b=8 wt=1 id=12
+
+@huki b=5 id=12
+@dir dir=left id=12
+@change num=0 id=12
+[佐竹]「嘎…！？　這、這個婊子……！」
+
+@move_speed spd=3
+@route route=right:2
+
+@move_f f=サクラ@無表情_z body_op=z in=c t=300
+@huki b=8 wt=1
+
+@bs f=サクラ@怒り_z body_op=z
+[小櫻]「我絕不原諒敢欺負司的家伙！」
+@move_f f=サクラ@怒り_z out=c t=300
+
+@huki b=5 id=12 wt=1
+
+
+@se f=Sword5 pitch=130
+@huki b=1 id=12
+@huki b=1 id=9
+@huki b=1
+
+[佐竹]「混賬！」
+
+;;　氣到眼冒血絲的不良少年，掏出了小刀。
+
+@huki b=1 id=9
+[司]「小櫻！　小心啊！」
+
+;;　刀反射出來的銀光不由得讓司大聲叫了出來。
+
+@change f=教師 num=0 id=101
+@move_speed spd=8 id=101
+@huki b=1 id=101
+@route route=down:9 id=101
+@dir dir=right id=101
+
+@huki b=1 id=101
+@huki b=1 id=10
+@huki b=1 id=11
+@huki b=1 id=12
+
+@dir dir=left
+@dir dir=left id=10
+@dir dir=left id=11
+
+@change num=0 id=10
+@change num=0 id=11
+
+[老師]「你們，在做什么！」
+
+@huki b=7 id=12 wt=1
+@huki b=1 id=12
+[佐竹]「切！」
+
+@move_speed spd=7 id=10
+@move_speed spd=7 id=11
+@move_speed spd=7 id=12
+
+@huki b=1 id=10
+@c_jump id=10 wt=1
+[不良１]「糟了！　快跑！」
+
+@dir dir=right
+
+@route route=down,right:13 id=10
+@se f=Move1
+@invisible id=10 type=on
+
+@huki b=1 id=11
+@c_jump id=10 wt=1
+[不良２]「哦、哦哦！」
+@route route=down:2,right:8 id=11
+@se f=Move1
+@invisible id=11 type=on
+
+@huki b=7 id=12 wt=1
+
+@huki b=1 id=12
+[佐竹]「你這張臉老子記住了！」
+
+@route route=right:3 id=12
+@se f=Move1
+@invisible id=12 type=on
+
+@bgm
+@fade type=out t=1000 wt=1
+@c_jump x=-2
+@c_jump id=9 x=-4
+@c_jump id=101 x=2
+@dir dir=left
+@wait t=1200
+@fade type=in t=1000 wt=1
+
+;;　丟下這句話之后、不良少年們落荒而逃。
+
+@bgm f=bgm03
+
+@huki b=8
+@huki b=8 id=9
+@huki b=8 wt=1 id=101
+
+@huki b=2 id=101
+[老師]「你們在做什么？　發生什么事了？」
+
+@huki b=7
+@move_f f=サクラ@哀しみ op2=困惑 in=r t=300
+[小櫻]「啊、沒什么事……」
+@move_f f=サクラ@哀しみ out=r t=300
+
+@huki b=6
+@huki b=8 id=9 wt=1
+
+@route route=left:2 id=9
+
+@huki b=8 id=9
+[司]「什么事都沒有。那個……小櫻剛才差點摔倒所以……」
+
+@move_speed spd=3 id=101
+@huki b=8 id=101 wt=1
+[老師]「這樣啊。沒什么事就好。」
+
+@route route=left:2,up:9 id=101 wt=0
+@fade type=out t=2000 wt=1
+@c_jump id=9 x=-1 y=1
+@dir dir=right id=9
+@invisible id=101 type=on
+@wait t=1200
+@fade type=in t=2000 wt=1
+
+;;　被司的一席話糊弄過去之后，老師離開了這里。
+
+@huki b=8
+@huki b=8 wt=1 id=9
+[司]「謝謝你。小櫻……啊、這個……算是謝禮，收下吧。」
+
+@route route=right id=9
+
+@huki b=1
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL得到手表！
+@mes_win back=0 pos=2
+
+@move_f f=サクラ@驚き in=r t=300
+@fb id=9 dir=back
+
+@bs f=サクラ@微笑 op2=音符
+[小櫻]「謝謝……這塊表好可愛。」
+
+@huki b=8 id=9
+[司]「嗯。那、那個、畢竟你說過之前的那塊表壞掉了……」
+
+@bs f=サクラ@笑み
+[小櫻]「謝謝。」
+
+@bs f=サクラ@微笑
+[小櫻]「那，我就先走咯。」
+
+@move_speed spd=3
+@fade type=out t=1000 wt=0
+@route route=down,left:4
+@bs
+@bgm
+@move_speed spd=4
+
+;;　接過司給的手表并簡短幾句告別之后，小櫻離開了這里。
+
+;;道具　手表
+
+;;※司?好感度＋20
+
+;;※自由行動
+

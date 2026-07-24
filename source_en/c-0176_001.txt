@@ -1,0 +1,8 @@
+
+
+@mes_win back=1 pos=1
+
+\CL I got a \V[112] yen!
+
+@mes_win
+

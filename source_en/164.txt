@@ -1,0 +1,24 @@
+
+;;【024_14オーナーＨ後.txt】
+
+@bgm f=bgm02
+
+@change f=オーナー id=6 num=0
+@dir dir=down id=6
+
+@move_f f=サクラ@微笑 in=r t=300
+
+[Boss]「Miss SAKURA, I have something to tell you.」
+
+　After making love with SAKURA, the boss stared at SAKURA earnestly.
+
+[Boss]「This thing is closely linked with Miss SAKURA’s future, please you think it over carefully.」
+
+@move_f f=サクラ@微笑 out=r t=300
+
+;; ○Options: Don’t listen / listen
+
+;;○Don’t listen →025_02話を聞かない
+;;○Listen →025_03話を聞く
+
+

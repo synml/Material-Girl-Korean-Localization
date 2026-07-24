@@ -1,0 +1,21 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04a汎用選択肢.txt】
+
+@bgm f=bgm02
+@move_f f=サクラ@無表情 in=r t=300
+
+[Frivolous Man１]「SAKURA, let us compete!」
+
+[Frivolous Man２]「You can’t escape after you win～」
+
+@huki b=8 wt=1
+
+[SAKURA] (What shall I do……) 
+
+@move_f f=サクラ@無表情 out=r t=300
+
+;;○Compete →019_04b汎用選択肢勝負する
+;;○Don’t compete →019_04c汎用選択肢勝負しない
+

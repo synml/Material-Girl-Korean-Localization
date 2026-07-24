@@ -1,0 +1,31 @@
+
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki id=4 b=8 wt=1
+[ Host１]「Welcome」
+
+@huki id=5 b=8 wt=1
+[ Host２]「To make you happy here, I will serve you sincerely」
+
+@huki id=6 b=8 wt=1
+[ Host ３]「Please advise」
+
+@huki b=1 wt=1
+@bs f=サクラ@驚き
+
+[SAKURA] (wow, so great……I am able to obtain the service from these handsome men……) 
+
+[Boss]「These are 3 stars of this store: SHIRASAWA, KURODA, AOKI」
+
+[Boss] Please enjoy yourself」
+
+@move_f f=サクラ@驚き out=r t=300
+
+;; ○Mini-game: Advanced Host Club
+;;○Branch: Within the limit time, no host reaches favorability of MAX →024_08 好感度未達成
+;;○Branch: Favorability is MAX→024_09好感度達成
+
+@fade type=out t=1000 wt=1
+@invisible type=on id=7
+@dot_move x=4 y=4 dir=down
+

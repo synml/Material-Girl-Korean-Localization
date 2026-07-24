@@ -1,0 +1,17 @@
+
+;; Dressing room (the clothes has been changed) 
+
+;;【019_04b汎用選択肢勝負する.txt】
+
+@bgm f=bgm02
+@move_f f=サクラ@無表情 in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA]「Today, I must win」
+
+[Frivolous Man１]「I am certain to win today! 　Come on, SAKURA!」
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@fadeout

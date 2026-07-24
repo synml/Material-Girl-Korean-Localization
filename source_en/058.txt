@@ -1,0 +1,113 @@
+
+;;【011_03着ている.txt】
+
+@bgm f=bgm03
+
+@fadein
+
+　SAKURA was brought into the warehouse in the gymnasium.
+
+@move_f f=サクラ@哀しみ in=r t=300
+
+@huki b=8 wt=1
+
+[SAKURA/skr0713]「Here, I will give a special instruction……why?」
+
+[SUDOU]「hum hum hum, here it is more convenient.」
+
+@bs f=サクラ@悔しい
+
+@huki b=2 wt=1
+
+[SAKURA/skr0714]「……I can’t understand what you said.」
+
+[SUDOU]「It is such thing, SAKURA!」
+
+@bs f=サクラ@無表情
+
+@dir id=4 dir=l
+@wait t=500
+@dir id=4 dir=u
+@wait t=500
+
+　SUDOU took his mobile phone out of his bag, and then showed a picture to SAKURA.
+
+@bs f=サクラ@驚き_z body_op=z op2=ビックリ
+
+@huki b=1 wt=1
+
+[SAKURA/skr0715]「I and……teacher SUDOU……!? ay!? why!?」
+
+[SUDOU]「why, have I and SAKURA made love?」
+
+　The scene in the picture is that SUDOU inserted his penis into SAKURA’s vulva.
+
+@bs f=サクラ@驚き_z body_op=z
+
+@huki b=8 wt=1
+
+[SAKURA/skr0716] (that moment……!? marathon……) 
+
+[SUDOU]「hum hum hum, you seemingly have remembered that thing.」
+
+@bs f=サクラ@哀しみ_z body_op=z
+
+@huki b=1 wt=1
+
+[SAKURA/skr0717]「So, so excessive……!」
+
+@huki id=4 b=3 wt=1
+
+[SUDOU]「At your climax, your vulva was so tight!」
+
+@bs f=サクラ@悔しい_z body_op=z op2=拒否
+
+[SAKURA/skr0718]「How, how could it be possible!」
+
+[SUDOU]「So, now, don’t you try it again?」
+
+@bs f=サクラ@驚き_z body_op=z
+
+@huki b=1 wt=1
+
+[小樱/skr0719]「what！？」
+
+[SUDOU]「Try it again? And then you know your vulva wants my penis.」
+
+@bs f=サクラ@怒り_z body_op=z
+
+[SAKURA/skr0720]「You, you are kidding……」
+
+[SUDOU]「 I am serious? 　Do you want me to spread this picture across the school?」
+
+@bs f=サクラ@悔しい_z body_op=z
+
+@huki b=1 wt=1
+
+[SAKURA/skr0721]「woo woo woo!」
+
+@dir_fix type=on
+@route route=u wt=1
+@wait t=200
+@huki b=8 wt=1
+@dir_fix type=off
+
+　SAKURA turned red with anger at SUDOU’s threat.
+
+@bs f=サクラ@悔しい
+
+@huki id=4 b=3 wt=1
+@route id=4 route=u wt=1
+
+[SUDOU]「If you have nothing to say, we will start two-person special course. hum hum hum hum.」
+
+@bs f=サクラ@哀しみ
+
+@huki b=8 wt=1
+
+[SAKURA/skr0722]「Dirty dog……」
+
+@move_f f=サクラ@哀しみ out=r t=300
+
+　SAKURA was filled in her heart with unanswerable regret.
+

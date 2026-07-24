@@ -1,0 +1,8 @@
+
+@fade type=out t=1000 wt=1
+
+@se f=衣擦れの音1
+@wait t=1200
+@bs
+
+

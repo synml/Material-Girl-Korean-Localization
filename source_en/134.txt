@@ -1,0 +1,65 @@
+
+;;【022_03クラスメート本番.txt】
+
+;; SAKURA dialogues with the schoolmate in the classroom.
+
+[Schoolmate]「That, that Are you free now?」
+
+@move_f f=サクラ@驚き in=r t=300
+@huki b=2 wt=1
+
+[SAKURA/skr1973]「MAEDA? 　What's up?」
+
+　Although MAEDA is her schoolmate, so far MAEDA never has greeted her.
+
+@huki id=15 b=8 wt=1
+[MAEDA]「That……I heard that……SAKURA……Really……」
+
+@bs f=サクラ@無表情
+[SAKURA/skr1974]「……」
+
+@huki id=15 b=7 wt=1
+[MAEDA]「Sorry……why did you ask me such question suddenly.」
+
+@huki b=8 wt=1
+[SAKURA/skr1975]「hoo～～um. If what you heard is true, what shall you do?」
+
+[MAEDA]「ah, I……I want……want to know the fee once……」
+
+@bs f=サクラ@微笑_z body_op=z op2=音符
+
+@huki b=8 wt=1
+
+[SAKURA/skr1976] (ho ho, blushed, so lovely. Really……you want to make love with me.) 
+
+[SAKURA/skr1977]「MAEDA, preference……20,000 yen」
+
+@huki id=15 b=1 wt=1
+
+[MAEDA]「Really!?」
+
+@bs f=サクラ@無表情_z body_op=z
+
+[SAKURA/skr1978]「Now, is your money enough?」
+
+[MAEDA]「woo, um」
+
+@bs f=サクラ@微笑_z body_op=z
+
+@huki b=4 wt=1
+
+[SAKURA/skr1979]「Let's go to hotel.」
+
+[MAEDA]「um, um」
+
+@bs f=サクラ@無表情 op2=赤面
+
+[SAKURA/skr1980] (His penis has swelled. Boy, really lascivious.) 
+
+@move_f f=サクラ@無表情 out=r t=300
+
+@se f=Move
+@fadeout
+
+　SAKURA shrugged her shoulder, and then went out of school towards the hotel.
+

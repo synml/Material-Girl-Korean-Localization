@@ -1,0 +1,48 @@
+
+;;【004_01パンスト舐め.txt】
+
+;;在沒穿吊帶襪的情況下和朝彥搭話。
+
+@bgm f=bgm02
+
+@huki b=8 id=30 wt=1
+
+;;@move_f f=朝彥 face=0 in=l t=300 wt=0
+@move_f f=サクラ@考え中 op2=汗 in=r t=300
+[朝彥]「哦呀,你沒穿\{吊帶襪\}啊。為什么要做這樣無視美學的事情呢？」
+
+@huki b=4 id=30
+[朝彥]「請務必穿上\{吊帶襪\}之后再和我說話。」
+@move_f f=サクラ@考え中 out=r t=300
+
+@se f=衣擦れの音1
+@huki b=6 wt=1
+
+@se f=Item3
+@mes_win back=1 pos=1
+\CL獲得了絲襪！
+@mes_win back=0 pos=2
+
+@move_f f=サクラ@驚き op2=困惑 in=r t=300
+@huki b=7 wt=1
+
+@huki b=6
+@bs f=サクラ@悔しい op2=汗
+[小櫻/skr0269]（朝彥……你上個學要帶多少吊帶襪來啊……）
+
+@huki b=8 id=30
+[朝彥]「請、穿上這條\{吊帶襪\}之后我會洗耳恭聽你的要求。」
+
+@huki b=4 id=30
+[朝彥]「我很期待哦」
+
+@fade type=out t=1000 wt=1
+
+;;@move_f f=朝彥 face=0 out=l t=300 wt=0
+@move_f f=サクラ@悔しい out=r t=300
+
+;;此后若一天不穿吊帶襪、裝飾欄就會增加一條吊帶襪。
+
+@bgm
+@bs
+

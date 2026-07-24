@@ -1,0 +1,8 @@
+@mes_win back=1 pos=1
+
+\CL There is a game company somewhere in the happy street (on the lower left of the map).
+
+\CL If I am wearing clothes (uniform) of a student clear to people, I may be accosted?
+
+@mes_win
+

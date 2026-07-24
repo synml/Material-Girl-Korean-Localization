@@ -1,0 +1,26 @@
+[Drunken man]「Oh, how have you been recently. Your chest is still so huge……heyhey」
+
+@bgm_save
+@bgm f=bgm14
+
+;;@move_f f=black face=0 in=c t=150
+@move_f f=A-cut_mune face=0 in=c t=150 h=1
+
+[SAKURA]「O……what a nuisance, don't touch me!」
+
+[Drunken man]「Gee, you are not dear BEI?」
+
+[SAKURA]「No, ah o ah, hey, that's enough!」
+
+@bs
+
+[Drunken man]「Ah, I got the wrong person. But your chest is great, too. 」
+
+[SAKURA]「……I don't need your compliment. So take away your hand now!」
+
+[Drunken man]「Why, you are as cold as dear SU」
+
+[SAKURA]「I am SAKURA！」
+
+@bgm
+@bgm_replay

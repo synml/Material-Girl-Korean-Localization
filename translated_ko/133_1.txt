@@ -1,0 +1,32 @@
+
+;;【022_01売春②.txt】
+
+;; In reference to the status of prostitution, lascivious degree is above 50.
+
+;;【022_02ダンディなオヤジ本番.txt】
+
+;; SAKURA dialogues with a fashion uncle on the street.
+
+;;@bgm f=bgm02
+
+@huki b=4
+@move_f f=サクラ@羞恥 in=r t=300
+[사쿠라]「아저씨랑 하는 섹스, 정말 좋았어요……」
+
+　정사의 흔적을 씻어내며, 사쿠라는 촉촉하게 젖은 눈으로 남자를 바라보았다.
+
+[남자]「나도 이렇게 즐거웠던 건 오랜만이거든. 받아주지 않으면 내가 곤란해지는걸」
+
+[남자]「또 생각이 나면 언제든 찾아와. 그럼, 먼저 가보지」
+
+@se f=Move
+@fadeout 
+
+[사쿠라]（아아……정말 멋진 아저씨였어……）
+
+[사쿠라]（아저씨가 준 돈……소중하게 써야지……）
+
+　사쿠라는 사랑에 빠진 소녀처럼 두근거리는 가슴으로, 뜨거운 한숨을 내쉬었다.
+
+@bs
+
